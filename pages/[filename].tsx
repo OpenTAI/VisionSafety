@@ -17,13 +17,13 @@ export default function HomePage(
     setLanguage(lan);
   }, []);
 
+  const changeLan = (lan: string) => {
+    setLanguage(lan);
+    localStorage.setItem("language", lan);
+  };
+
   return (
-    <Layout
-      rawData={data}
-      data={data.global as any}
-      language={language}
-      changeLan={setLanguage}
-    >
+    <Layout data={data.global as any} language={language} changeLan={changeLan}>
       <Blocks {...data.page} language={language} />
     </Layout>
   );

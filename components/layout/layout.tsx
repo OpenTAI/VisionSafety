@@ -12,7 +12,6 @@ export default function Layout({
   language,
   changeLan,
 }: {
-  rawData?: object;
   data?: Omit<Global, "id" | "_sys" | "_values">;
   children: React.ReactNode;
   language: string;

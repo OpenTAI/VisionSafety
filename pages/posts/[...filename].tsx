@@ -4,6 +4,7 @@ import { useTina } from "tinacms/dist/react";
 
 import { InferGetStaticPropsType } from "next";
 import Layout from "../../components/layout/layout";
+import { useState, useEffect } from "react";
 // Use the props returned by get static props
 export default function BlogPostPage(
   props: InferGetStaticPropsType<typeof getStaticProps>
@@ -13,15 +14,29 @@ export default function BlogPostPage(
     variables: props.variables,
     data: props.data,
   });
+
+  const [language, setLanguage] = useState("en");
+
+  useEffect(() => {
+    const lan = navigator.language;
+    localStorage.setItem("language", lan);
+    setLanguage(lan);
+  }, []);
+
+  const changeLan = (lan: string) => {
+    setLanguage(lan);
+    localStorage.setItem("language", lan);
+  };
+
   if (data && data.post) {
     return (
-      <Layout rawData={data} data={data.global}>
+      <Layout data={data.global} language={language} changeLan={changeLan}>
         <Post {...data.post} />
       </Layout>
     );
   }
   return (
-    <Layout>
+    <Layout data={data.global} language={language} changeLan={changeLan}>
       <div>No data</div>;
     </Layout>
   );
