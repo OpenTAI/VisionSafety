@@ -1,71 +1,132 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/router";
-import { Container } from "../util/container";
-import { useTheme } from ".";
-import { Icon } from "../util/icon";
 import { tinaField } from "tinacms/dist/react";
 import { GlobalHeader } from "../../tina/__generated__/types";
+import menu from "../../assets/img/menu.png";
+import menuWhite from "../../assets/img/menuWhite.png";
+import English from "../../assets/img/English.png";
+import logo from "../../assets/img/logo.png";
+import logoWhite from "../../assets/img/logoWhite.png";
+import closeIcon from "../../assets/img/closeIcon.png";
+import Image from "next/image";
+import { Drawer, Collapse } from "antd";
 
-export const Header = ({ data }: { data: GlobalHeader }) => {
-  const router = useRouter();
-  const theme = useTheme();
+export const Header = ({
+  data,
+  language,
+  changeLan,
+}: {
+  data: GlobalHeader;
+  language: string;
+  changeLan: Function;
+}) => {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [background, setBackground] = useState("rgba(0,37,99,0)");
+  const [textColor, setTextColor] = useState("base-blue");
+  const [icon, setIcon] = useState(logo);
+  const [menuIcon, setMenuIcon] = useState(menu);
 
-  const headerColor = {
-    default:
-      "text-black dark:text-white from-gray-50 to-white dark:from-gray-800 dark:to-gray-900",
-    primary: {
-      blue: "text-white from-blue-300 to-blue-500",
-      teal: "text-white from-teal-400 to-teal-500",
-      green: "text-white from-green-400 to-green-500",
-      red: "text-white from-red-400 to-red-500",
-      pink: "text-white from-pink-400 to-pink-500",
-      purple: "text-white from-purple-400 to-purple-500",
-      orange: "text-white from-orange-400 to-orange-500",
-      yellow: "text-white from-yellow-400 to-yellow-500",
-    },
-  };
+  const { Panel } = Collapse;
 
-  const headerColorCss =
-    data.color === "primary"
-      ? headerColor.primary[theme.color]
-      : headerColor.default;
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
 
-  const activeItemClasses = {
-    blue: "border-b-3 border-blue-200 text-blue-700 dark:text-blue-300 font-medium dark:border-blue-700",
-    teal: "border-b-3 border-teal-200 text-teal-700 dark:text-teal-300 font-medium dark:border-teal-700",
-    green:
-      "border-b-3 border-green-200 text-green-700 dark:text-green-300 font-medium dark:border-green-700",
-    red: "border-b-3 border-red-300 text-red-700 dark:text-green-300 font-medium dark:border-red-700",
-    pink: "border-b-3 border-pink-200 text-pink-700 dark:text-pink-300 font-medium dark:border-pink-700",
-    purple:
-      "border-b-3 border-purple-200 text-purple-700 dark:text-purple-300 font-medium dark:border-purple-700",
-    orange:
-      "border-b-3 border-orange-200 text-orange-700 dark:text-orange-300 font-medium dark:border-orange-700",
-    yellow:
-      "border-b-3 border-yellow-300 text-yellow-700 dark:text-yellow-300 font-medium dark:border-yellow-600",
-  };
-
-  const activeBackgroundClasses = {
-    blue: "text-blue-500",
-    teal: "text-teal-500",
-    green: "text-green-500",
-    red: "text-red-500",
-    pink: "text-pink-500",
-    purple: "text-purple-500",
-    orange: "text-orange-500",
-    yellow: "text-yellow-500",
-  };
-  const [isClient, setIsClient] = React.useState(false);
-  React.useEffect(() => {
-    setIsClient(true);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const onOpen = () => {
+    setDrawerOpen(true);
+  };
+
+  const onClose = () => {
+    setDrawerOpen(false);
+  };
+
+  const collapseIcon = (panel) => {
+    const arr = ["0", "5"];
+    if (arr.indexOf(panel?.panelKey) == -1) {
+      if (panel?.isActive) {
+        return <div className="w-4 h-4 bg-squareMinus bg-contain" />;
+      } else {
+        return <div className="w-4 h-4 bg-squarePlus bg-contain" />;
+      }
+    } else {
+      return <div className="w-4 h-4 bg-squareArrow bg-contain" />;
+    }
+  };
+
+  const handleScroll = () => {
+    let scrollTop = document.documentElement.scrollTop;
+    if (scrollTop > 64) {
+      setBackground("base-blue");
+      setTextColor("white");
+      setIcon(logoWhite);
+      setMenuIcon(menuWhite);
+    } else {
+      setBackground("white");
+      setTextColor("base-blue");
+      setIcon(logo);
+      setMenuIcon(menu);
+    }
+  };
+
+  const changeLanguage = () => {
+    if (language === "en") {
+      changeLan("zh");
+      localStorage.setItem("language", "zh");
+    } else {
+      changeLan("en");
+      localStorage.setItem("language", "en");
+    }
+  };
+
   return (
-    <div
-      className={`relative overflow-hidden bg-gradient-to-b ${headerColorCss}`}
-    >
-      <Container size="custom" className="py-0 relative z-10 max-w-8xl">
+    <div className="fixed w-full z-50">
+      <div className={`w-full bg-${background}`}>
+        <div
+          className={`mx-auto max-w-360 px-10 md:px-28 h-16 flex items-center justify-between text-${textColor}`}
+        >
+          <div className="flex items-center">
+            <Image className="ml-0 md:ml-9 w-28 h-7" src={icon} alt="" />
+            <div
+              className="font-semibold ml-4 text-xl"
+              data-tina-field={tinaField(data, "nameen")}
+            >
+              {data[`name${language}`]}
+            </div>
+          </div>
+          <div className="hidden w-96 md:flex justify-between">
+            {data.nav.map((item, index) => {
+              return (
+                <div
+                  key={index}
+                  className="font-semibold text-base cursor-pointer"
+                >
+                  <Link
+                    data-tina-field={tinaField(item, "labelen")}
+                    href={`/${item.href}`}
+                  >
+                    {item[`label${language}`]}
+                  </Link>
+                </div>
+              );
+            })}
+            <Image
+              src={English}
+              className="w-8 cursor-pointer"
+              alt=""
+              onClick={changeLanguage}
+            />
+          </div>
+          <Image
+            className="block md:hidden h-5 w-6"
+            src={menuIcon}
+            onClick={onOpen}
+            alt=""
+          />
+        </div>
+      </div>
+      {/* <Container size="custom" className="py-0 relative z-10 max-w-8xl">
         <div className="flex items-center justify-between gap-6">
           <h4 className="select-none text-lg font-bold tracking-tight my-4 transition duration-150 ease-out transform">
             <Link
@@ -154,7 +215,55 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
             data.color === "primary" ? `via-white` : `via-black dark:via-white`
           } to-transparent bottom-0 left-4 right-4 -z-1 opacity-5`}
         />
-      </Container>
+      </Container> */}
+      <Drawer
+        title={null}
+        onClose={onClose}
+        open={drawerOpen}
+        width={414}
+        maskClosable={false}
+        style={{ background: "#000" }}
+        closeIcon={null}
+      >
+        <div className="flex items-center justify-between mb-7">
+          <Image src={logoWhite} className="w-28" alt="" />
+          <Image src={closeIcon} className="w-5 h-5" onClick={onClose} alt="" />
+        </div>
+        <div>
+          <Collapse
+            bordered={false}
+            accordion
+            expandIconPosition="end"
+            ghost
+            expandIcon={(item) => collapseIcon(item)}
+          >
+            {data.nav.map((item, index) => {
+              return (
+                <div key={index}>
+                  <div className="w-full h-[2px] bg-white"></div>
+                  <Panel
+                    header={
+                      <div>
+                        <div className="py-4 text-white font-semibold text-xl">
+                          <Link
+                            // data-tina-field={tinaField(item, "label")}
+                            href={`/${item.href}`}
+                          >
+                            {item[`label${language}`]}
+                          </Link>
+                        </div>
+                      </div>
+                    }
+                    key={index}
+                    // collapsible={"disabled"}
+                  ></Panel>
+                </div>
+              );
+            })}
+          </Collapse>
+          <div className="w-full h-[2px] bg-white"></div>
+        </div>
+      </Drawer>
     </div>
   );
 };

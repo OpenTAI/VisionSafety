@@ -9,6 +9,14 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
+      'base-blue': '#002563',
+      'base-grey': '#697883',
+      'light-blue': '#718EB0',
+      'base-black': '#061237',
+      'light-grey': '	#FAFBFC',
+      'light-green': '#F6FBFA',
+      'des-blue': '#2C4673',
+      'table-bg': '#F8F9FA',
       black: colors.black,
       white: colors.white,
       teal: colors.cyan,
@@ -62,6 +70,15 @@ module.exports = {
       xl: "1500px",
       "2xl": "1800px",
     },
+    backgroundImage: {
+      'headImg': "url('assets/img/headImg.png')",
+      'worldImg': "url('assets/img/worldImg.svg')",
+      'GitHubBackground1': "url('assets/img/GitHubBackground1.png')",
+      'GitHubBackground2': "url('assets/img/GitHubBackground2.png')",
+      'leaderboardsBg1': "url('assets/img/leaderboardsBg1.png')",
+      'leaderboardsBg2': "url('assets/img/leaderboardsBg2.png')",
+      'leaderboardsBg3': "url('assets/img/leaderboardsBg3.png')",
+    },
     fontSize: {
       xs: ".875rem",
       sm: "1rem",
@@ -72,16 +89,9 @@ module.exports = {
       "3xl": "2rem",
       "4xl": "2.5rem",
       "5xl": "3.25rem",
-      "6xl": "4rem",
+      "6xl": "3.75rem",
       "7xl": "5rem",
       "8xl": "6rem",
-    },
-    borderWidth: {
-      DEFAULT: "3px",
-      0: "0",
-      2: "2px",
-      3: "3px",
-      4: "4px",
     },
     extend: {
       textDecoration: ["active"],
@@ -93,133 +103,39 @@ module.exports = {
         "8xl": "86rem",
       },
       spacing: {
-        128: "32rem",
+        '19': "4.75rem",
+        '22': "5.5rem",
+        '33': "8.25em",
+        '74': "18.5rem",
+        '101': "25.25rem",
+        '108': "27rem",
+        '128': "32rem",
+        '144': "36rem",
+        '168': "42rem",
+        '191': "47.75rem",
+        '210': "52.5rem",
+        '225': "56.25rem",
+        '233': "58.25rem",
+        '175': "43.75rem",
+        '208': '52rem',
+        '240': "60rem",
+        '255': "63.75rem",
+        '320': "80rem",
+        '360': "90rem"
       },
       zIndex: {
         "-1": "-1",
       },
       fontFamily: {
-        nunito: ["Nunito", ...defaultTheme.fontFamily.sans],
-        lato: ["Lato", ...defaultTheme.fontFamily.sans],
+        sans: ["-apple-system", "BlinkMacSystemFont", "PingFang-Regular", ...defaultTheme.fontFamily.sans],
       },
-      typography: (theme) => ({
-        DEFAULT: {
-          css: {
-            pre: {
-              color: theme("colors.gray.700"),
-              backgroundColor: theme("colors.gray.100"),
-              lineHeight: 1.5,
-            },
-            code: {
-              backgroundColor: theme("colors.gray.100"),
-              padding: "0.25rem",
-              borderRadius: "3px",
-              margin: "-0.25rem 1px",
-            },
-            "code::before": {
-              content: '""',
-            },
-            "code::after": {
-              content: '""',
-            },
-            "p:first-of-type": {
-              fontSize: "1.125rem",
-            },
-          },
-        },
-        tint: {
-          css: {
-            pre: {
-              color: theme("colors.gray.800"),
-              backgroundColor: theme("colors.gray.150"),
-            },
-          },
-        },
-        lg: {
-          css: {
-            pre: {
-              lineHeight: 1.5,
-            },
-            "p:first-of-type": {
-              fontSize: "1.365rem",
-            },
-          },
-        },
-        xl: {
-          css: {
-            pre: {
-              lineHeight: 1.5,
-            },
-            "p:first-of-type": {
-              fontSize: "1.365rem",
-            },
-          },
-        },
-        dark: {
-          css: {
-            color: theme("colors.gray.200"),
-            '[class~="lead"]': { color: theme("colors.gray.400") },
-            a: { color: theme("colors.gray.100") },
-            strong: { color: theme("colors.gray.100") },
-            "ul > li::before": { backgroundColor: theme("colors.gray.700") },
-            hr: { borderColor: theme("colors.gray.800") },
-            blockquote: {
-              color: theme("colors.gray.100"),
-              borderLeftColor: theme("colors.gray.800"),
-            },
-            h1: { color: theme("colors.gray.100") },
-            h2: { color: theme("colors.gray.100") },
-            h3: { color: theme("colors.gray.100") },
-            h4: { color: theme("colors.gray.100") },
-            code: {
-              color: theme("colors.gray.100"),
-              backgroundColor: theme("colors.gray.1000"),
-            },
-            "a code": { color: theme("colors.gray.100") },
-            pre: {
-              color: theme("colors.gray.200"),
-              backgroundColor: theme("colors.gray.900"),
-            },
-            thead: {
-              color: theme("colors.gray.100"),
-              borderBottomColor: theme("colors.gray.700"),
-            },
-            "tbody tr": { borderBottomColor: theme("colors.gray.800") },
-          },
-        },
-        primary: {
-          css: {
-            color: theme("colors.gray.50"),
-            '[class~="lead"]': { color: theme("colors.gray.400") },
-            a: { color: theme("colors.gray.100") },
-            strong: { color: theme("colors.gray.100") },
-            "ul > li::before": { backgroundColor: theme("colors.gray.700") },
-            hr: { borderColor: theme("colors.gray.800") },
-            blockquote: {
-              color: theme("colors.gray.100"),
-              borderLeftColor: theme("colors.gray.800"),
-            },
-            h1: { color: theme("colors.gray.100") },
-            h2: { color: theme("colors.gray.100") },
-            h3: { color: theme("colors.gray.100") },
-            h4: { color: theme("colors.gray.100") },
-            code: {
-              color: theme("colors.gray.100"),
-              backgroundColor: "rgba(0,0,0,0.15)",
-            },
-            "a code": { color: theme("colors.gray.100") },
-            pre: {
-              color: theme("colors.gray.200"),
-              backgroundColor: "rgba(0,0,0,0.15)",
-            },
-            thead: {
-              color: theme("colors.gray.100"),
-              borderBottomColor: theme("colors.gray.700"),
-            },
-            "tbody tr": { borderBottomColor: theme("colors.gray.800") },
-          },
-        },
-      }),
+      lineHeight: {
+        '14': '3.5rem',
+        '18': '4.5rem'
+      },
+      fontSize: {
+        '5sm': '2.5rem'
+      },
     },
   },
   variants: {

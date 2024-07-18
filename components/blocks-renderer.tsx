@@ -1,18 +1,19 @@
-import type { Page, PageBlocks } from "../tina/__generated__/types";
 import { Content } from "./blocks/content";
 import { Features } from "./blocks/features";
 import { Hero } from "./blocks/hero";
 import { Testimonial } from "./blocks/testimonial";
+import { Repositories } from "./blocks/repositories";
+import { Tables } from "./blocks/tables";
 import { tinaField } from "tinacms/dist/react";
 
-export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
+export const Blocks = (props) => {
   return (
     <>
       {props.blocks
         ? props.blocks.map(function (block, i) {
             return (
               <div key={i} data-tina-field={tinaField(block)}>
-                <Block {...block} />
+                <Block {...block} language={props.language} />
               </div>
             );
           })
@@ -21,16 +22,20 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
   );
 };
 
-const Block = (block: PageBlocks) => {
+const Block = (block) => {
   switch (block.__typename) {
     case "PageBlocksContent":
       return <Content data={block} />;
     case "PageBlocksHero":
-      return <Hero data={block} />;
+      return <Hero data={block} language={block.language} />;
     case "PageBlocksFeatures":
-      return <Features data={block} />;
+      return <Features data={block} language={block.language} />;
     case "PageBlocksTestimonial":
-      return <Testimonial data={block} />;
+      return <Testimonial data={block} language={block.language} />;
+    case "PageBlocksRepositories":
+      return <Repositories data={block} language={block.language} />;
+    case "PageBlocksTable":
+      return <Tables data={block} language={block.language} />;
     default:
       return null;
   }

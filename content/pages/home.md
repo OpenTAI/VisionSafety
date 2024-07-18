@@ -1,76 +1,200 @@
 ---
-title: Tina Cloud Starter
+title: 对抗评测平台
 blocks:
-  - headline: Welcome to the Tina Starter
-    text2: >
-      ## Developers
-
-
-      This project is set up to show you the basics of working with Tina. You're
-      looking at the landing page, which pulls content from
-      `content/pages/home.md`, components from components/blocks, and puts them
-      all together in `pages/[filename].tsx`, all based on a config
-      `tina/config.tsx`.
-    text: >
-      ## **Editors**
-
-
-      **Click this box to start editing it**. You will see the matching field
-      appear in the left sidebar for you to make changes. The edits will show in
-      this live preview. In that left panel, you can also navigate around the
-      page to change what you are editing (or just click a component here in the
-      preview, like you did before).
-
-
-      **Clicking 'Save' won't do anything in this demo** - but on your site it
-      will save the changes immediately or send an approval request to your team
-      for review.
-    actions:
-      - label: Get Started
-        type: button
-        icon: true
-        link: /posts
-      - label: Read Blog
-        type: link
-        icon: false
-        link: /posts
+  - headline1en: "Open Trustworthy AI : Trust is the ultimate form of intelligence."
+    headline1zh: Open Trustworthy AI
+    headline2en: "Are will find resultant, one painful consequences from."
+    headline2zh: "Are will find resultant, one painful consequences from."
+    buttonTexten: View Leaderboards
+    buttonTextzh: View Leaderboards
+    subtitle1en: 10 Planets form
+    subtitle1zh: 10 Planets form
+    subtitle2en: >-
+      This project provide tools and datasets that facilitates large-scale
+      adversarial robustness evaluation of foundation vision models.
+    subtitle2zh: >-
+      This project provide tools and datasets that facilitates large-scale
+      adversarial robustness evaluation of foundation vision models.
+    text1en: >-
+      White-box testing methodology stands as a beacon of excellence in
+      proactive security assessment.
+    text1zh: >-
+      White-box testing methodology stands as a beacon of excellence in
+      proactive security assessment.
+    text2en: >-
+      By leveraging this transparent approach, our model not only identifies
+      vulnerabilities but also provides actionable recommendations for
+      remediation
+    text2zh: >-
+      By leveraging this transparent approach, our model not only identifies
+      vulnerabilities but also provides actionable recommendations for
+      remediation
     image:
       src: /uploads/unsplash-75EFpyXu3Wg.jpg
       alt: >-
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
-    color: default
     _template: hero
-  - items:
-      - icon:
-          name: BiCodeBlock
-          color: red
-          style: float
-        title: Amazing Feature
-        text: >-
-          Aliquam blandit felis rhoncus, eleifend ipsum in, condimentum nibh.
-          Praesent ac faucibus risus, eu lacinia enim.
-      - icon:
-          name: BiLike
-          color: primary
-          style: float
-        title: This Is a Feature
-        text: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
-      - icon:
-          name: BiPalette
-          color: green
-          style: float
-        title: Configurable Theme
-        text: >-
-          Edit global theme configuration with Tina. Change your theme's primary
-          color, font, or icon set.
-    color: tint
+  - title1en: 白盒攻击评测
+    title1zh: 白盒攻击评测White
+    items1:
+      - image:
+          src: /uploads/whiteBoxIcon1.png
+        titleen: "白盒攻击评测亮点 #1"
+        titlezh: "白盒攻击评测亮点 #111"
+        texten: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+        textzh: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+      - image:
+          src: /uploads/whiteBoxIcon2.png
+        titlezh: "白盒攻击评测亮点 #222"
+        texten: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+        textzh: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+      - image:
+          src: /uploads/whiteBoxIcon3.png
+        titleen: "白盒攻击评测亮点 #3"
+        titlezh: "白盒攻击评测亮点 #333"
+        texten: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+        textzh: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+    title2en: 迁移攻击评测
+    title2zh: 迁移攻击评测attack
+    items2:
+      - image:
+          src: /uploads/transferbasedAttackIcon1.png
+        titleen: "迁移攻击评测亮点 #1"
+        titlezh: "迁移攻击评测亮点 #1"
+        texten: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+        textzh: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+      - image:
+          src: /uploads/transferbasedAttackIcon2.png
+        titleen: "迁移攻击评测亮点 #2"
+        titlezh: "迁移攻击评测亮点 #2"
+        texten: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+        textzh: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+      - image:
+          src: /uploads/transferbasedAttackIcon3.png
+        titleen: "迁移攻击评测亮点 #3"
+        titlezh: "迁移攻击评测亮点 #3"
+        texten: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
+        textzh: >-
+          Our white-box penetration testing model offers unparalleled insights
+          into system vulnerabilities by providing testers with complete access
+          to internal architecture
     _template: features
-  - quote: >-
-      There are only two hard things in Computer Science: cache invalidation and
-      naming things.
-    author: Phil Karlton
-    color: primary
+  - titleen: Models and Datasets developed by OpenTAI Evaluation Platform
+    titlezh: Models Chinese
+    subtitle1en: TAI.adv
+    subtitle1zh: TAI.adv
+    text1en: >-
+      This comprehensive visibility allows for a meticulous examination of
+      security loopholes, enabling us to simulate real-world attack scenarios
+      pinpoint accuracy.
+    text1zh: >-
+      This comprehensive visibility allows for a meticulous examination of
+      security loopholes, enabling us to simulate real-world attack scenarios
+      pinpoint accuracy.
+    image1:
+      src: /uploads/GitHubButton.png
+    subtitle2en: CC1M
+    subtitle2zh: CC1M
+    text2en: >-
+      This comprehensive visibility allows for a meticulous examination of
+      security loopholes, enabling us to simulate real-world attack scenarios
+      pinpoint accuracy.
+    text2zh: >-
+      This comprehensive visibility allows for a meticulous examination of
+      security loopholes, enabling us to simulate real-world attack scenarios
+      pinpoint accuracy.
+    image2:
+      src: /uploads/GitHubButton.png
+    _template: repositories
+  - titleen: LeaderBoards
+    titlezh: LeaderBoardsZh
+    leftListTitleen: 白盒攻击排行榜
+    leftListTitlezh: 白盒攻击排行榜Zh
+    items1:
+      - titleen: CIFAR-10
+        titlezh: CIFAR-10
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: "4.8"
+        detailen: Reviewed by more than 200K Users
+        detailZh: Reviewed by more than 200K Users
+      - titleen: ImageNet
+        titlezh: ImageNet
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: "4.8"
+        detailen: Reviewed by more than 200K Users
+        detailzh: Reviewed by more than 200K Users
+      - titleen: CC1M
+        titlezh: CC1M
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: "4.8"
+        detailen: Reviewed by more than 200K Users
+        detailzh: Reviewed by more than 200K Users
+    rightListTitleen: 迁移攻击排行榜
+    rightListTitlezh: 迁移攻击排行榜zh
+    items2:
+      - titleen: CIFAR-10
+        titlezh: CIFAR-10
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: "4.8"
+        detailen: Reviewed by more than 200K Users
+        detailZh: Reviewed by more than 200K Users
+      - titleen: ImageNet
+        titlezh: ImageNet
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: "4.8"
+        detailen: Reviewed by more than 200K Users
+        detailzh: Reviewed by more than 200K Users
+      - titleen: CC1M
+        titlezh: CC1M
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: "4.8"
+        detailen: Reviewed by more than 200K Users
+        detailzh: Reviewed by more than 200K Users
     _template: testimonial
 ---
-

@@ -1,77 +1,176 @@
-import { Section } from "../util/section";
-import { Container } from "../util/container";
-import { Icon } from "../util/icon";
 import { iconSchema } from "../util/icon";
 import {
   PageBlocksFeatures,
-  PageBlocksFeaturesItems,
+  PageBlocksFeaturesItems1,
+  PageBlocksFeaturesItems2,
 } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
+import Image from "next/image";
 
-export const Feature = ({
-  featuresColor,
+export const Feature1 = ({
   data,
+  index,
+  language,
 }: {
-  featuresColor: string;
-  data: PageBlocksFeaturesItems;
+  data: PageBlocksFeaturesItems1;
+  index: number;
+  language: string;
 }) => {
   return (
     <div
       data-tina-field={tinaField(data)}
-      className="flex-1 flex flex-col gap-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto"
-      style={{ flexBasis: "16rem" }}
+      className="bg-light-grey hover:cursor-pointer hover:shadow-[0px_3px_8px_0px_#A7AEB733] h-[270px] break-inside-avoid-column grow-[3]"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay={index * 100}
     >
-      {data.icon && (
-        <Icon
-          tinaField={tinaField(data, "icon")}
-          parentColor={featuresColor}
-          data={{ size: "large", ...data.icon }}
-        />
-      )}
-      {data.title && (
-        <h3
-          data-tina-field={tinaField(data, "title")}
-          className="text-2xl font-semibold title-font"
-        >
-          {data.title}
-        </h3>
-      )}
-      {data.text && (
-        <p
-          data-tina-field={tinaField(data, "text")}
-          className="text-base opacity-80 leading-relaxed"
-        >
-          {data.text}
-        </p>
-      )}
+      <div className="p-6">
+        {data.image && (
+          <Image
+            className="w-8"
+            src={data.image.src}
+            alt=""
+            width={32}
+            height={32}
+            data-tina-field={tinaField(data, "image")}
+          />
+        )}
+        {data[`title${language}`] && (
+          <div
+            className="mt-8 text-base-blue text-xl font-semibold"
+            data-tina-field={tinaField(data, "titleen")}
+          >
+            {data[`title${language}`]}
+          </div>
+        )}
+        {data[`text${language}`] && (
+          <div
+            className="mt-2 h-28 text-des-blue text-base line-clamp-4"
+            data-tina-field={tinaField(data, "texten")}
+          >
+            {data[`text${language}`]}
+          </div>
+        )}
+      </div>
     </div>
   );
 };
 
-export const Features = ({ data }: { data: PageBlocksFeatures }) => {
+export const Feature2 = ({
+  data,
+  index,
+  language,
+}: {
+  data: PageBlocksFeaturesItems2;
+  index: number;
+  language: string;
+}) => {
   return (
-    <Section color={data.color}>
-      <Container
-        className={`flex flex-wrap gap-x-10 gap-y-8 text-left`}
-        size="large"
-      >
-        {data.items &&
-          data.items.map(function (block, i) {
-            return <Feature featuresColor={data.color} key={i} data={block} />;
-          })}
-      </Container>
-    </Section>
+    <div
+      data-tina-field={tinaField(data)}
+      className="bg-light-green hover:cursor-pointer hover:shadow-[0px_3px_8px_0px_#A7AEB733] h-64 break-inside-avoid-column grow-[3]"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay={index * 100}
+    >
+      <div className="p-6">
+        {data.image && (
+          <Image
+            className="w-8"
+            src={data.image.src}
+            alt=""
+            width={32}
+            height={32}
+            data-tina-field={tinaField(data, "image")}
+          />
+        )}
+        {data[`title${language}`] && (
+          <div
+            className="mt-8 text-base-blue text-xl font-semibold"
+            data-tina-field={tinaField(data, "titleen")}
+          >
+            {data[`title${language}`]}
+          </div>
+        )}
+        {data[`text${language}`] && (
+          <div
+            className="mt-2 h-28 text-des-blue text-base line-clamp-4"
+            data-tina-field={tinaField(data, "texten")}
+          >
+            {data[`text${language}`]}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export const Features = ({
+  data,
+  language,
+}: {
+  data: PageBlocksFeatures;
+  language: string;
+}) => {
+  return (
+    <div className="max-w-320 mx-auto px-3">
+      <div className="mt-14">
+        {data[`title1${language}`] && (
+          <div
+            className="text-base-black text-center font-semibold text-5sm"
+            data-tina-field={tinaField(data, "title1en")}
+          >
+            {data[`title1${language}`]}
+          </div>
+        )}
+        <div className="mt-6">
+          <div className="!grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            {data.items1 &&
+              data.items1.map((item, index) => {
+                return (
+                  <Feature1
+                    data={item}
+                    index={index}
+                    key={index}
+                    language={language}
+                  />
+                );
+              })}
+          </div>
+        </div>
+      </div>
+      <div className="mt-6">
+        {data[`title2${language}`] && (
+          <div
+            className="text-base-black text-center font-semibold text-5sm"
+            data-tina-field={tinaField(data, "title2en")}
+          >
+            {data[`title2${language}`]}
+          </div>
+        )}
+        <div className="mt-6">
+          <div className="!grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            {data.items2 &&
+              data.items2.map((item, index) => {
+                return (
+                  <Feature2
+                    data={item}
+                    index={index}
+                    key={index}
+                    language={language}
+                  />
+                );
+              })}
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
 const defaultFeature = {
   title: "Here's Another Feature",
   text: "This is where you might talk about the feature, if this wasn't just filler text.",
-  icon: {
-    color: "",
-    style: "float",
-    name: "",
-  },
 };
 
 export const featureBlockSchema = {
@@ -85,14 +184,24 @@ export const featureBlockSchema = {
   },
   fields: [
     {
+      type: "string",
+      label: "Title-1-En",
+      name: "title1en",
+    },
+    {
+      type: "string",
+      label: "Title-1-Zh",
+      name: "title1zh",
+    },
+    {
       type: "object",
-      label: "Feature Items",
-      name: "items",
+      label: "Feature Items-1",
+      name: "items1",
       list: true,
       ui: {
         itemProps: (item) => {
           return {
-            label: item?.title,
+            label: item?.titleen,
           };
         },
         defaultItem: {
@@ -102,14 +211,44 @@ export const featureBlockSchema = {
       fields: [
         iconSchema,
         {
-          type: "string",
-          label: "Title",
-          name: "title",
+          type: "object",
+          label: "Image",
+          name: "image",
+          fields: [
+            {
+              name: "src",
+              label: "Image Source",
+              type: "image",
+            },
+            {
+              name: "alt",
+              label: "Alt Text",
+              type: "string",
+            },
+          ],
         },
         {
           type: "string",
-          label: "Text",
-          name: "text",
+          label: "Title-En",
+          name: "titleen",
+        },
+        {
+          type: "string",
+          label: "Title-Zh",
+          name: "titlezh",
+        },
+        {
+          type: "string",
+          label: "Text-En",
+          name: "texten",
+          ui: {
+            component: "textarea",
+          },
+        },
+        {
+          type: "string",
+          label: "Text-Zh",
+          name: "textzh",
           ui: {
             component: "textarea",
           },
@@ -118,12 +257,74 @@ export const featureBlockSchema = {
     },
     {
       type: "string",
-      label: "Color",
-      name: "color",
-      options: [
-        { label: "Default", value: "default" },
-        { label: "Tint", value: "tint" },
-        { label: "Primary", value: "primary" },
+      label: "Title-2-En",
+      name: "title2en",
+    },
+    {
+      type: "string",
+      label: "Title-2-Zh",
+      name: "title2zh",
+    },
+    {
+      type: "object",
+      label: "Feature Items-2",
+      name: "items2",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return {
+            label: item?.titleen,
+          };
+        },
+        defaultItem: {
+          ...defaultFeature,
+        },
+      },
+      fields: [
+        iconSchema,
+        {
+          type: "object",
+          label: "Image",
+          name: "image",
+          fields: [
+            {
+              name: "src",
+              label: "Image Source",
+              type: "image",
+            },
+            {
+              name: "alt",
+              label: "Alt Text",
+              type: "string",
+            },
+          ],
+        },
+        {
+          type: "string",
+          label: "Title-En",
+          name: "titleen",
+        },
+        {
+          type: "string",
+          label: "Title-Zh",
+          name: "titlezh",
+        },
+        {
+          type: "string",
+          label: "Text-En",
+          name: "texten",
+          ui: {
+            component: "textarea",
+          },
+        },
+        {
+          type: "string",
+          label: "Text-Zh",
+          name: "textzh",
+          ui: {
+            component: "textarea",
+          },
+        },
       ],
     },
   ],

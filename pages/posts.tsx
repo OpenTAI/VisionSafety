@@ -22,7 +22,7 @@ export default function HomePage(
 }
 
 export const getStaticProps = async () => {
-  const tinaProps = await client.queries.postConnection();  
+  const tinaProps = await client.queries.postConnection();
   return {
     props: {
       ...tinaProps,

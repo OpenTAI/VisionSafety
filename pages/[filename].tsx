@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { InferGetStaticPropsType } from "next";
 import { Blocks } from "../components/blocks-renderer";
 import { useTina } from "tinacms/dist/react";
@@ -9,10 +9,22 @@ export default function HomePage(
   props: InferGetStaticPropsType<typeof getStaticProps>
 ) {
   const { data } = useTina(props);
+  const [language, setLanguage] = useState("en");
+
+  useEffect(() => {
+    const lan = navigator.language;
+    localStorage.setItem("language", lan);
+    setLanguage(lan);
+  }, []);
 
   return (
-    <Layout rawData={data} data={data.global as any}>
-      <Blocks {...data.page} />
+    <Layout
+      rawData={data}
+      data={data.global as any}
+      language={language}
+      changeLan={setLanguage}
+    >
+      <Blocks {...data.page} language={language} />
     </Layout>
   );
 }
@@ -31,7 +43,7 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths = async () => {
-  const pagesListData = await client.queries.pageConnection(); 
+  const pagesListData = await client.queries.pageConnection();
   return {
     paths: pagesListData.data.pageConnection?.edges?.map((page) => ({
       params: { filename: page?.node?._sys.filename },

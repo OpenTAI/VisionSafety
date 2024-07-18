@@ -1,50 +1,82 @@
 import React from "react";
 import Link from "next/link";
-import { FaFacebookF, FaGithub, FaTwitter } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import { Container } from "../../util/container";
-import { RawRenderer } from "./rawRenderer";
-import { useTheme } from "..";
-import { Icon } from "../../util/icon";
+import logoWhite from "../../../assets/img/logoWhite.png";
+import Facebook from "../../../assets/img/Facebook.png";
+import Twitter from "../../../assets/img/Twitter.png";
+import LinkedIn from "../../../assets/img/LinkedIn.png";
+import Image from "next/image";
+import { tinaField } from "tinacms/dist/react";
 
-export const Footer = ({ data, icon, rawData }) => {
-  const theme = useTheme();
-  const socialIconClasses = "h-7 w-auto";
-  const socialIconColorClasses = {
-    blue: "text-blue-500 dark:text-blue-400 hover:text-blue-300",
-    teal: "text-teal-500 dark:text-teal-400 hover:text-teal-300",
-    green: "text-green-500 dark:text-green-400 hover:text-green-300",
-    red: "text-red-500 dark:text-red-400 hover:text-red-300",
-    pink: "text-pink-500 dark:text-pink-400 hover:text-pink-300",
-    purple: "text-purple-500 dark:text-purple-400 hover:text-purple-300",
-    orange: "text-orange-500 dark:text-orange-400 hover:text-orange-300",
-    yellow: "text-yellow-500 dark:text-yellow-400 hover:text-yellow-300",
-    primary: "text-white opacity-80 hover:opacity-100",
-  };
-
-  const footerColor = {
-    default:
-      "text-gray-800 from-white to-gray-50 dark:from-gray-900 dark:to-gray-1000",
-    primary: {
-      blue: "text-white from-blue-500 to-blue-700",
-      teal: "text-white from-teal-500 to-teal-600",
-      green: "text-white from-green-500 to-green-600",
-      red: "text-white from-red-500 to-red-600",
-      pink: "text-white from-pink-500 to-pink-600",
-      purple: "text-white from-purple-500 to-purple-600",
-      orange: "text-white from-orange-500 to-orange-600",
-      yellow: "text-white from-yellow-500 to-yellow-600",
-    },
-  };
-
-  const footerColorCss =
-    data.color === "primary"
-      ? footerColor.primary[theme.color]
-      : footerColor.default;
-
+export const Footer = ({ data }) => {
   return (
-    <footer className={`bg-gradient-to-br ${footerColorCss}`}>
-      <Container className="relative" size="small">
+    <footer>
+      <div className="w-full h-128 sm:h-52 bg-base-blue">
+        <div className="w-full py-6 bg-deep-sky flex flex-col items-center">
+          <Image
+            className="max-w-48 mb-11 sm:mb-6 sm:max-w-28"
+            src={logoWhite}
+            alt=""
+          />
+          <div className="flex flex-col items-center sm:flex-row sm:w-144 sm:justify-between">
+            {data.nav &&
+              data.nav.map((item, index) => {
+                return (
+                  <div
+                    key={index}
+                    className="text-xl sm:text-base text-white cursor-pointer flex items-center font-semibold mb-5"
+                    onClick={item.onClick}
+                  >
+                    <Link
+                      data-tina-field={tinaField(item, "label")}
+                      href={`/${item.href}`}
+                    >
+                      {item.label}
+                    </Link>
+                  </div>
+                );
+              })}
+          </div>
+          <div className="w-22 flex justify-between mb-6 items-center">
+            <a
+              data-tina-field={tinaField(data.social, "facebook")}
+              href={`${data.social.facebook}`}
+              target="_blank"
+            >
+              <Image className="h-4 w-2" src={Facebook} alt="" />
+            </a>
+            <a
+              data-tina-field={tinaField(data.social, "twitter")}
+              href={`${data.social.twitter}`}
+              target="_blank"
+            >
+              <Image className="h-[13px] w-4" src={Twitter} alt="" />
+            </a>
+            <a
+              data-tina-field={tinaField(data.social, "linkedin")}
+              href={`${data.social.linkedin}`}
+              target="_blank"
+            >
+              <Image className="h-4 w-4" src={LinkedIn} alt="" />
+            </a>
+          </div>
+          <div className="flex flex-col items-center text-white text-sm font-medium sm:flex-row sm:w-96 sm:justify-between">
+            {data.copyright && (
+              <div data-tina-field={tinaField(data, "copyright")}>
+                {data.copyright}
+              </div>
+            )}
+            <div>
+              {data.terms && (
+                <div data-tina-field={tinaField(data, "terms")}>
+                  {data.terms}
+                </div>
+              )}
+            </div>
+          </div>
+          <div />
+        </div>
+      </div>
+      {/* <Container className="relative" size="small">
         <div className="flex justify-between items-center gap-6 flex-wrap">
           <Link
             href="/"
@@ -67,13 +99,7 @@ export const Footer = ({ data, icon, rawData }) => {
                 href={data.social.facebook}
                 target="_blank"
               >
-                <FaFacebookF
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
+                <FaFacebookF className={`${socialIconClasses}`} />
               </a>
             )}
             {data.social && data.social.twitter && (
@@ -129,7 +155,7 @@ export const Footer = ({ data, icon, rawData }) => {
             data.color === "primary" ? `via-white` : `via-black dark:via-white`
           } to-transparent top-0 left-4 right-4 opacity-5`}
         ></div>
-      </Container>
+      </Container> */}
     </footer>
   );
 };

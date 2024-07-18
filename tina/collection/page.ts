@@ -3,6 +3,8 @@ import { heroBlockSchema } from "../../components/blocks/hero";
 import { contentBlockSchema } from "../../components/blocks/content";
 import { testimonialBlockSchema } from "../../components/blocks/testimonial";
 import { featureBlockSchema } from "../../components/blocks/features";
+import { repositoriesBlockSchema } from "../../components/blocks/repositories";
+import { tablesBlockSchema } from "../../components/blocks/tables";
 
 const Page: Collection = {
   label: "Pages",
@@ -11,10 +13,10 @@ const Page: Collection = {
   ui: {
     router: ({ document }) => {
       if (document._sys.filename === "home") {
-        return `/`;
+        return ``;
       }
-      if (document._sys.filename === "about") {
-        return `/about`;
+      if (document._sys.filename === "leaderboards") {
+        return `/leaderboards`;
       }
       return undefined;
     },
@@ -39,11 +41,13 @@ const Page: Collection = {
       },
       templates: [
         heroBlockSchema,
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // eslint-disable-next-line
         // @ts-ignore
         featureBlockSchema,
+        repositoriesBlockSchema,
         contentBlockSchema,
         testimonialBlockSchema,
+        tablesBlockSchema,
       ],
     },
   ],

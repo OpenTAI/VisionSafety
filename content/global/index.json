@@ -1,34 +1,60 @@
 {
   "header": {
-    "icon": {
-      "name": "Tina",
-      "color": "orange",
-      "style": "float"
-    },
-    "name": "Tina Starter",
-    "color": "default",
+    "nameen": "对抗评测平台",
+    "namezh": "对抗评测平台",
     "nav": [
       {
         "href": "",
-        "label": "Home"
+        "labelen": "Home",
+        "labelzh": "主页"
       },
       {
-        "href": "about",
-        "label": "About"
+        "href": "",
+        "labelen": "Datasets",
+        "labelzh": "Datasets"
       },
       {
-        "href": "posts",
-        "label": "Blog"
+        "href": "",
+        "labelen": "Tools",
+        "labelzh": "Tools"
+      },
+      {
+        "href": "leaderboards",
+        "labelen": "LeaderBoards",
+        "labelzh": "LeaderBoards"
       }
     ]
   },
   "footer": {
-    "color": "default",
+    "nav": [
+      {
+        "href": "home",
+        "label": "Home"
+      },
+      {
+        "href": "",
+        "label": "Research"
+      },
+      {
+        "href": "",
+        "label": "Datasets"
+      },
+      {
+        "href": "",
+        "label": "Evaluations"
+      },
+      {
+        "href": "http://highschool.opentai.org",
+        "label": "Community"
+      }
+    ],
     "social": {
-      "facebook": "/",
+      "facebook": "https://www.baidu.com",
       "twitter": "/",
-      "instagram": "/"
-    }
+      "linkedin": "/"
+    },
+    "copyright": "Copyright © 2024 Fudan Uni",
+    "terms": "Terms & Conditions"
   },
   "theme": {
     "color": "blue",

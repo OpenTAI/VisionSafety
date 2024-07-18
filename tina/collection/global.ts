@@ -1,5 +1,4 @@
 import type { Collection } from "tinacms";
-import { iconSchema } from "../../components/util/icon";
 import { ColorPickerInput } from "../fields/color";
 
 const Global: Collection = {
@@ -16,21 +15,55 @@ const Global: Collection = {
       label: "Header",
       name: "header",
       fields: [
-        iconSchema as any,
         {
           type: "string",
-          label: "Name",
-          name: "name",
+          label: "Name-En",
+          name: "nameen",
         },
         {
           type: "string",
-          label: "Color",
-          name: "color",
-          options: [
-            { label: "Default", value: "default" },
-            { label: "Primary", value: "primary" },
+          label: "Name-Zh",
+          name: "namezh",
+        },
+        {
+          type: "object",
+          label: "Nav Links",
+          name: "nav",
+          list: true,
+          ui: {
+            itemProps: (item) => {
+              return { label: item?.labelen };
+            },
+            defaultItem: {
+              href: "home",
+              label: "Home",
+            },
+          },
+          fields: [
+            {
+              type: "string",
+              label: "Link",
+              name: "href",
+            },
+            {
+              type: "string",
+              label: "Label-En",
+              name: "labelen" ,
+            },
+            {
+              type: "string",
+              label: "Label-Zh",
+              name: "labelzh",
+            },
           ],
         },
+      ],
+    },
+    {
+      type: "object",
+      label: "Footer",
+      name: "footer",
+      fields: [
         {
           type: "object",
           label: "Nav Links",
@@ -58,22 +91,6 @@ const Global: Collection = {
             },
           ],
         },
-      ],
-    },
-    {
-      type: "object",
-      label: "Footer",
-      name: "footer",
-      fields: [
-        {
-          type: "string",
-          label: "Color",
-          name: "color",
-          options: [
-            { label: "Default", value: "default" },
-            { label: "Primary", value: "primary" },
-          ],
-        },
         {
           type: "object",
           label: "Social Links",
@@ -91,15 +108,20 @@ const Global: Collection = {
             },
             {
               type: "string",
-              label: "Instagram",
-              name: "instagram",
-            },
-            {
-              type: "string",
-              label: "Github",
-              name: "github",
+              label: "LinkedIn",
+              name: "linkedin",
             },
           ],
+        },
+        {
+          type: "string",
+          label: "Copyright",
+          name: "copyright",
+        },
+        {
+          type: "string",
+          label: "Terms",
+          name: "terms",
         },
       ],
     },
@@ -107,7 +129,7 @@ const Global: Collection = {
       type: "object",
       label: "Theme",
       name: "theme",
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // eslint-disable-next-line
       // @ts-ignore
       fields: [
         {

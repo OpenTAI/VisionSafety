@@ -1,64 +1,225 @@
 import React from "react";
-import { Container } from "../util/container";
-import { Section } from "../util/section";
 import type { TinaTemplate } from "tinacms";
-import { PageBlocksTestimonial } from "../../tina/__generated__/types";
+import {
+  PageBlocksTestimonial,
+  PageBlocksTestimonialItems1,
+  PageBlocksTestimonialItems2,
+} from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
+import sparkles from "../../assets/img/sparkles.png";
+import stars from "../../assets/img/stars.png";
+import Image from "next/image";
 
-export const Testimonial = ({ data }: { data: PageBlocksTestimonial }) => {
+export const LeftListItem = ({
+  data,
+  index,
+  language,
+}: {
+  data: PageBlocksTestimonialItems1;
+  index: number;
+  language: string;
+}) => {
   return (
-    <Section color={data.color}>
-      <Container size="large">
-        <blockquote>
-          <div
-            className={`relative z-10 max-w-3xl mx-auto text-4xl lg:text-5xl font-bold tracking-normal text-center title-font ${
-              data.color === "primary"
-                ? `text-white`
-                : `text-gray-700 dark:text-gray-50`
-            }`}
-          >
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay={index * 2 * 100}
+      key={index}
+      className="mt-4 bg-leaderboardsBg1 min-h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
+    >
+      {data[`title${language}`] && (
+        <div
+          className="text-base-black font-bold text-2xl leading-7"
+          data-tina-field={tinaField(data, "titleen")}
+        >
+          {data[`title${language}`]}
+        </div>
+      )}
+      {data[`subtitle${language}`] && (
+        <div
+          className="text-base-black text-lg mt-1 max-w-108 flex items-center"
+          data-tina-field={tinaField(data, "subtitleen")}
+        >
+          <Image src={sparkles} className="w-[18px] h-[16px] mr-1" alt="" />
+          {data[`subtitle${language}`]}
+        </div>
+      )}
+      <div className="flex mt-3 justify-between">
+        <div>
+          {data.modelSum && (
             <span
-              className={`block opacity-15 text-8xl absolute inset-y-1/2 transform translate-y-2	-left-4 leading-4 -z-1`}
+              className="text-base-blue text-5xl font-bold mr-1"
+              data-tina-field={tinaField(data, "modelSum")}
             >
-              &ldquo;
+              {data.modelSum}
             </span>
-            <p
-              data-tina-field={tinaField(data, `quote`)}
-              className="relative opacity-95"
-            >
-              {data.quote}
-            </p>
-            <span
-              className={`block opacity-15 text-8xl absolute inset-y-1/2 transform translate-y-3	-right-4 leading-4 -z-1`}
-            >
-              &rdquo;
-            </span>
+          )}
+          <span className="text-light-blue text-lg">models included</span>
+        </div>
+        <div className="flex flex-col items-end">
+          <div className="flex text-base-black">
+            <Image src={stars} className="w-[120px] h-[24px] mr-2" alt="" />
+            {data.score && (
+              <span
+                className="text-lg leading-6"
+                data-tina-field={tinaField(data, "score")}
+              >
+                {data.score}
+              </span>
+            )}
           </div>
-          <div className={`my-8 flex-grow-0`}>
-            <span
-              className={`block mx-auto h-0.5 w-1/6 ${
-                data.color === "primary"
-                  ? `bg-blue-600`
-                  : `bg-gray-200 dark:bg-gray-700`
-              }`}
-            ></span>
-          </div>
-          <footer className="text-center">
-            <p
-              data-tina-field={tinaField(data, `author`)}
-              className={`tracking-wide title-font font-bold text-lg ${
-                data.color === "primary"
-                  ? `text-blue-200`
-                  : `text-blue-500 dark:text-blue-300`
-              }`}
-            >
-              {data.author}
-            </p>
-          </footer>
-        </blockquote>
-      </Container>
-    </Section>
+          {data[`detail${language}`] && (
+            <div data-tina-field={tinaField(data, "detailen")}>
+              {data[`detail${language}`]}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
   );
+};
+
+export const RightListItem = ({
+  data,
+  index,
+  language,
+}: {
+  data: PageBlocksTestimonialItems2;
+  index: number;
+  language: string;
+}) => {
+  return (
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay={index * 2 * 100}
+      key={index}
+      className="mt-4 bg-leaderboardsBg2 min-h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
+    >
+      {data[`title${language}`] && (
+        <div
+          className="text-base-black font-bold text-2xl leading-7"
+          data-tina-field={tinaField(data, "titleen")}
+        >
+          {data[`title${language}`]}
+        </div>
+      )}
+      {data[`subtitle${language}`] && (
+        <div
+          className="text-base-black text-lg mt-1 max-w-108 flex items-center"
+          data-tina-field={tinaField(data, "subtitleen")}
+        >
+          <Image src={sparkles} className="w-[18px] h-[16px] mr-1" alt="" />
+          {data[`subtitle${language}`]}
+        </div>
+      )}
+      <div className="flex mt-3 justify-between">
+        <div>
+          {data.modelSum && (
+            <span
+              className="text-base-blue text-5xl font-bold mr-1"
+              data-tina-field={tinaField(data, "modelSum")}
+            >
+              {data.modelSum}
+            </span>
+          )}
+          <span className="text-light-blue text-lg">models included</span>
+        </div>
+        <div className="flex flex-col items-end">
+          <div className="flex text-base-black">
+            <Image src={stars} className="w-[120px] h-[24px] mr-2" alt="" />
+            {data.score && (
+              <span
+                className="text-lg leading-6"
+                data-tina-field={tinaField(data, "score")}
+              >
+                {data.score}
+              </span>
+            )}
+          </div>
+          {data[`detail${language}`] && (
+            <div data-tina-field={tinaField(data, "detailen")}>
+              {data[`detail${language}`]}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const Testimonial = ({
+  data,
+  language,
+}: {
+  data: PageBlocksTestimonial;
+  language: string;
+}) => {
+  return (
+    <div className="max-w-320 mx-auto px-3">
+      <div className="my-24">
+        {data[`title${language}`] && (
+          <div
+            className="text-base-black font-semibold text-4xl text-center"
+            data-tina-field={tinaField(data, "titleen")}
+          >
+            {data[`title${language}`]}
+          </div>
+        )}
+        <div className="mt-10">
+          <div className="!grid gap-6 grid-cols-1 lg:grid-cols-2">
+            <div>
+              {data[`leftListTitle${language}`] && (
+                <div
+                  className="text-base-blue text-sm w-33 h-8 bg-[#edf1fe] flex items-center justify-center"
+                  data-tina-field={tinaField(data, "leftListTitleen")}
+                >
+                  {data[`leftListTitle${language}`]}
+                </div>
+              )}
+              {data.items1 &&
+                data.items1.map((item, index) => {
+                  return (
+                    <LeftListItem
+                      data={item}
+                      index={index}
+                      key={2 * index}
+                      language={language}
+                    />
+                  );
+                })}
+            </div>
+            <div>
+              {data[`rightListTitle${language}`] && (
+                <div
+                  className="text-base-blue text-sm w-33 h-8 bg-[#edf1fe] flex items-center justify-center"
+                  data-tina-field={tinaField(data, "rightListTitleen")}
+                >
+                  {data[`rightListTitle${language}`]}
+                </div>
+              )}
+              {data.items2 &&
+                data.items2.map((item, index) => {
+                  return (
+                    <RightListItem
+                      data={item}
+                      index={index}
+                      key={2 * index + 1}
+                      language={language}
+                    />
+                  );
+                })}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const defaultModel = {
+  title: "Here's Another Model",
+  subtitle: "Large language model",
 };
 
 export const testimonialBlockSchema: TinaTemplate = {
@@ -76,25 +237,148 @@ export const testimonialBlockSchema: TinaTemplate = {
   fields: [
     {
       type: "string",
+      label: "Title-En",
+      name: "titleen",
+    },
+    {
+      type: "string",
+      label: "Title-Zh",
+      name: "titlezh",
+    },
+    {
+      type: "string",
+      label: "Left List Title-En",
+      name: "leftListTitleen",
+    },
+    {
+      type: "string",
+      label: "Left List Title-Zh",
+      name: "leftListTitlezh",
+    },
+    {
+      type: "object",
+      label: "Left List Items",
+      name: "items1",
+      list: true,
       ui: {
-        component: "textarea",
+        itemProps: (item) => {
+          return {
+            label: item?.titleen,
+          };
+        },
+        defaultItem: {
+          ...defaultModel,
+        },
       },
-      label: "Quote",
-      name: "quote",
+      fields: [
+        {
+          type: "string",
+          label: "Title-En",
+          name: "titleen",
+        },
+        {
+          type: "string",
+          label: "Title-Zh",
+          name: "titlezh",
+        },
+        {
+          type: "string",
+          label: "Subtitle-En",
+          name: "subtitleen",
+        },
+        {
+          type: "string",
+          label: "Subtitle-Zh",
+          name: "subtitlezh",
+        },
+        {
+          type: "number",
+          label: "Model Sum",
+          name: "modelSum",
+        },
+        {
+          type: "string",
+          label: "score",
+          name: "score",
+        },
+        {
+          type: "string",
+          label: "Detail-En",
+          name: "detailen",
+        },
+        {
+          type: "string",
+          label: "Detail-Zh",
+          name: "detailzh",
+        },
+      ],
     },
     {
       type: "string",
-      label: "Author",
-      name: "author",
+      label: "Right List Title-En",
+      name: "rightListTitleen",
     },
     {
       type: "string",
-      label: "Color",
-      name: "color",
-      options: [
-        { label: "Default", value: "default" },
-        { label: "Tint", value: "tint" },
-        { label: "Primary", value: "primary" },
+      label: "Right List Title-Zh",
+      name: "rightListTitlezh",
+    },
+    {
+      type: "object",
+      label: "Right List Items",
+      name: "items2",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return {
+            label: item?.titleen,
+          };
+        },
+        defaultItem: {
+          ...defaultModel,
+        },
+      },
+      fields: [
+        {
+          type: "string",
+          label: "Title-En",
+          name: "titleen",
+        },
+        {
+          type: "string",
+          label: "Title-Zh",
+          name: "titlezh",
+        },
+        {
+          type: "string",
+          label: "Subtitle-En",
+          name: "subtitleen",
+        },
+        {
+          type: "string",
+          label: "Subtitle-Zh",
+          name: "subtitlezh",
+        },
+        {
+          type: "number",
+          label: "Model Sum",
+          name: "modelSum",
+        },
+        {
+          type: "string",
+          label: "score",
+          name: "score",
+        },
+        {
+          type: "string",
+          label: "Detail-En",
+          name: "detailen",
+        },
+        {
+          type: "string",
+          label: "Detail-Zh",
+          name: "detailzh",
+        },
       ],
     },
   ],
