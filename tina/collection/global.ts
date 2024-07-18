@@ -1,5 +1,4 @@
 import type { Collection } from "tinacms";
-import { ColorPickerInput } from "../fields/color";
 
 const Global: Collection = {
   label: "Global",
@@ -132,14 +131,6 @@ const Global: Collection = {
       // eslint-disable-next-line
       // @ts-ignore
       fields: [
-        {
-          type: "string",
-          label: "Primary Color",
-          name: "color",
-          ui: {
-            component: ColorPickerInput,
-          },
-        },
         {
           type: "string",
           name: "font",
