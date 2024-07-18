@@ -68,7 +68,7 @@ const components: Components<{
         return <span>{format(dt, "P")}</span>;
     }
   },
-  NewsletterSignup: (props) => {
+  NewsletterSignup: () => {
     return <div className="bg-white"></div>;
   },
   img: (props) => (

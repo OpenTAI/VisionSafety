@@ -7,7 +7,6 @@ import layoutData from "../../content/global/index.json";
 import { Global } from "../../tina/__generated__/types";
 
 export default function Layout({
-  rawData = {},
   data = layoutData,
   children,
   language,
