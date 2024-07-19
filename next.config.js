@@ -1,5 +1,5 @@
 module.exports = {
-  basePath: 'tina-cloud',
+  trailingSlash: true,
   images: {
     remotePatterns: [
       {
@@ -30,5 +30,5 @@ module.exports = {
         destination: "/admin/index.html",
       },
     ];
-  },
+  }
 };
