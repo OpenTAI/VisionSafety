@@ -1,4 +1,5 @@
 module.exports = {
+  basePath: 'tina-cloud',
   images: {
     remotePatterns: [
       {
