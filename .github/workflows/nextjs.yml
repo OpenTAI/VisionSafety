@@ -79,6 +79,8 @@ jobs:
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
           NEXT_PUBLIC_TINA_BRANCH: ${{ github.head_ref || github.ref_name }}
         run: yarn build
+      - name: Remove gitignore file
+        run: rm ./build/admin/.gitignore
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -94,20 +96,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          token: ${{ secrets.GH_PAGES_TOKEN }}
-          BRANCH: gh-pages
-          folder: dist
-
-      - name: delete local gh-pages branch
-        run: |
-          git branch -d gh-pages
-          git clean -xdf
-
-      - name: create index.html
-        uses: planetoftheweb/copy-to-branches@v1.2
-        env:
-          branches: gh-pages
-          key: main
-          files: index.html
+        uses: actions/deploy-pages@v4
