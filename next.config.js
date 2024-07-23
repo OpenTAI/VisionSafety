@@ -1,4 +1,5 @@
 module.exports = {
+  basePath: "",
   trailingSlash: true,
   images: {
     remotePatterns: [

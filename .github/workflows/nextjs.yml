@@ -79,8 +79,6 @@ jobs:
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
           NEXT_PUBLIC_TINA_BRANCH: ${{ github.head_ref || github.ref_name }}
         run: yarn build
-      - name: Add index
-        run: touch ./.next/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
