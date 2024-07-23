@@ -78,7 +78,7 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
           NEXT_PUBLIC_TINA_BRANCH: ${{ github.head_ref || github.ref_name }}
-        run: yarn build
+        run: yarn deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
