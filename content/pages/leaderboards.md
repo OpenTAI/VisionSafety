@@ -14,7 +14,7 @@ blocks:
     tableTitlezh: Rankings
     modelsRanking:
       - nameen: GPT-4
-        namezh: GPT-4Zh
+        namezh: GPT-4Test
         paper: >-
           Robust Principles: Architectural DesignPrinciples for Adversarially
           Robust...
