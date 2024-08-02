@@ -2,7 +2,7 @@
 title: 对抗评测平台
 blocks:
   - headline1en: 'Open Trustworthy AI : Trust is the ultimate form of intelligence.'
-    headline1zh: Open Trustworthy AI - Testtt
+    headline1zh: Open Trustworthy AI - Test!!
     headline2en: 'Are will find resultant, one painful consequences from.'
     headline2zh: 'Are will find resultant, one painful consequences from.'
     buttonTexten: View Leaderboards
