@@ -35,7 +35,7 @@ blocks:
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
     _template: hero
-  - title1en: 白盒攻击评测-中文测试
+  - title1en: 白盒攻击评测-测试发布
     title1zh: 白盒攻击评测White
     items1:
       - image:
