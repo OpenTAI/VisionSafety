@@ -63,8 +63,8 @@ blocks:
           to internal architecture
       - image:
           src: /uploads/whiteBoxIcon3.png
-        titleen: '白盒攻击评测亮点 #3'
-        titlezh: '白盒攻击评测亮点 #333'
+        titleen: '白盒攻击评测亮点 #Test'
+        titlezh: '白盒攻击评测亮点 #中文Test'
         texten: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
