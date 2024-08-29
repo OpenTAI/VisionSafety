@@ -10,17 +10,17 @@ export default function HomePage(
 ) {
   const { data } = useTina(props);
   const [language, setLanguage] = useState("en");
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    console.log(isClient);
-    setIsClient(true);
-  },[]);
 
   useEffect(() => {
     const lan = navigator.language;
-    localStorage.setItem("language", lan);
-    setLanguage(lan);
+    if (lan.indexOf('en') > -1) {
+      localStorage.setItem("language", 'en');
+      setLanguage('en');
+    } else {
+      localStorage.setItem("language", 'zh');
+      setLanguage('zh');
+    }
+
   }, []);
 
   const changeLan = (lan: string) => {
