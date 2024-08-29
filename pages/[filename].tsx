@@ -13,8 +13,9 @@ export default function HomePage(
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    console.log(isClient);
     setIsClient(true);
-  },[])
+  },[]);
 
   useEffect(() => {
     const lan = navigator.language;
