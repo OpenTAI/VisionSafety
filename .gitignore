@@ -26,3 +26,5 @@ yarn-debug.log*
 yarn-error.log*
 
 .tina/__generated__
+
+admin/index.html
