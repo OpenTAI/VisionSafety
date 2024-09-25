@@ -1,5 +1,5 @@
 ---
-title: 对抗评测平台
+title: 对抗评测平台测试分支
 blocks:
   - headline1en: 'Open Trustworthy AI : Trust is the ultimate form of intelligence.'
     headline1zh: Open Trustworthy AI - Test!!
