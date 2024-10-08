@@ -3,7 +3,7 @@ title: 对抗评测平台
 blocks:
   - headline1en: 'Open Trustworthy AI : Trust is the ultimate form of intelligence.'
     headline1zh: Open Trustworthy AI - Test!!
-    headline2en: 'Are will find resultant, one painful consequences from.'
+    headline2en: ''
     headline2zh: 'Are will find resultant, one painful consequences from.'
     buttonTexten: View Leaderboards
     buttonTextzh: View Leaderboards
@@ -40,35 +40,40 @@ blocks:
     items1:
       - image:
           src: /uploads/whiteBoxIcon1.png
-        titleen: '白盒攻击评测亮点 #1'
+        titleen: >-
+          Enhanced Single Attack Method PMA and More Efficient Combined Attack
+          Method PMA+
         titlezh: '白盒攻击评测亮点 #111'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          We introduce a new attack method called PMA (Probability Margin
+          Attack), which utilizes the newly proposed Probability Margin Loss
+          function. Additionally, we present a more efficient combined attack
+          method, PMA+.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
       - image:
           src: /uploads/whiteBoxIcon2.png
+        titleen: Comprehensive and Flexible Adversarial Attack Methods
         titlezh: '白盒攻击评测亮点 #222'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          For single attack evaluations, our toolbox supports combinations of
+          different strategies and loss functions. In multi-attack evaluations,
+          it allows for the combination of various attack methods.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
       - image:
           src: /uploads/whiteBoxIcon3.png
-        titleen: '白盒攻击评测亮点 #3'
+        titleen: Expanded Dataset Support and Large-Scale Robustness Evaluation
         titlezh: '白盒攻击评测亮点 #333'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          We provide data processing and evaluation tools for CIFAR10, CIFAR100,
+          and ImageNet. Furthermore, we introduce a million-sample dataset,
+          cc1m, constructed from cc3m, enabling more accurate model robustness
+          assessments through large-scale evaluation.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
