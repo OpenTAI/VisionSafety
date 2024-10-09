@@ -123,7 +123,14 @@ blocks:
     _template: features
   - title1en: Toward physical-world adversrial robustness evaluation
     items1:
-      - {}
+      - titleen: Diffusion-based Framework for Adversarial Patch Generation
+        texten: >-
+          We propose a novel diffusion-based framework called DiffPatch for
+          generating naturalistic adversarial patches based on the object in a
+          reference image. DiffPatch employs Null-text inversion, Incomplete
+          Diffusion Optimization (IDO), masked customization, and an
+          IoU-Detection Loss to generate stylized and customizable adversarial
+          patches.
       - {}
       - image:
           src: /uploads/transferbasedAttackIcon1.png
