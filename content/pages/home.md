@@ -78,41 +78,44 @@ blocks:
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
-    title2en: 迁移攻击评测
+    title2en: Toward super-transferable adversrial robustness evaluation
     title2zh: 迁移攻击评测attack
     items2:
       - image:
           src: /uploads/transferbasedAttackIcon1.png
-        titleen: '迁移攻击评测亮点 #1'
+        titleen: 'Multi Grahics Cards and Multi Models, Enhanced Transferability'
         titlezh: '迁移攻击评测亮点 #1'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          We utilize multiple graphics cards and multiple models to enhance the
+          transferability of adversarial examples. By employing 8 mainstream
+          pre-trained image feature extractors for feature extraction and
+          perturbation at the feature layer, we generate highly transferable
+          adversarial examples.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
       - image:
           src: /uploads/transferbasedAttackIcon2.png
-        titleen: '迁移攻击评测亮点 #2'
+        titleen: 'Million-Level Evaluation, General and Accurate'
         titlezh: '迁移攻击评测亮点 #2'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          We provide a million-level dataset, cc1m, constructed based on cc3m.
+          The large number of samples allows for more accurate evaluation of
+          model robustness (generalization). One dataset can be used to evaluate
+          all downstream tasks.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
       - image:
           src: /uploads/transferbasedAttackIcon3.png
-        titleen: '迁移攻击评测亮点 #3'
+        titleen: Ready to use
         titlezh: '迁移攻击评测亮点 #3'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          We offer pre-generated adversarial versions of multiple datasets,
+          including ImageNet-1k, COCO2017, ADE20k, and cc1m. These are ready to
+          use without requiring users to generate them again.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
