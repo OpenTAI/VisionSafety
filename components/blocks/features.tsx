@@ -37,7 +37,7 @@ export const Feature1 = ({
         )}
         {data[`title${language}`] && (
           <div
-            className="mt-8 text-base-blue text-xl font-semibold"
+            className="mt-2 text-base-blue text-lg font-semibold line-clamp-3"
             data-tina-field={tinaField(data, "titleen")}
           >
             {data[`title${language}`]}
@@ -45,7 +45,7 @@ export const Feature1 = ({
         )}
         {data[`text${language}`] && (
           <div
-            className="mt-2 h-28 text-des-blue text-base line-clamp-4"
+            className="mt-2 h-28 text-des-blue text-xs line-clamp-5"
             data-tina-field={tinaField(data, "texten")}
           >
             {data[`text${language}`]}
@@ -86,7 +86,7 @@ export const Feature2 = ({
         )}
         {data[`title${language}`] && (
           <div
-            className="mt-8 text-base-blue text-xl font-semibold"
+            className="mt-2 text-base-blue text-lg font-semibold line-clamp-3"
             data-tina-field={tinaField(data, "titleen")}
           >
             {data[`title${language}`]}
@@ -94,7 +94,7 @@ export const Feature2 = ({
         )}
         {data[`text${language}`] && (
           <div
-            className="mt-2 h-28 text-des-blue text-base line-clamp-4"
+            className="mt-2 h-28 text-des-blue text-xs line-clamp-5"
             data-tina-field={tinaField(data, "texten")}
           >
             {data[`text${language}`]}
