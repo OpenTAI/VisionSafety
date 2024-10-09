@@ -123,19 +123,29 @@ blocks:
     _template: features
   - title1en: Toward physical-world adversrial robustness evaluation
     items1:
-      - titleen: Diffusion-based Framework for Adversarial Patch Generation
+      - image:
+          src: /uploads/whiteBoxIcon2.png
+        titleen: Diffusion-based Framework for Adversarial Patch Generation
         texten: >-
           We propose a novel diffusion-based framework called DiffPatch for
           generating naturalistic adversarial patches based on the object in a
-          reference image. DiffPatch employs Null-text inversion, Incomplete
-          Diffusion Optimization (IDO), masked customization, and an
-          IoU-Detection Loss to generate stylized and customizable adversarial
-          patches.
-      - {}
+          reference image.
+      - image:
+          src: /uploads/transferbasedAttackIcon3.png
+        titleen: Stronger Attack Performance and More Natural Appearance
+        texten: >
+          Our DiffPatch achieves the highest attack success rate (ASR),
+          significantly reducing the mAP of various object detectors, rivaling
+          or even surpassing the current state-of-the-art methods of unnatural
+          adversarial patches.
       - image:
           src: /uploads/transferbasedAttackIcon1.png
-        titleen: '111'
-        texten: '11222'
+        titleen: The First Dataset in the Field of Physical Adversarial Attacks
+        texten: >-
+          We realize the adversarial patches in the physical world on T-shirts
+          and collect an adversarial T-shirt dataset AdvTD-1K to facilitate
+          further research. To the best of our knowledge, this is the first
+          dataset for physical adversarial attacks.
     _template: features
   - titleen: Models and Datasets developed by OpenTAI Evaluation Platform
     titlezh: Models Chinese
