@@ -70,10 +70,10 @@ blocks:
         titleen: Expanded Dataset Support and Large-Scale Robustness Evaluation
         titlezh: '白盒攻击评测亮点 #333'
         texten: >-
-          We provide data processing and evaluation tools for CIFAR10, CIFAR100,
-          and ImageNet. Furthermore, we introduce a million-sample dataset,
-          cc1m, constructed from cc3m, enabling more accurate model robustness
-          assessments through large-scale evaluation.
+          We providebevaluation tools for CIFAR10, CIFAR100, and ImageNet.
+          Furthermore, we introduce a million-sample dataset, cc1m, constructed
+          from cc3m, enabling more accurate model robustness assessments through
+          large-scale evaluation.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
@@ -86,11 +86,9 @@ blocks:
         titleen: 'Multi Grahics Cards and Multi Models, Enhanced Transferability'
         titlezh: '迁移攻击评测亮点 #1'
         texten: >-
-          We utilize multiple graphics cards and multiple models to enhance the
-          transferability of adversarial examples. By employing 8 mainstream
-          pre-trained image feature extractors for feature extraction and
-          perturbation at the feature layer, we generate highly transferable
-          adversarial examples.
+          By employing 8 mainstream pre-trained image encoders for feature
+          extraction and perturbation at the feature layer, we generate highly
+          transferable adversarial examples.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
@@ -108,7 +106,9 @@ blocks:
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
-      - image:
+      - icon:
+          name: Tina
+        image:
           src: /uploads/transferbasedAttackIcon3.png
         titleen: Ready to use
         titlezh: '迁移攻击评测亮点 #3'
@@ -121,10 +121,12 @@ blocks:
           into system vulnerabilities by providing testers with complete access
           to internal architecture
     _template: features
-  - title1en: '111'
+  - title1en: Toward physical-world adversrial robustness evaluation
     items1:
-      - icon:
-          name: BiBadgeCheck
+      - {}
+      - {}
+      - image:
+          src: /uploads/transferbasedAttackIcon1.png
         titleen: '111'
         texten: '11222'
     _template: features
