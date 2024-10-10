@@ -1,7 +1,7 @@
 import { PageBlocksRepositories } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
-import Image from "next/image";
 import type { TinaTemplate } from "tinacms";
+import { ImageLink } from "../util/image-link";
 
 export const Repositories = ({
   data,
@@ -45,13 +45,13 @@ export const Repositories = ({
                 </div>
               )}
               {data.image1 && (
-                <Image
+                <ImageLink 
                   src={data.image1.src}
-                  className="absolute bottom-11 left-12 w-48 h-12 hover:cursor-pointer  "
-                  alt=""
                   width={192}
                   height={148}
-                  data-tina-field={tinaField(data, "image1")}
+                  href={data.image1.href}
+                  className="absolute bottom-11 left-12 w-48 h-12 hover:cursor-pointer"
+                  tinaField={tinaField(data, "image1")}
                 />
               )}
             </div>
@@ -78,13 +78,13 @@ export const Repositories = ({
                 </div>
               )}
               {data.image2 && (
-                <Image
+                <ImageLink 
                   src={data.image2.src}
-                  className="absolute bottom-11 left-12 w-48 h-12 hover:cursor-pointer  "
-                  alt=""
                   width={192}
                   height={148}
-                  data-tina-field={tinaField(data, "image2")}
+                  href={data.image2.href}
+                  className="absolute bottom-11 left-12 w-48 h-12 hover:cursor-pointer"
+                  tinaField={tinaField(data, "image2")}
                 />
               )}
             </div>
@@ -152,6 +152,11 @@ export const repositoriesBlockSchema: TinaTemplate = {
           label: "Alt Text",
           type: "string",
         },
+        {
+          name: "href",
+          label: "Image Link",
+          type: "string",
+        },
       ],
     },
     {
@@ -187,6 +192,11 @@ export const repositoriesBlockSchema: TinaTemplate = {
         {
           name: "alt",
           label: "Alt Text",
+          type: "string",
+        },
+        {
+          name: "href",
+          label: "Image Link",
           type: "string",
         },
       ],
