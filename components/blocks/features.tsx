@@ -177,7 +177,7 @@ export const featureBlockSchema = {
   name: "features",
   label: "Features",
   ui: {
-    previewSrc: "/blocks/features.png",
+    previewSrc: "/VisionSafety/blocks/features.png",
     defaultItem: {
       items: [defaultFeature, defaultFeature, defaultFeature],
     },

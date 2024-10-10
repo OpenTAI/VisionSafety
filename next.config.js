@@ -1,5 +1,5 @@
 module.exports = {
-  basePath: "",
+  basePath: "/VisionSafety",
   trailingSlash: true,
   images: {
     remotePatterns: [

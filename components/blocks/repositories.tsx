@@ -99,7 +99,7 @@ export const repositoriesBlockSchema: TinaTemplate = {
   name: "repositories",
   label: "Repositories",
   ui: {
-    previewSrc: "/blocks/repositories.png",
+    previewSrc: "/VisionSafety/blocks/repositories.png",
     defaultItem: {
       title: "Here's repository title",
     },
