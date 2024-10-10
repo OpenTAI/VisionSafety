@@ -6,6 +6,7 @@ import { ConfigProvider, Table } from "antd";
 import leftArrow from "../../assets/img/leftArrow.png";
 import playIcon from "../../assets/img/playIcon.png";
 import Image from "next/image";
+import { basePath } from "../util/url-helper";
 
 interface dataType {
   key: React.Key;
@@ -72,7 +73,7 @@ export const Tables = ({
   data: PageBlocksTable;
   language: string;
 }) => {
-  const tableData = data.modelsRanking.map((item, index) => {
+  const tableData = (data.modelsRanking || []).map((item, index) => {
     return {
       key: index,
       name: item[`name${language}`],
@@ -160,7 +161,7 @@ export const tablesBlockSchema: TinaTemplate = {
   name: "table",
   label: "Table",
   ui: {
-    previewSrc: "/VisionSafety/blocks/content.png",
+    previewSrc: `${basePath}/blocks/content.png`,
     defaultItem: {
       body: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.",
     },

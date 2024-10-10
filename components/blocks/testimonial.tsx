@@ -9,6 +9,7 @@ import { tinaField } from "tinacms/dist/react";
 import sparkles from "../../assets/img/sparkles.png";
 import stars from "../../assets/img/stars.png";
 import Image from "next/image";
+import { basePath } from "../util/url-helper";
 
 export const LeftListItem = ({
   data,
@@ -226,7 +227,7 @@ export const testimonialBlockSchema: TinaTemplate = {
   name: "testimonial",
   label: "Testimonial",
   ui: {
-    previewSrc: "/VisionSafety/blocks/testimonial.png",
+    previewSrc: `${basePath}/blocks/testimonial.png`,
     defaultItem: {
       quote:
         "There are only two hard things in Computer Science: cache invalidation and naming things.",

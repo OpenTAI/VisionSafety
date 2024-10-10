@@ -5,6 +5,7 @@ import { PageBlocksHero } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import Image from "next/image";
 import headImg from "../../assets/img/headImg.png";
+import { basePath } from "../util/url-helper";
 
 export const Hero = ({
   data,
@@ -86,7 +87,7 @@ export const heroBlockSchema: TinaTemplate = {
   name: "hero",
   label: "Hero",
   ui: {
-    previewSrc: "/blocks/hero.png",
+    previewSrc: `${basePath}/blocks/hero.png`,
     defaultItem: {},
   },
   fields: [

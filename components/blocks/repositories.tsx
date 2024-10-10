@@ -2,6 +2,7 @@ import { PageBlocksRepositories } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import type { TinaTemplate } from "tinacms";
 import { ImageLink } from "../util/image-link";
+import { basePath } from "../util/url-helper";
 
 export const Repositories = ({
   data,
@@ -99,7 +100,7 @@ export const repositoriesBlockSchema: TinaTemplate = {
   name: "repositories",
   label: "Repositories",
   ui: {
-    previewSrc: "/VisionSafety/blocks/repositories.png",
+    previewSrc: `${basePath}/blocks/repositories.png`,
     defaultItem: {
       title: "Here's repository title",
     },

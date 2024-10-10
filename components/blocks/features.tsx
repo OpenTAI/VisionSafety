@@ -6,6 +6,7 @@ import {
 } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import Image from "next/image";
+import { basePath } from "../util/url-helper";
 
 export const Feature1 = ({
   data,
@@ -177,7 +178,7 @@ export const featureBlockSchema = {
   name: "features",
   label: "Features",
   ui: {
-    previewSrc: "/VisionSafety/blocks/features.png",
+    previewSrc: `${basePath}/blocks/features.png`,
     defaultItem: {
       items: [defaultFeature, defaultFeature, defaultFeature],
     },

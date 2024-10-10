@@ -28,7 +28,7 @@ export const Footer = ({ data }) => {
                   >
                     <Link
                       data-tina-field={tinaField(item, "label")}
-                      href={`/${item.href}`}
+                      href={item.href}
                     >
                       {item.label}
                     </Link>

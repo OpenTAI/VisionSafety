@@ -27,7 +27,7 @@ const config = defineConfig({
   build: {
     publicFolder: "public", // The public asset folder for your framework
     outputFolder: "admin", // within the public folder
-    basePath: "VisionSafety",
+    basePath: process.env.BASE_PATH,
   },
   schema: {
     collections: [Post, Global, Author, Page],
