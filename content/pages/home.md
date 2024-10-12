@@ -78,7 +78,7 @@ blocks:
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
-    title2en: Toward super-transferable adversrial robustness evaluation
+    title2en: Toward super-transferable adversarial robustness evaluation
     title2zh: 迁移攻击评测attack
     items2:
       - image:
@@ -121,7 +121,7 @@ blocks:
           into system vulnerabilities by providing testers with complete access
           to internal architecture
     _template: features
-  - title1en: Toward physical-world adversrial robustness evaluation
+  - title1en: Toward physical-world adversarial robustness evaluation
     items1:
       - image:
           src: /uploads/whiteBoxIcon2.png
