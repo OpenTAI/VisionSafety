@@ -1,16 +1,16 @@
 ---
 title: 对抗评测平台
 blocks:
-  - headline1en: 'Open Trustworthy AI : Trust is the ultimate form of intelligence.'
+  - headline1en: Vision Safety
     headline1zh: Open Trustworthy AI - Test!!
-    headline2en: ''
+    headline2en: ddddd
     headline2zh: 'Are will find resultant, one painful consequences from.'
     buttonTexten: View Leaderboards
     buttonTextzh: View Leaderboards
-    subtitle1en: 10 Planets form
+    subtitle1en: Evaluation and Benchmark
     subtitle1zh: 10 Planets form
     subtitle2en: >-
-      This project provide tools and datasets that facilitates large-scale
+      This project provides tools and datasets that facilitate large-scale
       adversarial robustness evaluation of foundation vision models.
     subtitle2zh: >-
       This project provide tools and datasets that facilitates large-scale
