@@ -161,7 +161,7 @@ blocks:
       pinpoint accuracy.
     image1:
       src: /uploads/GitHubButton.png
-      href: 'https://github.com/'
+      href: 'https://github.com/OpenTAI/taiadv'
     subtitle2en: CC1M
     subtitle2zh: CC1M
     text2en: >-
