@@ -1,16 +1,16 @@
 ---
 title: 对抗评测平台
 blocks:
-  - headline1en: 'Open Trustworthy AI : Trust is the ultimate form of intelligence.'
+  - headline1en: Vision Safety
     headline1zh: Open Trustworthy AI - Test!!
-    headline2en: 'Are will find resultant, one painful consequences from.'
+    headline2en: ddddd
     headline2zh: 'Are will find resultant, one painful consequences from.'
     buttonTexten: View Leaderboards
     buttonTextzh: View Leaderboards
-    subtitle1en: 10 Planets form
+    subtitle1en: Evaluation and Benchmark
     subtitle1zh: 10 Planets form
     subtitle2en: >-
-      This project provide tools and datasets that facilitates large-scale
+      This project provides tools and datasets that facilitate large-scale
       adversarial robustness evaluation of foundation vision models.
     subtitle2zh: >-
       This project provide tools and datasets that facilitates large-scale
@@ -35,83 +35,117 @@ blocks:
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
     _template: hero
-  - title1en: 白盒攻击评测-中文测试
+  - title1en: Toward million-scale adversarial robustness evaluation
     title1zh: 白盒攻击评测White
     items1:
       - image:
           src: /uploads/whiteBoxIcon1.png
-        titleen: '白盒攻击评测亮点 #1'
+        titleen: >-
+          Enhanced Single Attack Method PMA and More Efficient Combined Attack
+          Method PMA+
         titlezh: '白盒攻击评测亮点 #111'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          We introduce a new attack method called PMA (Probability Margin
+          Attack), which utilizes the newly proposed Probability Margin Loss
+          function. Additionally, we present a more efficient combined attack
+          method, PMA+.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
       - image:
           src: /uploads/whiteBoxIcon2.png
+        titleen: Comprehensive and Flexible Adversarial Attack Methods
         titlezh: '白盒攻击评测亮点 #222'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          For single attack evaluations, our toolbox supports combinations of
+          different strategies and loss functions. In multi-attack evaluations,
+          it allows for the combination of various attack methods.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
       - image:
           src: /uploads/whiteBoxIcon3.png
-        titleen: '白盒攻击评测亮点 #3'
+        titleen: Expanded Dataset Support and Large-Scale Robustness Evaluation
         titlezh: '白盒攻击评测亮点 #333'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          We providebevaluation tools for CIFAR10, CIFAR100, and ImageNet.
+          Furthermore, we introduce a million-sample dataset, cc1m, constructed
+          from cc3m, enabling more accurate model robustness assessments through
+          large-scale evaluation.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
-    title2en: 迁移攻击评测
+    title2en: Toward super-transferable adversarial robustness evaluation
     title2zh: 迁移攻击评测attack
     items2:
       - image:
           src: /uploads/transferbasedAttackIcon1.png
-        titleen: '迁移攻击评测亮点 #1'
+        titleen: 'Multi Grahics Cards and Multi Models, Enhanced Transferability'
         titlezh: '迁移攻击评测亮点 #1'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          By employing 8 mainstream pre-trained image encoders for feature
+          extraction and perturbation at the feature layer, we generate highly
+          transferable adversarial examples.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
       - image:
           src: /uploads/transferbasedAttackIcon2.png
-        titleen: '迁移攻击评测亮点 #2'
+        titleen: 'Million-Level Evaluation, General and Accurate'
         titlezh: '迁移攻击评测亮点 #2'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          We provide a million-level dataset, cc1m, constructed based on cc3m.
+          The large number of samples allows for more accurate evaluation of
+          model robustness (generalization). One dataset can be used to evaluate
+          all downstream tasks.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
-      - image:
+      - icon:
+          name: Tina
+        image:
           src: /uploads/transferbasedAttackIcon3.png
-        titleen: '迁移攻击评测亮点 #3'
+        titleen: Ready to use
         titlezh: '迁移攻击评测亮点 #3'
         texten: >-
-          Our white-box penetration testing model offers unparalleled insights
-          into system vulnerabilities by providing testers with complete access
-          to internal architecture
+          We offer pre-generated adversarial versions of multiple datasets,
+          including ImageNet-1k, COCO2017, ADE20k, and cc1m. These are ready to
+          use without requiring users to generate them again.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
+    _template: features
+  - title1en: Toward physical-world adversarial robustness evaluation
+    items1:
+      - image:
+          src: /uploads/whiteBoxIcon2.png
+        titleen: Diffusion-based Framework for Adversarial Patch Generation
+        texten: >-
+          We propose a novel diffusion-based framework called DiffPatch for
+          generating naturalistic adversarial patches based on the object in a
+          reference image.
+      - image:
+          src: /uploads/transferbasedAttackIcon3.png
+        titleen: Stronger Attack Performance and More Natural Appearance
+        texten: >
+          Our DiffPatch achieves the highest attack success rate (ASR),
+          significantly reducing the mAP of various object detectors, rivaling
+          or even surpassing the current state-of-the-art methods of unnatural
+          adversarial patches.
+      - image:
+          src: /uploads/transferbasedAttackIcon1.png
+        titleen: The First Dataset in the Field of Physical Adversarial Attacks
+        texten: >-
+          We realize the adversarial patches in the physical world on T-shirts
+          and collect an adversarial T-shirt dataset AdvTD-1K to facilitate
+          further research. To the best of our knowledge, this is the first
+          dataset for physical adversarial attacks.
     _template: features
   - titleen: Models and Datasets developed by OpenTAI Evaluation Platform
     titlezh: Models Chinese
@@ -127,7 +161,8 @@ blocks:
       pinpoint accuracy.
     image1:
       src: /uploads/GitHubButton.png
-    subtitle2en: CC1M
+      href: 'https://github.com/OpenTAI/taiadv'
+    subtitle2en: CC1M-adv-F
     subtitle2zh: CC1M
     text2en: >-
       This comprehensive visibility allows for a meticulous examination of
@@ -139,6 +174,7 @@ blocks:
       pinpoint accuracy.
     image2:
       src: /uploads/GitHubButton.png
+      href: 'https://huggingface.co/datasets/xingjunm/cc1m-adv-F'
     _template: repositories
   - titleen: LeaderBoards
     titlezh: LeaderBoardsZh
