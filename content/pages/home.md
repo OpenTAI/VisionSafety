@@ -162,7 +162,7 @@ blocks:
     image1:
       src: /uploads/GitHubButton.png
       href: 'https://github.com/OpenTAI/taiadv'
-    subtitle2en: CC1M
+    subtitle2en: CC1M-adv-F
     subtitle2zh: CC1M
     text2en: >-
       This comprehensive visibility allows for a meticulous examination of
@@ -174,6 +174,7 @@ blocks:
       pinpoint accuracy.
     image2:
       src: /uploads/GitHubButton.png
+      href: 'https://huggingface.co/datasets/xingjunm/cc1m-adv-F'
     _template: repositories
   - titleen: LeaderBoards
     titlezh: LeaderBoardsZh
