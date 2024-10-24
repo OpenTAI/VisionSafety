@@ -23,11 +23,11 @@ export const Repositories = ({
           </div>
         )}
         <div className="mt-10">
-          <div className="!grid gap-6 grid-cols-1 lg:grid-cols-2">
+          <div className="!grid gap-6 grid-cols-1 lg:grid-cols-3">
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="bg-GitHubBackground1 h-80 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
+              className="bg-GitHubBackground1 h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
             >
               {data[`subtitle1${language}`] && (
                 <div
@@ -46,7 +46,7 @@ export const Repositories = ({
                 </div>
               )}
               {data.image1 && (
-                <ImageLink 
+                <ImageLink
                   src={data.image1.src}
                   width={192}
                   height={148}
@@ -60,7 +60,7 @@ export const Repositories = ({
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay={100}
-              className="bg-GitHubBackground2 h-80 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
+              className="bg-GitHubBackground2 h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
             >
               {data[`subtitle2${language}`] && (
                 <div
@@ -79,13 +79,46 @@ export const Repositories = ({
                 </div>
               )}
               {data.image2 && (
-                <ImageLink 
+                <ImageLink
                   src={data.image2.src}
                   width={192}
                   height={148}
                   href={data.image2.href}
                   className="absolute bottom-11 left-12 w-48 h-12 hover:cursor-pointer"
                   tinaField={tinaField(data, "image2")}
+                />
+              )}
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay={100}
+              className="bg-GitHubBackground2 h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
+            >
+              {data[`subtitle2${language}`] && (
+                <div
+                  className="text-base-black font-bold text-3xl leading-10"
+                  data-tina-field={tinaField(data, "subtitle3en")}
+                >
+                  {data[`subtitle3${language}`]}
+                </div>
+              )}
+              {data[`text3${language}`] && (
+                <div
+                  className="text-des-blue text-base mt-3 max-w-108 line-clamp-5 h-32"
+                  data-tina-field={tinaField(data, "text3en")}
+                >
+                  {data[`text3${language}`]}
+                </div>
+              )}
+              {data.image3 && (
+                <ImageLink
+                  src={data.image3.src}
+                  width={192}
+                  height={148}
+                  href={data.image3.href}
+                  className="absolute bottom-11 left-12 w-48 h-12 hover:cursor-pointer"
+                  tinaField={tinaField(data, "image3")}
                 />
               )}
             </div>
@@ -184,6 +217,48 @@ export const repositoriesBlockSchema: TinaTemplate = {
       type: "object",
       label: "Image2",
       name: "image2",
+      fields: [
+        {
+          name: "src",
+          label: "Image Source",
+          type: "image",
+        },
+        {
+          name: "alt",
+          label: "Alt Text",
+          type: "string",
+        },
+        {
+          name: "href",
+          label: "Image Link",
+          type: "string",
+        },
+      ],
+    },
+    {
+      type: "string",
+      label: "Subtitle3-En",
+      name: "subtitle3en",
+    },
+    {
+      type: "string",
+      label: "Subtitle3-Zh",
+      name: "subtitle3zh",
+    },
+    {
+      type: "string",
+      label: "text3-En",
+      name: "text3en",
+    },
+    {
+      type: "string",
+      label: "text3-Zh",
+      name: "text3zh",
+    },
+    {
+      type: "object",
+      label: "Image3",
+      name: "image3",
       fields: [
         {
           name: "src",

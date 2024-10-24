@@ -39,16 +39,34 @@ export const Hero = ({
               {data[`headline2${language}`]}
             </div>
           )}
-          {data[`buttonText${language}`] && (
-            <div
-              className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
-              data-tina-field={tinaField(data, "buttonTexten")}
-            >
-              {data[`buttonText${language}`]}
-            </div>
-          )}
+          <div className="flex gap-8">
+            {data[`buttonText${language}`] && (
+              <div
+                className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
+                data-tina-field={tinaField(data, "buttonTexten")}
+              >
+                {data[`buttonText${language}`]}
+              </div>
+            )}
+            {data[`buttonText1${language}`] && (
+              <div
+                className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
+                data-tina-field={tinaField(data, "buttonText1en")}
+              >
+                {data[`buttonText1${language}`]}
+              </div>
+            )}
+            {data[`buttonText2${language}`] && (
+              <div
+                className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
+                data-tina-field={tinaField(data, "buttonText2en")}
+              >
+                {data[`buttonText2${language}`]}
+              </div>
+            )}
+          </div>
         </div>
-        <div className="bg-worldImg bg-center h-233 bg-cover mx-auto mt-16 relative">
+        {/* <div className="bg-worldImg bg-center h-233 bg-cover mx-auto mt-16 relative">
           <div
             className="text-base-blue text-[42px] font-bold text-center pt-10"
             data-tina-field={tinaField(data, "subtitle1en")}
@@ -61,7 +79,7 @@ export const Hero = ({
           >
             {data[`subtitle2${language}`]}
           </div>
-        </div>
+        </div> */}
         <div className="max-w-320 mx-auto px-3">
           <div className="mt-14">
             <div
@@ -120,6 +138,26 @@ export const heroBlockSchema: TinaTemplate = {
       type: "string",
       label: "Button Text-Zh",
       name: "buttonTextzh",
+    },
+    {
+      type: "string",
+      label: "Button Text-En",
+      name: "buttonText1en",
+    },
+    {
+      type: "string",
+      label: "Button Text-Zh",
+      name: "buttonText1zh",
+    },
+    {
+      type: "string",
+      label: "Button Text-En",
+      name: "buttonText2en",
+    },
+    {
+      type: "string",
+      label: "Button Text-Zh",
+      name: "buttonText2zh",
     },
     {
       type: "string",
