@@ -27,7 +27,11 @@ export const Repositories = ({
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="bg-GitHubBackground1 h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
+              data-tina-field={tinaField(data, "bgImage1")}
+              className="h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
+              style={{
+                backgroundImage: `url(${data.bgImage1?.src || 'default-image-url'})`
+              }}
             >
               {data[`subtitle1${language}`] && (
                 <div
@@ -60,7 +64,11 @@ export const Repositories = ({
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay={100}
-              className="bg-GitHubBackground2 h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
+              data-tina-field={tinaField(data, "bgImage2")}
+              className="h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
+              style={{
+                backgroundImage: `url(${data.bgImage2?.src})`
+              }}
             >
               {data[`subtitle2${language}`] && (
                 <div
@@ -93,7 +101,11 @@ export const Repositories = ({
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay={100}
-              className="bg-GitHubBackground2 h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
+              data-tina-field={tinaField(data, "bgImage3")}
+              className="h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
+              style={{
+                backgroundImage: `url(${data.bgImage3?.src})`
+              }}
             >
               {data[`subtitle2${language}`] && (
                 <div
@@ -194,6 +206,28 @@ export const repositoriesBlockSchema: TinaTemplate = {
       ],
     },
     {
+      type: "object",
+      label: "BgImage1",
+      name: "bgImage1",
+      fields: [
+        {
+          name: "src",
+          label: "Image Source",
+          type: "image",
+        },
+        {
+          name: "alt",
+          label: "Alt Text",
+          type: "string",
+        },
+        {
+          name: "href",
+          label: "Image Link",
+          type: "string",
+        },
+      ],
+    },
+    {
       type: "string",
       label: "Subtitle2-En",
       name: "subtitle2en",
@@ -236,6 +270,28 @@ export const repositoriesBlockSchema: TinaTemplate = {
       ],
     },
     {
+      type: "object",
+      label: "BgImage2",
+      name: "bgImage2",
+      fields: [
+        {
+          name: "src",
+          label: "Image Source",
+          type: "image",
+        },
+        {
+          name: "alt",
+          label: "Alt Text",
+          type: "string",
+        },
+        {
+          name: "href",
+          label: "Image Link",
+          type: "string",
+        },
+      ],
+    },
+    {
       type: "string",
       label: "Subtitle3-En",
       name: "subtitle3en",
@@ -259,6 +315,28 @@ export const repositoriesBlockSchema: TinaTemplate = {
       type: "object",
       label: "Image3",
       name: "image3",
+      fields: [
+        {
+          name: "src",
+          label: "Image Source",
+          type: "image",
+        },
+        {
+          name: "alt",
+          label: "Alt Text",
+          type: "string",
+        },
+        {
+          name: "href",
+          label: "Image Link",
+          type: "string",
+        },
+      ],
+    },
+    {
+      type: "object",
+      label: "BgImage3",
+      name: "bgImage3",
       fields: [
         {
           name: "src",

@@ -131,6 +131,8 @@ blocks:
       pinpoint accuracy.
     image1:
       src: /uploads/GitHubButton.png
+    bgImage1:
+      src: /uploads/GitHubBackground1.png
     subtitle2en: CC1M
     subtitle2zh: CC1M
     text2en: >-
@@ -143,6 +145,8 @@ blocks:
       pinpoint accuracy.
     image2:
       src: /uploads/GitHubButton.png
+    bgImage2:
+      src: /uploads/GitHubBackground1.png
     subtitle3en: TAI.adv
     subtitle3zh: TAI.adv
     text3en: >-
@@ -155,6 +159,8 @@ blocks:
       pinpoint accuracy.
     image3:
       src: /uploads/GitHubButton.png
+    bgImage3:
+      src: /uploads/GitHubBackground1.png
     _template: repositories
   - titleen: LeaderBoards
     titlezh: LeaderBoardsZh

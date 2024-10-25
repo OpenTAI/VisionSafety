@@ -6,6 +6,7 @@ import { tinaField } from "tinacms/dist/react";
 import Image from "next/image";
 import headImg from "../../assets/img/headImg.png";
 import { basePath } from "../util/url-helper";
+import SquareArrow from "../../assets/img/square-arrow-up-right-solid.svg";
 
 export const Hero = ({
   data,
@@ -46,6 +47,7 @@ export const Hero = ({
                 data-tina-field={tinaField(data, "buttonTexten")}
               >
                 {data[`buttonText${language}`]}
+                <SquareArrow className="ml-2" />
               </div>
             )}
             {data[`buttonText1${language}`] && (
@@ -54,6 +56,7 @@ export const Hero = ({
                 data-tina-field={tinaField(data, "buttonText1en")}
               >
                 {data[`buttonText1${language}`]}
+                <SquareArrow className="ml-2" />
               </div>
             )}
             {data[`buttonText2${language}`] && (
@@ -62,6 +65,7 @@ export const Hero = ({
                 data-tina-field={tinaField(data, "buttonText2en")}
               >
                 {data[`buttonText2${language}`]}
+                <SquareArrow className="ml-2" />
               </div>
             )}
           </div>
