@@ -12,7 +12,7 @@ export const Repositories = ({
   language: string;
 }) => {
   return (
-    <div className="max-w-320 mx-auto px-3">
+    <div className="max-w-320 mx-auto px-3" id="models">
       <div className="mt-22">
         {data[`title${language}`] && (
           <div

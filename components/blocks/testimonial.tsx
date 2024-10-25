@@ -8,7 +8,6 @@ import {
 } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import sparkles from "../../assets/img/sparkles.png";
-import stars from "../../assets/img/stars.png";
 import Image from "next/image";
 import { basePath } from "../util/url-helper";
 
@@ -128,7 +127,7 @@ export const Testimonial = ({
   language: string;
 }) => {
   return (
-    <div className="max-w-320 mx-auto px-3">
+    <div className="max-w-320 mx-auto px-3" id="leaderboards">
       <div className="my-24">
         {data[`title${language}`] && (
           <div

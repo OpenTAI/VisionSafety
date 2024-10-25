@@ -7,6 +7,7 @@ import Image from "next/image";
 import headImg from "../../assets/img/headImg.png";
 import { basePath } from "../util/url-helper";
 import SquareArrow from "../../assets/img/square-arrow-up-right-solid.svg";
+import Link from "next/link";
 
 export const Hero = ({
   data,
@@ -42,31 +43,34 @@ export const Hero = ({
           )}
           <div className="flex gap-8">
             {data[`buttonText${language}`] && (
-              <div
+              <Link
+                href="#leaderboards"
                 className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
                 data-tina-field={tinaField(data, "buttonTexten")}
               >
                 {data[`buttonText${language}`]}
                 <SquareArrow className="ml-2" />
-              </div>
+              </Link>
             )}
             {data[`buttonText1${language}`] && (
-              <div
+              <Link
+                href="#models"
                 className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
                 data-tina-field={tinaField(data, "buttonText1en")}
               >
                 {data[`buttonText1${language}`]}
                 <SquareArrow className="ml-2" />
-              </div>
+              </Link>
             )}
             {data[`buttonText2${language}`] && (
-              <div
+              <Link
+                href="#datasets"
                 className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
                 data-tina-field={tinaField(data, "buttonText2en")}
               >
                 {data[`buttonText2${language}`]}
                 <SquareArrow className="ml-2" />
-              </div>
+              </Link>
             )}
           </div>
         </div>
@@ -84,7 +88,7 @@ export const Hero = ({
             {data[`subtitle2${language}`]}
           </div>
         </div> */}
-        <div className="max-w-320 mx-auto px-3">
+        <div className="max-w-320 mx-auto px-3" id="datasets">
           <div className="mt-14">
             <div
               className="text-base-blue text-5sm font-semibold max-w-191 text-center mx-auto leading-14"

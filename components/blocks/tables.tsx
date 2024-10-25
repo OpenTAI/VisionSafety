@@ -3,7 +3,6 @@ import type { TinaTemplate } from "tinacms";
 import { PageBlocksTable } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import { ConfigProvider, Table } from "antd";
-import leftArrow from "../../assets/img/leftArrow.png";
 import playIcon from "../../assets/img/playIcon.png";
 import Image from "next/image";
 import { basePath } from "../util/url-helper";
@@ -85,7 +84,7 @@ export const Tables = ({
     }
   }
 
-  const menuItems = data.modelsRanking.map((item, index) => {
+  const menuItems = data.modelsRanking.map((item) => {
     return item.titleen
   })
 
