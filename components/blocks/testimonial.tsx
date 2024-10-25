@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import type { TinaTemplate } from "tinacms";
 import {
   PageBlocksTestimonial,
@@ -21,62 +22,47 @@ export const LeftListItem = ({
   language: string;
 }) => {
   return (
-    <div
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-delay={index * 2 * 100}
-      key={index}
-      className="mt-4 bg-leaderboardsBg1 min-h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
-    >
-      {data[`title${language}`] && (
-        <div
-          className="text-base-black font-bold text-2xl leading-7"
-          data-tina-field={tinaField(data, "titleen")}
-        >
-          {data[`title${language}`]}
-        </div>
-      )}
-      {data[`subtitle${language}`] && (
-        <div
-          className="text-base-black text-lg mt-1 max-w-108 flex items-center"
-          data-tina-field={tinaField(data, "subtitleen")}
-        >
-          <Image src={sparkles} className="w-[18px] h-[16px] mr-1" alt="" />
-          {data[`subtitle${language}`]}
-        </div>
-      )}
-      <div className="flex mt-3 justify-between">
-        <div>
-          {data.modelSum && (
-            <span
-              className="text-base-blue text-5xl font-bold mr-1"
-              data-tina-field={tinaField(data, "modelSum")}
-            >
-              {data.modelSum}
-            </span>
-          )}
-          <span className="text-light-blue text-lg">models included</span>
-        </div>
-        <div className="flex flex-col items-end">
-          <div className="flex text-base-black">
-            <Image src={stars} className="w-[120px] h-[24px] mr-2" alt="" />
-            {data.score && (
+    <Link
+      href={`/leaderboards?tab=白盒&index=${index}`}>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay={index * 2 * 100}
+        key={index}
+        className="mt-4 bg-leaderboardsBg1 min-h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
+      >
+        {data[`title${language}`] && (
+          <div
+            className="text-base-black font-bold text-2xl leading-7"
+            data-tina-field={tinaField(data, "titleen")}
+          >
+            {data[`title${language}`]}
+          </div>
+        )}
+        {data[`subtitle${language}`] && (
+          <div
+            className="text-base-black text-lg mt-1 max-w-108 flex items-center"
+            data-tina-field={tinaField(data, "subtitleen")}
+          >
+            <Image src={sparkles} className="w-[18px] h-[16px] mr-1" alt="" />
+            {data[`subtitle${language}`]}
+          </div>
+        )}
+        <div className="flex mt-3 justify-between">
+          <div>
+            {data.modelSum && (
               <span
-                className="text-lg leading-6"
-                data-tina-field={tinaField(data, "score")}
+                className="text-base-blue text-5xl font-bold mr-1"
+                data-tina-field={tinaField(data, "modelSum")}
               >
-                {data.score}
+                {data.modelSum}
               </span>
             )}
+            <span className="text-light-blue text-base">models included</span>
           </div>
-          {data[`detail${language}`] && (
-            <div data-tina-field={tinaField(data, "detailen")}>
-              {data[`detail${language}`]}
-            </div>
-          )}
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
@@ -90,62 +76,47 @@ export const RightListItem = ({
   language: string;
 }) => {
   return (
-    <div
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-delay={index * 2 * 100}
-      key={index}
-      className="mt-4 bg-leaderboardsBg2 min-h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
-    >
-      {data[`title${language}`] && (
-        <div
-          className="text-base-black font-bold text-2xl leading-7"
-          data-tina-field={tinaField(data, "titleen")}
-        >
-          {data[`title${language}`]}
-        </div>
-      )}
-      {data[`subtitle${language}`] && (
-        <div
-          className="text-base-black text-lg mt-1 max-w-108 flex items-center"
-          data-tina-field={tinaField(data, "subtitleen")}
-        >
-          <Image src={sparkles} className="w-[18px] h-[16px] mr-1" alt="" />
-          {data[`subtitle${language}`]}
-        </div>
-      )}
-      <div className="flex mt-3 justify-between">
-        <div>
-          {data.modelSum && (
-            <span
-              className="text-base-blue text-5xl font-bold mr-1"
-              data-tina-field={tinaField(data, "modelSum")}
-            >
-              {data.modelSum}
-            </span>
-          )}
-          <span className="text-light-blue text-lg">models included</span>
-        </div>
-        <div className="flex flex-col items-end">
-          <div className="flex text-base-black">
-            <Image src={stars} className="w-[120px] h-[24px] mr-2" alt="" />
-            {data.score && (
+    <Link
+      href={`/leaderboards?tab=黑盒&index=${index}`}>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay={index * 2 * 100}
+        key={index}
+        className="mt-4 bg-leaderboardsBg2 min-h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
+      >
+        {data[`title${language}`] && (
+          <div
+            className="text-base-black font-bold text-2xl leading-7"
+            data-tina-field={tinaField(data, "titleen")}
+          >
+            {data[`title${language}`]}
+          </div>
+        )}
+        {data[`subtitle${language}`] && (
+          <div
+            className="text-base-black text-lg mt-1 max-w-108 flex items-center"
+            data-tina-field={tinaField(data, "subtitleen")}
+          >
+            <Image src={sparkles} className="w-[18px] h-[16px] mr-1" alt="" />
+            {data[`subtitle${language}`]}
+          </div>
+        )}
+        <div className="flex mt-3 justify-between">
+          <div>
+            {data.modelSum && (
               <span
-                className="text-lg leading-6"
-                data-tina-field={tinaField(data, "score")}
+                className="text-base-blue text-5xl font-bold mr-1"
+                data-tina-field={tinaField(data, "modelSum")}
               >
-                {data.score}
+                {data.modelSum}
               </span>
             )}
+            <span className="text-light-blue text-base">models included</span>
           </div>
-          {data[`detail${language}`] && (
-            <div data-tina-field={tinaField(data, "detailen")}>
-              {data[`detail${language}`]}
-            </div>
-          )}
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
@@ -168,16 +139,16 @@ export const Testimonial = ({
           </div>
         )}
         <div className="mt-10">
-          <div className="!grid gap-6 grid-cols-1 lg:grid-cols-2">
-            <div>
-              {data[`leftListTitle${language}`] && (
-                <div
-                  className="text-base-blue text-sm w-33 h-8 bg-[#edf1fe] flex items-center justify-center"
-                  data-tina-field={tinaField(data, "leftListTitleen")}
-                >
-                  {data[`leftListTitle${language}`]}
-                </div>
-              )}
+          <div className="!grid">
+            {data[`leftListTitle${language}`] && (
+              <div
+                className="text-base-blue text-sm w-33 h-8 bg-[#edf1fe] flex items-center justify-center"
+                data-tina-field={tinaField(data, "leftListTitleen")}
+              >
+                {data[`leftListTitle${language}`]}
+              </div>
+            )}
+            <div className="!grid lg:grid-cols-4 gap-5 mb-12">
               {data.items1 &&
                 data.items1.map((item, index) => {
                   return (
@@ -190,15 +161,15 @@ export const Testimonial = ({
                   );
                 })}
             </div>
-            <div>
-              {data[`rightListTitle${language}`] && (
-                <div
-                  className="text-base-blue text-sm w-33 h-8 bg-[#edf1fe] flex items-center justify-center"
-                  data-tina-field={tinaField(data, "rightListTitleen")}
-                >
-                  {data[`rightListTitle${language}`]}
-                </div>
-              )}
+            {data[`rightListTitle${language}`] && (
+              <div
+                className="text-base-blue text-sm w-33 h-8 bg-[#f5fbfa] flex items-center justify-center"
+                data-tina-field={tinaField(data, "rightListTitleen")}
+              >
+                {data[`rightListTitle${language}`]}
+              </div>
+            )}
+            <div className="!grid lg:grid-cols-4 gap-5">
               {data.items2 &&
                 data.items2.map((item, index) => {
                   return (
