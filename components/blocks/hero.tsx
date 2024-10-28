@@ -21,13 +21,13 @@ export const Hero = ({
       <div className="max-w-360 mx-auto relative">
         <Image
           src={headImg}
-          className="h-208 absolute -z-10 object-cover object-top"
+          className="h-[38rem] absolute -z-10 object-cover object-top"
           alt=""
         />
         <div className="flex items-center flex-col">
           {data[`headline1${language}`] && (
             <div
-              className="mt-16 text-base-blue text-6xl font-extralight max-w-168 text-center leading-18 mx-3"
+              className="mt-24 text-base-blue text-6xl font-extralight max-w-168 text-center leading-18 mx-3"
               data-tina-field={tinaField(data, "headline1en")}
             >
               {data[`headline1${language}`]}
@@ -35,7 +35,7 @@ export const Hero = ({
           )}
           {data[`headline2${language}`] && (
             <div
-              className="mt-5 text-3xl font-light leading-9 text-center mx-3"
+              className="mt-8 text-3xl font-light leading-9 text-center mx-3 my-5"
               data-tina-field={tinaField(data, "headline2en")}
             >
               {data[`headline2${language}`]}
@@ -89,7 +89,7 @@ export const Hero = ({
           </div>
         </div> */}
         <div className="max-w-320 mx-auto px-3" id="datasets">
-          <div className="mt-14">
+          <div className="mt-52">
             <div
               className="text-base-blue text-5sm font-semibold max-w-191 text-center mx-auto leading-14"
               data-tina-field={tinaField(data, "text1en")}

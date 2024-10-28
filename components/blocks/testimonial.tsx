@@ -147,7 +147,7 @@ export const Testimonial = ({
                 {data[`leftListTitle${language}`]}
               </div>
             )}
-            <div className="!grid lg:grid-cols-4 gap-5 mb-12">
+            <div className="!grid lg:grid-cols-4 gap-x-5 gap-y-1 mb-12">
               {data.items1 &&
                 data.items1.map((item, index) => {
                   return (
@@ -168,7 +168,7 @@ export const Testimonial = ({
                 {data[`rightListTitle${language}`]}
               </div>
             )}
-            <div className="!grid lg:grid-cols-4 gap-5">
+            <div className="!grid lg:grid-cols-4 gap-x-5 gap-y-1">
               {data.items2 &&
                 data.items2.map((item, index) => {
                   return (

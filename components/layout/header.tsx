@@ -255,7 +255,7 @@ export const Header = ({
                       </div>
                     }
                     key={index}
-                    // collapsible={"disabled"}
+                  // collapsible={"disabled"}
                   ></Panel>
                 </div>
               );
