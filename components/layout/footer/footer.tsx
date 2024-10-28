@@ -52,7 +52,7 @@ export const Footer = ({ data }) => {
               <Image className="h-[13px] w-4" src={Twitter} alt="" />
             </a>
             <a
-              data-tina-field={tinaField(data.social, "linkedin")}
+              data--field={tinaField(data.social, "linkedin")}
               href={`${data.social.linkedin}`}
               target="_blank"
             >

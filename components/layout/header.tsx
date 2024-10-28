@@ -111,12 +111,12 @@ export const Header = ({
                 </div>
               );
             })}
-            <Image
+            {/* <Image
               src={English}
               className="w-8 cursor-pointer"
               alt=""
               onClick={changeLanguage}
-            />
+            /> */}
           </div>
           <Image
             className="block md:hidden h-5 w-6"

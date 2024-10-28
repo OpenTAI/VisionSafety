@@ -5,8 +5,8 @@ blocks:
     headline1zh: Open Trustworthy AI - Test!!
     headline2en: 'Are will find resultant, one painful consequences from.'
     headline2zh: 'Are will find resultant, one painful consequences from.'
-    buttonTexten: View Leaderboards
-    buttonTextzh: View Leaderboards
+    buttonTexten: Leaderboards
+    buttonTextzh: Leaderboards
     buttonText1en: Models
     buttonText1zh: Models
     buttonText2en: Datasets
