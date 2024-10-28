@@ -4,7 +4,6 @@ import { tinaField } from "tinacms/dist/react";
 import { GlobalHeader } from "../../tina/__generated__/types";
 import menu from "../../assets/img/menu.png";
 import menuWhite from "../../assets/img/menuWhite.png";
-import English from "../../assets/img/English.png";
 import logo from "../../assets/img/logo.png";
 import logoWhite from "../../assets/img/logoWhite.png";
 import closeIcon from "../../assets/img/closeIcon.png";
@@ -70,16 +69,6 @@ export const Header = ({
     }
   };
 
-  const changeLanguage = () => {
-    if (language === "en") {
-      changeLan("zh");
-      localStorage.setItem("language", "zh");
-    } else {
-      changeLan("en");
-      localStorage.setItem("language", "en");
-    }
-  };
-
   return (
     <div className="fixed w-full z-50">
       <div className={`w-full bg-${background}`}>
@@ -111,12 +100,6 @@ export const Header = ({
                 </div>
               );
             })}
-            {/* <Image
-              src={English}
-              className="w-8 cursor-pointer"
-              alt=""
-              onClick={changeLanguage}
-            /> */}
           </div>
           <Image
             className="block md:hidden h-5 w-6"
