@@ -28,7 +28,7 @@
   "footer": {
     "nav": [
       {
-        "href": "home",
+        "href": "/home",
         "label": "Home"
       },
       {

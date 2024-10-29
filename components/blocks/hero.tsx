@@ -5,6 +5,9 @@ import { PageBlocksHero } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import Image from "next/image";
 import headImg from "../../assets/img/headImg.png";
+import { basePath } from "../util/url-helper";
+import SquareArrow from "../../assets/img/square-arrow-up-right-solid.svg";
+import Link from "next/link";
 
 export const Hero = ({
   data,
@@ -18,13 +21,13 @@ export const Hero = ({
       <div className="max-w-360 mx-auto relative">
         <Image
           src={headImg}
-          className="h-208 absolute -z-10 object-cover object-top"
+          className="h-[38rem] absolute -z-10 object-cover object-top"
           alt=""
         />
         <div className="flex items-center flex-col">
           {data[`headline1${language}`] && (
             <div
-              className="mt-16 text-base-blue text-6xl font-extralight max-w-168 text-center leading-18 mx-3"
+              className="mt-24 text-base-blue text-6xl font-extralight max-w-168 text-center leading-18 mx-3"
               data-tina-field={tinaField(data, "headline1en")}
             >
               {data[`headline1${language}`]}
@@ -32,22 +35,46 @@ export const Hero = ({
           )}
           {data[`headline2${language}`] && (
             <div
-              className="mt-5 text-3xl font-light leading-9 text-center mx-3"
+              className="mt-8 text-3xl font-light leading-9 text-center mx-3 my-5"
               data-tina-field={tinaField(data, "headline2en")}
             >
               {data[`headline2${language}`]}
             </div>
           )}
-          {data[`buttonText${language}`] && (
-            <div
-              className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
-              data-tina-field={tinaField(data, "buttonTexten")}
-            >
-              {data[`buttonText${language}`]}
-            </div>
-          )}
+          <div className="flex gap-8">
+            {data[`buttonText${language}`] && (
+              <Link
+                href="#leaderboards"
+                className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
+                data-tina-field={tinaField(data, "buttonTexten")}
+              >
+                {data[`buttonText${language}`]}
+                <SquareArrow className="ml-2" />
+              </Link>
+            )}
+            {data[`buttonText1${language}`] && (
+              <Link
+                href="#models"
+                className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
+                data-tina-field={tinaField(data, "buttonText1en")}
+              >
+                {data[`buttonText1${language}`]}
+                <SquareArrow className="ml-2" />
+              </Link>
+            )}
+            {data[`buttonText2${language}`] && (
+              <Link
+                href="#datasets"
+                className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
+                data-tina-field={tinaField(data, "buttonText2en")}
+              >
+                {data[`buttonText2${language}`]}
+                <SquareArrow className="ml-2" />
+              </Link>
+            )}
+          </div>
         </div>
-        <div className="bg-worldImg bg-center h-233 bg-cover mx-auto mt-16 relative">
+        {/* <div className="bg-worldImg bg-center h-233 bg-cover mx-auto mt-16 relative">
           <div
             className="text-base-blue text-[42px] font-bold text-center pt-10"
             data-tina-field={tinaField(data, "subtitle1en")}
@@ -60,9 +87,9 @@ export const Hero = ({
           >
             {data[`subtitle2${language}`]}
           </div>
-        </div>
-        <div className="max-w-320 mx-auto px-3">
-          <div className="mt-14">
+        </div> */}
+        <div className="max-w-320 mx-auto px-3" id="datasets">
+          <div className="mt-52">
             <div
               className="text-base-blue text-5sm font-semibold max-w-191 text-center mx-auto leading-14"
               data-tina-field={tinaField(data, "text1en")}
@@ -86,7 +113,7 @@ export const heroBlockSchema: TinaTemplate = {
   name: "hero",
   label: "Hero",
   ui: {
-    previewSrc: "/blocks/hero.png",
+    previewSrc: `${basePath}/blocks/hero.png`,
     defaultItem: {},
   },
   fields: [
@@ -119,6 +146,26 @@ export const heroBlockSchema: TinaTemplate = {
       type: "string",
       label: "Button Text-Zh",
       name: "buttonTextzh",
+    },
+    {
+      type: "string",
+      label: "Button Text-En",
+      name: "buttonText1en",
+    },
+    {
+      type: "string",
+      label: "Button Text-Zh",
+      name: "buttonText1zh",
+    },
+    {
+      type: "string",
+      label: "Button Text-En",
+      name: "buttonText2en",
+    },
+    {
+      type: "string",
+      label: "Button Text-Zh",
+      name: "buttonText2zh",
     },
     {
       type: "string",

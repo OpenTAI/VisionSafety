@@ -5,8 +5,12 @@ blocks:
     headline1zh: Open Trustworthy AI - Test!!
     headline2en: ''
     headline2zh: 'Are will find resultant, one painful consequences from.'
-    buttonTexten: View Leaderboards
-    buttonTextzh: View Leaderboards
+    buttonTexten: Leaderboards
+    buttonTextzh: Leaderboards
+    buttonText1en: Models
+    buttonText1zh: Models
+    buttonText2en: Datasets
+    buttonText2zh: Datasets
     subtitle1en: 10 Planets form
     subtitle1zh: 10 Planets form
     subtitle2en: >-
@@ -161,6 +165,8 @@ blocks:
       pinpoint accuracy.
     image1:
       src: /uploads/GitHubButton.png
+    bgImage1:
+      src: /uploads/GitHubBackground1.jpg
     subtitle2en: CC1M
     subtitle2zh: CC1M
     text2en: >-
@@ -173,6 +179,22 @@ blocks:
       pinpoint accuracy.
     image2:
       src: /uploads/GitHubButton.png
+    bgImage2:
+      src: /uploads/GitHubBackground2.jpg
+    subtitle3en: TAI.adv
+    subtitle3zh: TAI.adv
+    text3en: >-
+      This comprehensive visibility allows for a meticulous examination of
+      security loopholes, enabling us to simulate real-world attack scenarios
+      pinpoint accuracy.
+    text3zh: >-
+      This comprehensive visibility allows for a meticulous examination of
+      security loopholes, enabling us to simulate real-world attack scenarios
+      pinpoint accuracy.
+    image3:
+      src: /uploads/GitHubButton.png
+    bgImage3:
+      src: /uploads/GitHubBackground3.jpg
     _template: repositories
   - titleen: LeaderBoards
     titlezh: LeaderBoardsZh
@@ -202,6 +224,22 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
+      - titleen: CC1M1
+        titlezh: CC1M1
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: '4.8'
+        detailen: Reviewed by more than 200K Users
+        detailzh: Reviewed by more than 200K Users
+      - titleen: CC1M2
+        titlezh: CC1M2
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: '4.8'
+        detailen: Reviewed by more than 200K Users
+        detailzh: Reviewed by more than 200K Users
     rightListTitleen: 迁移攻击排行榜
     rightListTitlezh: 迁移攻击排行榜zh
     items2:
@@ -222,6 +260,30 @@ blocks:
         detailzh: Reviewed by more than 200K Users
       - titleen: CC1M
         titlezh: CC1M
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: '4.8'
+        detailen: Reviewed by more than 200K Users
+        detailzh: Reviewed by more than 200K Users
+      - titleen: CC1M1
+        titlezh: CC1M1
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: '4.8'
+        detailen: Reviewed by more than 200K Users
+        detailzh: Reviewed by more than 200K Users
+      - titleen: CC1M2
+        titlezh: CC1M2
+        subtitleen: Large language model
+        subtitlezh: Large language model
+        modelSum: 234
+        score: '4.8'
+        detailen: Reviewed by more than 200K Users
+        detailzh: Reviewed by more than 200K Users
+      - titleen: CC1M3
+        titlezh: CC1M3
         subtitleen: Large language model
         subtitlezh: Large language model
         modelSum: 234

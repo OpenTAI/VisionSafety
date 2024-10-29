@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import type { TinaTemplate } from "tinacms";
 import { PageBlocksTable } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import { ConfigProvider, Table } from "antd";
-import leftArrow from "../../assets/img/leftArrow.png";
 import playIcon from "../../assets/img/playIcon.png";
 import Image from "next/image";
+import { basePath } from "../util/url-helper";
 
 interface dataType {
   key: React.Key;
@@ -72,17 +72,52 @@ export const Tables = ({
   data: PageBlocksTable;
   language: string;
 }) => {
-  const tableData = data.modelsRanking.map((item, index) => {
-    return {
-      key: index,
-      name: item[`name${language}`],
-      paper: item.paper,
-      download: item.download,
-      datasetA: item.datasetA,
-      datasetB: item.datasetB,
-      ranking: item.ranking,
-    };
-  });
+  const [activeTab, setActiveTab] = useState('黑盒');
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [tableData, setTableData] = useState(null);
+
+  const rowClassName = (record, index) => {
+    if (index % 2 === 0) {
+      return 'text-base text-sm [&>td]:!border-none'
+    } else {
+      return 'bg-table-blue text-base text-sm [&>td]:!border-none'
+    }
+  }
+
+  const menuItems = data.modelsRanking.map((item) => {
+    return item.titleen
+  })
+
+  const handleActiveIndexChange = (index) => {
+    setActiveIndex(index)
+    getTableData(index)
+  }
+
+  const getTableData = (index = 0) => {
+    const selectedData = data.modelsRanking[index].rankings
+    const currentData = selectedData.map((item, index) => {
+      return {
+        key: index,
+        name: item[`name${language}`],
+        paper: item.paper,
+        download: item.download,
+        datasetA: item.datasetA,
+        datasetB: item.datasetB,
+        ranking: item.ranking,
+      };
+    });
+    setTableData(currentData)
+  }
+
+  useEffect(() => {
+    const params = new URL(location.href).searchParams;
+    const tab = params.get("tab")
+    if (tab) {
+      setActiveTab(tab)
+    }
+    getTableData()
+  }, [])
+
   return (
     <div>
       <div className="bg-leaderboardsBg3 bg-cover bg-center h-[392px]">
@@ -112,44 +147,64 @@ export const Tables = ({
           </div>
         )}
       </div>
-      <div className="my-24 max-w-320 mx-auto bg-table-bg p-6 border border-[#DFE3E6]">
-        {data[`tableTitle${language}`] && (
-          <div
-            className="flex items-center font-bold text-xl text-[#11181C]"
-            data-tina-field={tinaField(data, "tableTitleen")}
-          >
-            <Image
-              alt=""
-              className="w-[10px] h-4 mr-5 cursor-pointer"
-              src={leftArrow}
-              // onClick={() => history.push('/')}
-            />
-            {data[`tableTitle${language}`]}
-          </div>
-        )}
-        <ConfigProvider
-          theme={{
-            components: {
-              Table: {
-                headerBg: "#F8F9FA",
-                borderColor: "#DFE3E6",
-                headerColor: "#11181C",
-                headerSplitColor: "#F8F9FA",
-                cellPaddingBlock: 10,
-              },
-            },
-          }}
+
+
+      <div className="flex border w-[34rem] font-bold mx-auto mt-14">
+        <div
+          className={`w-1/2 p-4 text-center cursor-pointer ${activeTab === '黑盒' ? 'bg-table-blue' : ''
+            }`}
+          onClick={() => setActiveTab('黑盒')}
         >
-          <Table
-            columns={columns}
-            dataSource={tableData}
-            pagination={false}
-            rowClassName={"bg-table-bg text-base"}
-            data-tina-field={tinaField(data)}
-          />
-        </ConfigProvider>
-        <div className="py-2 px-3 bg-[#ECEEF0] w-fit mt-4 mx-auto text-[#11181C] text-base font-semibold rounded-md cursor-pointer">
-          Load more
+          黑盒
+        </div>
+        <div
+          className={`w-1/2 p-4 text-center cursor-pointer border-l ${activeTab === '白盒' ? 'bg-table-blue' : ''
+            }`}
+          onClick={() => setActiveTab('白盒')}
+        >
+          白盒
+        </div>
+      </div>
+
+      <div className="flex justify-center mt-3 mb-24">
+        <div className="w-48 bg-white pt-3 text-xs text-center font-bold border border-r-0">
+          <ul>
+            {menuItems.map((item, index) => (
+              <li
+                key={index}
+                onClick={() => handleActiveIndexChange(index)}
+                className={`p-2 cursor-pointer ${activeIndex === index ? 'bg-table-blue' : ''
+                  }`}
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="w-[70rem] bg-table-bg border border-[#DFE3E6]">
+          <ConfigProvider
+            theme={{
+              components: {
+                Table: {
+                  headerBg: "#f4faff",
+                  headerColor: "#11181C",
+                  headerSplitColor: "#F8F9FA",
+                  cellPaddingBlock: 10,
+                },
+              },
+            }}
+          >
+            <Table
+              columns={columns}
+              dataSource={tableData}
+              pagination={false}
+              rowClassName={rowClassName}
+              data-tina-field={tinaField(data)}
+            />
+          </ConfigProvider>
+          {/* <div className="py-2 px-3 bg-[#ECEEF0] w-fit mt-4 mx-auto text-[#11181C] text-base font-semibold rounded-md cursor-pointer">
+            Load more
+          </div> */}
         </div>
       </div>
     </div>
@@ -160,7 +215,7 @@ export const tablesBlockSchema: TinaTemplate = {
   name: "table",
   label: "Table",
   ui: {
-    previewSrc: "/blocks/content.png",
+    previewSrc: `${basePath}/blocks/content.png`,
     defaultItem: {
       body: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.",
     },
@@ -208,52 +263,151 @@ export const tablesBlockSchema: TinaTemplate = {
     },
     {
       type: "object",
-      label: "Models Ranking",
+      label: "黑盒",
       name: "modelsRanking",
       list: true,
       ui: {
         itemProps: (item) => {
-          return { label: item?.nameen };
+          return { label: item?.titlezh };
         },
-        defaultItem: {
-          name: "Model Name",
-        },
+        defaultItem: {},
       },
       fields: [
         {
           type: "string",
-          label: "Name-En",
-          name: "nameen",
+          label: "titlezh",
+          name: "titlezh",
         },
         {
           type: "string",
-          label: "Name-Zh",
-          name: "namezh",
+          label: "titleen",
+          name: "titleen",
+        },
+        {
+          type: "object",
+          label: "Rankings",
+          name: "rankings",
+          list: true,
+          ui: {
+            itemProps: (ranking) => {
+              return { label: ranking?.nameen };
+            },
+            defaultItem: {
+              nameen: "Model Name",
+            },
+          },
+          fields: [
+            {
+              type: "string",
+              label: "Name-En",
+              name: "nameen",
+            },
+            {
+              type: "string",
+              label: "Name-Zh",
+              name: "namezh",
+            },
+            {
+              type: "string",
+              label: "Paper",
+              name: "paper",
+            },
+            {
+              type: "number",
+              label: "Download",
+              name: "download",
+            },
+            {
+              type: "string",
+              label: "DatasetA",
+              name: "datasetA",
+            },
+            {
+              type: "string",
+              label: "DatasetB",
+              name: "datasetB",
+            },
+            {
+              type: "string",
+              label: "Ranking",
+              name: "ranking",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      type: "object",
+      label: "白盒",
+      name: "modelsRanking1",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: item?.titlezh };
+        },
+        defaultItem: {},
+      },
+      fields: [
+        {
+          type: "string",
+          label: "titlezh",
+          name: "titlezh",
         },
         {
           type: "string",
-          label: "Paper",
-          name: "paper",
+          label: "titleen",
+          name: "titleen",
         },
         {
-          type: "number",
-          label: "Download",
-          name: "download",
-        },
-        {
-          type: "string",
-          label: "DatasetA",
-          name: "datasetA",
-        },
-        {
-          type: "string",
-          label: "DatasetB",
-          name: "datasetB",
-        },
-        {
-          type: "string",
-          label: "Ranking",
-          name: "ranking",
+          type: "object",
+          label: "Rankings",
+          name: "rankings",
+          list: true,
+          ui: {
+            itemProps: (ranking) => {
+              return { label: ranking?.nameen };
+            },
+            defaultItem: {
+              nameen: "Model Name",
+            },
+          },
+          fields: [
+            {
+              type: "string",
+              label: "Name-En",
+              name: "nameen",
+            },
+            {
+              type: "string",
+              label: "Name-Zh",
+              name: "namezh",
+            },
+            {
+              type: "string",
+              label: "Paper",
+              name: "paper",
+            },
+            {
+              type: "number",
+              label: "Download",
+              name: "download",
+            },
+            {
+              type: "string",
+              label: "DatasetA",
+              name: "datasetA",
+            },
+            {
+              type: "string",
+              label: "DatasetB",
+              name: "datasetB",
+            },
+            {
+              type: "string",
+              label: "Ranking",
+              name: "ranking",
+            },
+          ],
         },
       ],
     },

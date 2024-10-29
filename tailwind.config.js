@@ -17,6 +17,7 @@ module.exports = {
       'light-green': '#F6FBFA',
       'des-blue': '#2C4673',
       'table-bg': '#F8F9FA',
+      'table-blue': '#f0f8ff',
       black: colors.black,
       white: colors.white,
       teal: colors.cyan,

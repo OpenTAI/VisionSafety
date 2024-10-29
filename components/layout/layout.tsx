@@ -20,7 +20,7 @@ export default function Layout({
   return (
     <>
       <Head>
-        <title>Tina</title>
+        <title>OpenTAI 对抗评测平台</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Theme data={data?.theme}>
