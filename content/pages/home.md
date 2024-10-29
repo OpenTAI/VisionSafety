@@ -1,9 +1,9 @@
 ---
 title: 对抗评测平台
 blocks:
-  - headline1en: 'Open Trustworthy AI : Trust is the ultimate form of intelligence.'
+  - headline1en: Vision Safety
     headline1zh: Open Trustworthy AI - Test!!
-    headline2en: ''
+    headline2en: ddddd
     headline2zh: 'Are will find resultant, one painful consequences from.'
     buttonTexten: Leaderboards
     buttonTextzh: Leaderboards
@@ -11,10 +11,10 @@ blocks:
     buttonText1zh: Models
     buttonText2en: Datasets
     buttonText2zh: Datasets
-    subtitle1en: 10 Planets form
+    subtitle1en: Evaluation and Benchmark
     subtitle1zh: 10 Planets form
     subtitle2en: >-
-      This project provide tools and datasets that facilitates large-scale
+      This project provides tools and datasets that facilitate large-scale
       adversarial robustness evaluation of foundation vision models.
     subtitle2zh: >-
       This project provide tools and datasets that facilitates large-scale
@@ -82,7 +82,7 @@ blocks:
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
-    title2en: Toward super-transferable adversrial robustness evaluation
+    title2en: Toward super-transferable adversarial robustness evaluation
     title2zh: 迁移攻击评测attack
     items2:
       - image:
@@ -125,7 +125,7 @@ blocks:
           into system vulnerabilities by providing testers with complete access
           to internal architecture
     _template: features
-  - title1en: Toward physical-world adversrial robustness evaluation
+  - title1en: Toward physical-world adversarial robustness evaluation
     items1:
       - image:
           src: /uploads/whiteBoxIcon2.png
@@ -165,9 +165,10 @@ blocks:
       pinpoint accuracy.
     image1:
       src: /uploads/GitHubButton.png
+      href: 'https://github.com/OpenTAI/taiadv'
     bgImage1:
       src: /uploads/GitHubBackground1.jpg
-    subtitle2en: CC1M
+    subtitle2en: CC1M-adv-F
     subtitle2zh: CC1M
     text2en: >-
       This comprehensive visibility allows for a meticulous examination of
@@ -179,6 +180,7 @@ blocks:
       pinpoint accuracy.
     image2:
       src: /uploads/GitHubButton.png
+      href: 'https://huggingface.co/datasets/xingjunm/cc1m-adv-F'
     bgImage2:
       src: /uploads/GitHubBackground2.jpg
     subtitle3en: TAI.adv

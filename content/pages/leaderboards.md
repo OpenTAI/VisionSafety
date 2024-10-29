@@ -1,6 +1,7 @@
 ---
 title: Leaderboards
 blocks:
+  - _template: table
   - titleen: Rapidly craft compelling rankingusing prompts
     titlezh: Rapidly craft compelling中文
     subtitleen: >-
