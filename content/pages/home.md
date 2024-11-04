@@ -134,6 +134,7 @@ blocks:
           We propose a novel diffusion-based framework called DiffPatch for
           generating naturalistic adversarial patches based on the object in a
           reference image.
+        textzh: 中文
       - image:
           src: /uploads/transferbasedAttackIcon3.png
         titleen: Stronger Attack Performance and More Natural Appearance
