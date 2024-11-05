@@ -34,7 +34,7 @@ blocks:
       vulnerabilities but also provides actionable recommendations for
       remediation
     image:
-      src: /uploads/unsplash-75EFpyXu3Wg.jpg
+      src: /uploads/GitHubBackground2.jpg
       alt: >-
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
