@@ -34,7 +34,7 @@ blocks:
       vulnerabilities but also provides actionable recommendations for
       remediation
     image:
-      src: /uploads/GitHubBackground2.jpg
+      src: /uploads/transferbasedAttackIcon2.png
       alt: >-
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
