@@ -33,19 +33,15 @@
       },
       {
         "href": "",
-        "label": "Research"
-      },
-      {
-        "href": "",
         "label": "Datasets"
       },
       {
         "href": "",
-        "label": "Evaluations"
+        "label": "Tools"
       },
       {
-        "href": "http://highschool.opentai.org",
-        "label": "Community"
+        "href": "",
+        "label": "Leaderboards"
       }
     ],
     "social": {
@@ -57,7 +53,6 @@
     "terms": "Terms & Conditions"
   },
   "theme": {
-    "color": "blue",
     "font": "sans",
     "darkMode": "system"
   }
