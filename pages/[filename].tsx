@@ -12,14 +12,18 @@ export default function HomePage(
   const [language, setLanguage] = useState("en");
 
   useEffect(() => {
-    const lan = navigator.language;
-    if (lan.indexOf('en') > -1) {
-      localStorage.setItem("language", 'en');
-      setLanguage('en');
-    } else {
-      localStorage.setItem("language", 'zh');
-      setLanguage('zh');
-    }
+    // const lan = navigator.language;
+    // if (lan.indexOf('en') > -1) {
+    //   localStorage.setItem("language", 'en');
+    //   setLanguage('en');
+    // } else {
+    //   localStorage.setItem("language", 'zh');
+    //   setLanguage('zh');
+    // }
+
+    // 20241104需求：暂时固定为英文，若后续需要恢复双语，则取消注释以上代码
+    localStorage.setItem("language", 'en');
+    setLanguage('en');
 
   }, []);
 
