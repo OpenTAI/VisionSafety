@@ -16,7 +16,7 @@ const Page: Collection = {
         return ``;
       }
       if (document._sys.filename === "leaderboards") {
-        return `/leaderboards`;
+        return `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/leaderboards`;
       }
       return undefined;
     },
