@@ -84,9 +84,11 @@ export const Tables = ({
     }
   }
 
-  const menuItems = data.modelsRanking.map((item) => {
+  const menuItems = data.modelsRanking 
+  ? data.modelsRanking.map((item) => {
     return item.titleen
-  })
+  }) 
+  : [];
 
   const handleActiveIndexChange = (index) => {
     setActiveIndex(index)
@@ -94,7 +96,7 @@ export const Tables = ({
   }
 
   const getTableData = (index = 0) => {
-    const selectedData = data.modelsRanking[index].rankings
+    const selectedData = data.modelsRanking ? data.modelsRanking[index].rankings : [];
     const currentData = selectedData.map((item, index) => {
       return {
         key: index,
