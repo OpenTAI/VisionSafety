@@ -3,7 +3,7 @@ title: 对抗评测平台
 blocks:
   - headline1en: Vision Safety
     headline1zh: Open Trustworthy AI - Test!!
-    headline2en: ddddd
+    headline2en: 'Adversarial Vision Safety: Ensuring AI''s Robust Perception of Reality'
     headline2zh: 'Are will find resultant, one painful consequences from.'
     buttonTexten: Leaderboards
     buttonTextzh: Leaderboards
