@@ -78,7 +78,7 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
           NEXT_PUBLIC_TINA_BRANCH: ${{ github.head_ref || github.ref_name }}
-          BASE_PATH: ${{ vars.BASE_PATH }}
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.BASE_PATH }}
         run: yarn build
       - name: Add .nojekyll
         run: touch ./out/.nojekyll

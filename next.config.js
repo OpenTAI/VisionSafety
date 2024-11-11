@@ -1,7 +1,7 @@
-const basePath = process.env.BASE_PATH
-  ? process.env.BASE_PATH.startsWith("/")
-    ? process.env.BASE_PATH
-    : `/${process.env.BASE_PATH}`
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH
+  ? process.env.NEXT_PUBLIC_BASE_PATH.startsWith("/")
+    ? process.env.NEXT_PUBLIC_BASE_PATH
+    : `/${process.env.NEXT_PUBLIC_BASE_PATH}`
   : "";
 
 module.exports = {
