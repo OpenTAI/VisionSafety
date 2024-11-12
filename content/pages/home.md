@@ -117,10 +117,10 @@ blocks:
         titleen: 'DiffPatch: Diffusion-based Adversarial Patch Generation'
         titlezh: ''
         texten: >-
-          A diffusion model based method for generating naturalistic and
-          customizable adversarial patches. It allows the user to specify an
-          image as a reference, which will then be used to generate an
-          adversarial patch of the same object.
+          A diffusion model-based method for generating naturalistic and
+          customizable adversarial patches. This method allows users to specify
+          a reference image, using the object within it to generate a stylized
+          adversarial patch.
         textzh: 中文
       - image:
           src: /uploads/transferbasedAttackIcon3.png
