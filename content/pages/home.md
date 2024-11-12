@@ -219,7 +219,7 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: Chexpert
+      - titleen: CheXpert
         titlezh: CC1M2
         subtitleen: Image Classification
         subtitlezh: Large language model
