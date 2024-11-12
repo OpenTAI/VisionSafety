@@ -9,7 +9,7 @@ blocks:
       CC1M-Adv-C/F
     subtitlezh: OpenTAI Rank is exploring中文
     buttonTexten: Learn how it works
-    buttonTextzh: Learn how it works
+    buttonTextzh: 了解评测细节
     tableTitleen: Rankings
     tableTitlezh: Rankings
     tab1en: Black-box
