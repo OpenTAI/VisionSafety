@@ -185,20 +185,20 @@ blocks:
     _template: repositories
   - titleen: LeaderBoards
     titlezh: 排行榜
-    leftListTitleen: Black-box Board
+    leftListTitleen: Transfer Attack
     leftListTitlezh: 黑盒榜单
     items1:
-      - titleen: ImageNet Models
-        titlezh: 'ImageNet '
-        subtitleen: ImageNet
-        subtitlezh: Classification
+      - titleen: ImageNet
+        titlezh: ImageNet
+        subtitleen: Feature Attack
+        subtitlezh: 特征攻击
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
-      - titleen: Object Detection
-        titlezh: 物体检测模型
-        subtitleen: COCO
-        subtitlezh: COCO
+      - titleen: ImageNet
+        titlezh: ImageNet
+        subtitleen: Label Attack
+        subtitlezh: 类别攻击
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
