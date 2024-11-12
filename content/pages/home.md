@@ -19,16 +19,11 @@ blocks:
     subtitle2zh: >-
       This project provide tools and datasets that facilitates large-scale
       adversarial robustness evaluation of foundation vision models.
-    text1en: >-
-      White-box testing methodology stands as a beacon of excellence in
-      proactive security assessment.
+    text1en: ''
     text1zh: >-
       White-box testing methodology stands as a beacon of excellence in
       proactive security assessment.
-    text2en: >-
-      By leveraging this transparent approach, our model not only identifies
-      vulnerabilities but also provides actionable recommendations for
-      remediation
+    text2en: ''
     text2zh: >-
       By leveraging this transparent approach, our model not only identifies
       vulnerabilities but also provides actionable recommendations for
