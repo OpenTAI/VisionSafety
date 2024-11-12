@@ -145,7 +145,7 @@ blocks:
     subtitle1zh: ''
     text1en: >-
       The taiadv.vision toolbox integrates all the methods used to create the
-      adversarial image datasets and benchmarks shown on this platform.
+      adversarial image datasets and benchmarks on this platform.
     text1zh: ''
     image1:
       src: /uploads/GitHubButton.png
@@ -207,15 +207,15 @@ blocks:
         titlezh: CC1M
         subtitleen: Instance Segmentation
         subtitlezh: Large language model
-        modelSum: 10
+        modelSum: 9
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: ADE20k
+      - titleen: CC1M1
         titlezh: CC1M1
-        subtitleen: Semantic Segmentation
+        subtitleen: Large language model
         subtitlezh: Large language model
-        modelSum: 10
+        modelSum: 234
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
