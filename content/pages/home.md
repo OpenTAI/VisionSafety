@@ -7,7 +7,7 @@ blocks:
     headline2zh: 'Are will find resultant, one painful consequences from.'
     buttonTexten: Leaderboards
     buttonTextzh: Leaderboards
-    buttonText1en: Models
+    buttonText1en: Tools
     buttonText1zh: Models
     buttonText2en: Datasets
     buttonText2zh: Datasets
@@ -146,9 +146,9 @@ blocks:
           further research. To the best of our knowledge, this is the first
           dataset for physical adversarial attacks.
     _template: features
-  - titleen: Models and Datasets developed by OpenTAI Evaluation Platform
+  - titleen: Tools and Datasets
     titlezh: Models Chinese
-    subtitle1en: TAI.adv
+    subtitle1en: tai.adv
     subtitle1zh: TAI.adv
     text1en: >-
       This comprehensive visibility allows for a meticulous examination of
@@ -163,7 +163,7 @@ blocks:
       href: 'https://github.com/OpenTAI/taiadv'
     bgImage1:
       src: /uploads/GitHubBackground1.jpg
-    subtitle2en: CC1M-adv-F
+    subtitle2en: CC1M-Adv-F
     subtitle2zh: CC1M
     text2en: >-
       This comprehensive visibility allows for a meticulous examination of
