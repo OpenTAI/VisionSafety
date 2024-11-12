@@ -238,6 +238,11 @@ blocks:
     rightListTitleen: White-box Leaderboard
     rightListTitlezh: 黑盒榜单
     items2:
+      - titleen: ImageNet
+        titlezh: ImageNet
+        subtitleen: Image Classification
+        subtitlezh: 图像分类
+        modelSum: 5
       - titleen: CIFAR-10
         titlezh: CIFAR-10
         subtitleen: Image Classification
