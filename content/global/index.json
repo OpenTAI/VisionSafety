@@ -9,7 +9,7 @@
         "labelzh": "主页"
       },
       {
-        "href": "https://github.com/OpenTAI/taiadv",
+        "href": "/#models",
         "labelen": "Tools",
         "labelzh": "工具集"
       },
@@ -54,7 +54,6 @@
   },
   "theme": {
     "font": "sans",
-    "darkMode": "system",
-    "color": ""
+    "darkMode": "system"
   }
 }
