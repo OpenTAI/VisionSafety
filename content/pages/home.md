@@ -2,9 +2,9 @@
 title: 对抗评测平台
 blocks:
   - headline1en: Adversarial Robustness Evaluation Platform
-    headline1zh: Open Trustworthy AI - Test!!
+    headline1zh: 对抗鲁棒性评测平台
     headline2en: Ensuring AI's Robust Perception of Reality
-    headline2zh: 'Are will find resultant, one painful consequences from.'
+    headline2zh: 确保人工智能对现实世界的鲁棒感知
     buttonTexten: Tools
     buttonTextzh: 工具集
     buttonText1en: Datasets
