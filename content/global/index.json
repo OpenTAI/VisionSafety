@@ -1,6 +1,6 @@
 {
   "header": {
-    "nameen": "对抗评测平台",
+    "nameen": "",
     "namezh": "对抗评测平台",
     "nav": [
       {
@@ -28,7 +28,7 @@
   "footer": {
     "nav": [
       {
-        "href": "/home",
+        "href": "https://opentai.github.io/",
         "label": "Home"
       },
       {
