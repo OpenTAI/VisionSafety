@@ -5,29 +5,20 @@ blocks:
     headline1zh: Open Trustworthy AI - Test!!
     headline2en: Ensuring AI's Robust Perception of Reality
     headline2zh: 'Are will find resultant, one painful consequences from.'
-    buttonTexten: Leaderboards
-    buttonTextzh: Leaderboards
-    buttonText1en: Tools
-    buttonText1zh: Models
-    buttonText2en: Datasets
-    buttonText2zh: Datasets
-    subtitle1en: Evaluation and Benchmark
-    subtitle1zh: 10 Planets form
-    subtitle2en: >-
-      This project provides tools and datasets that facilitate large-scale
-      adversarial robustness evaluation of foundation vision models.
-    subtitle2zh: >-
-      This project provide tools and datasets that facilitates large-scale
-      adversarial robustness evaluation of foundation vision models.
+    buttonTexten: Tools
+    buttonTextzh: 工具集
+    buttonText1en: Datasets
+    buttonText1zh: 数据集
+    buttonText2en: Leaderboards
+    buttonText2zh: 排行榜
+    subtitle1en: ''
+    subtitle1zh: ''
+    subtitle2en: ''
+    subtitle2zh: ''
     text1en: ''
-    text1zh: >-
-      White-box testing methodology stands as a beacon of excellence in
-      proactive security assessment.
+    text1zh: ''
     text2en: ''
-    text2zh: >-
-      By leveraging this transparent approach, our model not only identifies
-      vulnerabilities but also provides actionable recommendations for
-      remediation
+    text2zh: ''
     image:
       src: /uploads/transferbasedAttackIcon2.png
       alt: >-
