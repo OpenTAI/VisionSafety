@@ -20,7 +20,7 @@ blocks:
     text2en: ''
     text2zh: ''
     image:
-      src: /uploads/transferbasedAttackIcon2.png
+      src: /uploads/vision safety background 1.jpg
       alt: >-
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
