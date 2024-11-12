@@ -71,7 +71,7 @@ blocks:
             download: 467
             datasetA: 86.36%
             datasetB: 52.75%
-            ranking: '1'
+            ranking: ''
           - nameen: coatnet_rmlp_nano_rw_384.sw_in1k
             namezh: coatnet_rmlp_nano_rw_384.sw_in1k
             paper: 'https://huggingface.co/timm/coatnet_rmlp_2_rw_384.sw_in12k_ft_in1k'
