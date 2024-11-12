@@ -203,11 +203,11 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: CC1M
+      - titleen: COCO
         titlezh: CC1M
-        subtitleen: Large language model
+        subtitleen: Instance Segmentation
         subtitlezh: Large language model
-        modelSum: 234
+        modelSum: 9
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
