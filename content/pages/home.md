@@ -118,7 +118,7 @@ blocks:
           into system vulnerabilities by providing testers with complete access
           to internal architecture
     _template: features
-  - title1en: Toward physical-world adversarial robustness evaluation
+  - title1en: Physical-world Evaluation
     items1:
       - image:
           src: /uploads/whiteBoxIcon2.png
