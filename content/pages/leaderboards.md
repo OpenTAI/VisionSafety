@@ -8,7 +8,7 @@ blocks:
       Models
     subtitlezh: 一体化评测：视觉模型的大规模对抗鲁棒性评估
     buttonTexten: Learn how it works
-    buttonTextzh: 评测方法
+    buttonTextzh: 了解评测方法
     tableTitleen: Rankings
     tableTitlezh: Rankings
     modelsRanking:
