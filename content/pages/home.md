@@ -112,7 +112,7 @@ blocks:
         texten: >-
           We release CC1M-Adv-F, a large-scale dataset of 1M adversarial images
           crafted using super-transfer attack. The dataset can be used to test
-          any  vision model, including image classifiers, object detectors,
+          any  vision models, including image classifiers, object detectors,
           segmentation models, and feature extractors. 
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
