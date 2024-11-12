@@ -6,16 +6,20 @@ import Twitter from "../../../assets/img/Twitter.png";
 import LinkedIn from "../../../assets/img/LinkedIn.png";
 import Image from "next/image";
 import { tinaField } from "tinacms/dist/react";
+import { ImageLink } from "../../util/image-link";
 
 export const Footer = ({ data }) => {
   return (
     <footer>
       <div className="w-full h-128 sm:h-52 bg-base-blue">
         <div className="w-full py-6 bg-deep-sky flex flex-col items-center">
-          <Image
-            className="max-w-48 mb-11 sm:mb-6 sm:max-w-28"
+          <ImageLink
             src={logoWhite}
-            alt=""
+            href="/"
+            className="max-w-48 mb-11 sm:mb-6 sm:max-w-28"
+            width={112}
+            height={30}
+            target="_self"
           />
           <div className="flex flex-col items-center sm:flex-row sm:w-144 sm:justify-between">
             {data.nav &&

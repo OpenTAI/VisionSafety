@@ -8,10 +8,11 @@ export const ImageLink = ({
   href = "",
   className = "",
   tinaField = "",
+  target = "_blank"
 }) => {
   if (href) {
     return (
-      <Link href={href} target="_blank">
+      <Link href={href} target={target}>
         <Image
           src={src}
           className={className}

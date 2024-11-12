@@ -92,7 +92,7 @@ export const Header = ({
                 >
                   <Link
                     data-tina-field={tinaField(item, "labelen")}
-                    href={`/${item.href}`}
+                    href={`${item.href}`}
                   >
                     {item[`label${language}`]}
                   </Link>
