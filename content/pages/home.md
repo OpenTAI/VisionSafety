@@ -219,8 +219,12 @@ blocks:
         score: '4.8'
         detailen: ''
         detailzh: Reviewed by more than 200K Users
-      - titleen: COCO - Instance Segmentation
-        titlezh: COCO
+      - titleen: ADE20K - Semantic Segmentation
+        titlezh: ADE20K - 语义分割
+        subtitleen: ADE20K
+        subtitlezh: ADE20K
+        modelSum: 10
+        score: '4.8'
       - titleen: Medical Image Classification
         titlezh: 医学图像分类
         subtitleen: CheXpert
