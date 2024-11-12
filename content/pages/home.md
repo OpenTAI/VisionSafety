@@ -111,8 +111,8 @@ blocks:
         titlezh: '迁移攻击评测亮点 #3'
         texten: >-
           We release CC1M-Adv-F, a large-scale dataset of 1M adversarial images
-          crafted using super-transfer attack. The dataset can be directly fed
-          into any computer vision model, including image classifiers, object
+          crafted using super-transfer attack. The dataset can be directly used
+          to test any  vision model, including image classifiers, object
           detectors, segmentation models, and feature extractors. 
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
