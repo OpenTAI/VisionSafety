@@ -187,10 +187,10 @@ blocks:
     _template: repositories
   - titleen: LeaderBoards
     titlezh: 排行榜
-    leftListTitleen: Transfer Attack
+    leftListTitleen: Black-box Leaderboard
     leftListTitlezh: 黑盒榜单
     items1:
-      - titleen: ImageNet - Image Classificaiton
+      - titleen: ImageNet - Image Classification
         titlezh: ImageNet
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
@@ -235,8 +235,14 @@ blocks:
         score: '4.8'
         detailen: ''
         detailzh: ''
-    rightListTitleen: ''
-    rightListTitlezh: ''
+    rightListTitleen: White-box Leaderboard
+    rightListTitlezh: 黑盒榜单
+    items2:
+      - titleen: CIFAR-10
+        titlezh: CIFAR-10
+        subtitleen: Image Classification
+        subtitlezh: 图像分配
+        modelSum: 20
     _template: testimonial
 ---
 
