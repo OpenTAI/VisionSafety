@@ -132,7 +132,7 @@ blocks:
           application scenarios.
       - image:
           src: /uploads/transferbasedAttackIcon1.png
-        titleen: 'AdvPatch-1K: The First Physical-world Adversairal Patch Dataset'
+        titleen: 'AdvPatch-1K: The First Physical-world Adversarial T-Shirt Dataset'
         texten: >-
           AdvPatch-1K consists of 1,131 images, including 5+ scenarios (lab,
           outdoor, cafeteria, subway, shopping mall), 1-10+ persons in the
@@ -155,9 +155,9 @@ blocks:
     subtitle2en: CC1M-Adv-C/F
     subtitle2zh: CC1M
     text2en: >-
-      This comprehensive visibility allows for a meticulous examination of
-      security loopholes, enabling us to simulate real-world attack scenarios
-      pinpoint accuracy.
+      Two million-scale adversarial images datasets.  CC1M-Adv-C was generated
+      to evaluate classification models, while CC1M-Adv-F can be applied to any
+      vision models. 
     text2zh: >-
       This comprehensive visibility allows for a meticulous examination of
       security loopholes, enabling us to simulate real-world attack scenarios
@@ -170,9 +170,8 @@ blocks:
     subtitle3en: AdvPatch-1K
     subtitle3zh: TAI.adv
     text3en: >-
-      This comprehensive visibility allows for a meticulous examination of
-      security loopholes, enabling us to simulate real-world attack scenarios
-      pinpoint accuracy.
+      The first physical-world adversarial T-shirt dataset released to evaluate
+      the robustness of object detection models and support defense research.
     text3zh: >-
       This comprehensive visibility allows for a meticulous examination of
       security loopholes, enabling us to simulate real-world attack scenarios
@@ -182,6 +181,7 @@ blocks:
       href: 'https://huggingface.co/datasets/xingjunm/AdvPatch-1K'
     bgImage3:
       src: /uploads/GitHubBackground3.jpg
+      alt: ''
     _template: repositories
   - titleen: LeaderBoards
     titlezh: LeaderBoardsZh
