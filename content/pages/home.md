@@ -211,8 +211,8 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: ADE20k
-        titlezh: CC1M1
+      - titleen: ADE20K
+        titlezh: ADE20K
         subtitleen: Semantic Segmentation
         subtitlezh: 语义分割
         modelSum: 10
