@@ -13,7 +13,7 @@ blocks:
     tableTitleen: Rankings
     tableTitlezh: Rankings
     modelsRanking:
-      - titlezh: Image Classification
+      - titlezh: 图像分类
         titleen: Image Classification
         rankings:
           - nameen: resnet50.a1_in1k
@@ -78,13 +78,19 @@ blocks:
             download: 764
             datasetA: 86.97%
             datasetB: 67.49%
-      - titlezh: Object Detection
+      - titlezh: 目标检测
         titleen: Object Detection
         rankings:
           - nameen: detr-resnet-50(detr_r50_8x2_150e_coco)
             namezh: detr-resnet-50(detr_r50_8x2_150e_coco)
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmdetection/DETR?athId=b609e23c7b56f32054cf4a85c0ef9c01&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+      - titlezh: 实例分割
+        titleen: Instance Segmentation
+      - titlezh: 语义分割
+        titleen: Semantic Segmentation
+      - titlezh: 医学图像分类
+        titleen: Medical Image Classification
     modelsRanking1:
       - titlezh: ImageNet Classfication
         titleen: ImageNet Classfication
