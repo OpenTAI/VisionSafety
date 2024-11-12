@@ -1,20 +1,17 @@
 ---
 title: Leaderboards
 blocks:
-  - titleen: Roubust Benchmark
-    titlezh: Rapidly craft compelling中文
-    subtitleen: >-
-      OpenTAI Rank is exploring the most advanced language and visual models,
-      offering a comprehensive, and neutral evaluation reference for the
-      industry and research community.
+  - titleen: Adversarial Robustness Leaderboards
+    titlezh: 对抗鲁棒性排行榜
+    subtitleen: 'White-box leaderboard: '
     subtitlezh: OpenTAI Rank is exploring中文
     buttonTexten: Learn how it works
     buttonTextzh: Learn how it works
     tableTitleen: Rankings
     tableTitlezh: Rankings
-    tab1en: 黑盒
+    tab1en: Black-box
     tab1zh: 黑盒
-    tab2en: 白盒
+    tab2en: White-box
     tab2zh: 白盒
     modelsRanking:
       - titlezh: Image Classification
