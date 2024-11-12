@@ -200,18 +200,18 @@ blocks:
     leftListTitleen: 白盒攻击排行榜
     leftListTitlezh: 白盒攻击排行榜Zh
     items1:
-      - titleen: CIFAR-10
-        titlezh: CIFAR-10
-        subtitleen: Large language model
-        subtitlezh: Large language model
-        modelSum: 234
+      - titleen: 'ImageNet '
+        titlezh: 'ImageNet '
+        subtitleen: Classification
+        subtitlezh: Classification
+        modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
-      - titleen: ImageNet
-        titlezh: ImageNet
-        subtitleen: Large language model
-        subtitlezh: Large language model
-        modelSum: 234
+      - titleen: COCO
+        titlezh: COCO
+        subtitleen: Object Detection
+        subtitlezh: Object Detection
+        modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
