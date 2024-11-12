@@ -1,9 +1,9 @@
 ---
 title: 对抗评测平台
 blocks:
-  - headline1en: Vision Safety Platform
+  - headline1en: Adversarial Robustness Evaluation Platform
     headline1zh: Open Trustworthy AI - Test!!
-    headline2en: 'Adversarial Evaluation: Ensuring AI''s Robust Perception of Reality'
+    headline2en: Ensuring AI's Robust Perception of Reality
     headline2zh: 'Are will find resultant, one painful consequences from.'
     buttonTexten: Leaderboards
     buttonTextzh: Leaderboards
