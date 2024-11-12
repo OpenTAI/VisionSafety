@@ -184,8 +184,8 @@ blocks:
       alt: ''
     _template: repositories
   - titleen: LeaderBoards
-    titlezh: LeaderBoardsZh
-    leftListTitleen: Feature Robustness
+    titlezh: 排行榜
+    leftListTitleen: Black-box Board
     leftListTitlezh: 黑盒榜单
     items1:
       - titleen: ImageNet Models
@@ -228,55 +228,7 @@ blocks:
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
     rightListTitleen: ''
-    rightListTitlezh: 白盒榜单
-    items2:
-      - titleen: ''
-        titlezh: ''
-        subtitleen: ''
-        subtitlezh: ''
-        modelSum: 10
-        score: '4.8'
-        detailen: ''
-      - titleen: ImageNet
-        titlezh: ImageNet
-        subtitleen: ' Image Classification'
-        subtitlezh: Large language model
-        modelSum: 234
-        score: '4.8'
-        detailen: Reviewed by more than 200K Users
-        detailzh: Reviewed by more than 200K Users
-      - titleen: CC1M
-        titlezh: CC1M
-        subtitleen: ' Image Classification'
-        subtitlezh: Large language model
-        modelSum: 234
-        score: '4.8'
-        detailen: Reviewed by more than 200K Users
-        detailzh: Reviewed by more than 200K Users
-      - titleen: CC1M1
-        titlezh: CC1M1
-        subtitleen: ' Image Classification'
-        subtitlezh: Large language model
-        modelSum: 234
-        score: '4.8'
-        detailen: Reviewed by more than 200K Users
-        detailzh: Reviewed by more than 200K Users
-      - titleen: CC1M2
-        titlezh: CC1M2
-        subtitleen: Large language model
-        subtitlezh: Large language model
-        modelSum: 234
-        score: '4.8'
-        detailen: Reviewed by more than 200K Users
-        detailzh: Reviewed by more than 200K Users
-      - titleen: CC1M3
-        titlezh: CC1M3
-        subtitleen: Large language model
-        subtitlezh: Large language model
-        modelSum: 234
-        score: '4.8'
-        detailen: Reviewed by more than 200K Users
-        detailzh: Reviewed by more than 200K Users
+    rightListTitlezh: ''
     _template: testimonial
 ---
 
