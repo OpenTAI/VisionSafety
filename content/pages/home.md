@@ -206,7 +206,7 @@ blocks:
       - titleen: COCO
         titlezh: CC1M
         subtitleen: Instance Segmentation
-        subtitlezh: Large language model
+        subtitlezh: 实例分割
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
