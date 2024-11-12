@@ -211,11 +211,11 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: CC1M1
+      - titleen: ADE20k
         titlezh: CC1M1
-        subtitleen: Large language model
+        subtitleen: Semantic Segmentation
         subtitlezh: Large language model
-        modelSum: 234
+        modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
