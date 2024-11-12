@@ -114,11 +114,13 @@ blocks:
     items1:
       - image:
           src: /uploads/whiteBoxIcon2.png
-        titleen: Diffusion-based Framework for Adversarial Patch Generation
+        titleen: 'DiffPatch: Diffusion-based Adversarial Patch Generation'
+        titlezh: ''
         texten: >-
-          We propose a novel diffusion-based framework called DiffPatch for
-          generating naturalistic adversarial patches based on the object in a
-          reference image.
+          A diffusion model based method for generating naturalistic and
+          customizable adversarial patches. It allows the user to specify an
+          image as a reference, which will then be used to generate an
+          adversarial patch of the same object.
         textzh: 中文
       - image:
           src: /uploads/transferbasedAttackIcon3.png
@@ -187,7 +189,7 @@ blocks:
     _template: repositories
   - titleen: LeaderBoards
     titlezh: LeaderBoardsZh
-    leftListTitleen: Black-box Attack
+    leftListTitleen: 白盒攻击排行榜
     leftListTitlezh: 白盒攻击排行榜Zh
     items1:
       - titleen: 'ImageNet '
@@ -229,7 +231,7 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-    rightListTitleen: White-box Attack
+    rightListTitleen: 迁移攻击排行榜
     rightListTitlezh: 迁移攻击排行榜zh
     items2:
       - titleen: CIFAR-10
