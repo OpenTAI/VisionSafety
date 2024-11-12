@@ -188,14 +188,14 @@ blocks:
     leftListTitleen: Black-box
     leftListTitlezh: 黑盒榜单
     items1:
-      - titleen: Image Classifiers
+      - titleen: Image Classification
         titlezh: 'ImageNet '
         subtitleen: ImageNet
         subtitlezh: Classification
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
-      - titleen: Object Detectors
+      - titleen: Object Detection
         titlezh: 物体检测模型
         subtitleen: COCO
         subtitlezh: COCO
@@ -203,26 +203,26 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: Segmentation
-        titlezh: CC1M
+      - titleen: Instance Segmentation
+        titlezh: 实例分割
         subtitleen: COCO
-        subtitlezh: 实例分割
+        subtitlezh: COCO
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: ADE20K
-        titlezh: 语义分割模型
+      - titleen: Semantic Segmentation
+        titlezh: 语义分割
         subtitleen: ADE20K
         subtitlezh: ADE20K
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: CheXpert
-        titlezh: CheXpert
-        subtitleen: Image Classification
-        subtitlezh: 图像分类
+      - titleen: Medical Image Classification
+        titlezh: 医学图像分类
+        subtitleen: CheXpert
+        subtitlezh: CheXpert
         modelSum: 3
         score: '4.8'
         detailen: Reviewed by more than 200K Users
