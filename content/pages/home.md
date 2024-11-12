@@ -43,8 +43,8 @@ blocks:
         titlezh: '白盒攻击评测亮点 #111'
         texten: >-
           A new indivisual attack method PMA (Probability Margin Attack) is
-          introduced to achieve the strongest indivisual atack performance using
-          a probability margin loss. An improved ensemble PMA+ is then
+          introduced to achieve the strongest indivisual attack performance
+          using a probability margin loss. An improved ensemble PMA+ is then
           developped, which is stronger than AutoAttack.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
