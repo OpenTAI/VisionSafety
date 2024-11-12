@@ -141,16 +141,12 @@ blocks:
     _template: features
   - titleen: Tools and Datasets
     titlezh: Models Chinese
-    subtitle1en: tai.adv
-    subtitle1zh: TAI.adv
+    subtitle1en: taiadv.vision
+    subtitle1zh: ''
     text1en: >-
-      This comprehensive visibility allows for a meticulous examination of
-      security loopholes, enabling us to simulate real-world attack scenarios
-      pinpoint accuracy.
-    text1zh: >-
-      This comprehensive visibility allows for a meticulous examination of
-      security loopholes, enabling us to simulate real-world attack scenarios
-      pinpoint accuracy.
+      The taiadv.vision toolbox integrates all the methods used to create the
+      adversarial datasets and benchmarks shown on this platform.
+    text1zh: ''
     image1:
       src: /uploads/GitHubButton.png
       href: 'https://github.com/OpenTAI/taiadv'
