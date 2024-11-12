@@ -39,7 +39,7 @@ blocks:
     items1:
       - image:
           src: /uploads/whiteBoxIcon1.png
-        titleen: 'Strongest Individual Attack and Improved Ensemble '
+        titleen: 'Strongest Individual Adversarial Attack and Improved Ensemble '
         titlezh: '白盒攻击评测亮点 #111'
         texten: >-
           A new indivisual attack method PMA (Probability Margin Attack) is
@@ -52,7 +52,7 @@ blocks:
           to internal architecture
       - image:
           src: /uploads/whiteBoxIcon2.png
-        titleen: A Comprehensive Toolbox for Adverarial Robustnes Evalution
+        titleen: A Comprehensive Toolbox for Adverarial Robustnes Evaluation
         titlezh: '白盒攻击评测亮点 #222'
         texten: >-
           Our toolbox provides a comrehsneive implementation of different attack
@@ -64,7 +64,7 @@ blocks:
           to internal architecture
       - image:
           src: /uploads/whiteBoxIcon3.png
-        titleen: Expanded Dataset Support and Large-Scale Robustness Evaluation
+        titleen: A Million-Scale Adversarial Dataset for Image Classification Models
         titlezh: '白盒攻击评测亮点 #333'
         texten: >-
           We providebevaluation tools for CIFAR10, CIFAR100, and ImageNet.
