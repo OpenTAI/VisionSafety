@@ -1,7 +1,16 @@
 ---
 title: Leaderboards
 blocks:
-  - _template: table
+  - modelsRanking:
+      - titlezh: '444'
+        rankings:
+          - nameen: coatnet_rmlp_nano_rw_224.sw_in1k
+            paper: 'https://huggingface.co/timm/coatnet_rmlp_nano_rw_224.sw_in1k'
+            download: 466
+            datasetA: 86.36%
+            datasetB: 52.75%
+            ranking: '1'
+    _template: table
   - titleen: Rapidly craft compelling rankingusing prompts
     titlezh: Rapidly craft compelling中文
     subtitleen: >-
@@ -14,14 +23,14 @@ blocks:
     tableTitleen: Rankings
     tableTitlezh: Rankings
     modelsRanking:
-      - titleen: CIFAR-10
-        titlezh: CIFAR-10
+      - titlezh: CIFAR-10
+        titleen: CIFAR-10
         rankings:
           - nameen: GPT-4
             namezh: GPT-4Test
             paper: >-
-              Robust Principles: Architectural DesignPrinciples for Adversarially
-              Robust...
+              Robust Principles: Architectural DesignPrinciples for
+              Adversarially Robust...
             download: 112092
             datasetA: 76.5%
             datasetB: 76.5%
@@ -74,14 +83,14 @@ blocks:
             datasetA: 76.5%
             datasetB: 76.5%
             ranking: '7'
-      - titleen: CC1M
-        titlezh: CC1M
+      - titlezh: CC1M
+        titleen: CC1M
         rankings:
           - nameen: GPT-41
             namezh: GPT-4Test
             paper: >-
-              Robust Principles: Architectural DesignPrinciples for Adversarially
-              Robust...
+              Robust Principles: Architectural DesignPrinciples for
+              Adversarially Robust...
             download: 112092
             datasetA: 76.5%
             datasetB: 76.5%
@@ -135,14 +144,14 @@ blocks:
             datasetB: 76.5%
             ranking: '7'
     modelsRanking1:
-      - titleen: CIFAR-10
-        titlezh: CIFAR-10
+      - titlezh: CIFAR-10
+        titleen: CIFAR-10
         rankings:
           - nameen: GPT-4
             namezh: GPT-4Test
             paper: >-
-              Robust Principles: Architectural DesignPrinciples for Adversarially
-              Robust...
+              Robust Principles: Architectural DesignPrinciples for
+              Adversarially Robust...
             download: 112092
             datasetA: 76.5%
             datasetB: 76.5%
@@ -195,14 +204,14 @@ blocks:
             datasetA: 76.5%
             datasetB: 76.5%
             ranking: '7'
-      - titleen: CC1M
-        titlezh: CC1M
+      - titlezh: CC1M
+        titleen: CC1M
         rankings:
           - nameen: GPT-41
             namezh: GPT-4Test
             paper: >-
-              Robust Principles: Architectural DesignPrinciples for Adversarially
-              Robust...
+              Robust Principles: Architectural DesignPrinciples for
+              Adversarially Robust...
             download: 112092
             datasetA: 76.5%
             datasetB: 76.5%
