@@ -222,7 +222,7 @@ blocks:
       - titleen: CheXpert
         titlezh: CheXpert
         subtitleen: Image Classification
-        subtitlezh: Large language model
+        subtitlezh: 图像分类
         modelSum: 3
         score: '4.8'
         detailen: Reviewed by more than 200K Users
