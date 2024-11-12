@@ -201,7 +201,7 @@ blocks:
         subtitlezh: 类别攻击
         modelSum: 10
         score: '4.8'
-        detailen: Reviewed by more than 200K Users
+        detailen: ''
         detailzh: Reviewed by more than 200K Users
       - titleen: COCO - Object Detection
         titlezh: COCO - OD
