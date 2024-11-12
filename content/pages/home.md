@@ -232,7 +232,7 @@ blocks:
         modelSum: 3
         score: '4.8'
         detailen: ''
-        detailzh: Reviewed by more than 200K Users
+        detailzh: ''
     rightListTitleen: ''
     rightListTitlezh: ''
     _template: testimonial
