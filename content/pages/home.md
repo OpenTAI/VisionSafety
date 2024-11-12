@@ -58,7 +58,7 @@ blocks:
         titleen: A Million-Scale Adversarial Dataset for Image Classification Models
         titlezh: '白盒攻击评测亮点 #333'
         texten: >-
-          We release a million-scale adversarial dataset CC1M-Adv-C for
+          We release a million-scale adversarial dataset CC1M-Adv-C(lass) for
           large-scale adversarial robustness evaluation of image classification
           models.  CC1M-Adv-C consists of 1M images sampled from CC3M and
           adversarially perturbed using PMA.
@@ -101,10 +101,10 @@ blocks:
         titleen: A Million-Scale Adversarial Dataset for Any Vision Models
         titlezh: '迁移攻击评测亮点 #3'
         texten: >-
-          We release CC1M-Adv-F, a large-scale dataset of 1M adversarial images
-          crafted using super-transfer attack. The dataset can be used to test
-          any  vision models, including image classifiers, object detectors,
-          segmentation models, and feature extractors. 
+          We release CC1M-Adv-F(eature), a large-scale dataset of 1M adversarial
+          images crafted using the super-transfer attack. The dataset can be
+          used to test any vision models, including image classifiers, object
+          detectors, segmentation models, and feature extractors. 
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
@@ -152,7 +152,7 @@ blocks:
       href: 'https://github.com/OpenTAI/taiadv'
     bgImage1:
       src: /uploads/GitHubBackground1.jpg
-    subtitle2en: CC1M-Adv-F
+    subtitle2en: CC1M-Adv-C/F
     subtitle2zh: CC1M
     text2en: >-
       This comprehensive visibility allows for a meticulous examination of
