@@ -3,6 +3,7 @@ title: Leaderboards
 blocks:
   - modelsRanking:
       - titlezh: '444'
+        titleen: Image Classification
         rankings:
           - nameen: coatnet_rmlp_nano_rw_224.sw_in1k
             paper: 'https://huggingface.co/timm/coatnet_rmlp_nano_rw_224.sw_in1k'
