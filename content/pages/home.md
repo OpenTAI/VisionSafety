@@ -21,9 +21,7 @@ blocks:
     text2zh: ''
     image:
       src: /uploads/vision safety background 1.jpg
-      alt: >-
-        Photo of palm trees at sunset by Adam Birkett -
-        unsplash.com/photos/75EFpyXu3Wg
+      alt: Background image
     _template: hero
   - title1en: Million-scale Evaluation
     title1zh: 白盒攻击评测White
