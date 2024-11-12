@@ -72,31 +72,50 @@ export const Tables = ({
   data: PageBlocksTable;
   language: string;
 }) => {
-  const [activeTab, setActiveTab] = useState('tab1');
+  const [activeTab, setActiveTab] = useState("tab1");
   const [activeIndex, setActiveIndex] = useState(0);
+  const [activeMenuItems, setActiveMenuItems] = useState([]);
   const [tableData, setTableData] = useState(null);
 
   const rowClassName = (record, index) => {
     if (index % 2 === 0) {
-      return 'text-base text-sm [&>td]:!border-none'
+      return "text-base text-sm [&>td]:!border-none";
     } else {
-      return 'bg-table-blue text-base text-sm [&>td]:!border-none'
+      return "bg-table-blue text-base text-sm [&>td]:!border-none";
     }
-  }
+  };
 
-  const menuItems = data.modelsRanking 
-  ? data.modelsRanking.map((item) => {
-    return item.titleen
-  }) 
-  : [];
+  const getMenuItems = (tabIndex = 1) => {
+    const items = data[`modelsRanking${tabIndex}`]
+      ? data[`modelsRanking${tabIndex}`].map((i) => i.titleen)
+      : [];
 
-  const handleActiveIndexChange = (index) => {
-    setActiveIndex(index)
-    getTableData(index)
-  }
+    setActiveMenuItems(items);
+  };
 
-  const getTableData = (index = 0) => {
-    const selectedData = data.modelsRanking ? data.modelsRanking[index].rankings : [];
+  const handleActiveIndexChange = (index: number) => {
+    setActiveIndex(index);
+    getTableData(getTabIndex(activeTab), index);
+  };
+
+  const handleActiveTabChange = (tab: string) => {
+    setActiveTab(tab);
+
+    const tabIndex = getTabIndex(tab);
+    getMenuItems(tabIndex);
+    setActiveIndex(0);
+
+    getTableData(tabIndex, 0);
+  };
+
+  const getTabIndex = (tab: string) => {
+    return tab === "tab2" ? 2 : 1;
+  };
+
+  const getTableData = (tabIndex = 1, menuItemIndex = 0) => {
+    const selectedData = data[`modelsRanking${tabIndex}`]
+      ? data[`modelsRanking${tabIndex}`][menuItemIndex].rankings
+      : [];
     const currentData = selectedData.map((item, index) => {
       return {
         key: index,
@@ -108,17 +127,14 @@ export const Tables = ({
         ranking: item.ranking,
       };
     });
-    setTableData(currentData)
-  }
+    setTableData(currentData);
+  };
 
   useEffect(() => {
     const params = new URL(location.href).searchParams;
-    const tab = params.get("tab")
-    if (tab) {
-      setActiveTab(tab)
-    }
-    getTableData()
-  }, [])
+    handleActiveTabChange(params.get("tab") || "tab1");
+    getTableData();
+  }, []);
 
   return (
     <div>
@@ -150,19 +166,20 @@ export const Tables = ({
         )}
       </div>
 
-
       <div className="flex border w-[34rem] font-bold mx-auto mt-14">
         <div
-          className={`w-1/2 p-4 text-center cursor-pointer ${activeTab === 'tab1' ? 'bg-table-blue' : ''
-            }`}
-          onClick={() => setActiveTab('tab1')}
+          className={`w-1/2 p-4 text-center cursor-pointer ${
+            activeTab === "tab1" ? "bg-table-blue" : ""
+          }`}
+          onClick={() => handleActiveTabChange("tab1")}
         >
           {data[`tab1${language}`]}
         </div>
         <div
-          className={`w-1/2 p-4 text-center cursor-pointer border-l ${activeTab === 'tab2' ? 'bg-table-blue' : ''
-            }`}
-          onClick={() => setActiveTab('tab2')}
+          className={`w-1/2 p-4 text-center cursor-pointer border-l ${
+            activeTab === "tab2" ? "bg-table-blue" : ""
+          }`}
+          onClick={() => handleActiveTabChange("tab2")}
         >
           {data[`tab2${language}`]}
         </div>
@@ -171,12 +188,13 @@ export const Tables = ({
       <div className="flex justify-center mt-3 mb-24">
         <div className="w-48 bg-white pt-3 text-xs text-center font-bold border border-r-0">
           <ul>
-            {menuItems.map((item, index) => (
+            {activeMenuItems.map((item, index) => (
               <li
                 key={index}
                 onClick={() => handleActiveIndexChange(index)}
-                className={`p-2 cursor-pointer ${activeIndex === index ? 'bg-table-blue' : ''
-                  }`}
+                className={`p-2 cursor-pointer ${
+                  activeIndex === index ? "bg-table-blue" : ""
+                }`}
               >
                 {item}
               </li>
@@ -266,27 +284,27 @@ export const tablesBlockSchema: TinaTemplate = {
     {
       type: "string",
       label: "Tab 1-En",
-      name: "tab1en"
+      name: "tab1en",
     },
     {
       type: "string",
-      label: "Tab 1-En",
-      name: "tab1zh"
-    },
-    {
-      type: "string",
-      label: "Tab 2-En",
-      name: "tab2en"
+      label: "Tab 1-Zh",
+      name: "tab1zh",
     },
     {
       type: "string",
       label: "Tab 2-En",
-      name: "tab2zh"
+      name: "tab2en",
+    },
+    {
+      type: "string",
+      label: "Tab 2-Zh",
+      name: "tab2zh",
     },
     {
       type: "object",
       label: "tab1",
-      name: "modelsRanking",
+      name: "modelsRanking1",
       list: true,
       ui: {
         itemProps: (item) => {
@@ -361,7 +379,7 @@ export const tablesBlockSchema: TinaTemplate = {
     {
       type: "object",
       label: "tab2",
-      name: "modelsRanking1",
+      name: "modelsRanking2",
       list: true,
       ui: {
         itemProps: (item) => {

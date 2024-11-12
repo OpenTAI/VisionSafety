@@ -16,7 +16,7 @@ blocks:
     tab1zh: 黑盒
     tab2en: 白盒
     tab2zh: 白盒
-    modelsRanking:
+    modelsRanking1:
       - titlezh: Image Classification
         titleen: Image Classification
         rankings:
@@ -89,7 +89,7 @@ blocks:
             namezh: detr-resnet-50(detr_r50_8x2_150e_coco)
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmdetection/DETR?athId=b609e23c7b56f32054cf4a85c0ef9c01&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-    modelsRanking1:
+    modelsRanking2:
       - titlezh: ImageNet Classfication
         titleen: ImageNet Classfication
         rankings:
