@@ -188,33 +188,33 @@ blocks:
     leftListTitleen: Black-box
     leftListTitlezh: 黑盒榜单
     items1:
-      - titleen: 'ImageNet '
+      - titleen: Image Classifiers
         titlezh: 'ImageNet '
-        subtitleen: Image Classification
+        subtitleen: ImageNet
         subtitlezh: Classification
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
-      - titleen: COCO
-        titlezh: COCO
-        subtitleen: Object Detection
-        subtitlezh: 物体检测
+      - titleen: Object Detectors
+        titlezh: 物体检测模型
+        subtitleen: COCO
+        subtitlezh: COCO
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: COCO
+      - titleen: Segmentation
         titlezh: CC1M
-        subtitleen: Instance Segmentation
+        subtitleen: COCO
         subtitlezh: 实例分割
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
       - titleen: ADE20K
-        titlezh: ADE20K
-        subtitleen: Semantic Segmentation
-        subtitlezh: 语义分割
+        titlezh: 语义分割模型
+        subtitleen: ADE20K
+        subtitlezh: ADE20K
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
@@ -230,11 +230,11 @@ blocks:
     rightListTitleen: White-box
     rightListTitlezh: 白盒榜单
     items2:
-      - titleen: CIFAR-10
-        titlezh: CIFAR-10
+      - titleen: ImageNet
+        titlezh: ImageNet
         subtitleen: ' Image Classification'
-        subtitlezh: Large language model
-        modelSum: 234
+        subtitlezh: 图像分类
+        modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
       - titleen: ImageNet
