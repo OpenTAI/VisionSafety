@@ -1,9 +1,9 @@
 ---
 title: 对抗评测平台
 blocks:
-  - headline1en: Vision Safety
+  - headline1en: Vision Safety Platform
     headline1zh: Open Trustworthy AI - Test!!
-    headline2en: 'Adversarial Vision Safety: Ensuring AI''s Robust Perception of Reality'
+    headline2en: 'Adversarial Evaluation: Ensuring AI''s Robust Perception of Reality'
     headline2zh: 'Are will find resultant, one painful consequences from.'
     buttonTexten: Leaderboards
     buttonTextzh: Leaderboards
@@ -39,15 +39,13 @@ blocks:
     items1:
       - image:
           src: /uploads/whiteBoxIcon1.png
-        titleen: >-
-          Enhanced Single Attack Method PMA and More Efficient Combined Attack
-          Method PMA+
+        titleen: 'Strongest Individual Attack and Improved Ensemble '
         titlezh: '白盒攻击评测亮点 #111'
         texten: >-
-          We introduce a new attack method called PMA (Probability Margin
-          Attack), which utilizes the newly proposed Probability Margin Loss
-          function. Additionally, we present a more efficient combined attack
-          method, PMA+.
+          A new indivisual attack method PMA (Probability Margin Attack) is
+          introduced to achieve the strongest indivisual atack performance using
+          a probability margin loss. An improved ensemble PMA+ is then
+          developped, which is stronger than AutoAttack.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
