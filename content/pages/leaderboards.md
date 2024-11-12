@@ -5,7 +5,7 @@ blocks:
     titlezh: 对抗鲁棒性排行榜
     subtitleen: >-
       Black-box & white-box: evaluated the top-10 most downloaded or cited
-      models in 5 popular vision tasks, on domain dataset as well as
+      models in 5 popular vision tasks, on domain datasets as well as
       CC1M-Adv-C/F
     subtitlezh: OpenTAI Rank is exploring中文
     buttonTexten: Learn how it works
