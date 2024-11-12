@@ -1,15 +1,14 @@
 ---
 title: Leaderboards
 blocks:
-  - titleen: Roubust Benchmark
-    titlezh: Rapidly craft compelling中文
+  - titleen: Vision Safety Bench
+    titlezh: 视觉安全基准
     subtitleen: >-
-      OpenTAI Rank is exploring the most advanced language and visual models,
-      offering a comprehensive, and neutral evaluation reference for the
-      industry and research community.
-    subtitlezh: OpenTAI Rank is exploring中文
+      All-in-One Bench: Large-Scale Adversarial Robustness Evaluation for Vision
+      Models
+    subtitlezh: 一体化评测：视觉模型的大规模对抗鲁棒性评估
     buttonTexten: Learn how it works
-    buttonTextzh: Learn how it works
+    buttonTextzh: 评测方法
     tableTitleen: Rankings
     tableTitlezh: Rankings
     modelsRanking:
