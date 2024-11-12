@@ -225,13 +225,13 @@ blocks:
         subtitlezh: 特征攻击
         modelSum: 10
         score: '4.8'
-      - titleen: Medical Image Classification
-        titlezh: 医学图像分类
-        subtitleen: CheXpert
-        subtitlezh: CheXpert
+      - titleen: CheXpert - Medical Image Classification
+        titlezh: CheXpert - 医学图像分类
+        subtitleen: Feature Attack
+        subtitlezh: 特征攻击
         modelSum: 3
         score: '4.8'
-        detailen: Reviewed by more than 200K Users
+        detailen: ''
         detailzh: Reviewed by more than 200K Users
     rightListTitleen: ''
     rightListTitlezh: ''
