@@ -188,14 +188,14 @@ blocks:
     leftListTitleen: Transfer Attack
     leftListTitlezh: 黑盒榜单
     items1:
-      - titleen: ImageNet
+      - titleen: ImageNet - Image Classificaiton
         titlezh: ImageNet
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
         modelSum: 10
         score: '4.8'
         detailen: ''
-      - titleen: ImageNet
+      - titleen: ImageNet - Image Classification
         titlezh: ImageNet
         subtitleen: Label Attack
         subtitlezh: 类别攻击
@@ -203,22 +203,24 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: Instance Segmentation
-        titlezh: 实例分割
-        subtitleen: COCO
+      - titleen: COCO - Object Detection
+        titlezh: COCO - OD
+        subtitleen: Feature Attack
         subtitlezh: COCO
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: Semantic Segmentation
+      - titleen: COCO - Instance Segmentation
         titlezh: 语义分割
-        subtitleen: ADE20K
-        subtitlezh: ADE20K
+        subtitleen: Feature Attack
+        subtitlezh: 特征攻击
         modelSum: 10
         score: '4.8'
-        detailen: Reviewed by more than 200K Users
+        detailen: ''
         detailzh: Reviewed by more than 200K Users
+      - titleen: COCO - Instance Segmentation
+        titlezh: COCO
       - titleen: Medical Image Classification
         titlezh: 医学图像分类
         subtitleen: CheXpert
