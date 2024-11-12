@@ -22,7 +22,7 @@ export const LeftListItem = ({
 }) => {
   return (
     <Link
-      href={`/leaderboards?tab=白盒&index=${index}`}>
+      href={`/leaderboards?tab=tab2&index=${index}`}>
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
@@ -76,7 +76,7 @@ export const RightListItem = ({
 }) => {
   return (
     <Link
-      href={`/leaderboards?tab=黑盒&index=${index}`}>
+      href={`/leaderboards?tab=tab1&index=${index}`}>
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
