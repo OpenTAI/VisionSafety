@@ -206,10 +206,10 @@ blocks:
       - titleen: COCO - Object Detection
         titlezh: COCO - OD
         subtitleen: Feature Attack
-        subtitlezh: COCO
+        subtitlezh: 特征攻击
         modelSum: 10
         score: '4.8'
-        detailen: Reviewed by more than 200K Users
+        detailen: ''
         detailzh: Reviewed by more than 200K Users
       - titleen: COCO - Instance Segmentation
         titlezh: 语义分割
