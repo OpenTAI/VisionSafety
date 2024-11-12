@@ -92,7 +92,7 @@ blocks:
           to internal architecture
       - image:
           src: /uploads/transferbasedAttackIcon2.png
-        titleen: 'Million-Level Evaluation, General and Accurate'
+        titleen: A Tool for Convinient Attack Generation and Testing
         titlezh: '迁移攻击评测亮点 #2'
         texten: >-
           We provide a million-level dataset, cc1m, constructed based on cc3m.
