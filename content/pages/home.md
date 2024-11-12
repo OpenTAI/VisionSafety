@@ -190,7 +190,7 @@ blocks:
     items1:
       - titleen: 'ImageNet '
         titlezh: 'ImageNet '
-        subtitleen: Classification
+        subtitleen: Image Classification
         subtitlezh: Classification
         modelSum: 10
         score: '4.8'
@@ -219,11 +219,11 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: CC1M2
+      - titleen: Chexpert
         titlezh: CC1M2
-        subtitleen: Large language model
+        subtitleen: Image Classification
         subtitlezh: Large language model
-        modelSum: 234
+        modelSum: 3
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
