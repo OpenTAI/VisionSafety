@@ -185,10 +185,10 @@ blocks:
     _template: repositories
   - titleen: LeaderBoards
     titlezh: LeaderBoardsZh
-    leftListTitleen: Black-box
+    leftListTitleen: Feature Robustness
     leftListTitlezh: 黑盒榜单
     items1:
-      - titleen: Image Classification
+      - titleen: ImageNet Models
         titlezh: 'ImageNet '
         subtitleen: ImageNet
         subtitlezh: Classification
@@ -227,16 +227,16 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-    rightListTitleen: White-box
+    rightListTitleen: ''
     rightListTitlezh: 白盒榜单
     items2:
-      - titleen: ImageNet
-        titlezh: 图像分类
-        subtitleen: Image Classification
-        subtitlezh: 图像分类
+      - titleen: ''
+        titlezh: ''
+        subtitleen: ''
+        subtitlezh: ''
         modelSum: 10
         score: '4.8'
-        detailen: Reviewed by more than 200K Users
+        detailen: ''
       - titleen: ImageNet
         titlezh: ImageNet
         subtitleen: ' Image Classification'
