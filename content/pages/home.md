@@ -220,7 +220,7 @@ blocks:
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
       - titleen: CheXpert
-        titlezh: CC1M2
+        titlezh: CheXpert
         subtitleen: Image Classification
         subtitlezh: Large language model
         modelSum: 3
