@@ -69,8 +69,8 @@ blocks:
         texten: >-
           We release a million-scale adversarial dataset CC1M-Adv-C for
           large-scale adversarial robustness evaluation of image classification
-          models.  CC1M-Adv-C consists of 1M adversarial images sampled from
-          CC3M and perturbed using PMA.
+          models.  CC1M-Adv-C consists of 1M images sampled from CC3M and
+          adversarially perturbed using PMA.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
