@@ -80,7 +80,7 @@ blocks:
     items2:
       - image:
           src: /uploads/transferbasedAttackIcon1.png
-        titleen: 'Multi Grahics Cards and Multi Models, Enhanced Transferability'
+        titleen: A New Super-Transfer Attack Based on Mulitiple Surrogate Models
         titlezh: '迁移攻击评测亮点 #1'
         texten: >-
           By employing 8 mainstream pre-trained image encoders for feature
@@ -107,12 +107,13 @@ blocks:
           name: Tina
         image:
           src: /uploads/transferbasedAttackIcon3.png
-        titleen: Ready to use
+        titleen: A Million-Scale Adversarial Dataset for Any Vision Models
         titlezh: '迁移攻击评测亮点 #3'
         texten: >-
-          We offer pre-generated adversarial versions of multiple datasets,
-          including ImageNet-1k, COCO2017, ADE20k, and cc1m. These are ready to
-          use without requiring users to generate them again.
+          We release CC1M-Adv-F, a large-scale dataset of 1M adversarial images
+          crafted using super-transfer attack. The dataset can be directly fed
+          into any computer vision model, including image classifiers, object
+          detectors, segmentation models, and feature extractors. 
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
