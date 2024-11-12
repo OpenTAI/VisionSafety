@@ -83,9 +83,10 @@ blocks:
         titleen: A New Super-Transfer Attack Based on Mulitiple Surrogate Models
         titlezh: '迁移攻击评测亮点 #1'
         texten: >-
-          By employing 8 mainstream pre-trained image encoders for feature
-          extraction and perturbation at the feature layer, we generate highly
-          transferable adversarial examples.
+          A new attack method is designed to generate adversarial examples that
+          transfer across vision tasks and architectures. It achieves super
+          transfarability by exploiting multiple surrogate models up to the
+          number of avaliable GPUs.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
@@ -95,10 +96,9 @@ blocks:
         titleen: A Tool for Convinient Attack Generation and Testing
         titlezh: '迁移攻击评测亮点 #2'
         texten: >-
-          We provide a million-level dataset, cc1m, constructed based on cc3m.
-          The large number of samples allows for more accurate evaluation of
-          model robustness (generalization). One dataset can be used to evaluate
-          all downstream tasks.
+          We provide a tool for the super-transfer attack method to allow easy
+          generation of highly transferable adversarial images across different
+          vision tasks and backbones. 
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
