@@ -3,7 +3,10 @@ title: Leaderboards
 blocks:
   - titleen: Adversarial Robustness Leaderboards
     titlezh: 对抗鲁棒性排行榜
-    subtitleen: 'White-box leaderboard: '
+    subtitleen: >-
+      Black-box & white-box: evaluated the top-10 most downloaded or cited
+      models in 5 popular vision tasks, on domain dataset as well as
+      CC1M-Adv-C/F
     subtitlezh: OpenTAI Rank is exploring中文
     buttonTexten: Learn how it works
     buttonTextzh: Learn how it works
