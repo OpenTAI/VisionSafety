@@ -124,12 +124,12 @@ blocks:
         textzh: 中文
       - image:
           src: /uploads/transferbasedAttackIcon3.png
-        titleen: Stronger Attack Performance and More Natural Appearance
-        texten: >
-          Our DiffPatch achieves the highest attack success rate (ASR),
-          significantly reducing the mAP of various object detectors, rivaling
-          or even surpassing the current state-of-the-art methods of unnatural
-          adversarial patches.
+        titleen: A Tool for Generating Digital and Physical Adversarial Patches
+        texten: >-
+          We open-source the DiffPatch tool for easy generation of customized
+          digital and physical adversarial patches. Users can adapt the training
+          process of DiffPatch with different diffusion models for different
+          application scenarios.
       - image:
           src: /uploads/transferbasedAttackIcon1.png
         titleen: The First Dataset in the Field of Physical Adversarial Attacks
