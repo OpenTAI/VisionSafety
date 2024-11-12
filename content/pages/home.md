@@ -198,7 +198,7 @@ blocks:
       - titleen: COCO
         titlezh: COCO
         subtitleen: Object Detection
-        subtitlezh: Object Detection
+        subtitlezh: 物体检测
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
