@@ -207,7 +207,7 @@ blocks:
         titlezh: CC1M
         subtitleen: Instance Segmentation
         subtitlezh: Large language model
-        modelSum: 9
+        modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
