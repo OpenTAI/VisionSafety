@@ -221,8 +221,8 @@ blocks:
         detailzh: Reviewed by more than 200K Users
       - titleen: ADE20K - Semantic Segmentation
         titlezh: ADE20K - 语义分割
-        subtitleen: ADE20K
-        subtitlezh: ADE20K
+        subtitleen: Feature Attack
+        subtitlezh: 特征攻击
         modelSum: 10
         score: '4.8'
       - titleen: Medical Image Classification
