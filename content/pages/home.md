@@ -75,7 +75,7 @@ blocks:
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
           to internal architecture
-    title2en: Transfer-based adversarial robustness evaluation
+    title2en: Transfer-based Evaluation
     title2zh: 迁移攻击评测attack
     items2:
       - image:
