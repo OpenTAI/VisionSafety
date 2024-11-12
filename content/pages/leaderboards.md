@@ -78,8 +78,13 @@ blocks:
             download: 764
             datasetA: 86.97%
             datasetB: 67.49%
-      - titlezh: Segmentation
-        titleen: Segmentation
+      - titlezh: Object Detection
+        titleen: Object Detection
+        rankings:
+          - nameen: detr-resnet-50(detr_r50_8x2_150e_coco)
+            namezh: detr-resnet-50(detr_r50_8x2_150e_coco)
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/DETR?athId=b609e23c7b56f32054cf4a85c0ef9c01&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
     modelsRanking1:
       - titlezh: ImageNet Classfication
         titleen: ImageNet Classfication
