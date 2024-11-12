@@ -52,12 +52,12 @@ blocks:
           to internal architecture
       - image:
           src: /uploads/whiteBoxIcon2.png
-        titleen: Comprehensive and Flexible Adversarial Attack Methods
+        titleen: A Comprehensive Toolbox for Adverarial Robustnes Evalution
         titlezh: '白盒攻击评测亮点 #222'
         texten: >-
-          For single attack evaluations, our toolbox supports combinations of
-          different strategies and loss functions. In multi-attack evaluations,
-          it allows for the combination of various attack methods.
+          Our toolbox provides a comrehsneive implementation of different attack
+          methods and supports combinations of diverse attack strategies, loss
+          functions, and ensembale strategies.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
