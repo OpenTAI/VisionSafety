@@ -132,12 +132,12 @@ blocks:
           application scenarios.
       - image:
           src: /uploads/transferbasedAttackIcon1.png
-        titleen: The First Dataset in the Field of Physical Adversarial Attacks
+        titleen: 'AdvPatch-1K: The First Physical-world Adversairal Patch Dataset'
         texten: >-
-          We realize the adversarial patches in the physical world on T-shirts
-          and collect an adversarial T-shirt dataset AdvTD-1K to facilitate
-          further research. To the best of our knowledge, this is the first
-          dataset for physical adversarial attacks.
+          AdvPatch-1K consists of 1,131 images, including 5+ scenarios (lab,
+          outdoor, cafeteria, subway, shopping mall), 1-10+ persons in the
+          images, and 9 adversarial t-shirts. The dataset is available on
+          Huggingface.
     _template: features
   - titleen: Tools and Datasets
     titlezh: Models Chinese
