@@ -184,7 +184,7 @@ blocks:
       href: 'https://huggingface.co/datasets/xingjunm/cc1m-adv-F'
     bgImage2:
       src: /uploads/GitHubBackground2.jpg
-    subtitle3en: TAI.adv
+    subtitle3en: AdvPatch-1K
     subtitle3zh: TAI.adv
     text3en: >-
       This comprehensive visibility allows for a meticulous examination of
@@ -196,6 +196,7 @@ blocks:
       pinpoint accuracy.
     image3:
       src: /uploads/GitHubButton.png
+      href: 'https://huggingface.co/datasets/xingjunm/AdvPatch-1K'
     bgImage3:
       src: /uploads/GitHubBackground3.jpg
     _template: repositories
