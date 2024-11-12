@@ -1,9 +1,11 @@
 ---
 title: 对抗评测平台
 blocks:
-  - headline1en: Adversarial Robustness Evaluation Platform
-    headline1zh: 对抗鲁棒性评测平台
-    headline2en: Ensuring AI's Robust Perception of Reality
+  - headline1en: Vision Safety Platform
+    headline1zh: 视觉安全平台
+    headline2en: >-
+      Adversarial Robustness Evaluation: Ensuring AI's Robust Perception of
+      Reality
     headline2zh: 确保人工智能对现实世界的鲁棒感知
     buttonTexten: Tools
     buttonTextzh: 工具集
