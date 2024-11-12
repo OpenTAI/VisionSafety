@@ -230,10 +230,10 @@ blocks:
     rightListTitleen: White-box
     rightListTitlezh: 白盒榜单
     items2:
-      - titleen: Image Classification
+      - titleen: ImageNet
         titlezh: 图像分类
-        subtitleen: ImageNet
-        subtitlezh: ImageNet
+        subtitleen: Image Classification
+        subtitlezh: 图像分类
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
