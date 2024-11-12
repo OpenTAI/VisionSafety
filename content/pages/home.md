@@ -214,7 +214,7 @@ blocks:
       - titleen: ADE20k
         titlezh: CC1M1
         subtitleen: Semantic Segmentation
-        subtitlezh: Large language model
+        subtitlezh: 语义分割
         modelSum: 10
         score: '4.8'
         detailen: Reviewed by more than 200K Users
