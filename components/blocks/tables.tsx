@@ -72,7 +72,7 @@ export const Tables = ({
   data: PageBlocksTable;
   language: string;
 }) => {
-  const [activeTab, setActiveTab] = useState('黑盒');
+  const [activeTab, setActiveTab] = useState('tab1');
   const [activeIndex, setActiveIndex] = useState(0);
   const [tableData, setTableData] = useState(null);
 
@@ -153,18 +153,18 @@ export const Tables = ({
 
       <div className="flex border w-[34rem] font-bold mx-auto mt-14">
         <div
-          className={`w-1/2 p-4 text-center cursor-pointer ${activeTab === '黑盒' ? 'bg-table-blue' : ''
+          className={`w-1/2 p-4 text-center cursor-pointer ${activeTab === 'tab1' ? 'bg-table-blue' : ''
             }`}
-          onClick={() => setActiveTab('黑盒')}
+          onClick={() => setActiveTab('tab1')}
         >
-          黑盒
+          {data[`tab1${language}`]}
         </div>
         <div
-          className={`w-1/2 p-4 text-center cursor-pointer border-l ${activeTab === '白盒' ? 'bg-table-blue' : ''
+          className={`w-1/2 p-4 text-center cursor-pointer border-l ${activeTab === 'tab2' ? 'bg-table-blue' : ''
             }`}
-          onClick={() => setActiveTab('白盒')}
+          onClick={() => setActiveTab('tab2')}
         >
-          白盒
+          {data[`tab2${language}`]}
         </div>
       </div>
 
@@ -264,8 +264,28 @@ export const tablesBlockSchema: TinaTemplate = {
       name: "tableTitlezh",
     },
     {
+      type: "string",
+      label: "Tab 1-En",
+      name: "tab1en"
+    },
+    {
+      type: "string",
+      label: "Tab 1-En",
+      name: "tab1zh"
+    },
+    {
+      type: "string",
+      label: "Tab 2-En",
+      name: "tab2en"
+    },
+    {
+      type: "string",
+      label: "Tab 2-En",
+      name: "tab2zh"
+    },
+    {
       type: "object",
-      label: "黑盒",
+      label: "tab1",
       name: "modelsRanking",
       list: true,
       ui: {
@@ -340,7 +360,7 @@ export const tablesBlockSchema: TinaTemplate = {
     },
     {
       type: "object",
-      label: "白盒",
+      label: "tab2",
       name: "modelsRanking1",
       list: true,
       ui: {
