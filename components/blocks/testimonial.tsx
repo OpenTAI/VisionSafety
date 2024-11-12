@@ -57,7 +57,7 @@ export const LeftListItem = ({
                 {data.modelSum}
               </span>
             )}
-            <span className="text-light-blue text-base">models included</span>
+            <span className="text-light-blue text-base">models evaluated</span>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@ export const RightListItem = ({
                 {data.modelSum}
               </span>
             )}
-            <span className="text-light-blue text-base">models included</span>
+            <span className="text-light-blue text-base">models evaluated</span>
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@ export const Testimonial = ({
           <div className="!grid">
             {data[`leftListTitle${language}`] && (
               <div
-                className="text-base-blue text-sm w-33 h-8 bg-[#edf1fe] flex items-center justify-center"
+                className="text-base-blue text-sm justify-self-start px-4 h-8 bg-[#edf1fe] flex items-center justify-center"
                 data-tina-field={tinaField(data, "leftListTitleen")}
               >
                 {data[`leftListTitle${language}`]}
@@ -162,7 +162,7 @@ export const Testimonial = ({
             </div>
             {data[`rightListTitle${language}`] && (
               <div
-                className="text-base-blue text-sm w-33 h-8 bg-[#f5fbfa] flex items-center justify-center"
+                className="text-base-blue text-sm justify-self-start px-4 h-8 bg-[#f5fbfa] flex items-center justify-center"
                 data-tina-field={tinaField(data, "rightListTitleen")}
               >
                 {data[`rightListTitle${language}`]}

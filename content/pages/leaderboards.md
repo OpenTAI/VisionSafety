@@ -12,6 +12,10 @@ blocks:
     buttonTextzh: Learn how it works
     tableTitleen: Rankings
     tableTitlezh: Rankings
+    tab1en: 黑盒
+    tab1zh: 黑盒
+    tab2en: 白盒
+    tab2zh: 白盒
     modelsRanking:
       - titleen: CIFAR-10
         titlezh: CIFAR-10
