@@ -185,7 +185,7 @@ blocks:
     _template: repositories
   - titleen: LeaderBoards
     titlezh: LeaderBoardsZh
-    leftListTitleen: 白盒攻击排行榜
+    leftListTitleen: Black-box Attack
     leftListTitlezh: 白盒攻击排行榜Zh
     items1:
       - titleen: 'ImageNet '
@@ -227,7 +227,7 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-    rightListTitleen: 迁移攻击排行榜
+    rightListTitleen: White-box Attack
     rightListTitlezh: 迁移攻击排行榜zh
     items2:
       - titleen: CIFAR-10
