@@ -34,7 +34,7 @@ blocks:
         Photo of palm trees at sunset by Adam Birkett -
         unsplash.com/photos/75EFpyXu3Wg
     _template: hero
-  - title1en: Million-scale adversarial robustness evaluation
+  - title1en: Million-scale Evaluation
     title1zh: 白盒攻击评测White
     items1:
       - image:
