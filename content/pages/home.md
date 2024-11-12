@@ -67,10 +67,10 @@ blocks:
         titleen: A Million-Scale Adversarial Dataset for Image Classification Models
         titlezh: '白盒攻击评测亮点 #333'
         texten: >-
-          We providebevaluation tools for CIFAR10, CIFAR100, and ImageNet.
-          Furthermore, we introduce a million-sample dataset, cc1m, constructed
-          from cc3m, enabling more accurate model robustness assessments through
-          large-scale evaluation.
+          We release a million-scale adversarial dataset CC1M-Adv-C for
+          large-scale adversarial robustness evaluation of image classification
+          models.  CC1M-Adv-C consists of 1M adversarial images sampled from
+          CC3M and perturbed using PMA.
         textzh: >-
           Our white-box penetration testing model offers unparalleled insights
           into system vulnerabilities by providing testers with complete access
