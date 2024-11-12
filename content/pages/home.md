@@ -194,7 +194,7 @@ blocks:
         subtitlezh: 特征攻击
         modelSum: 10
         score: '4.8'
-        detailen: Reviewed by more than 200K Users
+        detailen: ''
       - titleen: ImageNet
         titlezh: ImageNet
         subtitleen: Label Attack
