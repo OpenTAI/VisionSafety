@@ -145,7 +145,7 @@ blocks:
     subtitle1zh: ''
     text1en: >-
       The taiadv.vision toolbox integrates all the methods used to create the
-      adversarial datasets and benchmarks shown on this platform.
+      adversarial image datasets and benchmarks shown on this platform.
     text1zh: ''
     image1:
       src: /uploads/GitHubButton.png
