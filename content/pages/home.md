@@ -211,7 +211,7 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: ADE20K
+      - titleen: ADE20k
         titlezh: CC1M1
         subtitleen: Semantic Segmentation
         subtitlezh: Large language model
@@ -219,7 +219,7 @@ blocks:
         score: '4.8'
         detailen: Reviewed by more than 200K Users
         detailzh: Reviewed by more than 200K Users
-      - titleen: CheXpert
+      - titleen: Chexpert
         titlezh: CC1M2
         subtitleen: Image Classification
         subtitlezh: Large language model
@@ -232,14 +232,14 @@ blocks:
     items2:
       - titleen: CIFAR-10
         titlezh: CIFAR-10
-        subtitleen: Large language model
+        subtitleen: ' Image Classification'
         subtitlezh: Large language model
         modelSum: 234
         score: '4.8'
         detailen: Reviewed by more than 200K Users
       - titleen: ImageNet
         titlezh: ImageNet
-        subtitleen: Large language model
+        subtitleen: ' Image Classification'
         subtitlezh: Large language model
         modelSum: 234
         score: '4.8'
@@ -247,7 +247,7 @@ blocks:
         detailzh: Reviewed by more than 200K Users
       - titleen: CC1M
         titlezh: CC1M
-        subtitleen: Large language model
+        subtitleen: ' Image Classification'
         subtitlezh: Large language model
         modelSum: 234
         score: '4.8'
@@ -255,7 +255,7 @@ blocks:
         detailzh: Reviewed by more than 200K Users
       - titleen: CC1M1
         titlezh: CC1M1
-        subtitleen: Large language model
+        subtitleen: ' Image Classification'
         subtitlezh: Large language model
         modelSum: 234
         score: '4.8'
