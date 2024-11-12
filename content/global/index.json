@@ -1,39 +1,39 @@
 {
   "header": {
-    "nameen": "对抗评测平台",
-    "namezh": "对抗评测平台",
+    "nameen": "Vision Safety",
+    "namezh": "视觉安全",
     "nav": [
       {
-        "href": "",
+        "href": "/",
         "labelen": "Home",
         "labelzh": "主页"
       },
       {
-        "href": "",
-        "labelen": "Datasets",
-        "labelzh": "Datasets"
-      },
-      {
-        "href": "",
+        "href": "https://github.com/OpenTAI/taiadv",
         "labelen": "Tools",
-        "labelzh": "Tools"
+        "labelzh": "工具集"
       },
       {
-        "href": "leaderboards",
+        "href": "/",
+        "labelen": "Datasets",
+        "labelzh": "数据集"
+      },
+      {
+        "href": "/leaderboards",
         "labelen": "LeaderBoards",
-        "labelzh": "LeaderBoards"
+        "labelzh": "排行榜"
       }
     ]
   },
   "footer": {
     "nav": [
       {
-        "href": "/home",
+        "href": "https://opentai.github.io/",
         "label": "Home"
       },
       {
         "href": "",
-        "label": "Research"
+        "label": "Tools"
       },
       {
         "href": "",
@@ -41,11 +41,7 @@
       },
       {
         "href": "",
-        "label": "Evaluations"
-      },
-      {
-        "href": "http://highschool.opentai.org",
-        "label": "Community"
+        "label": "Leaderboards"
       }
     ],
     "social": {
@@ -53,11 +49,10 @@
       "twitter": "/",
       "linkedin": "/"
     },
-    "copyright": "Copyright © 2024 Fudan Uni",
+    "copyright": "Copyright © 2024 FVL",
     "terms": "Terms & Conditions"
   },
   "theme": {
-    "color": "blue",
     "font": "sans",
     "darkMode": "system"
   }
