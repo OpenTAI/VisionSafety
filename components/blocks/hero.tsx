@@ -20,8 +20,10 @@ export const Hero = ({
     <Section>
       <div className="max-w-360 mx-auto relative">
         <Image
-          src={headImg}
+          src={data.image}
           className="h-[38rem] absolute -z-10 object-cover object-top"
+          width={1440}
+          height={608}
           alt=""
         />
         <div className="flex items-center flex-col">
@@ -268,21 +270,9 @@ export const heroBlockSchema: TinaTemplate = {
       name: "text2zh",
     },
     {
-      type: "object",
+      type: "image",
       label: "Image",
       name: "image",
-      fields: [
-        {
-          name: "src",
-          label: "Image Source",
-          type: "image",
-        },
-        {
-          name: "alt",
-          label: "Alt Text",
-          type: "string",
-        },
-      ],
     },
   ],
 };

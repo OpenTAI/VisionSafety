@@ -16,8 +16,8 @@ blocks:
     tab1zh: 黑盒
     tab2en: White-box
     tab2zh: 白盒
-    modelsRanking:
-      - titlezh: 图像分类
+    modelsRanking1:
+      - titlezh: Image Classification
         titleen: Image Classification
         rankings:
           - nameen: resnet50.a1_in1k
@@ -151,7 +151,7 @@ blocks:
         titleen: Semantic Segmentation
       - titlezh: 医学图像分类
         titleen: Medical Image Classification
-    modelsRanking1:
+    modelsRanking2:
       - titlezh: ImageNet Classfication
         titleen: ImageNet Classfication
         rankings:
