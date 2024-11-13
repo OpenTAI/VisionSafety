@@ -17,7 +17,7 @@ blocks:
     tab2en: White-box
     tab2zh: 白盒
     modelsRanking:
-      - titlezh: Image Classification
+      - titlezh: 图像分类
         titleen: Image Classification
         rankings:
           - nameen: resnet50.a1_in1k
@@ -82,7 +82,7 @@ blocks:
             download: 764
             datasetA: 86.97%
             datasetB: 67.49%
-      - titlezh: Object Detection
+      - titlezh: 目标检测
         titleen: Object Detection
         rankings:
           - nameen: detr-resnet-50(detr_r50_8x2_150e_coco)
