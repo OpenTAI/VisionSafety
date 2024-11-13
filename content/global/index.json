@@ -54,6 +54,7 @@
   },
   "theme": {
     "font": "sans",
-    "darkMode": "system"
+    "darkMode": "system",
+    "color": ""
   }
 }

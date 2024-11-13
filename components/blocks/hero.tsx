@@ -153,7 +153,6 @@ export const heroBlockSchema: TinaTemplate = {
       type: "string",
       label: "Button Link",
       name: "buttonLink",
-      required: true,
       options: [
         {
           value: "/#models",
@@ -183,7 +182,6 @@ export const heroBlockSchema: TinaTemplate = {
       type: "string",
       label: "Button Link",
       name: "button1Link",
-      required: true,
       options: [
         {
           value: "/#models",
@@ -213,7 +211,6 @@ export const heroBlockSchema: TinaTemplate = {
       type: "string",
       label: "Button Link",
       name: "button2Link",
-      required: true,
       options: [
         {
           value: "/#models",
