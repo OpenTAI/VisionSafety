@@ -114,7 +114,7 @@ export const Tables = ({
 
   const getTableData = (tabIndex = 1, menuItemIndex = 0) => {
     const selectedData = data[`modelsRanking${tabIndex}`]
-      ? data[`modelsRanking${tabIndex}`][menuItemIndex].rankings
+      ? data[`modelsRanking${tabIndex}`][menuItemIndex].rankings || []
       : [];
     const currentData = selectedData.map((item, index) => {
       return {
@@ -219,6 +219,7 @@ export const Tables = ({
               dataSource={tableData}
               pagination={false}
               rowClassName={rowClassName}
+              tableLayout="fixed"
               data-tina-field={tinaField(data)}
             />
           </ConfigProvider>

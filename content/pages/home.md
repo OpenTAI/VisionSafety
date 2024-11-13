@@ -22,7 +22,7 @@ blocks:
     text1zh: ''
     text2en: ''
     text2zh: ''
-    image: ''
+    image: /uploads/vision safety background 1.jpg
     _template: hero
   - title1en: Million-scale Evaluation
     title1zh: 白盒攻击评测White
