@@ -89,6 +89,9 @@ blocks:
             namezh: detr-resnet-50(detr_r50_8x2_150e_coco)
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmdetection/DETR?athId=b609e23c7b56f32054cf4a85c0ef9c01&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+            download: 566289
+            datasetA: '0.241'
+            datasetB: 63.84%
       - titlezh: 实例分割
         titleen: Instance Segmentation
       - titlezh: 语义分割
