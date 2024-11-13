@@ -64,6 +64,11 @@ const Global: Collection = {
       name: "footer",
       fields: [
         {
+          type: "string",
+          label: "Home Url",
+          name: "homeurl",
+        },
+        {
           type: "object",
           label: "Nav Links",
           name: "nav",
