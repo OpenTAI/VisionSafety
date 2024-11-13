@@ -115,6 +115,7 @@ export const Features = ({
 }) => {
   return (
     <div className="max-w-320 mx-auto px-3">
+      <div className="h-px" id="models" />
       <div className="mt-14">
         {data[`title1${language}`] && (
           <div

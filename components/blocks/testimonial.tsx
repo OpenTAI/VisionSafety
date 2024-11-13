@@ -127,7 +127,8 @@ export const Testimonial = ({
   language: string;
 }) => {
   return (
-    <div className="max-w-320 mx-auto px-3" id="leaderboards">
+    <div className="max-w-320 mx-auto px-3">
+      <div className="h-px" id="leaderboards"></div>
       <div className="my-24">
         {data[`title${language}`] && (
           <div

@@ -7,10 +7,13 @@ blocks:
     headline2zh: 确保人工智能对现实世界的鲁棒感知
     buttonTexten: Tools
     buttonTextzh: 工具集
+    buttonLink: /#models
     buttonText1en: Datasets
     buttonText1zh: 数据集
+    button1Link: /#datasets
     buttonText2en: Leaderboards
     buttonText2zh: 排行榜
+    button2Link: /#leaderboards
     subtitle1en: ''
     subtitle1zh: ''
     subtitle2en: ''
