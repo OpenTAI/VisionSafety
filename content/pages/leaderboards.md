@@ -336,6 +336,27 @@ blocks:
             ranking: '10'
       - titlezh: 医学图像分类
         titleen: Medical Image Classification
+        rankings:
+          - nameen: CheXpert-5-convnextv2-tiny-384
+            namezh: CheXpert-5-convnextv2-tiny-384
+            paper: 'https://huggingface.co/shreydan/CheXpert-5-convnextv2-tiny-384'
+            datasetA: '0.6704'
+            datasetB: 56.60%
+            ranking: '1'
+          - nameen: vit_small_patch16_224.medmae_CXR_mae_ft_CheXpert
+            namezh: vit_small_patch16_224.medmae_CXR_mae_ft_CheXpert
+            paper: >-
+              https://huggingface.co/1aurent/vit_small_patch16_224.medmae_CXR_mae_ft_CheXpert
+            datasetA: '0.6692'
+            datasetB: 89.74%
+            ranking: '2'
+          - nameen: vit_base_patch16_224.medmae_CXR_mae_ft_CheXpert
+            namezh: vit_base_patch16_224.medmae_CXR_mae_ft_CheXpert
+            paper: >-
+              https://huggingface.co/1aurent/vit_base_patch16_224.medmae_CXR_mae_ft_CheXpert/tree/main
+            datasetA: '0.5758'
+            datasetB: 89.39%
+            ranking: '3'
     modelsRanking1:
       - titlezh: ImageNet Classfication
         titleen: ImageNet Classfication
