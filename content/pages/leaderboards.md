@@ -176,6 +176,89 @@ blocks:
             ranking: '10'
       - titlezh: 实例分割
         titleen: Instance Segmentation
+        rankings:
+          - nameen: htc_x101_64x4d_fpn_dconv_c3-c5_mstrain_400_1400_16x1_20e_coco
+            namezh: htc_x101_64x4d_fpn_dconv_c3-c5_mstrain_400_1400_16x1_20e_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/HTC?athId=b42170f82908262275e7328643dcdb2f&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
+            download: 1559
+            datasetA: '0.334'
+            datasetB: 65.76%
+            ranking: '1'
+          - nameen: >-
+              cascade_mask_rcnn_convnext-s_p4_w7_fpn_giou_4conv1f_fp16_ms-crop_3x_coco
+            namezh: >-
+              cascade_mask_rcnn_convnext-s_p4_w7_fpn_giou_4conv1f_fp16_ms-crop_3x_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Cascade%20Mask%20R-CNN?athId=0ec20d0f9d5914e4422d251f2ddf247b&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
+            download: 1505
+            datasetA: '0.332'
+            datasetB: 68.14%
+            ranking: '2'
+          - nameen: scnet_x101_64x4d_fpn_20e_coco
+            namezh: scnet_x101_64x4d_fpn_20e_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/SCNet?athId=17226ceb499bc933e2b73dd6633bbc2d&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
+            download: 90
+            datasetA: '0.297'
+            datasetB: 61.43%
+            ranking: '3'
+          - nameen: cascade_mask_rcnn_x101_32x4d_fpn_dconv_c3-c5_1x_coco
+            namezh: cascade_mask_rcnn_x101_32x4d_fpn_dconv_c3-c5_1x_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20Convolutional%20Networks?athId=4aefab1107c2b0c71c3c091cc39b721d&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
+            download: 1505
+            datasetA: '0.287'
+            datasetB: 67.33%
+            ranking: '4'
+          - nameen: cascade_mask_rcnn_x101_64x4d_fpn_mstrain_3x_coco
+            namezh: cascade_mask_rcnn_x101_64x4d_fpn_mstrain_3x_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Cascade%20Mask%20R-CNN?athId=0ec20d0f9d5914e4422d251f2ddf247b&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
+            download: 1505
+            datasetA: '0.264'
+            datasetB: 65.36%
+            ranking: '5'
+          - nameen: cascade_mask_rcnn_r50_fpn_dconv_c3-c5_1x_coco
+            namezh: cascade_mask_rcnn_r50_fpn_dconv_c3-c5_1x_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20Convolutional%20Networks?athId=4aefab1107c2b0c71c3c091cc39b721d&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
+            download: 1505
+            datasetA: '0.26'
+            datasetB: 65.41%
+            ranking: '6'
+          - nameen: rfnext_search_cascade_mask_rcnn_hrnetv2p_w18_20e_coco
+            namezh: rfnext_search_cascade_mask_rcnn_hrnetv2p_w18_20e_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/RF-Next?athId=e99ac3889efff20e6fe2e8ac4ed9bc25&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
+            download: 37
+            datasetA: '0.236'
+            datasetB: 64.74%
+            ranking: '7'
+          - nameen: cascade_mask_rcnn_r50_caffe_fpn_1x_coco
+            namezh: cascade_mask_rcnn_r50_caffe_fpn_1x_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Cascade%20Mask%20R-CNN?athId=0ec20d0f9d5914e4422d251f2ddf247b&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
+            download: 1505
+            datasetA: '0.219'
+            datasetB: 62.75%
+            ranking: '8'
+          - nameen: yolact_r101_1x8_coco
+            namezh: yolact_r101_1x8_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/YOLACT?athId=1c39dd15015b6452c3f753766ddb5278&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
+            download: 2569
+            datasetA: '0.201'
+            datasetB: 62.53%
+            ranking: '9'
+          - nameen: yolact_r50_8x8_coco
+            namezh: yolact_r50_8x8_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/YOLACT?athId=1c39dd15015b6452c3f753766ddb5278&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
+            download: 2569
+            datasetA: '0.178'
+            datasetB: 60.45%
+            ranking: '10'
       - titlezh: 语义分割
         titleen: Semantic Segmentation
       - titlezh: 医学图像分类
