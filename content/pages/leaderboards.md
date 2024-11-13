@@ -285,6 +285,20 @@ blocks:
             datasetA: '36.88'
             datasetB: 47.56%
             ranking: '3'
+          - nameen: setr_mla_512x512_160k_b16_ade20k
+            namezh: setr_mla_512x512_160k_b16_ade20k
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmsegmentation/SETR?athId=a0088b8a1527ee3e20b6241c2b66b496&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            datasetA: '36.67'
+            datasetB: 53.65%
+            ranking: '4'
+          - nameen: twins_svt-b_fpn_fpnhead_8x4_512x512_80k_ade20k
+            namezh: twins_svt-b_fpn_fpnhead_8x4_512x512_80k_ade20k
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmsegmentation/FPN?athId=7f617fa591d3dfd31fb2a9a7cc0ae8ba&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            datasetA: '31.82'
+            datasetB: 50.73%
+            ranking: '5'
       - titlezh: 医学图像分类
         titleen: Medical Image Classification
     modelsRanking1:
