@@ -299,6 +299,41 @@ blocks:
             datasetA: '31.82'
             datasetB: 50.73%
             ranking: '5'
+          - nameen: dpt_vit-b16_512x512_160k_ade20k
+            namezh: dpt_vit-b16_512x512_160k_ade20k
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmsegmentation/DPT?athId=b2c699d0fddf59a4e952cecea08b1b8b&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            datasetA: '30.61'
+            datasetB: 46.42%
+            ranking: '6'
+          - nameen: deeplabv3_r101-d8_512x512_160k_ade20k
+            namezh: deeplabv3_r101-d8_512x512_160k_ade20k
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmsegmentation/DeepLabV3?athId=6f315fcddecd0407b37cae1346078876&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            datasetA: '30.4'
+            datasetB: 42.65%
+            ranking: '7'
+          - nameen: fcn_hr48_512x512_160k_ade20k
+            namezh: fcn_hr48_512x512_160k_ade20k
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmsegmentation/FCN?athId=9cb4ee8cc5fee1e37d4418259aa76d81&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            datasetA: '27.4'
+            datasetB: 41.43%
+            ranking: '8'
+          - nameen: dnl_r50-d8_4xb4-160k_ade20k-512x512
+            namezh: dnl_r50-d8_4xb4-160k_ade20k-512x512
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmsegmentation/DNLNet?athId=e7a94769be0d3a1b41a6e067db8e0f5d&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            datasetA: '26.3'
+            datasetB: 44.19%
+            ranking: '9'
+          - nameen: segmenter_vit-b_mask_8x1_512x512_160k_ade20k
+            namezh: segmenter_vit-b_mask_8x1_512x512_160k_ade20k
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmsegmentation/Segmenter?athId=0a8f2e1dccdce40c26a35ebe5b074f36&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            datasetA: '22.29'
+            datasetB: 60.68%
+            ranking: '10'
       - titlezh: 医学图像分类
         titleen: Medical Image Classification
     modelsRanking1:
