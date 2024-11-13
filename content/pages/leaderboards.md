@@ -261,6 +261,14 @@ blocks:
             ranking: '10'
       - titlezh: 语义分割
         titleen: Semantic Segmentation
+        rankings:
+          - nameen: knet_s3_upernet_swin-l_8x2_512x512_adamw_80k_ade20k
+            namezh: knet_s3_upernet_swin-l_8x2_512x512_adamw_80k_ade20k
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmsegmentation/KNet?athId=36dcc0bba02bb32f43af76a927e050cf&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            datasetA: '42.31'
+            datasetB: 62.86%
+            ranking: '1'
       - titlezh: 医学图像分类
         titleen: Medical Image Classification
     modelsRanking1:
