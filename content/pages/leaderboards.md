@@ -269,6 +269,22 @@ blocks:
             datasetA: '42.31'
             datasetB: 62.86%
             ranking: '1'
+          - nameen: >-
+              upernet_swin_large_patch4_window12_512x512_pretrain_384x384_22K_160k_ade20k
+            namezh: >-
+              upernet_swin_large_patch4_window12_512x512_pretrain_384x384_22K_160k_ade20k
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmsegmentation/UPerNet?athId=6eedb26553f6ddb295adee667149f722&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            datasetA: '40.35'
+            datasetB: 55.28%
+            ranking: '2'
+          - nameen: segformer_mit-b4_512x512_160k_ade20k
+            namezh: segformer_mit-b4_512x512_160k_ade20k
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmsegmentation/Segformer?athId=94937aa281ea263f6484a359dfa3ec4b&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            datasetA: '36.88'
+            datasetB: 47.56%
+            ranking: '3'
       - titlezh: 医学图像分类
         titleen: Medical Image Classification
     modelsRanking1:
