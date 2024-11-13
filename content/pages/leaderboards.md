@@ -100,7 +100,7 @@ blocks:
               https://platform.openmmlab.com/modelzoo/mmdetection/DyHead?athId=b19bf998702a943f70e46d53b1054e51&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
             download: 646
             datasetA: '0.447'
-            datasetB: '69.43'
+            datasetB: 69.43%
             ranking: '1'
           - nameen: yolox_x_8x8_300e_coco
             namezh: yolox_x_8x8_300e_coco
