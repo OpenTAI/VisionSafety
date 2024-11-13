@@ -94,6 +94,48 @@ blocks:
       - titlezh: 目标检测
         titleen: Object Detection
         rankings:
+          - nameen: atss_swin-l-p4-w12_fpn_dyhead_mstrain_2x_coco
+            namezh: atss_swin-l-p4-w12_fpn_dyhead_mstrain_2x_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/DyHead?athId=b19bf998702a943f70e46d53b1054e51&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+            download: 646
+            datasetA: '0.447'
+            datasetB: '69.43'
+            ranking: '1'
+          - nameen: yolox_x_8x8_300e_coco
+            namezh: yolox_x_8x8_300e_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/YOLOX?athId=e0fd346d0ae014efd2de972e6df9dea8&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+            download: 5152
+            datasetA: '0.426'
+            datasetB: 76.75%
+            ranking: '2'
+          - nameen: deformable-detr(deformable_detr_refine_r50_16x2_50e_coco)
+            namezh: deformable-detr(deformable_detr_refine_r50_16x2_50e_coco)
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20DETR?athId=45f3fa81f746aef44a5b0eb2eacb16c1&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+            download: 6510
+            datasetA: '0.286'
+            datasetB: 68.12%
+            ranking: '3'
+          - nameen: faster_rcnn_x101_64x4d_fpn_1x_coco
+            namezh: faster_rcnn_x101_64x4d_fpn_1x_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Faster%20R-CNN?athId=6e1c4a83606f2a559343d2c69c93d10f&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+            download: 50486
+            datasetA: '0.28'
+            datasetB: 71.85%
+            ranking: '4'
+          - nameen: deformable_detr_r50_16x2_50e_coco
+            namezh: deformable_detr_r50_16x2_50e_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20DETR?athId=45f3fa81f746aef44a5b0eb2eacb16c1&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+            download: 5414
+            datasetA: '0.276'
+            datasetB: 66.27%
+            ranking: '5'
+          - nameen: Model Name
+          - nameen: Model Name
           - nameen: detr-resnet-50(detr_r50_8x2_150e_coco)
             namezh: detr-resnet-50(detr_r50_8x2_150e_coco)
             paper: >-
@@ -101,6 +143,8 @@ blocks:
             download: 566289
             datasetA: '0.241'
             datasetB: 63.84%
+            ranking: '8'
+          - nameen: Model Name
       - titlezh: 实例分割
         titleen: Instance Segmentation
       - titlezh: 语义分割
