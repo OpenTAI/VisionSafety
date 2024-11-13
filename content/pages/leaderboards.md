@@ -134,8 +134,22 @@ blocks:
             datasetA: '0.276'
             datasetB: 66.27%
             ranking: '5'
-          - nameen: Model Name
-          - nameen: Model Name
+          - nameen: cascade_mask_rcnn_r50_fpn_20e_coco
+            namezh: cascade_mask_rcnn_r50_fpn_20e_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Cascade%20Mask%20R-CNN?athId=0ec20d0f9d5914e4422d251f2ddf247b&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+            download: 1505
+            datasetA: '0.257'
+            datasetB: 71.93%
+            ranking: '6'
+          - nameen: gfl_r50_fpn_1x_coco
+            namezh: gfl_r50_fpn_1x_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Generalized%20Focal%20Loss?athId=d5b8ec1f0fa4ca080d1be245181c200d&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+            download: 1190
+            datasetA: '0.246'
+            datasetB: 67.24%
+            ranking: '7'
           - nameen: detr-resnet-50(detr_r50_8x2_150e_coco)
             namezh: detr-resnet-50(detr_r50_8x2_150e_coco)
             paper: >-
@@ -144,7 +158,22 @@ blocks:
             datasetA: '0.241'
             datasetB: 63.84%
             ranking: '8'
-          - nameen: Model Name
+          - nameen: faster_rcnn_r50_caffe_c4_1x_coco
+            namezh: faster_rcnn_r50_caffe_c4_1x_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/Faster%20R-CNN?athId=6e1c4a83606f2a559343d2c69c93d10f&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+            download: 50486
+            datasetA: '0.214'
+            datasetB: 69.46%
+            ranking: '9'
+          - nameen: yolox_tiny_8x8_300e_coco
+            namezh: yolox_tiny_8x8_300e_coco
+            paper: >-
+              https://platform.openmmlab.com/modelzoo/mmdetection/YOLOX?athId=e0fd346d0ae014efd2de972e6df9dea8&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
+            download: 5152
+            datasetA: '0.182'
+            datasetB: 69.65%
+            ranking: '10'
       - titlezh: 实例分割
         titleen: Instance Segmentation
       - titlezh: 语义分割
