@@ -26,6 +26,7 @@
     ]
   },
   "footer": {
+    "homeurl": "https://opentai.github.io/VisionSafety",
     "nav": [
       {
         "href": "https://opentai.github.io/",

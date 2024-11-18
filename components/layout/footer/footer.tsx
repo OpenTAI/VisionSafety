@@ -15,7 +15,7 @@ export const Footer = ({ data }) => {
         <div className="w-full py-6 bg-deep-sky flex flex-col items-center">
           <ImageLink
             src={logoWhite}
-            href="/"
+            href={data.homeurl}
             className="max-w-48 mb-11 sm:mb-6 sm:max-w-28"
             width={112}
             height={30}
