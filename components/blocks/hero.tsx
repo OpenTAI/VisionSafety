@@ -20,8 +20,10 @@ export const Hero = ({
     <Section>
       <div className="max-w-360 mx-auto relative">
         <Image
-          src={headImg}
+          src={data.image}
           className="h-[38rem] absolute -z-10 object-cover object-top"
+          width={1440}
+          height={608}
           alt=""
         />
         <div className="flex items-center flex-col">
@@ -44,7 +46,7 @@ export const Hero = ({
           <div className="flex gap-8">
             {data[`buttonText${language}`] && (
               <Link
-                href="#leaderboards"
+                href={data.buttonLink}
                 className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
                 data-tina-field={tinaField(data, "buttonTexten")}
               >
@@ -54,7 +56,7 @@ export const Hero = ({
             )}
             {data[`buttonText1${language}`] && (
               <Link
-                href="#models"
+                href={data.button1Link}
                 className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
                 data-tina-field={tinaField(data, "buttonText1en")}
               >
@@ -64,7 +66,7 @@ export const Hero = ({
             )}
             {data[`buttonText2${language}`] && (
               <Link
-                href="#datasets"
+                href={data.button2Link}
                 className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8"
                 data-tina-field={tinaField(data, "buttonText2en")}
               >
@@ -88,7 +90,7 @@ export const Hero = ({
             {data[`subtitle2${language}`]}
           </div>
         </div> */}
-        <div className="max-w-320 mx-auto px-3" id="datasets">
+        <div className="max-w-320 mx-auto px-3">
           <div className="mt-52">
             <div
               className="text-base-blue text-5sm font-semibold max-w-191 text-center mx-auto leading-14"
@@ -149,6 +151,25 @@ export const heroBlockSchema: TinaTemplate = {
     },
     {
       type: "string",
+      label: "Button Link",
+      name: "buttonLink",
+      options: [
+        {
+          value: "/#models",
+          label: "Models"
+        },
+        {
+          value: "/#datasets",
+          label: "Datasets"
+        },
+        {
+          value: "/#leaderboards",
+          label: "Leaderboards"
+        }
+      ]
+    },
+    {
+      type: "string",
       label: "Button Text-En",
       name: "buttonText1en",
     },
@@ -159,6 +180,25 @@ export const heroBlockSchema: TinaTemplate = {
     },
     {
       type: "string",
+      label: "Button Link",
+      name: "button1Link",
+      options: [
+        {
+          value: "/#models",
+          label: "Models"
+        },
+        {
+          value: "/#datasets",
+          label: "Datasets"
+        },
+        {
+          value: "/#leaderboards",
+          label: "Leaderboards"
+        }
+      ]
+    },
+    {
+      type: "string",
       label: "Button Text-En",
       name: "buttonText2en",
     },
@@ -166,6 +206,25 @@ export const heroBlockSchema: TinaTemplate = {
       type: "string",
       label: "Button Text-Zh",
       name: "buttonText2zh",
+    },
+    {
+      type: "string",
+      label: "Button Link",
+      name: "button2Link",
+      options: [
+        {
+          value: "/#models",
+          label: "Models"
+        },
+        {
+          value: "/#datasets",
+          label: "Datasets"
+        },
+        {
+          value: "/#leaderboards",
+          label: "Leaderboards"
+        }
+      ]
     },
     {
       type: "string",
@@ -208,21 +267,9 @@ export const heroBlockSchema: TinaTemplate = {
       name: "text2zh",
     },
     {
-      type: "object",
+      type: "image",
       label: "Image",
       name: "image",
-      fields: [
-        {
-          name: "src",
-          label: "Image Source",
-          type: "image",
-        },
-        {
-          name: "alt",
-          label: "Alt Text",
-          type: "string",
-        },
-      ],
     },
   ],
 };

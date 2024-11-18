@@ -1,16 +1,19 @@
 ---
 title: 对抗评测平台
 blocks:
-  - headline1en: Adversarial Robustness Evaluation Platform
-    headline1zh: 对抗鲁棒性评测平台
-    headline2en: Ensuring AI's Robust Perception of Reality
+  - headline1en: Vision Safety Platform
+    headline1zh: 视觉安全平台
+    headline2en: 'Adversarial Robustness: Ensuring AI''s Robust Perception of Reality'
     headline2zh: 确保人工智能对现实世界的鲁棒感知
     buttonTexten: Tools
     buttonTextzh: 工具集
+    buttonLink: /#models
     buttonText1en: Datasets
     buttonText1zh: 数据集
+    button1Link: /#datasets
     buttonText2en: Leaderboards
     buttonText2zh: 排行榜
+    button2Link: /#leaderboards
     subtitle1en: ''
     subtitle1zh: ''
     subtitle2en: ''
@@ -19,11 +22,7 @@ blocks:
     text1zh: ''
     text2en: ''
     text2zh: ''
-    image:
-      src: /uploads/transferbasedAttackIcon2.png
-      alt: >-
-        Photo of palm trees at sunset by Adam Birkett -
-        unsplash.com/photos/75EFpyXu3Wg
+    image: '/uploads/vision safety background 1.jpg'
     _template: hero
   - title1en: Million-scale Evaluation
     title1zh: 白盒攻击评测White
@@ -185,10 +184,10 @@ blocks:
     _template: repositories
   - titleen: LeaderBoards
     titlezh: 排行榜
-    leftListTitleen: Transfer Attack
+    leftListTitleen: Black-box Leaderboard
     leftListTitlezh: 黑盒榜单
     items1:
-      - titleen: ImageNet - Image Classificaiton
+      - titleen: ImageNet - Image Classification
         titlezh: ImageNet
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
@@ -233,8 +232,19 @@ blocks:
         score: '4.8'
         detailen: ''
         detailzh: ''
-    rightListTitleen: ''
-    rightListTitlezh: ''
+    rightListTitleen: White-box Leaderboard
+    rightListTitlezh: 黑盒榜单
+    items2:
+      - titleen: ImageNet
+        titlezh: ImageNet
+        subtitleen: Image Classification
+        subtitlezh: 图像分类
+        modelSum: 5
+      - titleen: CIFAR-10
+        titlezh: CIFAR-10
+        subtitleen: Image Classification
+        subtitlezh: 图像分配
+        modelSum: 20
     _template: testimonial
 ---
 
