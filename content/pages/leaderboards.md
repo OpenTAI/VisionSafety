@@ -350,6 +350,7 @@ blocks:
           - nameen: CheXpert-5-convnextv2-tiny-384
             namezh: CheXpert-5-convnextv2-tiny-384
             paper: 'https://huggingface.co/shreydan/CheXpert-5-convnextv2-tiny-384'
+            download: 14
             datasetA: '0.6704'
             datasetB: 56.60%
             ranking: '1'
@@ -357,6 +358,7 @@ blocks:
             namezh: vit_small_patch16_224.medmae_CXR_mae_ft_CheXpert
             paper: >-
               https://huggingface.co/1aurent/vit_small_patch16_224.medmae_CXR_mae_ft_CheXpert
+            download: 2
             datasetA: '0.6692'
             datasetB: 89.74%
             ranking: '2'
@@ -364,6 +366,7 @@ blocks:
             namezh: vit_base_patch16_224.medmae_CXR_mae_ft_CheXpert
             paper: >-
               https://huggingface.co/1aurent/vit_base_patch16_224.medmae_CXR_mae_ft_CheXpert/tree/main
+            download: 4
             datasetA: '0.5758'
             datasetB: 89.39%
             ranking: '3'
