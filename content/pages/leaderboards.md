@@ -266,6 +266,7 @@ blocks:
             namezh: knet_s3_upernet_swin-l_8x2_512x512_adamw_80k_ade20k
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmsegmentation/KNet?athId=36dcc0bba02bb32f43af76a927e050cf&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            download: 343
             datasetA: '42.31'
             datasetB: 62.86%
             ranking: '1'
@@ -275,6 +276,7 @@ blocks:
               upernet_swin_large_patch4_window12_512x512_pretrain_384x384_22K_160k_ade20k
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmsegmentation/UPerNet?athId=6eedb26553f6ddb295adee667149f722&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            download: 1967
             datasetA: '40.35'
             datasetB: 55.28%
             ranking: '2'
@@ -282,6 +284,7 @@ blocks:
             namezh: segformer_mit-b4_512x512_160k_ade20k
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmsegmentation/Segformer?athId=94937aa281ea263f6484a359dfa3ec4b&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            download: 4600
             datasetA: '36.88'
             datasetB: 47.56%
             ranking: '3'
@@ -289,6 +292,7 @@ blocks:
             namezh: setr_mla_512x512_160k_b16_ade20k
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmsegmentation/SETR?athId=a0088b8a1527ee3e20b6241c2b66b496&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            download: 3437
             datasetA: '36.67'
             datasetB: 53.65%
             ranking: '4'
@@ -296,6 +300,7 @@ blocks:
             namezh: twins_svt-b_fpn_fpnhead_8x4_512x512_80k_ade20k
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmsegmentation/FPN?athId=7f617fa591d3dfd31fb2a9a7cc0ae8ba&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            download: 1503
             datasetA: '31.82'
             datasetB: 50.73%
             ranking: '5'
@@ -303,6 +308,7 @@ blocks:
             namezh: dpt_vit-b16_512x512_160k_ade20k
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmsegmentation/DPT?athId=b2c699d0fddf59a4e952cecea08b1b8b&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            download: 1813
             datasetA: '30.61'
             datasetB: 46.42%
             ranking: '6'
@@ -310,6 +316,7 @@ blocks:
             namezh: deeplabv3_r101-d8_512x512_160k_ade20k
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmsegmentation/DeepLabV3?athId=6f315fcddecd0407b37cae1346078876&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            download: 11112
             datasetA: '30.4'
             datasetB: 42.65%
             ranking: '7'
@@ -317,6 +324,7 @@ blocks:
             namezh: fcn_hr48_512x512_160k_ade20k
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmsegmentation/FCN?athId=9cb4ee8cc5fee1e37d4418259aa76d81&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            download: 52662
             datasetA: '27.4'
             datasetB: 41.43%
             ranking: '8'
@@ -324,6 +332,7 @@ blocks:
             namezh: dnl_r50-d8_4xb4-160k_ade20k-512x512
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmsegmentation/DNLNet?athId=e7a94769be0d3a1b41a6e067db8e0f5d&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            download: 375
             datasetA: '26.3'
             datasetB: 44.19%
             ranking: '9'
@@ -331,6 +340,7 @@ blocks:
             namezh: segmenter_vit-b_mask_8x1_512x512_160k_ade20k
             paper: >-
               https://platform.openmmlab.com/modelzoo/mmsegmentation/Segmenter?athId=0a8f2e1dccdce40c26a35ebe5b074f36&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
+            download: 1845
             datasetA: '22.29'
             datasetB: 60.68%
             ranking: '10'
