@@ -4,9 +4,9 @@ blocks:
   - titleen: Adversarial Robustness Leaderboards
     titlezh: 对抗鲁棒性排行榜
     subtitleen: >-
-      Black-box & white-box: evaluated the top-10 most downloaded or cited
-      models in 5 popular vision tasks, on domain datasets as well as
-      CC1M-Adv-C/F
+      Black-box and white-box evaluations: conducted for the top 10 most
+      downloaded/cited models across five popular vision tasks, using both
+      domain-specific datasets and our CC1M-Adv-C/F benchmarks.
     subtitlezh: OpenTAI Rank is exploring中文
     buttonTexten: Learn how it works
     buttonTextzh: 了解评测细节
@@ -20,6 +20,27 @@ blocks:
       - titlezh: Image Classification
         titleen: Image Classification
         rankings:
+          - nameen: coatnet_rmlp_nano_rw_384.sw_in1k
+            namezh: coatnet_rmlp_nano_rw_384.sw_in1k
+            paper: 'https://huggingface.co/timm/coatnet_rmlp_2_rw_384.sw_in12k_ft_in1k'
+            download: 764
+            datasetA: 67.49%
+            datasetB: 31.58%
+            ranking: '1'
+          - nameen: coatnet_rmlp_nano_rw_224.sw_in1k
+            namezh: GPT-4Test
+            paper: 'https://huggingface.co/timm/coatnet_rmlp_nano_rw_224.sw_in1k'
+            download: 467
+            datasetA: 52.75%
+            datasetB: 29.14%
+            ranking: '2'
+          - nameen: davit_base.msft_in1k
+            namezh: davit_base.msft_in1k
+            paper: 'https://huggingface.co/timm/davit_base.msft_in1k'
+            download: 1720
+            datasetA: 83.25%
+            datasetB: 38.06%
+            ranking: '3'
           - nameen: resnet50.a1_in1k
             namezh: resnet50.a1_in1k
             paper: 'https://huggingface.co/timm/resnet50.a1_in1k'
@@ -35,13 +56,13 @@ blocks:
             datasetA: 32.62%
             datasetB: 27.21%
             ranking: '5'
-          - nameen: tf_mobilenetv3_small_minimal_100.in1k
-            namezh: tf_mobilenetv3_small_minimal_100.in1k
-            paper: 'https://huggingface.co/timm/tf_mobilenetv3_large_minimal_100.in1k'
-            download: 783520
-            datasetA: 8.99%
-            datasetB: 24.83%
-            ranking: '10'
+          - nameen: resnet18.a1_in1k
+            namezh: resnet18.a1_in1k
+            paper: 'https://huggingface.co/timm/resnet18.a1_in1k'
+            download: 872296
+            datasetA: 27.11%
+            datasetB: 14.91%
+            ranking: '6'
           - nameen: resnet18.fb_swsl_ig1b_ft_in1k
             namezh: resnet18.fb_swsl_ig1b_ft_in1k
             paper: 'https://huggingface.co/timm/resnet18.fb_swsl_ig1b_ft_in1k'
@@ -63,34 +84,13 @@ blocks:
             datasetA: 11.30%
             datasetB: 8.18%
             ranking: '9'
-          - nameen: resnet18.a1_in1k
-            namezh: resnet18.a1_in1k
-            paper: 'https://huggingface.co/timm/resnet18.a1_in1k'
-            download: 872296
-            datasetA: 27.11%
-            datasetB: 14.91%
-            ranking: '6'
-          - nameen: davit_base.msft_in1k
-            namezh: davit_base.msft_in1k
-            paper: 'https://huggingface.co/timm/davit_base.msft_in1k'
-            download: 1720
-            datasetA: 83.25%
-            datasetB: 38.06%
-            ranking: '3'
-          - nameen: coatnet_rmlp_nano_rw_224.sw_in1k
-            namezh: GPT-4Test
-            paper: 'https://huggingface.co/timm/coatnet_rmlp_nano_rw_224.sw_in1k'
-            download: 467
-            datasetA: 52.75%
-            datasetB: 29.14%
-            ranking: '2'
-          - nameen: coatnet_rmlp_nano_rw_384.sw_in1k
-            namezh: coatnet_rmlp_nano_rw_384.sw_in1k
-            paper: 'https://huggingface.co/timm/coatnet_rmlp_2_rw_384.sw_in12k_ft_in1k'
-            download: 764
-            datasetA: 67.49%
-            datasetB: 31.58%
-            ranking: '1'
+          - nameen: tf_mobilenetv3_small_minimal_100.in1k
+            namezh: tf_mobilenetv3_small_minimal_100.in1k
+            paper: 'https://huggingface.co/timm/tf_mobilenetv3_large_minimal_100.in1k'
+            download: 783520
+            datasetA: 8.99%
+            datasetB: 24.83%
+            ranking: '10'
       - titlezh: 目标检测
         titleen: Object Detection
         rankings:
