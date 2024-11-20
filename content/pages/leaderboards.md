@@ -374,13 +374,15 @@ blocks:
       - titlezh: CIFAR-10
         titleen: CIFAR-10
         rankings:
-          - nameen: >-
+          - nameen: RaWideResNet-70-16
+            namezh: RaWideResNet-70-16
+            paper: >-
               Robust Principles: Architectural Design Principles for
-              Adversarially Robust CNNs
-            namezh: >-
-              Robust Principles: Architectural Design Principles for
-              Adversarially Robust CNNs
-            paper: 'https://arxiv.org/abs/2308.16258'
+              Adversarially Robust CNNs[https://arxiv.org/abs/2308.16258]
+            download: 38
+            datasetA: 93.27%
+            datasetB: 71.10%
+            ranking: '1'
           - nameen: Model Name
           - nameen: Model Name
           - nameen: Model Name
