@@ -452,66 +452,43 @@ blocks:
             datasetA: 88.50%
             datasetB: 64.68%
             ranking: '10'
-      - titlezh: CC1M
-        titleen: CC1M
+      - titlezh: CIFAR-100
+        titleen: CIFAR-100
         rankings:
-          - nameen: GPT-41
-            namezh: GPT-4Test
-            paper: >-
-              Robust Principles: Architectural DesignPrinciples for
-              Adversarially Robust...
-            download: 112092
-            datasetA: 76.5%
-            datasetB: 76.5%
+          - nameen: WideResNet-70-16
+            namezh: WideResNet-70-16
+            paper: Better Diffusion Models Further Improve Adversarial Training
+            download: 194
+            datasetA: 75.23%
+            datasetB: 42.83%
             ranking: '1'
-          - nameen: Llama 31
-            namezh: Llama 3
-            paper: Better Diffusion Models Further lmprove Adversarial Training
-            download: 112092
-            datasetA: 76.5%
-            datasetB: 76.5%
+          - nameen: WideResNet-28-10
+            namezh: WideResNet-28-10
+            paper: Decoupled Kullback-Leibler Divergence Loss
+            download: 34
+            datasetA: 73.83%
+            datasetB: 39.39%
             ranking: '2'
-          - nameen: Claude 31
-            namezh: Claude 3
-            paper: >-
-              MixedNUTS: Training-Free Accuracy-RobustnessBalance via
-              Nonlinearly Mixed...
-            download: 112092
-            datasetA: 76.5%
-            datasetB: 76.5%
+          - nameen: WideResNet-28-10
+            namezh: WideResNet-28-10
+            paper: Better Diffusion Models Further Improve Adversarial Training
+            download: 194
+            datasetA: 72.58%
+            datasetB: 38.92%
             ranking: '3'
-          - nameen: Ernie-4.01
-            namezh: Ernie-4.0
+          - nameen: WideResNet-70-16
+            namezh: WideResNet-70-16
             paper: >-
-              Improving the Accuracy-Robustness Trade-off ofClassifiers via
-              Adaptive Smoothing
-            download: 112092
-            datasetA: 76.5%
-            datasetB: 76.5%
+              Uncovering the Limits of Adversarial Training against Norm-Bounded
+              Adversarial Examples
+            download: 345
+            datasetA: 69.15%
+            datasetB: 37.20%
             ranking: '4'
-          - nameen: GPT-3.5 turbo1
-            namezh: GPT-3.5 turbo
-            paper: Better Diffusion Models Further lmprove Adversarial Training
-            download: 112092
-            datasetA: 76.5%
-            datasetB: 76.5%
-            ranking: '5'
-          - nameen: GPT-3.5
-            namezh: GPT-3.5
-            paper: >-
-              MixedNUTS: Training-Free Accuracy-RobustnessBalance via
-              Nonlinearly Mixed...
-            download: 112092
-            datasetA: 76.5%
-            datasetB: 76.5%
-            ranking: '6'
-          - nameen: xAI-Grok 2
-            namezh: xAI-Grok 2
-            paper: Better Diffusion Models Further lmprove Adversarial Training
-            download: 112092
-            datasetA: 76.5%
-            datasetB: 76.5%
-            ranking: '7'
+          - nameen: Model Name
+          - nameen: Model Name
+          - nameen: Model Name
+          - nameen: Model Name
     _template: table
 ---
 
