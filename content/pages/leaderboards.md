@@ -500,13 +500,13 @@ blocks:
     table2:
       tab2en: White-box
       tab2zh: 白盒
-      columnName1: 模型名称
-      columnName2: 论文
-      columnName3: 模型下载量
-      columnName4: 对抗安全性
-      columnName4A: 数据集A
-      columnName4B: 数据集B
-      columnName5: 排名
+      columnName1: Model Name
+      columnName2: Paper
+      columnName3: Citations
+      columnName4: Evaluation Result
+      columnName4A: Clean Acc
+      columnName4B: Robust Acc
+      columnName5: Rank
       modelsRanking2:
         - titlezh: CIFAR-10
           titleen: CIFAR-10
