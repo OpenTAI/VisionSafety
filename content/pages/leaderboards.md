@@ -378,15 +378,41 @@ blocks:
             namezh: RaWideResNet-70-16
             paper: >-
               Robust Principles: Architectural Design Principles for
-              Adversarially Robust CNNs[https://arxiv.org/abs/2308.16258]
+              Adversarially Robust CNNs
             download: 38
             datasetA: 93.27%
             datasetB: 71.10%
             ranking: '1'
-          - nameen: Model Name
-          - nameen: Model Name
-          - nameen: Model Name
-          - nameen: Model Name
+          - nameen: WideResNet-70-16
+            namezh: WideResNet-70-16
+            paper: Better Diffusion Models Further Improve Adversarial Training
+            download: 194
+            datasetA: 93.25%
+            datasetB: 70.70%
+            ranking: '2'
+          - nameen: ResNet-152 + WideResNet-70-16 + mixing network
+            namezh: ResNet-152 + WideResNet-70-16 + mixing network
+            paper: >-
+              Improving the Accuracy-Robustness Trade-off of Classifiers via
+              Adaptive Smoothing
+            download: 13
+            datasetA: 95.23%
+            datasetB: 68.06%
+            ranking: '3'
+          - nameen: WideResNet-28-10
+            namezh: WideResNet-28-10
+            paper: Decoupled Kullback-Leibler Divergence Loss
+            download: 34
+            datasetA: 92.16%
+            datasetB: 67.75%
+            ranking: '4'
+          - nameen: WideResNet-28-10
+            namezh: WideResNet-28-10
+            paper: Better Diffusion Models Further Improve Adversarial Training
+            download: 194
+            datasetA: 92.44%
+            datasetB: 67.31%
+            ranking: '5'
           - nameen: Model Name
           - nameen: Model Name
           - nameen: Model Name
