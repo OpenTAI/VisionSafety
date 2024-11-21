@@ -4,7 +4,6 @@ import type { TinaTemplate } from "tinacms";
 import { PageBlocksHero } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import Image from "next/image";
-import headImg from "../../assets/img/headImg.png";
 import { basePath } from "../util/url-helper";
 import SquareArrow from "../../assets/img/square-arrow-up-right-solid.svg";
 import Link from "next/link";
