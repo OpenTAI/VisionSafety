@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import type { TinaTemplate } from "tinacms";
-import { PageBlocksTable } from "../../tina/__generated__/types";
+import { PageBlocksTable, PageBlocksTableTable1, PageBlocksTableTable1ModelsRanking1RankingsPaper, PageBlocksTableTable2 } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import { ConfigProvider, Table } from "antd";
 import playIcon from "../../assets/img/playIcon.png";
@@ -10,48 +10,47 @@ import { basePath } from "../util/url-helper";
 interface dataType {
   key: React.Key;
   name: string;
-  paper: string;
+  paper: PageBlocksTableTable1ModelsRanking1RankingsPaper;
   download: number;
   datasetA: string;
   datasetB: string;
   ranking: string;
 }
 
-const columns = [
+const columns = (columns: PageBlocksTableTable1 | PageBlocksTableTable2) => [
   {
-    title: "模型名称",
+    title: columns.columnName1,
     dataIndex: "name",
     key: "name",
-    sorter: (a: dataType, b: dataType) => a.name.length - b.name.length,
   },
   {
-    title: "论文",
+    title: columns.columnName2,
     dataIndex: "paper",
     key: "paper",
     className: "w-96",
-    render: (text: string) => (
-      <div className="text-base-blue underline cursor-pointer">{text}</div>
+    render: (paper: PageBlocksTableTable1ModelsRanking1RankingsPaper) => (
+      <a href={paper.link} className="text-base-blue underline cursor-pointer">{paper.text}</a>
     ),
   },
   {
-    title: "模型下载量",
+    title: columns.columnName3,
     dataIndex: "download",
     key: "download",
     className: "w-32",
     sorter: (a: dataType, b: dataType) => a.name.length - b.name.length,
   },
   {
-    title: "对抗安全性",
+    title: columns.columnName4,
     className: "!text-center",
     children: [
       {
-        title: "数据集A",
+        title: columns.columnName4A,
         dataIndex: "datasetA",
         key: "datasetA",
         className: "!text-center",
       },
       {
-        title: "数据集B",
+        title: columns.columnName4B,
         dataIndex: "datasetB",
         key: "datasetB",
         className: "!text-center",
@@ -59,9 +58,10 @@ const columns = [
     ],
   },
   {
-    title: "排名",
+    title: columns.columnName5,
     dataIndex: "ranking",
     key: "ranking",
+    sorter: (a: dataType, b: dataType) => (+a.ranking || Number.MAX_SAFE_INTEGER) - (+b.ranking || Number.MAX_SAFE_INTEGER),
   },
 ];
 
@@ -86,8 +86,8 @@ export const Tables = ({
   };
 
   const getMenuItems = (tabIndex = 1) => {
-    const items = data[`modelsRanking${tabIndex}`]
-      ? data[`modelsRanking${tabIndex}`].map((i) => i.titleen)
+    const items = data[`table${tabIndex}`][`modelsRanking${tabIndex}`]
+      ? data[`table${tabIndex}`][`modelsRanking${tabIndex}`].map((i) => i.titleen)
       : [];
 
     setActiveMenuItems(items);
@@ -113,8 +113,8 @@ export const Tables = ({
   };
 
   const getTableData = (tabIndex = 1, menuItemIndex = 0) => {
-    const selectedData = data[`modelsRanking${tabIndex}`]
-      ? data[`modelsRanking${tabIndex}`][menuItemIndex].rankings || []
+    const selectedData = data[`table${tabIndex}`][`modelsRanking${tabIndex}`]
+      ? data[`table${tabIndex}`][`modelsRanking${tabIndex}`][menuItemIndex].rankings || []
       : [];
     const currentData = selectedData.map((item, index) => {
       return {
@@ -173,7 +173,7 @@ export const Tables = ({
           }`}
           onClick={() => handleActiveTabChange("tab1")}
         >
-          {data[`tab1${language}`]}
+          {data.table1[`tab1${language}`]}
         </div>
         <div
           className={`w-1/2 p-4 text-center cursor-pointer border-l ${
@@ -181,7 +181,7 @@ export const Tables = ({
           }`}
           onClick={() => handleActiveTabChange("tab2")}
         >
-          {data[`tab2${language}`]}
+          {data.table2[`tab2${language}`]}
         </div>
       </div>
 
@@ -215,7 +215,7 @@ export const Tables = ({
             }}
           >
             <Table
-              columns={columns}
+              columns={columns(data[`table${getTabIndex(activeTab)}`])}
               dataSource={tableData}
               pagination={false}
               rowClassName={rowClassName}
@@ -273,105 +273,139 @@ export const tablesBlockSchema: TinaTemplate = {
       name: "buttonTextzh",
     },
     {
-      type: "string",
-      label: "Table Title-En",
-      name: "tableTitleen",
-    },
-    {
-      type: "string",
-      label: "Table Title-Zh",
-      name: "tableTitlezh",
-    },
-    {
-      type: "string",
-      label: "Tab 1-En",
-      name: "tab1en",
-    },
-    {
-      type: "string",
-      label: "Tab 1-Zh",
-      name: "tab1zh",
-    },
-    {
-      type: "string",
-      label: "Tab 2-En",
-      name: "tab2en",
-    },
-    {
-      type: "string",
-      label: "Tab 2-Zh",
-      name: "tab2zh",
-    },
-    {
       type: "object",
-      label: "tab1",
-      name: "modelsRanking1",
-      list: true,
-      ui: {
-        itemProps: (item) => {
-          return { label: item?.titlezh };
-        },
-        defaultItem: {},
-      },
+      label: "Table 1",
+      name: "table1",
       fields: [
         {
           type: "string",
-          label: "titlezh",
-          name: "titlezh",
+          label: "Tab 1-En",
+          name: "tab1en",
         },
         {
           type: "string",
-          label: "titleen",
-          name: "titleen",
+          label: "Tab 1-Zh",
+          name: "tab1zh",
+        },
+        {
+          type: "string",
+          label: "Column name 1",
+          name: "columnName1",
+        },
+        {
+          type: "string",
+          label: "Column name 2",
+          name: "columnName2",
+        },
+        {
+          type: "string",
+          label: "Column name 3",
+          name: "columnName3",
+        },
+        {
+          type: "string",
+          label: "Column name 4",
+          name: "columnName4",
+        },
+        {
+          type: "string",
+          label: "Column name 4 A",
+          name: "columnName4A",
+        },
+        {
+          type: "string",
+          label: "Column name 4 B",
+          name: "columnName4B",
+        },
+        {
+          type: "string",
+          label: "Column name 5",
+          name: "columnName5",
         },
         {
           type: "object",
-          label: "Rankings",
-          name: "rankings",
+          label: "tab1",
+          name: "modelsRanking1",
           list: true,
           ui: {
-            itemProps: (ranking) => {
-              return { label: ranking?.nameen };
+            itemProps: (item) => {
+              return { label: item?.titlezh };
             },
-            defaultItem: {
-              nameen: "Model Name",
-            },
+            defaultItem: {},
           },
           fields: [
             {
               type: "string",
-              label: "Name-En",
-              name: "nameen",
+              label: "titlezh",
+              name: "titlezh",
             },
             {
               type: "string",
-              label: "Name-Zh",
-              name: "namezh",
+              label: "titleen",
+              name: "titleen",
             },
             {
-              type: "string",
-              label: "Paper",
-              name: "paper",
-            },
-            {
-              type: "number",
-              label: "Download",
-              name: "download",
-            },
-            {
-              type: "string",
-              label: "DatasetA",
-              name: "datasetA",
-            },
-            {
-              type: "string",
-              label: "DatasetB",
-              name: "datasetB",
-            },
-            {
-              type: "string",
-              label: "Ranking",
-              name: "ranking",
+              type: "object",
+              label: "Rankings",
+              name: "rankings",
+              list: true,
+              ui: {
+                itemProps: (ranking) => {
+                  return { label: ranking?.nameen };
+                },
+                defaultItem: {
+                  nameen: "Model Name",
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  label: "Name-En",
+                  name: "nameen",
+                },
+                {
+                  type: "string",
+                  label: "Name-Zh",
+                  name: "namezh",
+                },
+                {
+                  type: "object",
+                  label: "Paper",
+                  name: "paper",
+                  fields: [
+                    {
+                      type: "string",
+                      label: "Display Text",
+                      name: "text"
+                    },
+                    {
+                      type: "string",
+                      label: "Link",
+                      name: "link"
+                    }
+                  ]
+                },
+                {
+                  type: "number",
+                  label: "Download",
+                  name: "download",
+                },
+                {
+                  type: "string",
+                  label: "DatasetA",
+                  name: "datasetA",
+                },
+                {
+                  type: "string",
+                  label: "DatasetB",
+                  name: "datasetB",
+                },
+                {
+                  type: "string",
+                  label: "Ranking",
+                  name: "ranking",
+                },
+              ],
             },
           ],
         },
@@ -379,74 +413,138 @@ export const tablesBlockSchema: TinaTemplate = {
     },
     {
       type: "object",
-      label: "tab2",
-      name: "modelsRanking2",
-      list: true,
-      ui: {
-        itemProps: (item) => {
-          return { label: item?.titlezh };
-        },
-        defaultItem: {},
-      },
+      label: "Table 2",
+      name: "table2",
       fields: [
         {
           type: "string",
-          label: "titlezh",
-          name: "titlezh",
+          label: "Tab 2-En",
+          name: "tab2en",
         },
         {
           type: "string",
-          label: "titleen",
-          name: "titleen",
+          label: "Tab 2-Zh",
+          name: "tab2zh",
+        },
+        {
+          type: "string",
+          label: "Column name 1",
+          name: "columnName1",
+        },
+        {
+          type: "string",
+          label: "Column name 2",
+          name: "columnName2",
+        },
+        {
+          type: "string",
+          label: "Column name 3",
+          name: "columnName3",
+        },
+        {
+          type: "string",
+          label: "Column name 4",
+          name: "columnName4",
+        },
+        {
+          type: "string",
+          label: "Column name 4 A",
+          name: "columnName4A",
+        },
+        {
+          type: "string",
+          label: "Column name 4 B",
+          name: "columnName4B",
+        },
+        {
+          type: "string",
+          label: "Column name 5",
+          name: "columnName5",
         },
         {
           type: "object",
-          label: "Rankings",
-          name: "rankings",
+          label: "tab2",
+          name: "modelsRanking2",
           list: true,
           ui: {
-            itemProps: (ranking) => {
-              return { label: ranking?.nameen };
+            itemProps: (item) => {
+              return { label: item?.titlezh };
             },
-            defaultItem: {
-              nameen: "Model Name",
-            },
+            defaultItem: {},
           },
           fields: [
             {
               type: "string",
-              label: "Name-En",
-              name: "nameen",
+              label: "titlezh",
+              name: "titlezh",
             },
             {
               type: "string",
-              label: "Name-Zh",
-              name: "namezh",
+              label: "titleen",
+              name: "titleen",
             },
             {
-              type: "string",
-              label: "Paper",
-              name: "paper",
-            },
-            {
-              type: "number",
-              label: "Download",
-              name: "download",
-            },
-            {
-              type: "string",
-              label: "DatasetA",
-              name: "datasetA",
-            },
-            {
-              type: "string",
-              label: "DatasetB",
-              name: "datasetB",
-            },
-            {
-              type: "string",
-              label: "Ranking",
-              name: "ranking",
+              type: "object",
+              label: "Rankings",
+              name: "rankings",
+              list: true,
+              ui: {
+                itemProps: (ranking) => {
+                  return { label: ranking?.nameen };
+                },
+                defaultItem: {
+                  nameen: "Model Name",
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  label: "Name-En",
+                  name: "nameen",
+                },
+                {
+                  type: "string",
+                  label: "Name-Zh",
+                  name: "namezh",
+                },
+                {
+                  type: "object",
+                  label: "Paper",
+                  name: "paper",
+                  fields: [
+                    {
+                      type: "string",
+                      label: "Display Text",
+                      name: "text"
+                    },
+                    {
+                      type: "string",
+                      label: "Link",
+                      name: "link"
+                    }
+                  ]
+                },
+                {
+                  type: "number",
+                  label: "Download",
+                  name: "download",
+                },
+                {
+                  type: "string",
+                  label: "DatasetA",
+                  name: "datasetA",
+                },
+                {
+                  type: "string",
+                  label: "DatasetB",
+                  name: "datasetB",
+                },
+                {
+                  type: "string",
+                  label: "Ranking",
+                  name: "ranking",
+                },
+              ],
             },
           ],
         },
