@@ -485,10 +485,36 @@ blocks:
             datasetA: 69.15%
             datasetB: 37.20%
             ranking: '4'
-          - nameen: Model Name
-          - nameen: Model Name
-          - nameen: Model Name
-          - nameen: Model Name
+          - nameen: XCiT-L12
+            namezh: XCiT-L12
+            paper: A Light Recipe to Train Robust Vision Transformers
+            download: 56
+            datasetA: 70.77%
+            datasetB: 35.27%
+            ranking: '5'
+          - nameen: WideResNet-70-16
+            namezh: WideResNet-70-16
+            paper: Fixing Data Augmentation to Improve Adversarial Robustness
+            download: 285
+            datasetA: 63.56%
+            datasetB: 34.74%
+            ranking: '6'
+          - nameen: XCiT-M12
+            namezh: XCiT-M12
+            paper: A Light Recipe to Train Robust Vision Transformers
+            download: 56
+            datasetA: 69.20%
+            datasetB: 34.33%
+            ranking: '7'
+          - nameen: WideResNet-70-16
+            namezh: WideResNet-70-16
+            paper: >-
+              Robustness and Accuracy Could Be Reconcilable by (Proper)
+              Definition
+            download: 136
+            datasetA: 65.56%
+            datasetB: 33.14%
+            ranking: '8'
     _template: table
 ---
 
