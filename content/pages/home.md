@@ -22,7 +22,7 @@ blocks:
     text1zh: ''
     text2en: ''
     text2zh: ''
-    image: '/uploads/vision safety background 1.jpg'
+    image: /uploads/vision safety background 1.jpg
     _template: hero
   - title1en: Million-scale Evaluation
     title1zh: 白盒攻击评测White
@@ -184,8 +184,8 @@ blocks:
     _template: repositories
   - titleen: LeaderBoards
     titlezh: 排行榜
-    leftListTitleen: Black-box Leaderboard
-    leftListTitlezh: 黑盒榜单
+    leftListTitleen: ''
+    leftListTitlezh: ''
     items1:
       - titleen: ImageNet - Image Classification
         titlezh: ImageNet
@@ -194,6 +194,17 @@ blocks:
         modelSum: 10
         score: '4.8'
         detailen: ''
+      - titleen: ADE20K - Semantic Segmentation
+        titlezh: ADE20K - 语义分割
+        subtitleen: Feature Attack
+        subtitlezh: 特征攻击
+        modelSum: 10
+        score: '4.8'
+      - titleen: CIFAR100 - Image Classification
+        titlezh: CIFAR100 -  图像分类
+        subtitleen: Label Attack
+        subtitlezh: 类别攻击
+        modelSum: 8
       - titleen: ImageNet - Image Classification
         titlezh: ImageNet
         subtitleen: Label Attack
@@ -218,12 +229,16 @@ blocks:
         score: '4.8'
         detailen: ''
         detailzh: Reviewed by more than 200K Users
-      - titleen: ADE20K - Semantic Segmentation
-        titlezh: ADE20K - 语义分割
-        subtitleen: Feature Attack
-        subtitlezh: 特征攻击
+      - titleen: CIFAR10 - Image Classification
+        titlezh: CIFAR10 - 图像分类
+        subtitleen: Label Attack
+        subtitlezh: 类别攻击
         modelSum: 10
-        score: '4.8'
+      - titleen: CC1M - Image Classification
+        titlezh: CC1M - 图像分类
+        subtitleen: Label Attack
+        subtitlezh: 类别攻击
+        modelSum: 5
       - titleen: CheXpert - Medical Image Classification
         titlezh: CheXpert - 医学图像分类
         subtitleen: Feature Attack
@@ -232,19 +247,8 @@ blocks:
         score: '4.8'
         detailen: ''
         detailzh: ''
-    rightListTitleen: White-box Leaderboard
-    rightListTitlezh: 黑盒榜单
-    items2:
-      - titleen: ImageNet
-        titlezh: ImageNet
-        subtitleen: Image Classification
-        subtitlezh: 图像分类
-        modelSum: 5
-      - titleen: CIFAR-10
-        titlezh: CIFAR-10
-        subtitleen: Image Classification
-        subtitlezh: 图像分配
-        modelSum: 20
+    rightListTitleen: ''
+    rightListTitlezh: ''
     _template: testimonial
 ---
 
