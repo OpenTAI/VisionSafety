@@ -617,7 +617,54 @@ blocks:
             datasetA: 72.45%
             datasetB: 47.70%
             ranking: '11'
-      - {}
+      - titlezh: CC1M
+        titleen: CC1M
+        rankings:
+          - nameen: ConvNeXt-L + ConvStem
+            namezh: ConvNeXt-L + ConvStem
+            paper: >-
+              Revisiting Adversarial Training for ImageNet: Architectures,
+              Training and Generalization across Threat Models
+            download: 48
+            datasetA: 100%
+            datasetB: 18.17%
+            ranking: '1'
+          - nameen: ConvNeXtV2-L + Swin-L
+            namezh: ConvNeXtV2-L + Swin-L
+            paper: >-
+              MixedNUTS: Training-Free Accuracy-Robustness Balance via
+              Nonlinearly Mixed Classifiers
+            download: 2
+            datasetA: 100%
+            datasetB: 17.56%
+            ranking: '2'
+          - nameen: Swin-L
+            namezh: Swin-L
+            paper: >-
+              A Comprehensive Study on Robustness of Image Classification
+              Models: Benchmarking and Rethinking
+            download: 57
+            datasetA: 100%
+            datasetB: 17.23%
+            ranking: '3'
+          - nameen: ConvNeXt-L
+            namezh: ConvNeXt-L
+            paper: >-
+              A Comprehensive Study on Robustness of Image Classification
+              Models: Benchmarking and Rethinking
+            download: 57
+            datasetA: 100%
+            datasetB: 17.13%
+            ranking: '4'
+          - nameen: Swin-B
+            namezh: Swin-B
+            paper: >-
+              A Comprehensive Study on Robustness of Image Classification
+              Models: Benchmarking and Rethinking
+            download: 57
+            datasetA: 100%
+            datasetB: 16.78%
+            ranking: '5'
     _template: table
 ---
 
