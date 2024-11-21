@@ -515,6 +515,69 @@ blocks:
             datasetA: 65.56%
             datasetB: 33.14%
             ranking: '8'
+      - titlezh: ImageNet-1k
+        titleen: ImageNet-1k
+        rankings:
+          - nameen: ConvNeXtV2-L + Swin-L
+            namezh: ConvNeXtV2-L + Swin-L
+            paper: >-
+              MixedNUTS: Training-Free Accuracy-Robustness Balance via
+              Nonlinearly Mixed Classifiers
+            download: 2
+            datasetA: 81.10%
+            datasetB: 58.65%
+            ranking: '1'
+          - nameen: Swin-L
+            namezh: Swin-L
+            paper: >-
+              A Comprehensive Study on Robustness of Image Classification
+              Models: Benchmarking and Rethinking
+            download: 57
+            datasetA: 78.18%
+            datasetB: 57.35%
+            ranking: '2'
+          - nameen: ConvNeXt-L
+            namezh: ConvNeXt-L
+            paper: >-
+              A Comprehensive Study on Robustness of Image Classification
+              Models: Benchmarking and Rethinking
+            download: 57
+            datasetA: 77.48%
+            datasetB: 56.53%
+            ranking: '3'
+          - nameen: ConvNeXt-L + ConvStem
+            namezh: ConvNeXt-L + ConvStem
+            paper: >-
+              Revisiting Adversarial Training for ImageNet: Architectures,
+              Training and Generalization across Threat Models
+            download: 48
+            datasetA: 76.79%
+            datasetB: 55.94%
+            ranking: '4'
+          - nameen: Swin-B
+            namezh: Swin-B
+            paper: >-
+              A Comprehensive Study on Robustness of Image Classification
+              Models: Benchmarking and Rethinking
+            download: 57
+            datasetA: 76.22%
+            datasetB: 54.41%
+            ranking: '5'
+          - nameen: ConvNeXt-B
+            namezh: ConvNeXt-B
+            paper: >-
+              A Comprehensive Study on Robustness of Image Classification
+              Models: Benchmarking and Rethinking
+            download: 57
+            datasetA: 76.38%
+            datasetB: 54.13%
+            ranking: '6'
+          - nameen: Model Name
+          - nameen: Model Name
+          - nameen: Model Name
+          - nameen: Model Name
+          - nameen: Model Name
+      - {}
     _template: table
 ---
 
