@@ -572,11 +572,51 @@ blocks:
             datasetA: 76.38%
             datasetB: 54.13%
             ranking: '6'
-          - nameen: Model Name
-          - nameen: Model Name
-          - nameen: Model Name
-          - nameen: Model Name
-          - nameen: Model Name
+          - nameen: ConvNeXt-B + ConvStem
+            namezh: ConvNeXt-B + ConvStem
+            paper: >-
+              Revisiting Adversarial Training for ImageNet: Architectures,
+              Training and Generalization across Threat Models
+            download: 48
+            datasetA: 75.46%
+            datasetB: 53.94%
+            ranking: '7'
+          - nameen: ViT-B + ConvStem
+            namezh: ViT-B + ConvStem
+            paper: >-
+              Revisiting Adversarial Training for ImageNet: Architectures,
+              Training and Generalization across Threat Models
+            download: 48
+            datasetA: 76.12%
+            datasetB: 52.82%
+            ranking: '8'
+          - nameen: ConvNeXt-S + ConvStem
+            namezh: ConvNeXt-S + ConvStem
+            paper: >-
+              Revisiting Adversarial Training for ImageNet: Architectures,
+              Training and Generalization across Threat Models
+            download: 48
+            datasetA: 73.37%
+            datasetB: 49.74%
+            ranking: '9'
+          - nameen: RaWideResNet-101-2
+            namezh: RaWideResNet-101-2
+            paper: >-
+              Robust Principles: Architectural Design Principles for
+              Adversarially Robust CNNs
+            download: 38
+            datasetA: 73.45%
+            datasetB: 49.06%
+            ranking: '10'
+          - nameen: ConvNeXt-T + ConvStem
+            namezh: ConvNeXt-T + ConvStem
+            paper: >-
+              Revisiting Adversarial Training for ImageNet: Architectures,
+              Training and Generalization across Threat Models
+            download: 48
+            datasetA: 72.45%
+            datasetB: 47.70%
+            ranking: '11'
       - {}
     _template: table
 ---
