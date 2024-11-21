@@ -413,9 +413,45 @@ blocks:
             datasetA: 92.44%
             datasetB: 67.31%
             ranking: '5'
-          - nameen: Model Name
-          - nameen: Model Name
-          - nameen: Model Name
+          - nameen: WideResNet-70-16
+            namezh: WideResNet-70-16
+            paper: Fixing Data Augmentation to Improve Adversarial Robustness
+            download: 285
+            datasetA: 92.23%
+            datasetB: 66.59%
+            ranking: '6'
+          - nameen: WideResNet-70-16
+            namezh: WideResNet-70-16
+            paper: Improving Robustness using Generated Data
+            download: 287
+            datasetA: 88.74%
+            datasetB: 66.14%
+            ranking: '7'
+          - nameen: WideResNet-70-16
+            namezh: WideResNet-70-16
+            paper: >-
+              Uncovering the Limits of Adversarial Training against Norm-Bounded
+              Adversarial Examples
+            download: 345
+            datasetA: 91.10%
+            datasetB: 65.89%
+            ranking: '8'
+          - nameen: WideResNet-A4
+            namezh: WideResNet-A4
+            paper: >-
+              Revisiting Residual Networks for Adversarial Robustness: An
+              Architectural Perspective
+            download: 38
+            datasetA: 91.59%
+            datasetB: 65.78%
+            ranking: '9'
+          - nameen: WideResNet-106-16
+            namezh: WideResNet-106-16
+            paper: Fixing Data Augmentation to Improve Adversarial Robustness
+            download: 285
+            datasetA: 88.50%
+            datasetB: 64.68%
+            ranking: '10'
       - titlezh: CC1M
         titleen: CC1M
         rankings:
