@@ -176,7 +176,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20DETR?athId=45f3fa81f746aef44a5b0eb2eacb16c1&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
               download: 5414
               datasetA: '0.276'
-              datasetB: 66.27%
+              datasetB: '0.6627'
               ranking: '5'
             - nameen: cascade_mask_rcnn_r50_fpn_20e_coco
               namezh: cascade_mask_rcnn_r50_fpn_20e_coco
@@ -187,7 +187,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Cascade%20Mask%20R-CNN?athId=0ec20d0f9d5914e4422d251f2ddf247b&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
               download: 1505
               datasetA: '0.257'
-              datasetB: 71.93%
+              datasetB: '0.7193'
               ranking: '6'
             - nameen: gfl_r50_fpn_1x_coco
               namezh: gfl_r50_fpn_1x_coco
@@ -360,7 +360,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/KNet?athId=36dcc0bba02bb32f43af76a927e050cf&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
               download: 343
               datasetA: '42.31'
-              datasetB: 62.86%
+              datasetB: '0.6286'
               ranking: '1'
             - nameen: >-
                 upernet_swin_large_patch4_window12_512x512_pretrain_384x384_22K_160k_ade20k
@@ -373,7 +373,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/UPerNet?athId=6eedb26553f6ddb295adee667149f722&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
               download: 1967
               datasetA: '40.35'
-              datasetB: 55.28%
+              datasetB: '0.5528'
               ranking: '2'
             - nameen: segformer_mit-b4_512x512_160k_ade20k
               namezh: segformer_mit-b4_512x512_160k_ade20k
@@ -384,7 +384,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/Segformer?athId=94937aa281ea263f6484a359dfa3ec4b&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
               download: 4600
               datasetA: '36.88'
-              datasetB: 47.56%
+              datasetB: '0.4756'
               ranking: '3'
             - nameen: setr_mla_512x512_160k_b16_ade20k
               namezh: setr_mla_512x512_160k_b16_ade20k
@@ -395,7 +395,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/SETR?athId=a0088b8a1527ee3e20b6241c2b66b496&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
               download: 3437
               datasetA: '36.67'
-              datasetB: 53.65%
+              datasetB: '0.5365'
               ranking: '4'
             - nameen: twins_svt-b_fpn_fpnhead_8x4_512x512_80k_ade20k
               namezh: twins_svt-b_fpn_fpnhead_8x4_512x512_80k_ade20k
@@ -406,7 +406,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/FPN?athId=7f617fa591d3dfd31fb2a9a7cc0ae8ba&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
               download: 1503
               datasetA: '31.82'
-              datasetB: 50.73%
+              datasetB: '0.5073'
               ranking: '5'
             - nameen: dpt_vit-b16_512x512_160k_ade20k
               namezh: dpt_vit-b16_512x512_160k_ade20k
@@ -417,7 +417,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/DPT?athId=b2c699d0fddf59a4e952cecea08b1b8b&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
               download: 1813
               datasetA: '30.61'
-              datasetB: 46.42%
+              datasetB: '0.4642'
               ranking: '6'
             - nameen: deeplabv3_r101-d8_512x512_160k_ade20k
               namezh: deeplabv3_r101-d8_512x512_160k_ade20k
@@ -428,7 +428,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/DeepLabV3?athId=6f315fcddecd0407b37cae1346078876&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
               download: 11112
               datasetA: '30.4'
-              datasetB: 42.65%
+              datasetB: '0.4265'
               ranking: '7'
             - nameen: fcn_hr48_512x512_160k_ade20k
               namezh: fcn_hr48_512x512_160k_ade20k
@@ -439,7 +439,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/FCN?athId=9cb4ee8cc5fee1e37d4418259aa76d81&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
               download: 52662
               datasetA: '27.4'
-              datasetB: 41.43%
+              datasetB: '0.4143'
               ranking: '8'
             - nameen: dnl_r50-d8_4xb4-160k_ade20k-512x512
               namezh: dnl_r50-d8_4xb4-160k_ade20k-512x512
@@ -450,7 +450,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/DNLNet?athId=e7a94769be0d3a1b41a6e067db8e0f5d&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
               download: 375
               datasetA: '26.3'
-              datasetB: 44.19%
+              datasetB: '0.4419'
               ranking: '9'
             - nameen: segmenter_vit-b_mask_8x1_512x512_160k_ade20k
               namezh: segmenter_vit-b_mask_8x1_512x512_160k_ade20k
@@ -461,7 +461,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/Segmenter?athId=0a8f2e1dccdce40c26a35ebe5b074f36&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
               download: 1845
               datasetA: '22.29'
-              datasetB: 60.68%
+              datasetB: '0.6068'
               ranking: '10'
         - titlezh: 医学图像分类
           titleen: Medical Image Classification - CheXpert
