@@ -42,7 +42,7 @@ blocks:
           to internal architecture
       - image:
           src: /uploads/whiteBoxIcon2.png
-        titleen: A Comprehensive Toolbox for Adverarial Robustnes Evaluation
+        titleen: A Comprehensive Toolbox for Adversarial Robustness Evaluation
         titlezh: '白盒攻击评测亮点 #222'
         texten: >-
           Our toolbox provides a comrehsneive implementation of different attack
@@ -163,7 +163,7 @@ blocks:
       pinpoint accuracy.
     image2:
       src: /uploads/GitHubButton.png
-      href: 'https://huggingface.co/datasets/xingjunm/cc1m-adv-F'
+      href: 'https://github.com/treeman2000/CC1M-Adv-CF'
     bgImage2:
       src: /uploads/GitHubBackground2.jpg
     subtitle3en: AdvPatch-1K
@@ -182,7 +182,7 @@ blocks:
       src: /uploads/GitHubBackground3.jpg
       alt: ''
     _template: repositories
-  - titleen: LeaderBoards
+  - titleen: Leaderboards
     titlezh: 排行榜
     leftListTitleen: ''
     leftListTitlezh: 黑盒榜单
