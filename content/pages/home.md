@@ -22,7 +22,7 @@ blocks:
     text1zh: ''
     text2en: ''
     text2zh: ''
-    image: '/uploads/vision safety background 1.jpg'
+    image: /uploads/vision safety background 1.jpg
     _template: hero
   - title1en: Million-scale Evaluation
     title1zh: 白盒攻击评测White
@@ -184,7 +184,7 @@ blocks:
     _template: repositories
   - titleen: LeaderBoards
     titlezh: 排行榜
-    leftListTitleen: Black-box Leaderboard
+    leftListTitleen: ''
     leftListTitlezh: 黑盒榜单
     items1:
       - titleen: ImageNet - Image Classification
@@ -247,19 +247,8 @@ blocks:
         score: '4.8'
         detailen: ''
         detailzh: ''
-    rightListTitleen: White-box Leaderboard
-    rightListTitlezh: 黑盒榜单
-    items2:
-      - titleen: ImageNet
-        titlezh: ImageNet
-        subtitleen: Image Classification
-        subtitlezh: 图像分类
-        modelSum: 5
-      - titleen: CIFAR-10
-        titlezh: CIFAR-10
-        subtitleen: Image Classification
-        subtitlezh: 图像分配
-        modelSum: 20
+    rightListTitleen: ''
+    rightListTitlezh: ''
     _template: testimonial
 ---
 
