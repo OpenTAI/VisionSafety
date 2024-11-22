@@ -132,7 +132,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/DyHead?athId=b19bf998702a943f70e46d53b1054e51&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
               download: 646
               datasetA: '0.447'
-              datasetB: 69.43%
+              datasetB: '0.6943'
               ranking: '1'
             - nameen: yolox_x_8x8_300e_coco
               namezh: yolox_x_8x8_300e_coco
@@ -143,7 +143,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/YOLOX?athId=e0fd346d0ae014efd2de972e6df9dea8&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
               download: 5152
               datasetA: '0.426'
-              datasetB: 76.75%
+              datasetB: '0.7675'
               ranking: '2'
             - nameen: deformable-detr(deformable_detr_refine_r50_16x2_50e_coco)
               namezh: deformable-detr(deformable_detr_refine_r50_16x2_50e_coco)
@@ -154,7 +154,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20DETR?athId=45f3fa81f746aef44a5b0eb2eacb16c1&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
               download: 6510
               datasetA: '0.286'
-              datasetB: 68.12%
+              datasetB: '0.6812'
               ranking: '3'
             - nameen: faster_rcnn_x101_64x4d_fpn_1x_coco
               namezh: faster_rcnn_x101_64x4d_fpn_1x_coco
@@ -280,7 +280,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20Convolutional%20Networks?athId=4aefab1107c2b0c71c3c091cc39b721d&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
               download: 1505
               datasetA: '0.287'
-              datasetB: 67.33%
+              datasetB: '0.6733'
               ranking: '4'
             - nameen: cascade_mask_rcnn_x101_64x4d_fpn_mstrain_3x_coco
               namezh: cascade_mask_rcnn_x101_64x4d_fpn_mstrain_3x_coco
@@ -291,7 +291,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Cascade%20Mask%20R-CNN?athId=0ec20d0f9d5914e4422d251f2ddf247b&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
               download: 1505
               datasetA: '0.264'
-              datasetB: 65.36%
+              datasetB: '0.6536'
               ranking: '5'
             - nameen: cascade_mask_rcnn_r50_fpn_dconv_c3-c5_1x_coco
               namezh: cascade_mask_rcnn_r50_fpn_dconv_c3-c5_1x_coco
@@ -302,7 +302,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20Convolutional%20Networks?athId=4aefab1107c2b0c71c3c091cc39b721d&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
               download: 1505
               datasetA: '0.26'
-              datasetB: 65.41%
+              datasetB: '0.6541'
               ranking: '6'
             - nameen: rfnext_search_cascade_mask_rcnn_hrnetv2p_w18_20e_coco
               namezh: rfnext_search_cascade_mask_rcnn_hrnetv2p_w18_20e_coco
@@ -313,7 +313,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/RF-Next?athId=e99ac3889efff20e6fe2e8ac4ed9bc25&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
               download: 37
               datasetA: '0.236'
-              datasetB: 64.74%
+              datasetB: '0.6474'
               ranking: '7'
             - nameen: cascade_mask_rcnn_r50_caffe_fpn_1x_coco
               namezh: cascade_mask_rcnn_r50_caffe_fpn_1x_coco
@@ -324,7 +324,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Cascade%20Mask%20R-CNN?athId=0ec20d0f9d5914e4422d251f2ddf247b&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
               download: 1505
               datasetA: '0.219'
-              datasetB: 62.75%
+              datasetB: '0.6275'
               ranking: '8'
             - nameen: yolact_r101_1x8_coco
               namezh: yolact_r101_1x8_coco
@@ -335,7 +335,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/YOLACT?athId=1c39dd15015b6452c3f753766ddb5278&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
               download: 2569
               datasetA: '0.201'
-              datasetB: 62.53%
+              datasetB: '0.6253'
               ranking: '9'
             - nameen: yolact_r50_8x8_coco
               namezh: yolact_r50_8x8_coco
@@ -346,7 +346,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/YOLACT?athId=1c39dd15015b6452c3f753766ddb5278&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
               download: 2569
               datasetA: '0.178'
-              datasetB: 60.45%
+              datasetB: '0.6045'
               ranking: '10'
         - titlezh: 语义分割
           titleen: Semantic Segmentation - ADE20K
