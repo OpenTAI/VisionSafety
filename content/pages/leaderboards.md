@@ -472,7 +472,7 @@ blocks:
                 text: 'https://huggingface.co/shreydan/CheXpert-5-convnextv2-tiny-384'
                 link: 'https://huggingface.co/shreydan/CheXpert-5-convnextv2-tiny-384'
               download: 14
-              datasetA: '0.6704'
+              datasetA: 67.04%
               datasetB: 56.60%
               ranking: '1'
             - nameen: vit_small_patch16_224.medmae_CXR_mae_ft_CheXpert
@@ -483,7 +483,7 @@ blocks:
                 link: >-
                   https://huggingface.co/1aurent/vit_small_patch16_224.medmae_CXR_mae_ft_CheXpert
               download: 2
-              datasetA: '0.6692'
+              datasetA: 66.92%
               datasetB: 89.74%
               ranking: '2'
             - nameen: vit_base_patch16_224.medmae_CXR_mae_ft_CheXpert
@@ -494,7 +494,7 @@ blocks:
                 link: >-
                   https://huggingface.co/1aurent/vit_base_patch16_224.medmae_CXR_mae_ft_CheXpert/tree/main
               download: 4
-              datasetA: '0.5758'
+              datasetA: 57.58%
               datasetB: 89.39%
               ranking: '3'
     table2:
