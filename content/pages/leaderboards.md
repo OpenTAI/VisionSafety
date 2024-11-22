@@ -165,7 +165,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Faster%20R-CNN?athId=6e1c4a83606f2a559343d2c69c93d10f&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
               download: 50486
               datasetA: '0.28'
-              datasetB: 71.85%
+              datasetB: '0.7185'
               ranking: '4'
             - nameen: deformable_detr_r50_16x2_50e_coco
               namezh: deformable_detr_r50_16x2_50e_coco
@@ -198,7 +198,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Generalized%20Focal%20Loss?athId=d5b8ec1f0fa4ca080d1be245181c200d&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
               download: 1190
               datasetA: '0.246'
-              datasetB: 67.24%
+              datasetB: '0.6724'
               ranking: '7'
             - nameen: detr-resnet-50(detr_r50_8x2_150e_coco)
               namezh: detr-resnet-50(detr_r50_8x2_150e_coco)
@@ -209,7 +209,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/DETR?athId=b609e23c7b56f32054cf4a85c0ef9c01&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
               download: 566289
               datasetA: '0.241'
-              datasetB: 63.84%
+              datasetB: '0.6384'
               ranking: '8'
             - nameen: faster_rcnn_r50_caffe_c4_1x_coco
               namezh: faster_rcnn_r50_caffe_c4_1x_coco
@@ -220,7 +220,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Faster%20R-CNN?athId=6e1c4a83606f2a559343d2c69c93d10f&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
               download: 50486
               datasetA: '0.214'
-              datasetB: 69.46%
+              datasetB: '0.6946'
               ranking: '9'
             - nameen: yolox_tiny_8x8_300e_coco
               namezh: yolox_tiny_8x8_300e_coco
@@ -231,7 +231,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/YOLOX?athId=e0fd346d0ae014efd2de972e6df9dea8&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
               download: 5152
               datasetA: '0.182'
-              datasetB: 69.65%
+              datasetB: '0.6965'
               ranking: '10'
         - titlezh: 实例分割
           titleen: Instance Segmentation - COCO
@@ -245,7 +245,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/HTC?athId=b42170f82908262275e7328643dcdb2f&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
               download: 1559
               datasetA: '0.334'
-              datasetB: 65.76%
+              datasetB: '0.6576'
               ranking: '1'
             - nameen: >-
                 cascade_mask_rcnn_convnext-s_p4_w7_fpn_giou_4conv1f_fp16_ms-crop_3x_coco
@@ -258,7 +258,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/Cascade%20Mask%20R-CNN?athId=0ec20d0f9d5914e4422d251f2ddf247b&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
               download: 1505
               datasetA: '0.332'
-              datasetB: 68.14%
+              datasetB: '0.6814'
               ranking: '2'
             - nameen: scnet_x101_64x4d_fpn_20e_coco
               namezh: scnet_x101_64x4d_fpn_20e_coco
@@ -269,7 +269,7 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmdetection/SCNet?athId=17226ceb499bc933e2b73dd6633bbc2d&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Instance%20Segmentation
               download: 90
               datasetA: '0.297'
-              datasetB: 61.43%
+              datasetB: '0.6143'
               ranking: '3'
             - nameen: cascade_mask_rcnn_x101_32x4d_fpn_dconv_c3-c5_1x_coco
               namezh: cascade_mask_rcnn_x101_32x4d_fpn_dconv_c3-c5_1x_coco
