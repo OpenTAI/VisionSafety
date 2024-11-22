@@ -22,7 +22,7 @@ blocks:
       columnName5: Rank
       modelsRanking1:
         - titlezh: Image Classification
-          titleen: Image Classification
+          titleen: Image Classification - ImageNet
           rankings:
             - nameen: coatnet_rmlp_nano_rw_384.sw_in1k
               namezh: coatnet_rmlp_nano_rw_384.sw_in1k
@@ -121,7 +121,7 @@ blocks:
               datasetB: 24.83%
               ranking: '10'
         - titlezh: 目标检测
-          titleen: Object Detection
+          titleen: Object Detection - COCO
           rankings:
             - nameen: atss_swin-l-p4-w12_fpn_dyhead_mstrain_2x_coco
               namezh: atss_swin-l-p4-w12_fpn_dyhead_mstrain_2x_coco
@@ -234,7 +234,7 @@ blocks:
               datasetB: 69.65%
               ranking: '10'
         - titlezh: 实例分割
-          titleen: Instance Segmentation
+          titleen: Instance Segmentation - COCO
           rankings:
             - nameen: htc_x101_64x4d_fpn_dconv_c3-c5_mstrain_400_1400_16x1_20e_coco
               namezh: htc_x101_64x4d_fpn_dconv_c3-c5_mstrain_400_1400_16x1_20e_coco
@@ -349,7 +349,7 @@ blocks:
               datasetB: 60.45%
               ranking: '10'
         - titlezh: 语义分割
-          titleen: Semantic Segmentation
+          titleen: Semantic Segmentation - ADE20K
           rankings:
             - nameen: knet_s3_upernet_swin-l_8x2_512x512_adamw_80k_ade20k
               namezh: knet_s3_upernet_swin-l_8x2_512x512_adamw_80k_ade20k
@@ -464,7 +464,7 @@ blocks:
               datasetB: 60.68%
               ranking: '10'
         - titlezh: 医学图像分类
-          titleen: Medical Image Classification
+          titleen: Medical Image Classification - CheXpert
           rankings:
             - nameen: CheXpert-5-convnextv2-tiny-384
               namezh: CheXpert-5-convnextv2-tiny-384
