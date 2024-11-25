@@ -28,7 +28,7 @@ export const LeftListItem = ({
         data-aos-duration="1000"
         data-aos-delay={index * 2 * 100}
         key={index}
-        className="mt-4 bg-leaderboardsBg1 min-h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
+        className="bg-leaderboardsBg1 h-full bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
       >
         {data[`title${language}`] && (
           <div
@@ -82,7 +82,7 @@ export const RightListItem = ({
         data-aos-duration="1000"
         data-aos-delay={index * 2 * 100}
         key={index}
-        className="mt-4 bg-leaderboardsBg2 min-h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
+        className="bg-leaderboardsBg2 h-full bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
       >
         {data[`title${language}`] && (
           <div
@@ -148,7 +148,7 @@ export const Testimonial = ({
                 {data[`leftListTitle${language}`]}
               </div>
             )}
-            <div className="!grid lg:grid-cols-4 gap-x-5 gap-y-1 mb-12">
+            <div className="!grid lg:grid-cols-4 gap-x-5 gap-y-5 mb-12 mt-4">
               {data.items1 &&
                 data.items1.map((item, index) => {
                   return (
@@ -169,7 +169,7 @@ export const Testimonial = ({
                 {data[`rightListTitle${language}`]}
               </div>
             )}
-            <div className="!grid lg:grid-cols-4 gap-x-5 gap-y-1">
+            <div className="!grid lg:grid-cols-4 gap-x-5 gap-y-5 mt-4">
               {data.items2 &&
                 data.items2.map((item, index) => {
                   return (
