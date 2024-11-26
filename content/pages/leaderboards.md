@@ -517,7 +517,7 @@ blocks:
                 text: >-
                   Robust Principles: Architectural Design Principles for
                   Adversarially Robust CNNs
-                link: null
+                link: 'https://arxiv.org/abs/2308.16258'
               download: 38
               datasetA: 93.27%
               datasetB: 71.10%
@@ -526,7 +526,7 @@ blocks:
               namezh: WideResNet-70-16
               paper:
                 text: Better Diffusion Models Further Improve Adversarial Training
-                link: null
+                link: 'https://arxiv.org/abs/2302.04638'
               download: 194
               datasetA: 93.25%
               datasetB: 70.70%
@@ -537,7 +537,7 @@ blocks:
                 text: >-
                   Improving the Accuracy-Robustness Trade-off of Classifiers via
                   Adaptive Smoothing
-                link: null
+                link: 'https://arxiv.org/abs/2301.12554'
               download: 13
               datasetA: 95.23%
               datasetB: 68.06%
@@ -546,7 +546,7 @@ blocks:
               namezh: WideResNet-28-10
               paper:
                 text: Decoupled Kullback-Leibler Divergence Loss
-                link: null
+                link: 'https://arxiv.org/abs/2305.13948'
               download: 34
               datasetA: 92.16%
               datasetB: 67.75%
@@ -555,7 +555,7 @@ blocks:
               namezh: WideResNet-28-10
               paper:
                 text: Better Diffusion Models Further Improve Adversarial Training
-                link: null
+                link: 'https://arxiv.org/abs/2305.13948'
               download: 194
               datasetA: 92.44%
               datasetB: 67.31%
@@ -564,7 +564,7 @@ blocks:
               namezh: WideResNet-70-16
               paper:
                 text: Fixing Data Augmentation to Improve Adversarial Robustness
-                link: null
+                link: 'https://arxiv.org/abs/2302.04638'
               download: 285
               datasetA: 92.23%
               datasetB: 66.59%
@@ -573,7 +573,7 @@ blocks:
               namezh: WideResNet-70-16
               paper:
                 text: Improving Robustness using Generated Data
-                link: null
+                link: 'https://arxiv.org/abs/2110.09468'
               download: 287
               datasetA: 88.74%
               datasetB: 66.14%
@@ -584,7 +584,7 @@ blocks:
                 text: >-
                   Uncovering the Limits of Adversarial Training against
                   Norm-Bounded Adversarial Examples
-                link: null
+                link: 'https://arxiv.org/abs/2010.03593'
               download: 345
               datasetA: 91.10%
               datasetB: 65.89%
@@ -595,7 +595,7 @@ blocks:
                 text: >-
                   Revisiting Residual Networks for Adversarial Robustness: An
                   Architectural Perspective
-                link: null
+                link: 'https://arxiv.org/abs/2212.11005'
               download: 38
               datasetA: 91.59%
               datasetB: 65.78%
@@ -604,7 +604,7 @@ blocks:
               namezh: WideResNet-106-16
               paper:
                 text: Fixing Data Augmentation to Improve Adversarial Robustness
-                link: null
+                link: 'https://arxiv.org/abs/2103.01946'
               download: 285
               datasetA: 88.50%
               datasetB: 64.68%
