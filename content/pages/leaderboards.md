@@ -18,7 +18,7 @@ blocks:
       columnName3: Downloads
       columnName4: Adversarial Safety
       columnName4A: Domain Dataset
-      columnName4B: CC1M
+      columnName4B: CC1M-Adv
       columnName5: Rank
       modelsRanking1:
         - titlezh: Image Classification
