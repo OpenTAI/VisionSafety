@@ -22,7 +22,7 @@ blocks:
     text1zh: ''
     text2en: ''
     text2zh: ''
-    image: '/uploads/vision safety background 1.jpg'
+    image: /uploads/vision safety background 1.jpg
     _template: hero
   - title1en: Million-scale Evaluation
     title1zh: 白盒攻击评测White
@@ -42,7 +42,7 @@ blocks:
           to internal architecture
       - image:
           src: /uploads/whiteBoxIcon2.png
-        titleen: A Comprehensive Toolbox for Adverarial Robustnes Evaluation
+        titleen: A Comprehensive Toolbox for Adversarial Robustness Evaluation
         titlezh: '白盒攻击评测亮点 #222'
         texten: >-
           Our toolbox provides a comrehsneive implementation of different attack
@@ -163,7 +163,7 @@ blocks:
       pinpoint accuracy.
     image2:
       src: /uploads/GitHubButton.png
-      href: 'https://huggingface.co/datasets/xingjunm/cc1m-adv-F'
+      href: 'https://github.com/treeman2000/CC1M-Adv-CF'
     bgImage2:
       src: /uploads/GitHubBackground2.jpg
     subtitle3en: AdvPatch-1K
@@ -182,9 +182,9 @@ blocks:
       src: /uploads/GitHubBackground3.jpg
       alt: ''
     _template: repositories
-  - titleen: LeaderBoards
+  - titleen: Leaderboards
     titlezh: 排行榜
-    leftListTitleen: Black-box Leaderboard
+    leftListTitleen: ''
     leftListTitlezh: 黑盒榜单
     items1:
       - titleen: ImageNet - Image Classification
@@ -247,19 +247,8 @@ blocks:
         score: '4.8'
         detailen: ''
         detailzh: ''
-    rightListTitleen: White-box Leaderboard
-    rightListTitlezh: 黑盒榜单
-    items2:
-      - titleen: ImageNet
-        titlezh: ImageNet
-        subtitleen: Image Classification
-        subtitlezh: 图像分类
-        modelSum: 5
-      - titleen: CIFAR-10
-        titlezh: CIFAR-10
-        subtitleen: Image Classification
-        subtitlezh: 图像分配
-        modelSum: 20
+    rightListTitleen: ''
+    rightListTitlezh: ''
     _template: testimonial
 ---
 
