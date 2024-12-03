@@ -7,7 +7,7 @@ blocks:
     headline2zh: 确保人工智能对现实世界的鲁棒感知
     buttonTexten: Tools
     buttonTextzh: 工具集
-    buttonLink: /#models
+    buttonLink: /#datasets
     buttonText1en: Datasets
     buttonText1zh: 数据集
     button1Link: /#datasets
@@ -177,7 +177,7 @@ blocks:
       pinpoint accuracy.
     image3:
       src: /uploads/GitHubButton.png
-      href: 'https://huggingface.co/datasets/xingjunm/AdvPatch-1K'
+      href: 'https://github.com/Wwangb/AdvPatch-1K'
     bgImage3:
       src: /uploads/GitHubBackground3.jpg
       alt: ''
