@@ -7,7 +7,7 @@ blocks:
     headline2zh: 确保人工智能对现实世界的鲁棒感知
     buttonTexten: Tools
     buttonTextzh: 工具集
-    buttonLink: /#models
+    buttonLink: /#datasets
     buttonText1en: Datasets
     buttonText1zh: 数据集
     button1Link: /#datasets
@@ -163,7 +163,7 @@ blocks:
       pinpoint accuracy.
     image2:
       src: /uploads/GitHubButton.png
-      href: 'https://github.com/treeman2000/CC1M-Adv-CF'
+      href: 'https://github.com/Wwangb/AdvPatch-1K'
     bgImage2:
       src: /uploads/GitHubBackground2.jpg
     subtitle3en: AdvPatch-1K
