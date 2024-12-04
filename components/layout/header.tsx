@@ -9,6 +9,7 @@ import logoWhite from "../../assets/img/logoWhite.png";
 import closeIcon from "../../assets/img/closeIcon.png";
 import Image from "next/image";
 import { Drawer, Collapse } from "antd";
+import { ImageLink } from "../util/image-link";
 
 export const Header = ({
   data,
@@ -75,7 +76,14 @@ export const Header = ({
           className={`mx-auto max-w-360 px-10 md:px-28 h-16 flex items-center justify-between text-${textColor}`}
         >
           <div className="flex items-center">
-            <Image className="ml-0 md:ml-9 w-28 h-7" src={icon} alt="" />
+            <ImageLink
+              src={icon}
+              href={data.homeurl}
+              className="ml-0 md:ml-9 w-28 h-7"
+              width={223}
+              height={60}
+              target="_self"
+            />
             <div
               className="font-semibold ml-4 text-xl"
               data-tina-field={tinaField(data, "nameen")}

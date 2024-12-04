@@ -16,6 +16,11 @@ const Global: Collection = {
       fields: [
         {
           type: "string",
+          label: "Home Url",
+          name: "homeurl",
+        },
+        {
+          type: "string",
           label: "Name-En",
           name: "nameen",
         },
