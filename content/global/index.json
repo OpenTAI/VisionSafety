@@ -1,6 +1,6 @@
 {
   "header": {
-    "homeurl": "https://opentai.github.io/VisionSafety",
+    "homeurl": "https://opentai.github.io/",
     "nameen": "Vision Safety",
     "namezh": "视觉安全",
     "nav": [
@@ -56,7 +56,6 @@
   },
   "theme": {
     "font": "sans",
-    "darkMode": "system",
-    "color": ""
+    "darkMode": "system"
   }
 }
