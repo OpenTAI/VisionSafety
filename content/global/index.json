@@ -10,12 +10,12 @@
         "labelzh": "主页"
       },
       {
-        "href": "/#models",
+        "href": "/#datasets",
         "labelen": "Tools",
         "labelzh": "工具集"
       },
       {
-        "href": "/#models",
+        "href": "/#datasets",
         "labelen": "Datasets",
         "labelzh": "数据集"
       },
