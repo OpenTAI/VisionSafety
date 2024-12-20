@@ -1,5 +1,5 @@
 ---
-title: 对抗评测平台
+title: 对抗评测平台test
 blocks:
   - headline1en: Vision Safety Platform
     headline1zh: 视觉安全平台
