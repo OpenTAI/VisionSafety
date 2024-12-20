@@ -140,47 +140,49 @@ blocks:
     _template: features
   - titleen: Tools and Datasets
     titlezh: Models Chinese
-    subtitle1en: taiadv.vision
-    subtitle1zh: ''
-    text1en: >-
-      The taiadv.vision toolbox integrates all the methods used to create the
-      adversarial image datasets and benchmarks on this platform.
-    text1zh: ''
-    image1:
-      src: /uploads/GitHubButton.png
-      href: 'https://github.com/OpenTAI/taiadv'
-    bgImage1:
-      src: /uploads/GitHubBackground1.jpg
-    subtitle2en: CC1M-Adv-C/F
-    subtitle2zh: CC1M
-    text2en: >-
-      Two million-scale adversarial images datasets.  CC1M-Adv-C was generated
-      to evaluate classification models, while CC1M-Adv-F can be applied to any
-      vision models. 
-    text2zh: >-
-      This comprehensive visibility allows for a meticulous examination of
-      security loopholes, enabling us to simulate real-world attack scenarios
-      pinpoint accuracy.
-    image2:
-      src: /uploads/GitHubButton.png
-      href: 'https://github.com/treeman2000/CC1M-Adv-CF'
-    bgImage2:
-      src: /uploads/GitHubBackground2.jpg
-    subtitle3en: AdvPatch-1K
-    subtitle3zh: TAI.adv
-    text3en: >-
-      The first physical-world adversarial T-shirt dataset released to evaluate
-      the robustness of object detection models and support defense research.
-    text3zh: >-
-      This comprehensive visibility allows for a meticulous examination of
-      security loopholes, enabling us to simulate real-world attack scenarios
-      pinpoint accuracy.
-    image3:
-      src: /uploads/GitHubButton.png
-      href: 'https://github.com/Wwangb/AdvPatch-1K'
-    bgImage3:
-      src: /uploads/GitHubBackground3.jpg
-      alt: ''
+    repositories:
+      - repoNameen: taiadv.vision
+        repoNamezh: taiadv.vision
+        repoTexten: >-
+          The taiadv.vision toolbox integrates all the methods used to create
+          the adversarial image datasets and benchmarks on this platform.
+        repoTextzh: >-
+          The taiadv.vision toolbox integrates all the methods used to create
+          the adversarial image datasets and benchmarks on this platform.
+        linkImage:
+          src: /uploads/GitHubButton.png
+          alt: taiadv.vision
+          href: 'https://github.com/OpenTAI/taiadv'
+        bgImage: /uploads/GitHubBackground1.jpg
+      - repoNameen: CC1M-Adv-C/F
+        repoNamezh: CC1M-Adv-C/F
+        repoTexten: >-
+          Two million-scale adversarial images datasets.  CC1M-Adv-C was generated
+          to evaluate classification models, while CC1M-Adv-F can be applied to any
+          vision models. 
+        repoTextzh: >-
+          This comprehensive visibility allows for a meticulous examination of
+          security loopholes, enabling us to simulate real-world attack scenarios
+          pinpoint accuracy.
+        linkImage:
+          src: /uploads/GitHubButton.png
+          alt: CC1M-Adv-C/F
+          href: 'https://github.com/treeman2000/CC1M-Adv-CF'
+        bgImage: /uploads/GitHubBackground2.jpg
+      - repoNameen: AdvPatch-1K
+        repoNamezh: AdvPatch-1K
+        repoTexten: >-
+          The first physical-world adversarial T-shirt dataset released to evaluate
+          the robustness of object detection models and support defense research.
+        repoTextzh: >-
+          This comprehensive visibility allows for a meticulous examination of
+          security loopholes, enabling us to simulate real-world attack scenarios
+          pinpoint accuracy.
+        linkImage:
+          src: /uploads/GitHubButton.png
+          alt: AdvPatch-1K
+          href: 'https://github.com/Wwangb/AdvPatch-1K'
+        bgImage: /uploads/GitHubBackground3.jpg
     _template: repositories
   - titleen: Leaderboards
     titlezh: 排行榜
@@ -251,4 +253,3 @@ blocks:
     rightListTitlezh: ''
     _template: testimonial
 ---
-
