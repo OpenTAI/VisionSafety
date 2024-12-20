@@ -1,8 +1,58 @@
-import { PageBlocksRepositories } from "../../tina/__generated__/types";
+import {
+  PageBlocksRepositories,
+  PageBlocksRepositoriesRepositories,
+} from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 import type { TinaTemplate } from "tinacms";
 import { ImageLink } from "../util/image-link";
 import { basePath } from "../util/url-helper";
+
+const RepoItem = ({
+  data,
+  language,
+}: {
+  data: PageBlocksRepositoriesRepositories;
+  language: string;
+}) => {
+  return (
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-tina-field={tinaField(data, "bgImage")}
+      className="h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
+      style={{
+        backgroundImage: `url(${data.bgImage || "default-image-url"})`,
+      }}
+    >
+      {data[`repoName${language}`] && (
+        <div
+          className="text-base-black font-bold text-3xl leading-10"
+          data-tina-field={tinaField(data, "repoNameen")}
+        >
+          {data[`repoName${language}`]}
+        </div>
+      )}
+      {data[`repoText${language}`] && (
+        <div
+          className="text-des-blue text-base mt-3 max-w-108 line-clamp-5 h-32"
+          data-tina-field={tinaField(data, "repoTexten")}
+        >
+          {data[`repoText${language}`]}
+        </div>
+      )}
+      {data.linkImage && (
+        <ImageLink
+          src={data.linkImage.src}
+          width={192}
+          height={148}
+          href={data.linkImage.href}
+          className="absolute bottom-11 left-12 w-48 h-12 hover:cursor-pointer"
+          tinaField={tinaField(data, "linkImage")}
+        />
+      )}
+    </div>
+  );
+};
 
 export const Repositories = ({
   data,
@@ -23,125 +73,32 @@ export const Repositories = ({
             {data[`title${language}`]}
           </div>
         )}
-        <div className="mt-10">
+        <div className="mt-10 mb-22">
           <div className="!grid gap-6 grid-cols-1 lg:grid-cols-3">
-            <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-tina-field={tinaField(data, "bgImage1")}
-              className="h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
-              style={{
-                backgroundImage: `url(${
-                  data.bgImage1?.src || "default-image-url"
-                })`,
-              }}
-            >
-              {data[`subtitle1${language}`] && (
-                <div
-                  className="text-base-black font-bold text-3xl leading-10"
-                  data-tina-field={tinaField(data, "subtitle1en")}
-                >
-                  {data[`subtitle1${language}`]}
-                </div>
-              )}
-              {data[`text1${language}`] && (
-                <div
-                  className="text-des-blue text-base mt-3 max-w-108 line-clamp-5 h-32"
-                  data-tina-field={tinaField(data, "text1en")}
-                >
-                  {data[`text1${language}`]}
-                </div>
-              )}
-              {data.image1 && (
-                <ImageLink
-                  src={data.image1.src}
-                  width={192}
-                  height={148}
-                  href={data.image1.href}
-                  className="absolute bottom-11 left-12 w-48 h-12 hover:cursor-pointer"
-                  tinaField={tinaField(data, "image1")}
-                />
-              )}
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay={100}
-              data-tina-field={tinaField(data, "bgImage2")}
-              className="h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
-              style={{
-                backgroundImage: `url(${data.bgImage2?.src})`,
-              }}
-            >
-              {data[`subtitle2${language}`] && (
-                <div
-                  className="text-base-black font-bold text-3xl leading-10"
-                  data-tina-field={tinaField(data, "subtitle2en")}
-                >
-                  {data[`subtitle2${language}`]}
-                </div>
-              )}
-              {data[`text2${language}`] && (
-                <div
-                  className="text-des-blue text-base mt-3 max-w-108 line-clamp-5 h-32"
-                  data-tina-field={tinaField(data, "text2en")}
-                >
-                  {data[`text2${language}`]}
-                </div>
-              )}
-              {data.image2 && (
-                <ImageLink
-                  src={data.image2.src}
-                  width={192}
-                  height={148}
-                  href={data.image2.href}
-                  className="absolute bottom-11 left-12 w-48 h-12 hover:cursor-pointer"
-                  tinaField={tinaField(data, "image2")}
-                />
-              )}
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay={100}
-              data-tina-field={tinaField(data, "bgImage3")}
-              className="h-[21rem] bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-11 px-12 relative"
-              style={{
-                backgroundImage: `url(${data.bgImage3?.src})`,
-              }}
-            >
-              {data[`subtitle2${language}`] && (
-                <div
-                  className="text-base-black font-bold text-3xl leading-10"
-                  data-tina-field={tinaField(data, "subtitle3en")}
-                >
-                  {data[`subtitle3${language}`]}
-                </div>
-              )}
-              {data[`text3${language}`] && (
-                <div
-                  className="text-des-blue text-base mt-3 max-w-108 line-clamp-5 h-32"
-                  data-tina-field={tinaField(data, "text3en")}
-                >
-                  {data[`text3${language}`]}
-                </div>
-              )}
-              {data.image3 && (
-                <ImageLink
-                  src={data.image3.src}
-                  width={192}
-                  height={148}
-                  href={data.image3.href}
-                  className="absolute bottom-11 left-12 w-48 h-12 hover:cursor-pointer"
-                  tinaField={tinaField(data, "image3")}
-                />
-              )}
-            </div>
+            {data.repositories &&
+              data.repositories.map((item, index) => {
+                return <RepoItem key={index} data={item} language={language} />;
+              })}
           </div>
         </div>
       </div>
     </div>
   );
+};
+
+const defaultRepository = {
+  repoNameen: "taiadv.vision",
+  repoNamezh: "taiadv.vision",
+  repoTexten:
+    "The taiadv.vision toolbox integrates all the methods used to create the adversarial image datasets and benchmarks on this platform.",
+  repoTextzh:
+    "The taiadv.vision toolbox integrates all the methods used to create the adversarial image datasets and benchmarks on this platform.",
+  linkImage: {
+    src: "/uploads/GitHubButton.png",
+    alt: "taiadv.vision",
+    href: "https://github.com/OpenTAI/taiadv",
+  },
+  bgImage: "/uploads/GitHubBackground1.jpg",
 };
 
 export const repositoriesBlockSchema: TinaTemplate = {
@@ -166,195 +123,76 @@ export const repositoriesBlockSchema: TinaTemplate = {
       name: "titlezh",
     },
     {
-      type: "string",
-      label: "Subtitle1-En",
-      name: "subtitle1en",
-    },
-    {
-      type: "string",
-      label: "Subtitle1-Zh",
-      name: "subtitle1zh",
-    },
-    {
-      type: "string",
-      label: "text1-En",
-      name: "text1en",
-    },
-
-    {
-      type: "string",
-      label: "text1-Zh",
-      name: "text1zh",
-    },
-    {
       type: "object",
-      label: "Image1",
-      name: "image1",
+      label: "Repositories Items",
+      name: "repositories",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return {
+            label: item?.repoNameen,
+          };
+        },
+        defaultItem: {
+          ...defaultRepository,
+        },
+      },
       fields: [
         {
-          name: "src",
-          label: "Image Source",
+          type: "string",
+          label: "Repository English Name",
+          name: "repoNameen",
+        },
+        {
+          type: "string",
+          label: "Repository Chinese Name",
+          name: "repoNamezh",
+        },
+        {
+          type: "string",
+          label: "Repository English Text",
+          name: "repoTexten",
+          ui: {
+            component: "textarea",
+          },
+        },
+        {
+          type: "string",
+          label: "Repository Chinese Text",
+          name: "repoTextzh",
+          ui: {
+            component: "textarea",
+          },
+        },
+        {
+          type: "object",
+          label: "Link Image",
+          name: "linkImage",
+          fields: [
+            {
+              name: "src",
+              label: "Image Source",
+              type: "image",
+            },
+            {
+              name: "alt",
+              label: "Alt Text",
+              type: "string",
+            },
+            {
+              name: "href",
+              label: "Image Link",
+              type: "string",
+            },
+          ],
+        },
+        {
           type: "image",
-        },
-        {
-          name: "alt",
-          label: "Alt Text",
-          type: "string",
-        },
-        {
-          name: "href",
-          label: "Image Link",
-          type: "string",
-        },
-      ],
-    },
-    {
-      type: "object",
-      label: "BgImage1",
-      name: "bgImage1",
-      fields: [
-        {
-          name: "src",
-          label: "Image Source",
-          type: "image",
-        },
-        {
-          name: "alt",
-          label: "Alt Text",
-          type: "string",
-        },
-        {
-          name: "href",
-          label: "Image Link",
-          type: "string",
-        },
-      ],
-    },
-    {
-      type: "string",
-      label: "Subtitle2-En",
-      name: "subtitle2en",
-    },
-    {
-      type: "string",
-      label: "Subtitle2-Zh",
-      name: "subtitle2zh",
-    },
-    {
-      type: "string",
-      label: "text2-En",
-      name: "text2en",
-    },
-    {
-      type: "string",
-      label: "text2-Zh",
-      name: "text2zh",
-    },
-    {
-      type: "object",
-      label: "Image2",
-      name: "image2",
-      fields: [
-        {
-          name: "src",
-          label: "Image Source",
-          type: "image",
-        },
-        {
-          name: "alt",
-          label: "Alt Text",
-          type: "string",
-        },
-        {
-          name: "href",
-          label: "Image Link",
-          type: "string",
-        },
-      ],
-    },
-    {
-      type: "object",
-      label: "BgImage2",
-      name: "bgImage2",
-      fields: [
-        {
-          name: "src",
-          label: "Image Source",
-          type: "image",
-        },
-        {
-          name: "alt",
-          label: "Alt Text",
-          type: "string",
-        },
-        {
-          name: "href",
-          label: "Image Link",
-          type: "string",
-        },
-      ],
-    },
-    {
-      type: "string",
-      label: "Subtitle3-En",
-      name: "subtitle3en",
-    },
-    {
-      type: "string",
-      label: "Subtitle3-Zh",
-      name: "subtitle3zh",
-    },
-    {
-      type: "string",
-      label: "text3-En",
-      name: "text3en",
-    },
-    {
-      type: "string",
-      label: "text3-Zh",
-      name: "text3zh",
-    },
-    {
-      type: "object",
-      label: "Image3",
-      name: "image3",
-      fields: [
-        {
-          name: "src",
-          label: "Image Source",
-          type: "image",
-        },
-        {
-          name: "alt",
-          label: "Alt Text",
-          type: "string",
-        },
-        {
-          name: "href",
-          label: "Image Link",
-          type: "string",
-        },
-      ],
-    },
-    {
-      type: "object",
-      label: "BgImage3",
-      name: "bgImage3",
-      fields: [
-        {
-          name: "src",
-          label: "Image Source",
-          type: "image",
-        },
-        {
-          name: "alt",
-          label: "Alt Text",
-          type: "string",
-        },
-        {
-          name: "href",
-          label: "Image Link",
-          type: "string",
+          label: "Background Image",
+          name: "bgImage",
+          ui: {
+            component: "image",
+          },
         },
       ],
     },
