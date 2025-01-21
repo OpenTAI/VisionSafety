@@ -124,5216 +124,3947 @@ blocks:
         - titlezh: 目标检测
           titleen: Object Detection - COCO
           rankings:
-            - nameen: atss_swin-l-p4-w12_fpn_dyhead_mstrain_2x_coco
-              namezh: atss_swin-l-p4-w12_fpn_dyhead_mstrain_2x_coco
+
+            - nameen: dino-5scale_swin-l_8xb2-36e_coco.py
+              namezh: dino-5scale_swin-l_8xb2-36e_coco.py
               paper:
-                text: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/DyHead?athId=b19bf998702a943f70e46d53b1054e51&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-                link: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/DyHead?athId=b19bf998702a943f70e46d53b1054e51&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-              download: 646
-              datasetA: '0.447'
-              datasetB: '0.6943'
-              ranking: '1'
-            - nameen: yolox_x_8x8_300e_coco
-              namezh: yolox_x_8x8_300e_coco
-              paper:
-                text: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/YOLOX?athId=e0fd346d0ae014efd2de972e6df9dea8&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-                link: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/YOLOX?athId=e0fd346d0ae014efd2de972e6df9dea8&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-              download: 5152
-              datasetA: '0.426'
-              datasetB: '0.7675'
-              ranking: '2'
-            - nameen: deformable-detr(deformable_detr_refine_r50_16x2_50e_coco)
-              namezh: deformable-detr(deformable_detr_refine_r50_16x2_50e_coco)
-              paper:
-                text: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20DETR?athId=45f3fa81f746aef44a5b0eb2eacb16c1&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-                link: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20DETR?athId=45f3fa81f746aef44a5b0eb2eacb16c1&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-              download: 6510
-              datasetA: '0.286'
-              datasetB: '0.6812'
-              ranking: '3'
-            - nameen: faster_rcnn_x101_64x4d_fpn_1x_coco
-              namezh: faster_rcnn_x101_64x4d_fpn_1x_coco
-              paper:
-                text: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Faster%20R-CNN?athId=6e1c4a83606f2a559343d2c69c93d10f&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-                link: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Faster%20R-CNN?athId=6e1c4a83606f2a559343d2c69c93d10f&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-              download: 50486
-              datasetA: '0.28'
-              datasetB: '0.7185'
-              ranking: '4'
-            - nameen: deformable_detr_r50_16x2_50e_coco
-              namezh: deformable_detr_r50_16x2_50e_coco
-              paper:
-                text: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20DETR?athId=45f3fa81f746aef44a5b0eb2eacb16c1&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-                link: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Deformable%20DETR?athId=45f3fa81f746aef44a5b0eb2eacb16c1&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-              download: 5414
-              datasetA: '0.276'
-              datasetB: '0.6627'
-              ranking: '5'
-            - nameen: cascade_mask_rcnn_r50_fpn_20e_coco
-              namezh: cascade_mask_rcnn_r50_fpn_20e_coco
-              paper:
-                text: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Cascade%20Mask%20R-CNN?athId=0ec20d0f9d5914e4422d251f2ddf247b&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-                link: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Cascade%20Mask%20R-CNN?athId=0ec20d0f9d5914e4422d251f2ddf247b&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-              download: 1505
-              datasetA: '0.257'
-              datasetB: '0.7193'
-              ranking: '6'
-            - nameen: gfl_r50_fpn_1x_coco
-              namezh: gfl_r50_fpn_1x_coco
-              paper:
-                text: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Generalized%20Focal%20Loss?athId=d5b8ec1f0fa4ca080d1be245181c200d&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-                link: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Generalized%20Focal%20Loss?athId=d5b8ec1f0fa4ca080d1be245181c200d&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-              download: 1190
-              datasetA: '0.246'
-              datasetB: '0.6724'
-              ranking: '7'
-            - nameen: detr-resnet-50(detr_r50_8x2_150e_coco)
-              namezh: detr-resnet-50(detr_r50_8x2_150e_coco)
-              paper:
-                text: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/DETR?athId=b609e23c7b56f32054cf4a85c0ef9c01&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-                link: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/DETR?athId=b609e23c7b56f32054cf4a85c0ef9c01&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-              download: 566289
-              datasetA: '0.241'
-              datasetB: '0.6384'
-              ranking: '8'
-            - nameen: faster_rcnn_r50_caffe_c4_1x_coco
-              namezh: faster_rcnn_r50_caffe_c4_1x_coco
-              paper:
-                text: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Faster%20R-CNN?athId=6e1c4a83606f2a559343d2c69c93d10f&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-                link: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/Faster%20R-CNN?athId=6e1c4a83606f2a559343d2c69c93d10f&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-              download: 50486
-              datasetA: '0.214'
-              datasetB: '0.6946'
-              ranking: '9'
-            - nameen: yolox_tiny_8x8_300e_coco
-              namezh: yolox_tiny_8x8_300e_coco
-              paper:
-                text: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/YOLOX?athId=e0fd346d0ae014efd2de972e6df9dea8&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-                link: >-
-                  https://platform.openmmlab.com/modelzoo/mmdetection/YOLOX?athId=e0fd346d0ae014efd2de972e6df9dea8&repo=mmdetection&repoNameId=a4e3d984ec9475ca950bb6baf2b2a8e2&task=Object%20Detection
-              download: 5152
-              datasetA: '0.182'
-              datasetB: '0.6965'
-              ranking: '10'
-    
-            - nameen: mask-rcnn_r50_fpn_albu-1x_coco
-              namezh: mask-rcnn_r50_fpn_albu-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: atss_r50_fpn_1x_coco
-              namezh: atss_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: atss_r101_fpn_1x_coco
-              namezh: atss_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: autoassign_r50-caffe_fpn_1x_coco
-              namezh: autoassign_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: boxinst_r50_fpn_ms-90k_coco
-              namezh: boxinst_r50_fpn_ms-90k_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: boxinst_r101_fpn_ms-90k_coco
-              namezh: boxinst_r101_fpn_ms-90k_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_carafe_1x_coco
-              namezh: faster-rcnn_r50_fpn_carafe_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_carafe_1x_coco
-              namezh: mask-rcnn_r50_fpn_carafe_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_r50-caffe_fpn_1x_coco
-              namezh: cascade-rcnn_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_r50_fpn_1x_coco
-              namezh: cascade-rcnn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_r50_fpn_20e_coco
-              namezh: cascade-rcnn_r50_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_r101-caffe_fpn_1x_coco
-              namezh: cascade-rcnn_r101-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_r101_fpn_1x_coco
-              namezh: cascade-rcnn_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_r101_fpn_20e_coco
-              namezh: cascade-rcnn_r101_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_x101-32x4d_fpn_1x_coco
-              namezh: cascade-rcnn_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_x101-32x4d_fpn_20e_coco
-              namezh: cascade-rcnn_x101-32x4d_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_x101-64x4d_fpn_1x_coco
-              namezh: cascade-rcnn_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_x101_64x4d_fpn_20e_coco
-              namezh: cascade-rcnn_x101_64x4d_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r50-caffe_fpn_1x_coco
-              namezh: cascade-mask-rcnn_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r50_fpn_1x_coco
-              namezh: cascade-mask-rcnn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r50_fpn_20e_coco
-              namezh: cascade-mask-rcnn_r50_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r101-caffe_fpn_1x_coco
-              namezh: cascade-mask-rcnn_r101-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r101_fpn_1x_coco
-              namezh: cascade-mask-rcnn_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r101_fpn_20e_coco
-              namezh: cascade-mask-rcnn_r101_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x4d_fpn_1x_coco
-              namezh: cascade-mask-rcnn_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x4d_fpn_20e_coco
-              namezh: cascade-mask-rcnn_x101-32x4d_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-64x4d_fpn_1x_coco
-              namezh: cascade-mask-rcnn_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-64x4d_fpn_20e_coco
-              namezh: cascade-mask-rcnn_x101-64x4d_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r50-caffe_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_r50-caffe_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r50_fpn_mstrain_3x_coco
-              namezh: cascade-mask-rcnn_r50_fpn_mstrain_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r101-caffe_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_r101-caffe_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r101_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_r101_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x4d_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_x101-32x4d_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x8d_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_x101-32x8d_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-64x4d_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_x101-64x4d_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rpn_fast-rcnn_r50-caffe_fpn_1x_coco
-              namezh: cascade-rpn_fast-rcnn_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rpn_faster-rcnn_r50-caffe_fpn_1x_coco
-              namezh: cascade-rpn_faster-rcnn_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: centernet_r18-dcnv2_8xb16-crop512-140e_coco
-              namezh: centernet_r18-dcnv2_8xb16-crop512-140e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: centernet_r18_8xb16-crop512-140e_coco
-              namezh: centernet_r18_8xb16-crop512-140e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: centernet-update_r50-caffe_fpn_ms-1x_coco
-              namezh: centernet-update_r50-caffe_fpn_ms-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: centripetalnet_hourglass104_16xb6-crop511-210e-mstest_coco
-              namezh: centripetalnet_hourglass104_16xb6-crop511-210e-mstest_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: condinst_r50_fpn_ms-poly-90k_coco_instance
-              namezh: condinst_r50_fpn_ms-poly-90k_coco_instance
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: conditional-detr_r50_8xb2-50e_coco.py
-              namezh: conditional-detr_r50_8xb2-50e_coco.py
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cornernet_hourglass104_10xb5-crop511-210e-mstest_coco
-              namezh: cornernet_hourglass104_10xb5-crop511-210e-mstest_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cornernet_hourglass104_8xb6-210e-mstest_coco
-              namezh: cornernet_hourglass104_8xb6-210e-mstest_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cornernet_hourglass104_32xb3-210e-mstest_coco
-              namezh: cornernet_hourglass104_32xb3-210e-mstest_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_convnext-t-p4-w7_fpn_amp-ms-crop-3x_coco
-              namezh: mask-rcnn_convnext-t-p4-w7_fpn_amp-ms-crop-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_convnext-t-p4-w7_fpn_4conv1fc-giou_amp-ms-crop-3x_coco
-              namezh: cascade-mask-rcnn_convnext-t-p4-w7_fpn_4conv1fc-giou_amp-ms-crop-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_convnext-s-p4-w7_fpn_4conv1fc-giou_amp-ms-crop-3x_coco
-              namezh: cascade-mask-rcnn_convnext-s-p4-w7_fpn_4conv1fc-giou_amp-ms-crop-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: dab-detr_r50_8xb2-50e_coco.py
-              namezh: dab-detr_r50_8xb2-50e_coco.py
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_dconv_c3-c5_1x_coco
-              namezh: faster-rcnn_r50_fpn_dconv_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_dpool_1x_coco
-              namezh: faster-rcnn_r50_fpn_dpool_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r101-dconv-c3-c5_fpn_1x_coco
-              namezh: faster-rcnn_r101-dconv-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_x101-32x4d-dconv-c3-c5_fpn_1x_coco
-              namezh: faster-rcnn_x101-32x4d-dconv-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_dconv_c3-c5_1x_coco
-              namezh: mask-rcnn_r50_fpn_dconv_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_fp16_dconv_c3-c5_1x_coco
-              namezh: mask-rcnn_r50_fpn_fp16_dconv_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101-dconv-c3-c5_fpn_1x_coco
-              namezh: mask-rcnn_r101-dconv-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_r50_fpn_dconv_c3-c5_1x_coco
-              namezh: cascade-rcnn_r50_fpn_dconv_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_r101-dconv-c3-c5_fpn_1x_coco
-              namezh: cascade-rcnn_r101-dconv-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r50_fpn_dconv_c3-c5_1x_coco
-              namezh: cascade-mask-rcnn_r50_fpn_dconv_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r101-dconv-c3-c5_fpn_1x_coco
-              namezh: cascade-mask-rcnn_r101-dconv-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x4d-dconv-c3-c5_fpn_1x_coco
-              namezh: cascade-mask-rcnn_x101-32x4d-dconv-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_mdconv_c3-c5_1x_coco
-              namezh: faster-rcnn_r50_fpn_mdconv_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_mdconv_c3-c5_group4_1x_coco
-              namezh: faster-rcnn_r50_fpn_mdconv_c3-c5_group4_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_mdpool_1x_coco
-              namezh: faster-rcnn_r50_fpn_mdpool_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_mdconv_c3-c5_1x_coco
-              namezh: mask-rcnn_r50_fpn_mdconv_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_fp16_mdconv_c3-c5_1x_coco
-              namezh: mask-rcnn_r50_fpn_fp16_mdconv_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ddod_r50_fpn_1x_coco
-              namezh: ddod_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: deformable-detr_r50_16xb2-50e_coco
-              namezh: deformable-detr_r50_16xb2-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: deformable-detr_refine_r50_16xb2-50e_coco
-              namezh: deformable-detr_refine_r50_16xb2-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: deformable-detr_refine_twostage_r50_16xb2-50e_coco
-              namezh: deformable-detr_refine_twostage_r50_16xb2-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_r50-rfp_1x_coco
-              namezh: cascade-rcnn_r50-rfp_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_r50-sac_1x_coco
-              namezh: cascade-rcnn_r50-sac_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: detectors_cascade-rcnn_r50_1x_coco
-              namezh: detectors_cascade-rcnn_r50_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_r50-rfp_1x_coco
-              namezh: htc_r50-rfp_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_r50-sac_1x_coco
-              namezh: htc_r50-sac_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: detectors_htc-r50_1x_coco
-              namezh: detectors_htc-r50_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: detr_r50_8xb2-150e_coco
-              namezh: detr_r50_8xb2-150e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: dino-4scale_r50_8xb2-12e_coco.py
-              namezh: dino-4scale_r50_8xb2-12e_coco.py
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: dino-4scale_r50_8xb2-24e_coco.py
-              namezh: dino-4scale_r50_8xb2-24e_coco.py
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: dino-4scale_r50_8xb2-24e_coco.py
-              namezh: dino-4scale_r50_8xb2-24e_coco.py
-              paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2171
+              datasetA: 0.493
+              datasetB: 0.814
+              ranking: 1
             
             - nameen: dino-5scale_swin-l_8xb2-12e_coco.py
               namezh: dino-5scale_swin-l_8xb2-12e_coco.py
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: dino-5scale_swin-l_8xb2-36e_coco.py
-              namezh: dino-5scale_swin-l_8xb2-36e_coco.py
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: dh-faster-rcnn_r50_fpn_1x_coco
-              namezh: dh-faster-rcnn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: atss_r50-caffe_fpn_dyhead_1x_coco
-              namezh: atss_r50-caffe_fpn_dyhead_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: atss_r50_fpn_dyhead_1x_coco
-              namezh: atss_r50_fpn_dyhead_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9593
+              datasetA: 0.487
+              datasetB: 0.843
+              ranking: 2
             
             - nameen: atss_swin-l-p4-w12_fpn_dyhead_ms-2x_coco
               namezh: atss_swin-l-p4-w12_fpn_dyhead_ms-2x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: dynamic-rcnn_r50_fpn_1x_coco
-              namezh: dynamic-rcnn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_effb3_fpn_8xb4-crop896-1x_coco
-              namezh: retinanet_effb3_fpn_8xb4-crop896-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_attention_1111_1x_coco
-              namezh: faster-rcnn_r50_fpn_attention_1111_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_attention_0010_1x_coco
-              namezh: faster-rcnn_r50_fpn_attention_0010_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_attention_1111_dcn_1x_coco
-              namezh: faster-rcnn_r50_fpn_attention_1111_dcn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_attention_0010_dcn_1x_coco
-              namezh: faster-rcnn_r50_fpn_attention_0010_dcn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50-caffe-c4_1x_coco
-              namezh: faster-rcnn_r50-caffe-c4_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50-caffe-c4_mstrain_1x_coco
-              namezh: faster-rcnn_r50-caffe-c4_mstrain_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50-caffe-dc5_1x_coco
-              namezh: faster-rcnn_r50-caffe-dc5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50-caffe_fpn_1x_coco
-              namezh: faster-rcnn_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_1x_coco
-              namezh: faster-rcnn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_fp16_1x_coco
-              namezh: faster-rcnn_r50_fpn_fp16_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_2x_coco
-              namezh: faster-rcnn_r50_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r101-caffe_fpn_1x_coco
-              namezh: faster-rcnn_r101-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r101_fpn_1x_coco
-              namezh: faster-rcnn_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r101_fpn_2x_coco
-              namezh: faster-rcnn_r101_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_x101-32x4d_fpn_1x_coco
-              namezh: faster-rcnn_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_x101-32x4d_fpn_2x_coco
-              namezh: faster-rcnn_x101-32x4d_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_x101-64x4d_fpn_1x_coco
-              namezh: faster-rcnn_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_x101-64x4d_fpn_2x_coco
-              namezh: faster-rcnn_x101-64x4d_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_iou_1x_coco
-              namezh: faster-rcnn_r50_fpn_iou_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_giou_1x_coco
-              namezh: faster-rcnn_r50_fpn_giou_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_bounded_iou_1x_coco
-              namezh: faster-rcnn_r50_fpn_bounded_iou_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50-caffe-dc5_mstrain_1x_coco
-              namezh: faster-rcnn_r50-caffe-dc5_mstrain_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50-caffe-dc5_mstrain_3x_coco
-              namezh: faster-rcnn_r50-caffe-dc5_mstrain_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50-caffe_fpn_ms-2x_coco
-              namezh: faster-rcnn_r50-caffe_fpn_ms-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50-caffe_fpn_ms-3x_coco
-              namezh: faster-rcnn_r50-caffe_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_mstrain_3x_coco
-              namezh: faster-rcnn_r50_fpn_mstrain_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r101-caffe_fpn_ms-3x_coco
-              namezh: faster-rcnn_r101-caffe_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r101_fpn_ms-3x_coco
-              namezh: faster-rcnn_r101_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_x101-32x4d_fpn_ms-3x_coco
-              namezh: faster-rcnn_x101-32x4d_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_x101-32x8d_fpn_ms-3x_coco
-              namezh: faster-rcnn_x101-32x8d_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_x101-64x4d_fpn_ms-3x_coco
-              namezh: faster-rcnn_x101-64x4d_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_tnr-pretrain_1x_coco
-              namezh: faster-rcnn_r50_fpn_tnr-pretrain_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_r50-caffe_fpn_gn-head_1x_coco
-              namezh: fcos_r50-caffe_fpn_gn-head_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_r50-caffe_fpn_gn-head-center-normbbox-centeronreg-giou_1x_coco
-              namezh: fcos_r50-caffe_fpn_gn-head-center-normbbox-centeronreg-giou_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_r50-dcn-caffe_fpn_gn-head-center-normbbox-centeronreg-giou_1x_coco
-              namezh: fcos_r50-dcn-caffe_fpn_gn-head-center-normbbox-centeronreg-giou_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_r101-caffe_fpn_gn-head-1x_coco
-              namezh: fcos_r101-caffe_fpn_gn-head-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_r50-caffe_fpn_gn-head_ms-640-800-2x_coco
-              namezh: fcos_r50-caffe_fpn_gn-head_ms-640-800-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_r101-caffe_fpn_gn-head_ms-640-800-2x_coco
-              namezh: fcos_r101-caffe_fpn_gn-head_ms-640-800-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_x101-64x4d_fpn_gn-head_ms-640-800-2x_coco
-              namezh: fcos_x101-64x4d_fpn_gn-head_ms-640-800-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fovea_r50_fpn_4xb4-1x_coco
-              namezh: fovea_r50_fpn_4xb4-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fovea_r50_fpn_4xb4-2x_coco
-              namezh: fovea_r50_fpn_4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fovea_r50_fpn_gn-head-align_4xb4-2x_coco
-              namezh: fovea_r50_fpn_gn-head-align_4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fovea_r50_fpn_gn-head-align_ms-640-800-4xb4-2x_coco
-              namezh: fovea_r50_fpn_gn-head-align_ms-640-800-4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fovea_r101_fpn_4xb4-1x_coco
-              namezh: fovea_r101_fpn_4xb4-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fovea_r101_fpn_4xb4-2x_coco
-              namezh: fovea_r101_fpn_4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fovea_r101_fpn_gn-head-align_4xb4-2x_coco
-              namezh: fovea_r101_fpn_gn-head-align_4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fovea_r101_fpn_gn-head-align_ms-640-800-4xb4-2x_coco
-              namezh: fovea_r101_fpn_gn-head-align_ms-640-800-4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpg_crop640-50e_coco
-              namezh: faster-rcnn_r50_fpg_crop640-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpg-chn128_crop640-50e_coco
-              namezh: faster-rcnn_r50_fpg-chn128_crop640-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpg_crop640-50e_coco
-              namezh: mask-rcnn_r50_fpg_crop640-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpg-chn128_crop640-50e_coco
-              namezh: mask-rcnn_r50_fpg-chn128_crop640-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50_fpg_crop640_50e_coco
-              namezh: retinanet_r50_fpg_crop640_50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50_fpg-chn128_crop640_50e_coco
-              namezh: retinanet_r50_fpg-chn128_crop640_50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: freeanchor_r50_fpn_1x_coco
-              namezh: freeanchor_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: freeanchor_r101_fpn_1x_coco
-              namezh: freeanchor_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: freeanchor_x101-32x4d_fpn_1x_coco
-              namezh: freeanchor_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fsaf_r50_fpn_1x_coco
-              namezh: fsaf_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fsaf_r101_fpn_1x_coco
-              namezh: fsaf_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fsaf_x101-64x4d_fpn_1x_coco
-              namezh: fsaf_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_r16_gcb_c3-c5_1x_coco
-              namezh: mask-rcnn_r50_fpn_r16_gcb_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_r4_gcb_c3-c5_1x_coco
-              namezh: mask-rcnn_r50_fpn_r4_gcb_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101-gcb-r16-c3-c5_fpn_1x_coco
-              namezh: mask-rcnn_r101-gcb-r16-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101-gcb-r4-c3-c5_fpn_1x_coco
-              namezh: mask-rcnn_r101-gcb-r4-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_syncbn-backbone_1x_coco
-              namezh: mask-rcnn_r50_fpn_syncbn-backbone_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_syncbn-backbone_r16_gcb_c3-c5_1x_coco
-              namezh: mask-rcnn_r50_fpn_syncbn-backbone_r16_gcb_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_syncbn-backbone_r4_gcb_c3-c5_1x_coco
-              namezh: mask-rcnn_r50_fpn_syncbn-backbone_r4_gcb_c3-c5_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101-syncbn_fpn_1x_coco
-              namezh: mask-rcnn_r101-syncbn_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101-syncbn-gcb-r16-c3-c5_fpn_1x_coco
-              namezh: mask-rcnn_r101-syncbn-gcb-r16-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101-syncbn-gcb-r4-c3-c5_fpn_1x_coco
-              namezh: mask-rcnn_r101-syncbn-gcb-r4-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x4d-syncbn_fpn_1x_coco
-              namezh: mask-rcnn_x101-32x4d-syncbn_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x4d-syncbn-gcb-r16-c3-c5_fpn_1x_coco
-              namezh: mask-rcnn_x101-32x4d-syncbn-gcb-r16-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x4d-syncbn-gcb-r4-c3-c5_fpn_1x_coco
-              namezh: mask-rcnn_x101-32x4d-syncbn-gcb-r4-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn_fpn_1x_coco
-              namezh: cascade-mask-rcnn_x101-32x4d-syncbn_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn-r16-gcb-c3-c5_fpn_1x_coco
-              namezh: cascade-mask-rcnn_x101-32x4d-syncbn-r16-gcb-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn-r4-gcb-c3-c5_fpn_1x_coco
-              namezh: cascade-mask-rcnn_x101-32x4d-syncbn-r4-gcb-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5_fpn_1x_coco
-              namezh: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5-r16-gcb-c3-c5_fpn_1x_coco
-              namezh: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5-r16-gcb-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5-r4-gcb-c3-c5_fpn_1x_coco
-              namezh: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5-r4-gcb-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: gfl_r50_fpn_1x_coco
-              namezh: gfl_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: gfl_r50_fpn_ms-2x_coco
-              namezh: gfl_r50_fpn_ms-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: gfl_r101_fpn_ms-2x_coco
-              namezh: gfl_r101_fpn_ms-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: gfl_r101-dconv-c3-c5_fpn_ms-2x_coco
-              namezh: gfl_r101-dconv-c3-c5_fpn_ms-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: gfl_x101-32x4d_fpn_ms-2x_coco
-              namezh: gfl_x101-32x4d_fpn_ms-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: gfl_x101-32x4d-dconv-c4-c5_fpn_ms-2x_coco
-              namezh: gfl_x101-32x4d-dconv-c4-c5_fpn_ms-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50_fpn_ghm-1x_coco
-              namezh: retinanet_r50_fpn_ghm-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r101_fpn_ghm-1x_coco
-              namezh: retinanet_r101_fpn_ghm-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_x101-32x4d_fpn_ghm-1x_coco
-              namezh: retinanet_x101-32x4d_fpn_ghm-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_x101-64x4d_fpn_ghm-1x_coco
-              namezh: retinanet_x101-64x4d_fpn_ghm-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_gn-all_2x_coco
-              namezh: mask-rcnn_r50_fpn_gn-all_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_gn-all_3x_coco
-              namezh: mask-rcnn_r50_fpn_gn-all_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101_fpn_gn-all_2x_coco
-              namezh: mask-rcnn_r101_fpn_gn-all_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101_fpn_gn-all_3x_coco
-              namezh: mask-rcnn_r101_fpn_gn-all_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_gn-all_contrib_2x_coco
-              namezh: mask-rcnn_r50_fpn_gn-all_contrib_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_gn-all_contrib_3x_coco
-              namezh: mask-rcnn_r50_fpn_gn-all_contrib_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_gn_ws-all_1x_coco
-              namezh: faster-rcnn_r50_fpn_gn_ws-all_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r101_fpn_gn-ws-all_1x_coco
-              namezh: faster-rcnn_r101_fpn_gn-ws-all_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_x50-32x4d_fpn_gn-ws-all_1x_coco
-              namezh: faster-rcnn_x50-32x4d_fpn_gn-ws-all_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_x101-32x4d_fpn_gn-ws-all_1x_coco
-              namezh: faster-rcnn_x101-32x4d_fpn_gn-ws-all_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_gn_ws-all_2x_coco
-              namezh: mask-rcnn_r50_fpn_gn_ws-all_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101_fpn_gn-ws-all_2x_coco
-              namezh: mask-rcnn_r101_fpn_gn-ws-all_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x50-32x4d_fpn_gn-ws-all_2x_coco
-              namezh: mask-rcnn_x50-32x4d_fpn_gn-ws-all_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x4d_fpn_gn-ws-all_2x_coco
-              namezh: mask-rcnn_x101-32x4d_fpn_gn-ws-all_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_gn_ws-all_20_23_24e_coco
-              namezh: mask-rcnn_r50_fpn_gn_ws-all_20_23_24e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101_fpn_gn-ws-all_20-23-24e_coco
-              namezh: mask-rcnn_r101_fpn_gn-ws-all_20-23-24e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x50-32x4d_fpn_gn-ws-all_20-23-24e_coco
-              namezh: mask-rcnn_x50-32x4d_fpn_gn-ws-all_20-23-24e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x4d_fpn_gn-ws-all_20-23-24e_coco
-              namezh: mask-rcnn_x101-32x4d_fpn_gn-ws-all_20-23-24e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: grid-rcnn_r50_fpn_gn-head_2x_coco
-              namezh: grid-rcnn_r50_fpn_gn-head_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: grid-rcnn_r101_fpn_gn-head_2x_coco
-              namezh: grid-rcnn_r101_fpn_gn-head_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: grid-rcnn_x101-32x4d_fpn_gn-head_2x_coco
-              namezh: grid-rcnn_x101-32x4d_fpn_gn-head_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: grid-rcnn_x101-64x4d_fpn_gn-head_2x_coco
-              namezh: grid-rcnn_x101-64x4d_fpn_gn-head_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_groie_1x_coco
-              namezh: faster-rcnn_r50_fpn_groie_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: grid-rcnn_r50_fpn_gn-head-groie_1x_coco
-              namezh: grid-rcnn_r50_fpn_gn-head-groie_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_groie_1x_coco
-              namezh: mask-rcnn_r50_fpn_groie_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_syncbn-backbone_r4_gcb_c3-c5_groie_1x_coco
-              namezh: mask-rcnn_r50_fpn_syncbn-backbone_r4_gcb_c3-c5_groie_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101_fpn_syncbn-r4-gcb_c3-c5-groie_1x_coco
-              namezh: mask-rcnn_r101_fpn_syncbn-r4-gcb_c3-c5-groie_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-rpn_r50-caffe_fpn_1x_coco
-              namezh: ga-rpn_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-rpn_r101-caffe_fpn_1x_coco
-              namezh: ga-rpn_r101-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-rpn_x101-32x4d_fpn_1x_coco
-              namezh: ga-rpn_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-rpn_x101-64x4d_fpn_1x_coco
-              namezh: ga-rpn_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-faster-rcnn_r50-caffe_fpn_1x_coco
-              namezh: ga-faster-rcnn_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-faster-rcnn_r101-caffe_fpn_1x_coco
-              namezh: ga-faster-rcnn_r101-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-faster-rcnn_x101-32x4d_fpn_1x_coco
-              namezh: ga-faster-rcnn_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-faster-rcnn_x101-64x4d_fpn_1x_coco
-              namezh: ga-faster-rcnn_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-retinanet_r50-caffe_fpn_1x_coco
-              namezh: ga-retinanet_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-retinanet_r101-caffe_fpn_1x_coco
-              namezh: ga-retinanet_r101-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-retinanet_x101-32x4d_fpn_1x_coco
-              namezh: ga-retinanet_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ga-retinanet_x101-64x4d_fpn_1x_coco
-              namezh: ga-retinanet_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_hrnetv2p-w18-1x_coco
-              namezh: faster-rcnn_hrnetv2p-w18-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_hrnetv2p-w18-2x_coco
-              namezh: faster-rcnn_hrnetv2p-w18-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_hrnetv2p-w32-1x_coco
-              namezh: faster-rcnn_hrnetv2p-w32-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_hrnetv2p-w32_2x_coco
-              namezh: faster-rcnn_hrnetv2p-w32_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_hrnetv2p-w40-1x_coco
-              namezh: faster-rcnn_hrnetv2p-w40-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_hrnetv2p-w40_2x_coco
-              namezh: faster-rcnn_hrnetv2p-w40_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_hrnetv2p-w18-1x_coco
-              namezh: mask-rcnn_hrnetv2p-w18-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_hrnetv2p-w18-2x_coco
-              namezh: mask-rcnn_hrnetv2p-w18-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_hrnetv2p-w32-1x_coco
-              namezh: mask-rcnn_hrnetv2p-w32-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_hrnetv2p-w32-2x_coco
-              namezh: mask-rcnn_hrnetv2p-w32-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_hrnetv2p-w40_1x_coco
-              namezh: mask-rcnn_hrnetv2p-w40_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_hrnetv2p-w40-2x_coco
-              namezh: mask-rcnn_hrnetv2p-w40-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_hrnetv2p-w18-20e_coco
-              namezh: cascade-rcnn_hrnetv2p-w18-20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_hrnetv2p-w32-20e_coco
-              namezh: cascade-rcnn_hrnetv2p-w32-20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_hrnetv2p-w40-20e_coco
-              namezh: cascade-rcnn_hrnetv2p-w40-20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_hrnetv2p-w18_20e_coco
-              namezh: cascade-mask-rcnn_hrnetv2p-w18_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_hrnetv2p-w32_20e_coco
-              namezh: cascade-mask-rcnn_hrnetv2p-w32_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_hrnetv2p-w40-20e_coco
-              namezh: cascade-mask-rcnn_hrnetv2p-w40-20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_hrnetv2p-w18_20e_coco
-              namezh: htc_hrnetv2p-w18_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_hrnetv2p-w32_20e_coco
-              namezh: htc_hrnetv2p-w32_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_hrnetv2p-w40_20e_coco
-              namezh: htc_hrnetv2p-w40_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_hrnetv2p-w18-gn-head_4xb4-1x_coco
-              namezh: fcos_hrnetv2p-w18-gn-head_4xb4-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_hrnetv2p-w18-gn-head_4xb4-2x_coco
-              namezh: fcos_hrnetv2p-w18-gn-head_4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_hrnetv2p-w32-gn-head_4xb4-1x_coco
-              namezh: fcos_hrnetv2p-w32-gn-head_4xb4-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_hrnetv2p-w32-gn-head_4xb4-2x_coco
-              namezh: fcos_hrnetv2p-w32-gn-head_4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_hrnetv2p-w18-gn-head_ms-640-800-4xb4-2x_coco
-              namezh: fcos_hrnetv2p-w18-gn-head_ms-640-800-4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_hrnetv2p-w32-gn-head_ms-640-800-4xb4-2x_coco
-              namezh: fcos_hrnetv2p-w32-gn-head_ms-640-800-4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: fcos_hrnetv2p-w40-gn-head_ms-640-800-4xb4-2x_coco
-              namezh: fcos_hrnetv2p-w40-gn-head_ms-640-800-4xb4-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_r50_fpn_1x_coco
-              namezh: htc_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_r50_fpn_20e_coco
-              namezh: htc_r50_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_r101_fpn_20e_coco
-              namezh: htc_r101_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_x101-32x4d_fpn_16xb1-20e_coco
-              namezh: htc_x101-32x4d_fpn_16xb1-20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_x101-64x4d_fpn_16xb1-20e_coco
-              namezh: htc_x101-64x4d_fpn_16xb1-20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_x101-64x4d-dconv-c3-c5_fpn_ms-400-1400-16xb1-20e_coco
-              namezh: htc_x101-64x4d-dconv-c3-c5_fpn_ms-400-1400-16xb1-20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_instaboost_4x_coco
-              namezh: mask-rcnn_r50_fpn_instaboost_4x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101_fpn_instaboost-4x_coco
-              namezh: mask-rcnn_r101_fpn_instaboost-4x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-64x4d_fpn_instaboost-4x_coco
-              namezh: mask-rcnn_x101-64x4d_fpn_instaboost-4x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r50_fpn_instaboost_4x_coco
-              namezh: cascade-mask-rcnn_r50_fpn_instaboost_4x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: lad_r101-paa-r50_fpn_2xb8_coco_1x
-              namezh: lad_r101-paa-r50_fpn_2xb8_coco_1x
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: lad_r50-paa-r101_fpn_2xb8_coco_1x
-              namezh: lad_r50-paa-r101_fpn_2xb8_coco_1x
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ld_r18-gflv1-r101_fpn_1x_coco
-              namezh: ld_r18-gflv1-r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ld_r34-gflv1-r101_fpn_1x_coco
-              namezh: ld_r34-gflv1-r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ld_r50-gflv1-r101_fpn_1x_coco
-              namezh: ld_r50-gflv1-r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ld_r101-gflv1-r101-dcn_fpn_2x_coco
-              namezh: ld_r101-gflv1-r101-dcn_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: libra-faster-rcnn_r50_fpn_1x_coco
-              namezh: libra-faster-rcnn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: libra-faster-rcnn_r101_fpn_1x_coco
-              namezh: libra-faster-rcnn_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: libra-faster-rcnn_x101-64x4d_fpn_1x_coco
-              namezh: libra-faster-rcnn_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: libra-retinanet_r50_fpn_1x_coco
-              namezh: libra-retinanet_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_swin-s-p4-w7-224_8xb2-lsj-50e_coco-panoptic
-              namezh: mask2former_swin-s-p4-w7-224_8xb2-lsj-50e_coco-panoptic
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_r101_8xb2-lsj-50e_coco
-              namezh: mask2former_r101_8xb2-lsj-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_r101_8xb2-lsj-50e_coco-panoptic
-              namezh: mask2former_r101_8xb2-lsj-50e_coco-panoptic
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_r50_8xb2-lsj-50e_coco-panoptic
-              namezh: mask2former_r50_8xb2-lsj-50e_coco-panoptic
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_swin-t-p4-w7-224_8xb2-lsj-50e_coco-panoptic
-              namezh: mask2former_swin-t-p4-w7-224_8xb2-lsj-50e_coco-panoptic
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_r50_8xb2-lsj-50e_coco
-              namezh: mask2former_r50_8xb2-lsj-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_swin-l-p4-w12-384-in21k_16xb1-lsj-100e_coco-panoptic
-              namezh: mask2former_swin-l-p4-w12-384-in21k_16xb1-lsj-100e_coco-panoptic
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_swin-b-p4-w12-384-in21k_8xb2-lsj-50e_coco-panoptic
-              namezh: mask2former_swin-b-p4-w12-384-in21k_8xb2-lsj-50e_coco-panoptic
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_swin-b-p4-w12-384_8xb2-lsj-50e_coco-panoptic
-              namezh: mask2former_swin-b-p4-w12-384_8xb2-lsj-50e_coco-panoptic
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_swin-t-p4-w7-224_8xb2-lsj-50e_coco
-              namezh: mask2former_swin-t-p4-w7-224_8xb2-lsj-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask2former_swin-s-p4-w7-224_8xb2-lsj-50e_coco
-              namezh: mask2former_swin-s-p4-w7-224_8xb2-lsj-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50-caffe_fpn_1x_coco
-              namezh: mask-rcnn_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_1x_coco
-              namezh: mask-rcnn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_fp16_1x_coco
-              namezh: mask-rcnn_r50_fpn_fp16_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_2x_coco
-              namezh: mask-rcnn_r50_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101-caffe_fpn_1x_coco
-              namezh: mask-rcnn_r101-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101_fpn_1x_coco
-              namezh: mask-rcnn_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101_fpn_2x_coco
-              namezh: mask-rcnn_r101_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x4d_fpn_1x_coco
-              namezh: mask-rcnn_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x4d_fpn_2x_coco
-              namezh: mask-rcnn_x101-32x4d_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-64x4d_fpn_1x_coco
-              namezh: mask-rcnn_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-64x4d_fpn_2x_coco
-              namezh: mask-rcnn_x101-64x4d_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x8d_fpn_1x_coco
-              namezh: mask-rcnn_x101-32x8d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50-caffe_fpn_ms-poly-2x_coco
-              namezh: mask-rcnn_r50-caffe_fpn_ms-poly-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50-caffe_fpn_ms-poly-3x_coco
-              namezh: mask-rcnn_r50-caffe_fpn_ms-poly-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_mstrain-poly_3x_coco
-              namezh: mask-rcnn_r50_fpn_mstrain-poly_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101_fpn_ms-poly-3x_coco
-              namezh: mask-rcnn_r101_fpn_ms-poly-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r101-caffe_fpn_ms-poly-3x_coco
-              namezh: mask-rcnn_r101-caffe_fpn_ms-poly-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x4d_fpn_ms-poly-3x_coco
-              namezh: mask-rcnn_x101-32x4d_fpn_ms-poly-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x8d_fpn_ms-poly-1x_coco
-              namezh: mask-rcnn_x101-32x8d_fpn_ms-poly-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-32x8d_fpn_ms-poly-3x_coco
-              namezh: mask-rcnn_x101-32x8d_fpn_ms-poly-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_x101-64x4d_fpn_ms-poly_3x_coco
-              namezh: mask-rcnn_x101-64x4d_fpn_ms-poly_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: maskformer_r50_ms-16xb1-75e_coco
-              namezh: maskformer_r50_ms-16xb1-75e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: maskformer_swin-l-p4-w12_64xb1-ms-300e_coco
-              namezh: maskformer_swin-l-p4-w12_64xb1-ms-300e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ms-rcnn_r50-caffe_fpn_1x_coco
-              namezh: ms-rcnn_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ms-rcnn_r50-caffe_fpn_2x_coco
-              namezh: ms-rcnn_r50-caffe_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ms-rcnn_r101-caffe_fpn_1x_coco
-              namezh: ms-rcnn_r101-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ms-rcnn_r101-caffe_fpn_2x_coco
-              namezh: ms-rcnn_r101-caffe_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ms-rcnn_x101-32x4d_fpn_1x_coco
-              namezh: ms-rcnn_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ms-rcnn_x101-64x4d_fpn_1x_coco
-              namezh: ms-rcnn_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ms-rcnn_x101-64x4d_fpn_2x_coco
-              namezh: ms-rcnn_x101-64x4d_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: nas-fcos_r50-caffe_fpn_nashead-gn-head_4xb4-1x_coco
-              namezh: nas-fcos_r50-caffe_fpn_nashead-gn-head_4xb4-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: nas-fcos_r50-caffe_fpn_fcoshead-gn-head_4xb4-1x_coco
-              namezh: nas-fcos_r50-caffe_fpn_fcoshead-gn-head_4xb4-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50_fpn_crop640-50e_coco
-              namezh: retinanet_r50_fpn_crop640-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50_nasfpn_crop640-50e_coco
-              namezh: retinanet_r50_nasfpn_crop640-50e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: paa_r50_fpn_1x_coco
-              namezh: paa_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: paa_r50_fpn_1.5x_coco
-              namezh: paa_r50_fpn_1.5x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: paa_r50_fpn_2x_coco
-              namezh: paa_r50_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: paa_r50_fpn_mstrain_3x_coco
-              namezh: paa_r50_fpn_mstrain_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: paa_r101_fpn_1x_coco
-              namezh: paa_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: paa_r101_fpn_2x_coco
-              namezh: paa_r101_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: paa_r101_fpn_mstrain_3x_coco
-              namezh: paa_r101_fpn_mstrain_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_pafpn_1x_coco
-              namezh: faster-rcnn_r50_pafpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: panoptic_fpn_r50_fpn_1x_coco
-              namezh: panoptic_fpn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: panoptic_fpn_r50_fpn_mstrain_3x_coco
-              namezh: panoptic_fpn_r50_fpn_mstrain_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: panoptic_fpn_r101_fpn_1x_coco
-              namezh: panoptic_fpn_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: panoptic_fpn_r101_fpn_mstrain_3x_coco
-              namezh: panoptic_fpn_r101_fpn_mstrain_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_pvt-t_fpn_1x_coco
-              namezh: retinanet_pvt-t_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_pvt-s_fpn_1x_coco
-              namezh: retinanet_pvt-s_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_pvt-m_fpn_1x_coco
-              namezh: retinanet_pvt-m_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_pvtv2-b0_fpn_1x_coco
-              namezh: retinanet_pvtv2-b0_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_pvtv2-b1_fpn_1x_coco
-              namezh: retinanet_pvtv2-b1_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_pvtv2-b2_fpn_1x_coco
-              namezh: retinanet_pvtv2-b2_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_pvtv2-b3_fpn_1x_coco
-              namezh: retinanet_pvtv2-b3_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_pvtv2-b4_fpn_1x_coco
-              namezh: retinanet_pvtv2-b4_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_pvtv2-b5_fpn_1x_coco
-              namezh: retinanet_pvtv2-b5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: pisa_faster_rcnn_r50_fpn_1x_coco
-              namezh: pisa_faster_rcnn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: pisa_faster_rcnn_x101_32x4d_fpn_1x_coco
-              namezh: pisa_faster_rcnn_x101_32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: pisa_mask_rcnn_r50_fpn_1x_coco
-              namezh: pisa_mask_rcnn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: pisa_retinanet_r50_fpn_1x_coco
-              namezh: pisa_retinanet_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: pisa_retinanet_x101_32x4d_fpn_1x_coco
-              namezh: pisa_retinanet_x101_32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: pisa_ssd300_coco
-              namezh: pisa_ssd300_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: pisa_ssd512_coco
-              namezh: pisa_ssd512_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: point_rend_r50_caffe_fpn_mstrain_1x_coco
-              namezh: point_rend_r50_caffe_fpn_mstrain_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: point_rend_r50_caffe_fpn_mstrain_3x_coco
-              namezh: point_rend_r50_caffe_fpn_mstrain_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: queryinst_r50_fpn_1x_coco
-              namezh: queryinst_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: queryinst_r50_fpn_ms-480-800-3x_coco
-              namezh: queryinst_r50_fpn_ms-480-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: queryinst_r50_fpn_300-proposals_crop-ms-480-800-3x_coco
-              namezh: queryinst_r50_fpn_300-proposals_crop-ms-480-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: queryinst_r101_fpn_ms-480-800-3x_coco
-              namezh: queryinst_r101_fpn_ms-480-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: queryinst_r101_fpn_300-proposals_crop-ms-480-800-3x_coco
-              namezh: queryinst_r101_fpn_300-proposals_crop-ms-480-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-3.2GF_fpn_1x_coco
-              namezh: mask-rcnn_regnetx-3.2GF_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-4GF_fpn_1x_coco
-              namezh: mask-rcnn_regnetx-4GF_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-6.4GF_fpn_1x_coco
-              namezh: mask-rcnn_regnetx-6.4GF_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-8GF_fpn_1x_coco
-              namezh: mask-rcnn_regnetx-8GF_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-12GF_fpn_1x_coco
-              namezh: mask-rcnn_regnetx-12GF_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-3.2GF-mdconv-c3-c5_fpn_1x_coco
-              namezh: mask-rcnn_regnetx-3.2GF-mdconv-c3-c5_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_regnetx-3.2GF_fpn_1x_coco
-              namezh: faster-rcnn_regnetx-3.2GF_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_regnetx-3.2GF_fpn_2x_coco
-              namezh: faster-rcnn_regnetx-3.2GF_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_regnetx-800MF_fpn_1x_coco
-              namezh: retinanet_regnetx-800MF_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_regnetx-1.6GF_fpn_1x_coco
-              namezh: retinanet_regnetx-1.6GF_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_regnetx-3.2GF_fpn_1x_coco
-              namezh: retinanet_regnetx-3.2GF_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_regnetx-400MF_fpn_ms-3x_coco
-              namezh: faster-rcnn_regnetx-400MF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_regnetx-800MF_fpn_ms-3x_coco
-              namezh: faster-rcnn_regnetx-800MF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_regnetx-1.6GF_fpn_ms-3x_coco
-              namezh: faster-rcnn_regnetx-1.6GF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
-              namezh: faster-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_regnetx-4GF_fpn_ms-3x_coco
-              namezh: faster-rcnn_regnetx-4GF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
-              namezh: mask-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-400MF_fpn_ms-poly-3x_coco
-              namezh: mask-rcnn_regnetx-400MF_fpn_ms-poly-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-800MF_fpn_ms-poly-3x_coco
-              namezh: mask-rcnn_regnetx-800MF_fpn_ms-poly-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-1.6GF_fpn_ms-poly-3x_coco
-              namezh: mask-rcnn_regnetx-1.6GF_fpn_ms-poly-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
-              namezh: mask-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_regnetx-4GF_fpn_ms-poly-3x_coco
-              namezh: mask-rcnn_regnetx-4GF_fpn_ms-poly-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_regnetx-400MF_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_regnetx-400MF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_regnetx-800MF_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_regnetx-800MF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_regnetx-1.6GF_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_regnetx-1.6GF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_regnetx-4GF_fpn_ms-3x_coco
-              namezh: cascade-mask-rcnn_regnetx-4GF_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: reppoints-bbox_r50_fpn-gn_head-gn-grid_1x_coco
-              namezh: reppoints-bbox_r50_fpn-gn_head-gn-grid_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: reppoints-bbox_r50-center_fpn-gn_head-gn-grid_1x_coco
-              namezh: reppoints-bbox_r50-center_fpn-gn_head-gn-grid_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: reppoints-moment_r50_fpn_1x_coco
-              namezh: reppoints-moment_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: reppoints-moment_r50_fpn-gn_head-gn_1x_coco
-              namezh: reppoints-moment_r50_fpn-gn_head-gn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: reppoints-moment_r50_fpn-gn_head-gn_2x_coco
-              namezh: reppoints-moment_r50_fpn-gn_head-gn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: reppoints-moment_r101_fpn-gn_head-gn_2x_coco
-              namezh: reppoints-moment_r101_fpn-gn_head-gn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: reppoints-moment_r101-dconv-c3-c5_fpn-gn_head-gn_2x_coco
-              namezh: reppoints-moment_r101-dconv-c3-c5_fpn-gn_head-gn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: reppoints-moment_x101-dconv-c3-c5_fpn-gn_head-gn_2x_coco
-              namezh: reppoints-moment_x101-dconv-c3-c5_fpn-gn_head-gn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_res2net-101_fpn_2x_coco
-              namezh: faster-rcnn_res2net-101_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_res2net-101_fpn_2x_coco
-              namezh: mask-rcnn_res2net-101_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_res2net-101_fpn_20e_coco
-              namezh: cascade-rcnn_res2net-101_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_res2net-101_fpn_20e_coco
-              namezh: cascade-mask-rcnn_res2net-101_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: htc_res2net-101_fpn_20e_coco
-              namezh: htc_res2net-101_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_s50_fpn_syncbn-backbone+head_ms-range-1x_coco
-              namezh: faster-rcnn_s50_fpn_syncbn-backbone+head_ms-range-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_s101_fpn_syncbn-backbone+head_ms-range-1x_coco
-              namezh: faster-rcnn_s101_fpn_syncbn-backbone+head_ms-range-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_s50_fpn_syncbn-backbone+head_ms-1x_coco
-              namezh: mask-rcnn_s50_fpn_syncbn-backbone+head_ms-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_s101_fpn_syncbn-backbone+head_ms-1x_coco
-              namezh: mask-rcnn_s101_fpn_syncbn-backbone+head_ms-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_s50_fpn_syncbn-backbone+head_ms-range-1x_coco
-              namezh: cascade-rcnn_s50_fpn_syncbn-backbone+head_ms-range-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-rcnn_s101_fpn_syncbn-backbone+head_ms-range-1x_coco
-              namezh: cascade-rcnn_s101_fpn_syncbn-backbone+head_ms-range-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_s50_fpn_syncbn-backbone+head_ms-1x_coco
-              namezh: cascade-mask-rcnn_s50_fpn_syncbn-backbone+head_ms-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_s101_fpn_syncbn-backbone+head_ms-1x_coco
-              namezh: cascade-mask-rcnn_s101_fpn_syncbn-backbone+head_ms-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_rsb-pretrain_1x_coco
-              namezh: faster-rcnn_r50_fpn_rsb-pretrain_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: cascade-mask-rcnn_r50_fpn_rsb-pretrain_1x_coco
-              namezh: cascade-mask-rcnn_r50_fpn_rsb-pretrain_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50-rsb-pre_fpn_1x_coco
-              namezh: retinanet_r50-rsb-pre_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_rsb-pretrain_1x_coco
-              namezh: mask-rcnn_r50_fpn_rsb-pretrain_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r18_fpn_1x_coco
-              namezh: retinanet_r18_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r18_fpn_1xb8-1x_coco
-              namezh: retinanet_r18_fpn_1xb8-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50-caffe_fpn_1x_coco
-              namezh: retinanet_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50_fpn_1x_coco
-              namezh: retinanet_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50_fpn_amp-1x_coco
-              namezh: retinanet_r50_fpn_amp-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50_fpn_2x_coco
-              namezh: retinanet_r50_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r50_fpn_ms-640-800-3x_coco
-              namezh: retinanet_r50_fpn_ms-640-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r101-caffe_fpn_1x_coco
-              namezh: retinanet_r101-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r101-caffe_fpn_ms-3x_coco
-              namezh: retinanet_r101-caffe_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r101_fpn_1x_coco
-              namezh: retinanet_r101_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r101_fpn_2x_coco
-              namezh: retinanet_r101_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_r101_fpn_ms-640-800-3x_coco
-              namezh: retinanet_r101_fpn_ms-640-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_x101-32x4d_fpn_1x_coco
-              namezh: retinanet_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_x101-32x4d_fpn_2x_coco
-              namezh: retinanet_x101-32x4d_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_x101-64x4d_fpn_1x_coco
-              namezh: retinanet_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_x101-64x4d_fpn_2x_coco
-              namezh: retinanet_x101-64x4d_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: retinanet_x101-64x4d_fpn_ms-640-800-3x_coco
-              namezh: retinanet_x101-64x4d_fpn_ms-640-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rpn_r50-caffe_fpn_1x_coco
-              namezh: rpn_r50-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rpn_r50_fpn_1x_coco
-              namezh: rpn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rpn_r50_fpn_2x_coco
-              namezh: rpn_r50_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rpn_r101-caffe_fpn_1x_coco
-              namezh: rpn_r101-caffe_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rpn_x101-32x4d_fpn_1x_coco
-              namezh: rpn_x101-32x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rpn_x101-32x4d_fpn_2x_coco
-              namezh: rpn_x101-32x4d_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rpn_x101-64x4d_fpn_1x_coco
-              namezh: rpn_x101-64x4d_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rpn_x101-64x4d_fpn_2x_coco
-              namezh: rpn_x101-64x4d_fpn_2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rtmdet_tiny_8xb32-300e_coco
-              namezh: rtmdet_tiny_8xb32-300e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rtmdet_s_8xb32-300e_coco
-              namezh: rtmdet_s_8xb32-300e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rtmdet_m_8xb32-300e_coco
-              namezh: rtmdet_m_8xb32-300e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rtmdet_l_8xb32-300e_coco
-              namezh: rtmdet_l_8xb32-300e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9499
+              datasetA: 0.447
+              datasetB: 0.760
+              ranking: 3
             
             - nameen: rtmdet_x_8xb32-300e_coco
               namezh: rtmdet_x_8xb32-300e_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rtmdet-ins_tiny_8xb32-300e_coco
-              namezh: rtmdet-ins_tiny_8xb32-300e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rtmdet-ins_s_8xb32-300e_coco
-              namezh: rtmdet-ins_s_8xb32-300e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rtmdet-ins_m_8xb32-300e_coco
-              namezh: rtmdet-ins_m_8xb32-300e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: rtmdet-ins_l_8xb32-300e_coco
-              namezh: rtmdet-ins_l_8xb32-300e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 305
+              datasetA: 0.440
+              datasetB: 0.784
+              ranking: 4
             
             - nameen: rtmdet-ins_x_8xb16-300e_coco
               namezh: rtmdet-ins_x_8xb16-300e_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 923
+              datasetA: 0.436
+              datasetB: 0.827
+              ranking: 5
             
-            - nameen: sabl-faster-rcnn_r50_fpn_1x_coco
-              namezh: sabl-faster-rcnn_r50_fpn_1x_coco
+            - nameen: rtmdet_l_8xb32-300e_coco
+              namezh: rtmdet_l_8xb32-300e_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6105
+              datasetA: 0.422
+              datasetB: 0.769
+              ranking: 6
             
-            - nameen: sabl-faster-rcnn_r101_fpn_1x_coco
-              namezh: sabl-faster-rcnn_r101_fpn_1x_coco
+            - nameen: rtmdet-ins_l_8xb32-300e_coco
+              namezh: rtmdet-ins_l_8xb32-300e_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 432
+              datasetA: 0.415
+              datasetB: 0.795
+              ranking: 7
             
-            - nameen: sabl-cascade-rcnn_r50_fpn_1x_coco
-              namezh: sabl-cascade-rcnn_r50_fpn_1x_coco
+            - nameen: rtmdet_m_8xb32-300e_coco
+              namezh: rtmdet_m_8xb32-300e_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1956
+              datasetA: 0.395
+              datasetB: 0.717
+              ranking: 8
             
-            - nameen: sabl-cascade-rcnn_r101_fpn_1x_coco
-              namezh: sabl-cascade-rcnn_r101_fpn_1x_coco
+            - nameen: htc_x101-64x4d-dconv-c3-c5_fpn_ms-400-1400-16xb1-20e_coco
+              namezh: htc_x101-64x4d-dconv-c3-c5_fpn_ms-400-1400-16xb1-20e_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9306
+              datasetA: 0.388
+              datasetB: 0.771
+              ranking: 9
             
-            - nameen: sabl-retinanet_r50_fpn_1x_coco
-              namezh: sabl-retinanet_r50_fpn_1x_coco
+            - nameen: rtmdet-ins_m_8xb32-300e_coco
+              namezh: rtmdet-ins_m_8xb32-300e_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6764
+              datasetA: 0.388
+              datasetB: 0.737
+              ranking: 10
             
-            - nameen: sabl-retinanet_r50-gn_fpn_1x_coco
-              namezh: sabl-retinanet_r50-gn_fpn_1x_coco
+            - nameen: mask2former_swin-s-p4-w7-224_8xb2-lsj-50e_coco
+              namezh: mask2former_swin-s-p4-w7-224_8xb2-lsj-50e_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1964
+              datasetA: 0.376
+              datasetB: 0.498
+              ranking: 11
             
-            - nameen: sabl-retinanet_r101_fpn_1x_coco
-              namezh: sabl-retinanet_r101_fpn_1x_coco
+            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5-r4-gcb-c3-c5_fpn_1x_coco
+              namezh: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5-r4-gcb-c3-c5_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7031
+              datasetA: 0.359
+              datasetB: 0.839
+              ranking: 12
             
-            - nameen: sabl-retinanet_r101-gn_fpn_1x_coco
-              namezh: sabl-retinanet_r101-gn_fpn_1x_coco
+            - nameen: retinanet_pvtv2-b4_fpn_1x_coco
+              namezh: retinanet_pvtv2-b4_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2142
+              datasetA: 0.356
+              datasetB: 0.706
+              ranking: 13
             
-            - nameen: sabl-retinanet_r101-gn_fpn_ms-640-800-2x_coco
-              namezh: sabl-retinanet_r101-gn_fpn_ms-640-800-2x_coco
+            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5-r16-gcb-c3-c5_fpn_1x_coco
+              namezh: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5-r16-gcb-c3-c5_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4367
+              datasetA: 0.356
+              datasetB: 0.824
+              ranking: 14
             
-            - nameen: sabl-retinanet_r101-gn_fpn_ms-480-960-2x_coco
-              namezh: sabl-retinanet_r101-gn_fpn_ms-480-960-2x_coco
+            - nameen: cascade-mask-rcnn_s101_fpn_syncbn-backbone+head_ms-1x_coco
+              namezh: cascade-mask-rcnn_s101_fpn_syncbn-backbone+head_ms-1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1722
+              datasetA: 0.356
+              datasetB: 0.761
+              ranking: 15
             
-            - nameen: scnet_r50_fpn_1x_coco
-              namezh: scnet_r50_fpn_1x_coco
+            - nameen: detectors_htc-r50_1x_coco
+              namezh: detectors_htc-r50_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: scnet_r50_fpn_20e_coco
-              namezh: scnet_r50_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: scnet_r101_fpn_20e_coco
-              namezh: scnet_r101_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: scnet_x101-64x4d_fpn_20e_coco
-              namezh: scnet_x101-64x4d_fpn_20e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: faster-rcnn_r50_fpn_gn-all_scratch_6x_coco
-              namezh: faster-rcnn_r50_fpn_gn-all_scratch_6x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_gn-all_scratch_6x_coco
-              namezh: mask-rcnn_r50_fpn_gn-all_scratch_6x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_syncbn-all_rpn-2conv_ssj_32x2_270k_coco
-              namezh: mask-rcnn_r50_fpn_syncbn-all_rpn-2conv_ssj_32x2_270k_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_syncbn-all_rpn-2conv_ssj_32x2_90k_coco
-              namezh: mask-rcnn_r50_fpn_syncbn-all_rpn-2conv_ssj_32x2_90k_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_syncbn-all_rpn-2conv_ssj_scp_32x2_270k_coco
-              namezh: mask-rcnn_r50_fpn_syncbn-all_rpn-2conv_ssj_scp_32x2_270k_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50_fpn_syncbn-all_rpn-2conv_ssj_scp_32x2_90k_coco
-              namezh: mask-rcnn_r50_fpn_syncbn-all_rpn-2conv_ssj_scp_32x2_90k_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.01-coco.py
-              namezh: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.01-coco.py
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.02-coco.py
-              namezh: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.02-coco.py
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.05-coco.py
-              namezh: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.05-coco.py
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.1-coco.py
-              namezh: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.1-coco.py
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: sparse-rcnn_r50_fpn_1x_coco
-              namezh: sparse-rcnn_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: sparse-rcnn_r50_fpn_ms-480-800-3x_coco
-              namezh: sparse-rcnn_r50_fpn_ms-480-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: sparse-rcnn_r50_fpn_300-proposals_crop-ms-480-800-3x_coco
-              namezh: sparse-rcnn_r50_fpn_300-proposals_crop-ms-480-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: sparse-rcnn_r101_fpn_ms-480-800-3x_coco
-              namezh: sparse-rcnn_r101_fpn_ms-480-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: sparse-rcnn_r101_fpn_300-proposals_crop-ms-480-800-3x_coco
-              namezh: sparse-rcnn_r101_fpn_300-proposals_crop-ms-480-800-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: decoupled-solo_r50_fpn_1x_coco
-              namezh: decoupled-solo_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: decoupled-solo_r50_fpn_3x_coco
-              namezh: decoupled-solo_r50_fpn_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: decoupled-solo-light_r50_fpn_3x_coco
-              namezh: decoupled-solo-light_r50_fpn_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: solo_r50_fpn_3x_coco
-              namezh: solo_r50_fpn_3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: solo_r50_fpn_1x_coco
-              namezh: solo_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: solov2_r50_fpn_1x_coco
-              namezh: solov2_r50_fpn_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: solov2_r50_fpn_ms-3x_coco
-              namezh: solov2_r50_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: solov2_r101-dcn_fpn_ms-3x_coco
-              namezh: solov2_r101-dcn_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: solov2_x101-dcn_fpn_ms-3x_coco
-              namezh: solov2_x101-dcn_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: solov2-light_r18_fpn_ms-3x_coco
-              namezh: solov2-light_r18_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: solov2-light_r50_fpn_ms-3x_coco
-              namezh: solov2-light_r50_fpn_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ssd300_coco
-              namezh: ssd300_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ssd512_coco
-              namezh: ssd512_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: ssdlite_mobilenetv2-scratch_8xb24-600e_coco
-              namezh: ssdlite_mobilenetv2-scratch_8xb24-600e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_r50-caffe_fpn_rpn-2conv_4conv1fc_syncbn-all_lsj-100e_coco
-              namezh: mask-rcnn_r50-caffe_fpn_rpn-2conv_4conv1fc_syncbn-all_lsj-100e_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2147
+              datasetA: 0.355
+              datasetB: 0.734
+              ranking: 16
             
             - nameen: mask-rcnn_swin-s-p4-w7_fpn_amp-ms-crop-3x_coco
               namezh: mask-rcnn_swin-s-p4-w7_fpn_amp-ms-crop-3x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4314
+              datasetA: 0.353
+              datasetB: 0.812
+              ranking: 17
             
-            - nameen: mask-rcnn_swin-t-p4-w7_fpn_ms-crop-3x_coco
-              namezh: mask-rcnn_swin-t-p4-w7_fpn_ms-crop-3x_coco
+            - nameen: retinanet_pvtv2-b5_fpn_1x_coco
+              namezh: retinanet_pvtv2-b5_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 365
+              datasetA: 0.352
+              datasetB: 0.776
+              ranking: 18
             
-            - nameen: mask-rcnn_swin-t-p4-w7_fpn_1x_coco
-              namezh: mask-rcnn_swin-t-p4-w7_fpn_1x_coco
+            - nameen: cascade-mask-rcnn_x101-32x4d-dconv-c3-c5_fpn_1x_coco
+              namezh: cascade-mask-rcnn_x101-32x4d-dconv-c3-c5_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: mask-rcnn_swin-t-p4-w7_fpn_amp-ms-crop-3x_coco
-              namezh: mask-rcnn_swin-t-p4-w7_fpn_amp-ms-crop-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: tridentnet_r50-caffe_1x_coco
-              namezh: tridentnet_r50-caffe_1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: tridentnet_r50-caffe_ms-1x_coco
-              namezh: tridentnet_r50-caffe_ms-1x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: tridentnet_r50-caffe_ms-3x_coco
-              namezh: tridentnet_r50-caffe_ms-3x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: tood_r101_fpn_ms-2x_coco
-              namezh: tood_r101_fpn_ms-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
-            
-            - nameen: tood_x101-64x4d_fpn_ms-2x_coco
-              namezh: tood_x101-64x4d_fpn_ms-2x_coco
-              paper:
-                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6760
+              datasetA: 0.351
+              datasetB: 0.787
+              ranking: 19
             
             - nameen: tood_r101-dconv-c3-c5_fpn_ms-2x_coco
               namezh: tood_r101-dconv-c3-c5_fpn_ms-2x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1553
+              datasetA: 0.350
+              datasetB: 0.786
+              ranking: 20
+            
+            - nameen: mask2former_swin-t-p4-w7-224_8xb2-lsj-50e_coco
+              namezh: mask2former_swin-t-p4-w7-224_8xb2-lsj-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7637
+              datasetA: 0.348
+              datasetB: 0.394
+              ranking: 21
+            
+            - nameen: gfl_x101-32x4d-dconv-c4-c5_fpn_ms-2x_coco
+              namezh: gfl_x101-32x4d-dconv-c4-c5_fpn_ms-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7041
+              datasetA: 0.347
+              datasetB: 0.779
+              ranking: 22
+            
+            - nameen: cascade-rcnn_s101_fpn_syncbn-backbone+head_ms-range-1x_coco
+              namezh: cascade-rcnn_s101_fpn_syncbn-backbone+head_ms-range-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7216
+              datasetA: 0.347
+              datasetB: 0.811
+              ranking: 23
+            
+            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5_fpn_1x_coco
+              namezh: cascade-mask-rcnn_x101-32x4d-syncbn-dconv-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8993
+              datasetA: 0.341
+              datasetB: 0.797
+              ranking: 24
+            
+            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn-r4-gcb-c3-c5_fpn_1x_coco
+              namezh: cascade-mask-rcnn_x101-32x4d-syncbn-r4-gcb-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5986
+              datasetA: 0.339
+              datasetB: 0.794
+              ranking: 25
+            
+            - nameen: mask-rcnn_s101_fpn_syncbn-backbone+head_ms-1x_coco
+              namezh: mask-rcnn_s101_fpn_syncbn-backbone+head_ms-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5289
+              datasetA: 0.339
+              datasetB: 0.783
+              ranking: 26
+            
+            - nameen: rtmdet_s_8xb32-300e_coco
+              namezh: rtmdet_s_8xb32-300e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3641
+              datasetA: 0.338
+              datasetB: 0.796
+              ranking: 27
+            
+            - nameen: detectors_cascade-rcnn_r50_1x_coco
+              namezh: detectors_cascade-rcnn_r50_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6783
+              datasetA: 0.338
+              datasetB: 0.795
+              ranking: 28
+            
+            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn-r16-gcb-c3-c5_fpn_1x_coco
+              namezh: cascade-mask-rcnn_x101-32x4d-syncbn-r16-gcb-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 920
+              datasetA: 0.337
+              datasetB: 0.833
+              ranking: 29
+            
+            - nameen: scnet_x101-64x4d_fpn_20e_coco
+              namezh: scnet_x101-64x4d_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2526
+              datasetA: 0.337
+              datasetB: 0.844
+              ranking: 30
+            
+            - nameen: rtmdet-ins_s_8xb32-300e_coco
+              namezh: rtmdet-ins_s_8xb32-300e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3772
+              datasetA: 0.336
+              datasetB: 0.768
+              ranking: 31
+            
+            - nameen: htc_r50-sac_1x_coco
+              namezh: htc_r50-sac_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 699
+              datasetA: 0.336
+              datasetB: 0.724
+              ranking: 32
+            
+            - nameen: queryinst_r101_fpn_300-proposals_crop-ms-480-800-3x_coco
+              namezh: queryinst_r101_fpn_300-proposals_crop-ms-480-800-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3715
+              datasetA: 0.335
+              datasetB: 0.360
+              ranking: 33
+            
+            - nameen: retinanet_pvtv2-b2_fpn_1x_coco
+              namezh: retinanet_pvtv2-b2_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3343
+              datasetA: 0.332
+              datasetB: 0.732
+              ranking: 34
+            
+            - nameen: gfl_r101-dconv-c3-c5_fpn_ms-2x_coco
+              namezh: gfl_r101-dconv-c3-c5_fpn_ms-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7743
+              datasetA: 0.329
+              datasetB: 0.806
+              ranking: 35
+            
+            - nameen: faster-rcnn_s101_fpn_syncbn-backbone+head_ms-range-1x_coco
+              namezh: faster-rcnn_s101_fpn_syncbn-backbone+head_ms-range-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7545
+              datasetA: 0.328
+              datasetB: 0.737
+              ranking: 36
+            
+            - nameen: cascade-mask-rcnn_r101-dconv-c3-c5_fpn_1x_coco
+              namezh: cascade-mask-rcnn_r101-dconv-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 244
+              datasetA: 0.328
+              datasetB: 0.824
+              ranking: 37
+            
+            - nameen: htc_res2net-101_fpn_20e_coco
+              namezh: htc_res2net-101_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4462
+              datasetA: 0.326
+              datasetB: 0.704
+              ranking: 38
+            
+            - nameen: mask-rcnn_swin-t-p4-w7_fpn_ms-crop-3x_coco
+              namezh: mask-rcnn_swin-t-p4-w7_fpn_ms-crop-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1850
+              datasetA: 0.324
+              datasetB: 0.715
+              ranking: 39
+            
+            - nameen: faster-rcnn_x101-32x4d-dconv-c3-c5_fpn_1x_coco
+              namezh: faster-rcnn_x101-32x4d-dconv-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7047
+              datasetA: 0.324
+              datasetB: 0.768
+              ranking: 40
+            
+            - nameen: htc_x101-64x4d_fpn_16xb1-20e_coco
+              namezh: htc_x101-64x4d_fpn_16xb1-20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4427
+              datasetA: 0.323
+              datasetB: 0.746
+              ranking: 41
+            
+            - nameen: mask-rcnn_swin-t-p4-w7_fpn_amp-ms-crop-3x_coco
+              namezh: mask-rcnn_swin-t-p4-w7_fpn_amp-ms-crop-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2357
+              datasetA: 0.323
+              datasetB: 0.736
+              ranking: 42
+            
+            - nameen: cascade-mask-rcnn_s50_fpn_syncbn-backbone+head_ms-1x_coco
+              namezh: cascade-mask-rcnn_s50_fpn_syncbn-backbone+head_ms-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1557
+              datasetA: 0.323
+              datasetB: 0.735
+              ranking: 43
+            
+            - nameen: tood_x101-64x4d_fpn_ms-2x_coco
+              namezh: tood_x101-64x4d_fpn_ms-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2627
+              datasetA: 0.321
+              datasetB: 0.680
+              ranking: 44
+            
+            - nameen: htc_r50-rfp_1x_coco
+              namezh: htc_r50-rfp_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7878
+              datasetA: 0.320
+              datasetB: 0.713
+              ranking: 45
+            
+            - nameen: mask-rcnn_x101-32x4d-syncbn-gcb-r4-c3-c5_fpn_1x_coco
+              namezh: mask-rcnn_x101-32x4d-syncbn-gcb-r4-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3420
+              datasetA: 0.319
+              datasetB: 0.735
+              ranking: 46
+            
+            - nameen: cascade-rcnn_r50-sac_1x_coco
+              namezh: cascade-rcnn_r50-sac_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4251
+              datasetA: 0.318
+              datasetB: 0.783
+              ranking: 47
+            
+            - nameen: cascade-rcnn_s50_fpn_syncbn-backbone+head_ms-range-1x_coco
+              namezh: cascade-rcnn_s50_fpn_syncbn-backbone+head_ms-range-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3716
+              datasetA: 0.317
+              datasetB: 0.766
+              ranking: 48
+            
+            - nameen: cascade-rcnn_r101-dconv-c3-c5_fpn_1x_coco
+              namezh: cascade-rcnn_r101-dconv-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8432
+              datasetA: 0.317
+              datasetB: 0.763
+              ranking: 49
+            
+            - nameen: htc_x101-32x4d_fpn_16xb1-20e_coco
+              namezh: htc_x101-32x4d_fpn_16xb1-20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7513
+              datasetA: 0.316
+              datasetB: 0.678
+              ranking: 50
+            
+            - nameen: cascade-mask-rcnn_hrnetv2p-w40-20e_coco
+              namezh: cascade-mask-rcnn_hrnetv2p-w40-20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7361
+              datasetA: 0.316
+              datasetB: 0.769
+              ranking: 51
+            
+            - nameen: scnet_r101_fpn_20e_coco
+              namezh: scnet_r101_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9544
+              datasetA: 0.315
+              datasetB: 0.809
+              ranking: 52
+            
+            - nameen: mask-rcnn_x101-32x4d-syncbn-gcb-r16-c3-c5_fpn_1x_coco
+              namezh: mask-rcnn_x101-32x4d-syncbn-gcb-r16-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9145
+              datasetA: 0.315
+              datasetB: 0.769
+              ranking: 53
+            
+            - nameen: dino-4scale_r50_8xb2-12e_coco.py
+              namezh: dino-4scale_r50_8xb2-12e_coco.py
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2071
+              datasetA: 0.314
+              datasetB: 0.656
+              ranking: 54
+            
+            - nameen: queryinst_r50_fpn_300-proposals_crop-ms-480-800-3x_coco
+              namezh: queryinst_r50_fpn_300-proposals_crop-ms-480-800-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9006
+              datasetA: 0.312
+              datasetB: 0.330
+              ranking: 55
+            
+            - nameen: queryinst_r101_fpn_ms-480-800-3x_coco
+              namezh: queryinst_r101_fpn_ms-480-800-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1791
+              datasetA: 0.312
+              datasetB: 0.416
+              ranking: 56
+            
+            - nameen: retinanet_pvt-m_fpn_1x_coco
+              namezh: retinanet_pvt-m_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1225
+              datasetA: 0.312
+              datasetB: 0.710
+              ranking: 57
+            
+            - nameen: mask-rcnn_regnetx-3.2GF-mdconv-c3-c5_fpn_1x_coco
+              namezh: mask-rcnn_regnetx-3.2GF-mdconv-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7118
+              datasetA: 0.312
+              datasetB: 0.745
+              ranking: 58
+            
+            - nameen: reppoints-moment_x101-dconv-c3-c5_fpn-gn_head-gn_2x_coco
+              namezh: reppoints-moment_x101-dconv-c3-c5_fpn-gn_head-gn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5915
+              datasetA: 0.312
+              datasetB: 0.786
+              ranking: 59
+            
+            - nameen: cascade-mask-rcnn_res2net-101_fpn_20e_coco
+              namezh: cascade-mask-rcnn_res2net-101_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6322
+              datasetA: 0.311
+              datasetB: 0.810
+              ranking: 60
+            
+            - nameen: sparse-rcnn_r101_fpn_300-proposals_crop-ms-480-800-3x_coco
+              namezh: sparse-rcnn_r101_fpn_300-proposals_crop-ms-480-800-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5861
+              datasetA: 0.311
+              datasetB: 0.410
+              ranking: 61
+            
+            - nameen: htc_hrnetv2p-w32_20e_coco
+              namezh: htc_hrnetv2p-w32_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2121
+              datasetA: 0.311
+              datasetB: 0.771
+              ranking: 62
+            
+            - nameen: cascade-mask-rcnn_x101-32x4d_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_x101-32x4d_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7325
+              datasetA: 0.311
+              datasetB: 0.760
+              ranking: 63
+            
+            - nameen: cascade-mask-rcnn_x101-64x4d_fpn_1x_coco
+              namezh: cascade-mask-rcnn_x101-64x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6189
+              datasetA: 0.310
+              datasetB: 0.798
+              ranking: 64
+            
+            - nameen: cascade-mask-rcnn_x101-64x4d_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_x101-64x4d_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4935
+              datasetA: 0.310
+              datasetB: 0.764
+              ranking: 65
+            
+            - nameen: cascade-mask-rcnn_x101-64x4d_fpn_20e_coco
+              namezh: cascade-mask-rcnn_x101-64x4d_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9108
+              datasetA: 0.309
+              datasetB: 0.794
+              ranking: 66
+            
+            - nameen: mask-rcnn_r101-dconv-c3-c5_fpn_1x_coco
+              namezh: mask-rcnn_r101-dconv-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4782
+              datasetA: 0.307
+              datasetB: 0.811
+              ranking: 67
+            
+            - nameen: centripetalnet_hourglass104_16xb6-crop511-210e-mstest_coco
+              namezh: centripetalnet_hourglass104_16xb6-crop511-210e-mstest_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5329
+              datasetA: 0.306
+              datasetB: 0.807
+              ranking: 68
+            
+            - nameen: gfl_x101-32x4d_fpn_ms-2x_coco
+              namezh: gfl_x101-32x4d_fpn_ms-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1691
+              datasetA: 0.306
+              datasetB: 0.767
+              ranking: 69
+            
+            - nameen: mask-rcnn_s50_fpn_syncbn-backbone+head_ms-1x_coco
+              namezh: mask-rcnn_s50_fpn_syncbn-backbone+head_ms-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9023
+              datasetA: 0.305
+              datasetB: 0.753
+              ranking: 70
+            
+            - nameen: mask-rcnn_r101_fpn_syncbn-r4-gcb_c3-c5-groie_1x_coco
+              namezh: mask-rcnn_r101_fpn_syncbn-r4-gcb_c3-c5-groie_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7886
+              datasetA: 0.305
+              datasetB: 0.752
+              ranking: 71
+            
+            - nameen: cascade-mask-rcnn_r50_fpn_dconv_c3-c5_1x_coco
+              namezh: cascade-mask-rcnn_r50_fpn_dconv_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6475
+              datasetA: 0.305
+              datasetB: 0.809
+              ranking: 72
+            
+            - nameen: cascade-rcnn_hrnetv2p-w40-20e_coco
+              namezh: cascade-rcnn_hrnetv2p-w40-20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2110
+              datasetA: 0.304
+              datasetB: 0.726
+              ranking: 73
+            
+            - nameen: cascade-rcnn_res2net-101_fpn_20e_coco
+              namezh: cascade-rcnn_res2net-101_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 313
+              datasetA: 0.304
+              datasetB: 0.809
+              ranking: 74
+            
+            - nameen: cascade-rcnn_x101-64x4d_fpn_1x_coco
+              namezh: cascade-rcnn_x101-64x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1602
+              datasetA: 0.302
+              datasetB: 0.812
+              ranking: 75
+            
+            - nameen: cascade-mask-rcnn_x101-32x4d_fpn_20e_coco
+              namezh: cascade-mask-rcnn_x101-32x4d_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3916
+              datasetA: 0.302
+              datasetB: 0.807
+              ranking: 76
+            
+            - nameen: cascade-mask-rcnn_x101-32x4d_fpn_1x_coco
+              namezh: cascade-mask-rcnn_x101-32x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5584
+              datasetA: 0.300
+              datasetB: 0.852
+              ranking: 77
+            
+            - nameen: cascade-rcnn_x101_64x4d_fpn_20e_coco
+              namezh: cascade-rcnn_x101_64x4d_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6087
+              datasetA: 0.300
+              datasetB: 0.787
+              ranking: 78
+            
+            - nameen: mask-rcnn_r101-syncbn-gcb-r4-c3-c5_fpn_1x_coco
+              namezh: mask-rcnn_r101-syncbn-gcb-r4-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2088
+              datasetA: 0.300
+              datasetB: 0.788
+              ranking: 79
+            
+            - nameen: cascade-mask-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5897
+              datasetA: 0.300
+              datasetB: 0.768
+              ranking: 80
+            
+            - nameen: cascade-mask-rcnn_x101-32x8d_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_x101-32x8d_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7425
+              datasetA: 0.300
+              datasetB: 0.751
+              ranking: 81
+            
+            - nameen: mask-rcnn_r101-syncbn-gcb-r16-c3-c5_fpn_1x_coco
+              namezh: mask-rcnn_r101-syncbn-gcb-r16-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7112
+              datasetA: 0.300
+              datasetB: 0.739
+              ranking: 82
+            
+            - nameen: mask-rcnn_r101-gcb-r4-c3-c5_fpn_1x_coco
+              namezh: mask-rcnn_r101-gcb-r4-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5641
+              datasetA: 0.299
+              datasetB: 0.825
+              ranking: 83
+            
+            - nameen: tood_r101_fpn_ms-2x_coco
+              namezh: tood_r101_fpn_ms-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1864
+              datasetA: 0.298
+              datasetB: 0.711
+              ranking: 84
+            
+            - nameen: faster-rcnn_s50_fpn_syncbn-backbone+head_ms-range-1x_coco
+              namezh: faster-rcnn_s50_fpn_syncbn-backbone+head_ms-range-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6883
+              datasetA: 0.298
+              datasetB: 0.734
+              ranking: 85
+            
+            - nameen: cascade-mask-rcnn_r101_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_r101_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4124
+              datasetA: 0.298
+              datasetB: 0.801
+              ranking: 86
+            
+            - nameen: rtmdet_tiny_8xb32-300e_coco
+              namezh: rtmdet_tiny_8xb32-300e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2890
+              datasetA: 0.298
+              datasetB: 0.734
+              ranking: 87
+            
+            - nameen: mask-rcnn_hrnetv2p-w40-2x_coco
+              namezh: mask-rcnn_hrnetv2p-w40-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 967
+              datasetA: 0.296
+              datasetB: 0.703
+              ranking: 88
+            
+            - nameen: cascade-mask-rcnn_x101-32x4d-syncbn_fpn_1x_coco
+              namezh: cascade-mask-rcnn_x101-32x4d-syncbn_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8116
+              datasetA: 0.296
+              datasetB: 0.793
+              ranking: 89
+            
+            - nameen: fcos_hrnetv2p-w40-gn-head_ms-640-800-4xb4-2x_coco
+              namezh: fcos_hrnetv2p-w40-gn-head_ms-640-800-4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3268
+              datasetA: 0.296
+              datasetB: 0.726
+              ranking: 90
+            
+            - nameen: deformable-detr_refine_twostage_r50_16xb2-50e_coco
+              namezh: deformable-detr_refine_twostage_r50_16xb2-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 450
+              datasetA: 0.296
+              datasetB: 0.731
+              ranking: 91
+            
+            - nameen: rtmdet-ins_tiny_8xb32-300e_coco
+              namezh: rtmdet-ins_tiny_8xb32-300e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1083
+              datasetA: 0.296
+              datasetB: 0.757
+              ranking: 92
+            
+            - nameen: faster-rcnn_r101-dconv-c3-c5_fpn_1x_coco
+              namezh: faster-rcnn_r101-dconv-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8827
+              datasetA: 0.296
+              datasetB: 0.782
+              ranking: 93
+            
+            - nameen: cascade-mask-rcnn_regnetx-4GF_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_regnetx-4GF_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 992
+              datasetA: 0.295
+              datasetB: 0.767
+              ranking: 94
+            
+            - nameen: cascade-rcnn_x101-32x4d_fpn_20e_coco
+              namezh: cascade-rcnn_x101-32x4d_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5558
+              datasetA: 0.295
+              datasetB: 0.814
+              ranking: 95
+            
+            - nameen: cascade-rcnn_r50_fpn_dconv_c3-c5_1x_coco
+              namezh: cascade-rcnn_r50_fpn_dconv_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7098
+              datasetA: 0.294
+              datasetB: 0.833
+              ranking: 96
+            
+            - nameen: libra-faster-rcnn_x101-64x4d_fpn_1x_coco
+              namezh: libra-faster-rcnn_x101-64x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8445
+              datasetA: 0.294
+              datasetB: 0.772
+              ranking: 97
+            
+            - nameen: retinanet_pvt-s_fpn_1x_coco
+              namezh: retinanet_pvt-s_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9437
+              datasetA: 0.294
+              datasetB: 0.793
+              ranking: 98
+            
+            - nameen: mask-rcnn_x101-64x4d_fpn_ms-poly_3x_coco
+              namezh: mask-rcnn_x101-64x4d_fpn_ms-poly_3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7243
+              datasetA: 0.294
+              datasetB: 0.765
+              ranking: 99
+            
+            - nameen: cascade-mask-rcnn_r101-caffe_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_r101-caffe_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8223
+              datasetA: 0.294
+              datasetB: 0.837
+              ranking: 100
+            
+            - nameen: mask-rcnn_swin-t-p4-w7_fpn_1x_coco
+              namezh: mask-rcnn_swin-t-p4-w7_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6140
+              datasetA: 0.294
+              datasetB: 0.719
+              ranking: 101
+            
+            - nameen: mask-rcnn_r101-gcb-r16-c3-c5_fpn_1x_coco
+              namezh: mask-rcnn_r101-gcb-r16-c3-c5_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8005
+              datasetA: 0.293
+              datasetB: 0.780
+              ranking: 102
+            
+            - nameen: cascade-mask-rcnn_r50_fpn_rsb-pretrain_1x_coco
+              namezh: cascade-mask-rcnn_r50_fpn_rsb-pretrain_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5692
+              datasetA: 0.293
+              datasetB: 0.801
+              ranking: 103
+            
+            - nameen: mask2former_r50_8xb2-lsj-50e_coco
+              namezh: mask2former_r50_8xb2-lsj-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9580
+              datasetA: 0.293
+              datasetB: 0.341
+              ranking: 104
+            
+            - nameen: mask-rcnn_hrnetv2p-w40_1x_coco
+              namezh: mask-rcnn_hrnetv2p-w40_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1773
+              datasetA: 0.292
+              datasetB: 0.819
+              ranking: 105
+            
+            - nameen: htc_r101_fpn_20e_coco
+              namezh: htc_r101_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4502
+              datasetA: 0.292
+              datasetB: 0.732
+              ranking: 106
+            
+            - nameen: mask-rcnn_r101_fpn_gn-all_3x_coco
+              namezh: mask-rcnn_r101_fpn_gn-all_3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6167
+              datasetA: 0.292
+              datasetB: 0.677
+              ranking: 107
+            
+            - nameen: gfl_r101_fpn_ms-2x_coco
+              namezh: gfl_r101_fpn_ms-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8470
+              datasetA: 0.291
+              datasetB: 0.807
+              ranking: 108
+            
+            - nameen: cascade-rcnn_r50-rfp_1x_coco
+              namezh: cascade-rcnn_r50-rfp_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4371
+              datasetA: 0.291
+              datasetB: 0.830
+              ranking: 109
+            
+            - nameen: scnet_r50_fpn_20e_coco
+              namezh: scnet_r50_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7322
+              datasetA: 0.291
+              datasetB: 0.725
+              ranking: 110
+            
+            - nameen: reppoints-moment_r101-dconv-c3-c5_fpn-gn_head-gn_2x_coco
+              namezh: reppoints-moment_r101-dconv-c3-c5_fpn-gn_head-gn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3932
+              datasetA: 0.291
+              datasetB: 0.680
+              ranking: 111
+            
+            - nameen: retinanet_pvtv2-b1_fpn_1x_coco
+              namezh: retinanet_pvtv2-b1_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9341
+              datasetA: 0.291
+              datasetB: 0.768
+              ranking: 112
+            
+            - nameen: htc_hrnetv2p-w18_20e_coco
+              namezh: htc_hrnetv2p-w18_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9738
+              datasetA: 0.290
+              datasetB: 0.804
+              ranking: 113
+            
+            - nameen: mask-rcnn_x101-32x4d_fpn_ms-poly-3x_coco
+              namezh: mask-rcnn_x101-32x4d_fpn_ms-poly-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8012
+              datasetA: 0.290
+              datasetB: 0.765
+              ranking: 114
+            
+            - nameen: mask-rcnn_res2net-101_fpn_2x_coco
+              namezh: mask-rcnn_res2net-101_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 412
+              datasetA: 0.290
+              datasetB: 0.720
+              ranking: 115
+            
+            - nameen: mask-rcnn_x101-64x4d_fpn_1x_coco
+              namezh: mask-rcnn_x101-64x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4383
+              datasetA: 0.289
+              datasetB: 0.822
+              ranking: 116
+            
+            - nameen: faster-rcnn_hrnetv2p-w40_2x_coco
+              namezh: faster-rcnn_hrnetv2p-w40_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6225
+              datasetA: 0.289
+              datasetB: 0.735
+              ranking: 117
+            
+            - nameen: sparse-rcnn_r101_fpn_ms-480-800-3x_coco
+              namezh: sparse-rcnn_r101_fpn_ms-480-800-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5204
+              datasetA: 0.289
+              datasetB: 0.487
+              ranking: 118
+            
+            - nameen: faster-rcnn_r50_fpn_attention_0010_dcn_1x_coco
+              namezh: faster-rcnn_r50_fpn_attention_0010_dcn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2784
+              datasetA: 0.289
+              datasetB: 0.768
+              ranking: 119
+            
+            - nameen: mask-rcnn_r50_fpn_gn-all_scratch_6x_coco
+              namezh: mask-rcnn_r50_fpn_gn-all_scratch_6x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8449
+              datasetA: 0.289
+              datasetB: 0.741
+              ranking: 120
+            
+            - nameen: ms-rcnn_x101-64x4d_fpn_1x_coco
+              namezh: ms-rcnn_x101-64x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5030
+              datasetA: 0.288
+              datasetB: 0.739
+              ranking: 121
+            
+            - nameen: cascade-rcnn_hrnetv2p-w32-20e_coco
+              namezh: cascade-rcnn_hrnetv2p-w32-20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4160
+              datasetA: 0.288
+              datasetB: 0.795
+              ranking: 122
+            
+            - nameen: mask-rcnn_r101_fpn_gn-all_2x_coco
+              namezh: mask-rcnn_r101_fpn_gn-all_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6536
+              datasetA: 0.288
+              datasetB: 0.742
+              ranking: 123
+            
+            - nameen: cascade-rcnn_x101-32x4d_fpn_1x_coco
+              namezh: cascade-rcnn_x101-32x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7708
+              datasetA: 0.288
+              datasetB: 0.747
+              ranking: 124
+            
+            - nameen: faster-rcnn_r50_fpn_attention_1111_dcn_1x_coco
+              namezh: faster-rcnn_r50_fpn_attention_1111_dcn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1671
+              datasetA: 0.288
+              datasetB: 0.698
+              ranking: 125
+            
+            - nameen: sparse-rcnn_r50_fpn_300-proposals_crop-ms-480-800-3x_coco
+              namezh: sparse-rcnn_r50_fpn_300-proposals_crop-ms-480-800-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5910
+              datasetA: 0.287
+              datasetB: 0.297
+              ranking: 126
+            
+            - nameen: mask-rcnn_x101-32x8d_fpn_1x_coco
+              namezh: mask-rcnn_x101-32x8d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8684
+              datasetA: 0.286
+              datasetB: 0.762
+              ranking: 127
+            
+            - nameen: deformable-detr_refine_r50_16xb2-50e_coco
+              namezh: deformable-detr_refine_r50_16xb2-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7362
+              datasetA: 0.286
+              datasetB: 0.751
+              ranking: 128
+            
+            - nameen: mask-rcnn_x101-32x4d-syncbn_fpn_1x_coco
+              namezh: mask-rcnn_x101-32x4d-syncbn_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5620
+              datasetA: 0.284
+              datasetB: 0.725
+              ranking: 129
+            
+            - nameen: cascade-mask-rcnn_regnetx-1.6GF_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_regnetx-1.6GF_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7765
+              datasetA: 0.284
+              datasetB: 0.756
+              ranking: 130
+            
+            - nameen: mask-rcnn_r50_fpn_fp16_mdconv_c3-c5_1x_coco
+              namezh: mask-rcnn_r50_fpn_fp16_mdconv_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9022
+              datasetA: 0.284
+              datasetB: 0.747
+              ranking: 131
+            
+            - nameen: mask-rcnn_hrnetv2p-w32-2x_coco
+              namezh: mask-rcnn_hrnetv2p-w32-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3044
+              datasetA: 0.284
+              datasetB: 0.755
+              ranking: 132
+            
+            - nameen: mask-rcnn_r50_fpn_fp16_dconv_c3-c5_1x_coco
+              namezh: mask-rcnn_r50_fpn_fp16_dconv_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7714
+              datasetA: 0.283
+              datasetB: 0.766
+              ranking: 133
+            
+            - nameen: mask-rcnn_r50_fpn_syncbn-backbone_r4_gcb_c3-c5_groie_1x_coco
+              namezh: mask-rcnn_r50_fpn_syncbn-backbone_r4_gcb_c3-c5_groie_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9370
+              datasetA: 0.283
+              datasetB: 0.738
+              ranking: 134
+            
+            - nameen: faster-rcnn_hrnetv2p-w40-1x_coco
+              namezh: faster-rcnn_hrnetv2p-w40-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7891
+              datasetA: 0.283
+              datasetB: 0.712
+              ranking: 135
+            
+            - nameen: queryinst_r50_fpn_ms-480-800-3x_coco
+              namezh: queryinst_r50_fpn_ms-480-800-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6206
+              datasetA: 0.283
+              datasetB: 0.383
+              ranking: 136
+            
+            - nameen: mask-rcnn_r50_fpn_dconv_c3-c5_1x_coco
+              namezh: mask-rcnn_r50_fpn_dconv_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9634
+              datasetA: 0.283
+              datasetB: 0.731
+              ranking: 137
+            
+            - nameen: sabl-retinanet_r101-gn_fpn_ms-480-960-2x_coco
+              namezh: sabl-retinanet_r101-gn_fpn_ms-480-960-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6485
+              datasetA: 0.282
+              datasetB: 0.791
+              ranking: 138
+            
+            - nameen: mask-rcnn_r50_fpg_crop640-50e_coco
+              namezh: mask-rcnn_r50_fpg_crop640-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 558
+              datasetA: 0.282
+              datasetB: 0.708
+              ranking: 139
+            
+            - nameen: mask-rcnn_r50_fpn_mdconv_c3-c5_1x_coco
+              namezh: mask-rcnn_r50_fpn_mdconv_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5481
+              datasetA: 0.282
+              datasetB: 0.752
+              ranking: 140
+            
+            - nameen: cornernet_hourglass104_8xb6-210e-mstest_coco
+              namezh: cornernet_hourglass104_8xb6-210e-mstest_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3126
+              datasetA: 0.281
+              datasetB: 0.789
+              ranking: 141
+            
+            - nameen: ms-rcnn_x101-64x4d_fpn_2x_coco
+              namezh: ms-rcnn_x101-64x4d_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7755
+              datasetA: 0.281
+              datasetB: 0.790
+              ranking: 142
+            
+            - nameen: grid-rcnn_x101-32x4d_fpn_gn-head_2x_coco
+              namezh: grid-rcnn_x101-32x4d_fpn_gn-head_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2593
+              datasetA: 0.281
+              datasetB: 0.741
+              ranking: 143
+            
+            - nameen: faster-rcnn_r50_fpg_crop640-50e_coco
+              namezh: faster-rcnn_r50_fpg_crop640-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2134
+              datasetA: 0.281
+              datasetB: 0.778
+              ranking: 144
+            
+            - nameen: faster-rcnn_res2net-101_fpn_2x_coco
+              namezh: faster-rcnn_res2net-101_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8389
+              datasetA: 0.281
+              datasetB: 0.756
+              ranking: 145
+            
+            - nameen: faster-rcnn_x101-64x4d_fpn_ms-3x_coco
+              namezh: faster-rcnn_x101-64x4d_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5043
+              datasetA: 0.281
+              datasetB: 0.754
+              ranking: 146
+            
+            - nameen: cascade-mask-rcnn_r101_fpn_20e_coco
+              namezh: cascade-mask-rcnn_r101_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4926
+              datasetA: 0.281
+              datasetB: 0.749
+              ranking: 147
+            
+            - nameen: fcos_hrnetv2p-w32-gn-head_ms-640-800-4xb4-2x_coco
+              namezh: fcos_hrnetv2p-w32-gn-head_ms-640-800-4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3370
+              datasetA: 0.281
+              datasetB: 0.747
+              ranking: 148
+            
+            - nameen: faster-rcnn_r50_fpn_mdconv_c3-c5_group4_1x_coco
+              namezh: faster-rcnn_r50_fpn_mdconv_c3-c5_group4_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4925
+              datasetA: 0.281
+              datasetB: 0.741
+              ranking: 149
+            
+            - nameen: faster-rcnn_x101-32x4d_fpn_ms-3x_coco
+              namezh: faster-rcnn_x101-32x4d_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2849
+              datasetA: 0.281
+              datasetB: 0.706
+              ranking: 150
+            
+            - nameen: cornernet_hourglass104_10xb5-crop511-210e-mstest_coco
+              namezh: cornernet_hourglass104_10xb5-crop511-210e-mstest_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3680
+              datasetA: 0.281
+              datasetB: 0.748
+              ranking: 151
+            
+            - nameen: grid-rcnn_x101-64x4d_fpn_gn-head_2x_coco
+              namezh: grid-rcnn_x101-64x4d_fpn_gn-head_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3929
+              datasetA: 0.281
+              datasetB: 0.702
+              ranking: 152
+            
+            - nameen: faster-rcnn_x101-64x4d_fpn_1x_coco
+              namezh: faster-rcnn_x101-64x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2309
+              datasetA: 0.280
+              datasetB: 0.757
+              ranking: 153
+            
+            - nameen: cascade-mask-rcnn_r50_fpn_mstrain_3x_coco
+              namezh: cascade-mask-rcnn_r50_fpn_mstrain_3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 589
+              datasetA: 0.280
+              datasetB: 0.835
+              ranking: 154
+            
+            - nameen: scnet_r50_fpn_1x_coco
+              namezh: scnet_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9133
+              datasetA: 0.280
+              datasetB: 0.795
+              ranking: 155
+            
+            - nameen: faster-rcnn_r50_fpn_gn-all_scratch_6x_coco
+              namezh: faster-rcnn_r50_fpn_gn-all_scratch_6x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4581
+              datasetA: 0.280
+              datasetB: 0.715
+              ranking: 156
+            
+            - nameen: mask-rcnn_r101_fpn_instaboost-4x_coco
+              namezh: mask-rcnn_r101_fpn_instaboost-4x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4965
+              datasetA: 0.279
+              datasetB: 0.807
+              ranking: 157
+            
+            - nameen: mask-rcnn_regnetx-4GF_fpn_ms-poly-3x_coco
+              namezh: mask-rcnn_regnetx-4GF_fpn_ms-poly-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5732
+              datasetA: 0.279
+              datasetB: 0.777
+              ranking: 158
+            
+            - nameen: mask-rcnn_x101-64x4d_fpn_2x_coco
+              namezh: mask-rcnn_x101-64x4d_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4909
+              datasetA: 0.279
+              datasetB: 0.776
+              ranking: 159
+            
+            - nameen: mask-rcnn_x101-32x4d_fpn_2x_coco
+              namezh: mask-rcnn_x101-32x4d_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1053
+              datasetA: 0.279
+              datasetB: 0.790
+              ranking: 160
+            
+            - nameen: pisa_faster_rcnn_x101_32x4d_fpn_1x_coco
+              namezh: pisa_faster_rcnn_x101_32x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4661
+              datasetA: 0.279
+              datasetB: 0.783
+              ranking: 161
+            
+            - nameen: paa_r101_fpn_2x_coco
+              namezh: paa_r101_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4765
+              datasetA: 0.279
+              datasetB: 0.668
+              ranking: 162
+            
+            - nameen: ms-rcnn_x101-32x4d_fpn_1x_coco
+              namezh: ms-rcnn_x101-32x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7357
+              datasetA: 0.279
+              datasetB: 0.764
+              ranking: 163
+            
+            - nameen: freeanchor_x101-32x4d_fpn_1x_coco
+              namezh: freeanchor_x101-32x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3129
+              datasetA: 0.279
+              datasetB: 0.707
+              ranking: 164
+            
+            - nameen: lad_r101-paa-r50_fpn_2xb8_coco_1x
+              namezh: lad_r101-paa-r50_fpn_2xb8_coco_1x
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1174
+              datasetA: 0.279
+              datasetB: 0.703
+              ranking: 165
+            
+            - nameen: cascade-mask-rcnn_r50_fpn_instaboost_4x_coco
+              namezh: cascade-mask-rcnn_r50_fpn_instaboost_4x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3595
+              datasetA: 0.278
+              datasetB: 0.801
+              ranking: 166
+            
+            - nameen: mask-rcnn_r101_fpn_ms-poly-3x_coco
+              namezh: mask-rcnn_r101_fpn_ms-poly-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4938
+              datasetA: 0.278
+              datasetB: 0.813
+              ranking: 167
+            
+            - nameen: fsaf_x101-64x4d_fpn_1x_coco
+              namezh: fsaf_x101-64x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2227
+              datasetA: 0.277
+              datasetB: 0.831
+              ranking: 168
+            
+            - nameen: mask-rcnn_hrnetv2p-w32-1x_coco
+              namezh: mask-rcnn_hrnetv2p-w32-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 496
+              datasetA: 0.277
+              datasetB: 0.787
+              ranking: 169
+            
+            - nameen: cascade-mask-rcnn_r101_fpn_1x_coco
+              namezh: cascade-mask-rcnn_r101_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9472
+              datasetA: 0.277
+              datasetB: 0.822
+              ranking: 170
+            
+            - nameen: faster-rcnn_r50_fpn_mdconv_c3-c5_1x_coco
+              namezh: faster-rcnn_r50_fpn_mdconv_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2317
+              datasetA: 0.277
+              datasetB: 0.798
+              ranking: 171
+            
+            - nameen: cornernet_hourglass104_32xb3-210e-mstest_coco
+              namezh: cornernet_hourglass104_32xb3-210e-mstest_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4737
+              datasetA: 0.277
+              datasetB: 0.815
+              ranking: 172
+            
+            - nameen: sabl-cascade-rcnn_r101_fpn_1x_coco
+              namezh: sabl-cascade-rcnn_r101_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8884
+              datasetA: 0.277
+              datasetB: 0.792
+              ranking: 173
+            
+            - nameen: cascade-mask-rcnn_hrnetv2p-w18_20e_coco
+              namezh: cascade-mask-rcnn_hrnetv2p-w18_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5168
+              datasetA: 0.276
+              datasetB: 0.744
+              ranking: 174
+            
+            - nameen: fcos_r50-dcn-caffe_fpn_gn-head-center-normbbox-centeronreg-giou_1x_coco
+              namezh: fcos_r50-dcn-caffe_fpn_gn-head-center-normbbox-centeronreg-giou_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5695
+              datasetA: 0.276
+              datasetB: 0.741
+              ranking: 175
+            
+            - nameen: fcos_x101-64x4d_fpn_gn-head_ms-640-800-2x_coco
+              namezh: fcos_x101-64x4d_fpn_gn-head_ms-640-800-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1234
+              datasetA: 0.276
+              datasetB: 0.694
+              ranking: 176
+            
+            - nameen: atss_r50_fpn_dyhead_1x_coco
+              namezh: atss_r50_fpn_dyhead_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3813
+              datasetA: 0.276
+              datasetB: 0.752
+              ranking: 177
+            
+            - nameen: cascade-mask-rcnn_r101-caffe_fpn_1x_coco
+              namezh: cascade-mask-rcnn_r101-caffe_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8852
+              datasetA: 0.276
+              datasetB: 0.766
+              ranking: 178
+            
+            - nameen: deformable-detr_r50_16xb2-50e_coco
+              namezh: deformable-detr_r50_16xb2-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6471
+              datasetA: 0.276
+              datasetB: 0.706
+              ranking: 179
+            
+            - nameen: mask-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
+              namezh: mask-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2176
+              datasetA: 0.276
+              datasetB: 0.734
+              ranking: 180
+            
+            - nameen: sabl-retinanet_r101-gn_fpn_ms-640-800-2x_coco
+              namezh: sabl-retinanet_r101-gn_fpn_ms-640-800-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4209
+              datasetA: 0.276
+              datasetB: 0.828
+              ranking: 181
+            
+            - nameen: faster-rcnn_r50_fpn_dconv_c3-c5_1x_coco
+              namezh: faster-rcnn_r50_fpn_dconv_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3091
+              datasetA: 0.276
+              datasetB: 0.773
+              ranking: 182
+            
+            - nameen: cascade-mask-rcnn_r50-caffe_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_r50-caffe_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1718
+              datasetA: 0.275
+              datasetB: 0.800
+              ranking: 183
+            
+            - nameen: mask-rcnn_r50_fpn_gn-all_3x_coco
+              namezh: mask-rcnn_r50_fpn_gn-all_3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2714
+              datasetA: 0.274
+              datasetB: 0.750
+              ranking: 184
+            
+            - nameen: mask-rcnn_r101-caffe_fpn_ms-poly-3x_coco
+              namezh: mask-rcnn_r101-caffe_fpn_ms-poly-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1971
+              datasetA: 0.274
+              datasetB: 0.775
+              ranking: 185
+            
+            - nameen: mask-rcnn_r50_fpn_r4_gcb_c3-c5_1x_coco
+              namezh: mask-rcnn_r50_fpn_r4_gcb_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7535
+              datasetA: 0.274
+              datasetB: 0.711
+              ranking: 186
+            
+            - nameen: faster-rcnn_hrnetv2p-w32_2x_coco
+              namezh: faster-rcnn_hrnetv2p-w32_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1316
+              datasetA: 0.274
+              datasetB: 0.719
+              ranking: 187
+            
+            - nameen: htc_r50_fpn_20e_coco
+              namezh: htc_r50_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7461
+              datasetA: 0.274
+              datasetB: 0.770
+              ranking: 188
+            
+            - nameen: fovea_r101_fpn_gn-head-align_ms-640-800-4xb4-2x_coco
+              namezh: fovea_r101_fpn_gn-head-align_ms-640-800-4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4680
+              datasetA: 0.274
+              datasetB: 0.825
+              ranking: 189
+            
+            - nameen: mask-rcnn_r50_fpn_syncbn-backbone_r4_gcb_c3-c5_1x_coco
+              namezh: mask-rcnn_r50_fpn_syncbn-backbone_r4_gcb_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8695
+              datasetA: 0.274
+              datasetB: 0.799
+              ranking: 190
+            
+            - nameen: retinanet_x101-64x4d_fpn_ghm-1x_coco
+              namezh: retinanet_x101-64x4d_fpn_ghm-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5594
+              datasetA: 0.273
+              datasetB: 0.791
+              ranking: 191
+            
+            - nameen: cascade-rcnn_hrnetv2p-w18-20e_coco
+              namezh: cascade-rcnn_hrnetv2p-w18-20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7480
+              datasetA: 0.273
+              datasetB: 0.774
+              ranking: 192
+            
+            - nameen: retinanet_r50_fpg_crop640_50e_coco
+              namezh: retinanet_r50_fpg_crop640_50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3859
+              datasetA: 0.273
+              datasetB: 0.770
+              ranking: 193
+            
+            - nameen: faster-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
+              namezh: faster-rcnn_regnetx-3.2GF_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4859
+              datasetA: 0.273
+              datasetB: 0.736
+              ranking: 194
+            
+            - nameen: mask-rcnn_r50_fpn_syncbn-backbone_r16_gcb_c3-c5_1x_coco
+              namezh: mask-rcnn_r50_fpn_syncbn-backbone_r16_gcb_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3698
+              datasetA: 0.272
+              datasetB: 0.745
+              ranking: 195
+            
+            - nameen: mask-rcnn_r50_fpg-chn128_crop640-50e_coco
+              namezh: mask-rcnn_r50_fpg-chn128_crop640-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7597
+              datasetA: 0.272
+              datasetB: 0.727
+              ranking: 196
+            
+            - nameen: faster-rcnn_x101-32x8d_fpn_ms-3x_coco
+              namezh: faster-rcnn_x101-32x8d_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8876
+              datasetA: 0.272
+              datasetB: 0.781
+              ranking: 197
+            
+            - nameen: cascade-rcnn_r101_fpn_20e_coco
+              namezh: cascade-rcnn_r101_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2669
+              datasetA: 0.272
+              datasetB: 0.739
+              ranking: 198
+            
+            - nameen: faster-rcnn_regnetx-4GF_fpn_ms-3x_coco
+              namezh: faster-rcnn_regnetx-4GF_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7255
+              datasetA: 0.271
+              datasetB: 0.789
+              ranking: 199
+            
+            - nameen: faster-rcnn_x101-32x4d_fpn_1x_coco
+              namezh: faster-rcnn_x101-32x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2808
+              datasetA: 0.271
+              datasetB: 0.729
+              ranking: 200
+            
+            - nameen: fcos_hrnetv2p-w32-gn-head_4xb4-2x_coco
+              namezh: fcos_hrnetv2p-w32-gn-head_4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4734
+              datasetA: 0.271
+              datasetB: 0.705
+              ranking: 201
+            
+            - nameen: faster-rcnn_x101-64x4d_fpn_2x_coco
+              namezh: faster-rcnn_x101-64x4d_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1177
+              datasetA: 0.271
+              datasetB: 0.760
+              ranking: 202
+            
+            - nameen: mask-rcnn_regnetx-8GF_fpn_1x_coco
+              namezh: mask-rcnn_regnetx-8GF_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2656
+              datasetA: 0.270
+              datasetB: 0.764
+              ranking: 203
+            
+            - nameen: retinanet_x101-64x4d_fpn_1x_coco
+              namezh: retinanet_x101-64x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 836
+              datasetA: 0.270
+              datasetB: 0.777
+              ranking: 204
+            
+            - nameen: mask-rcnn_regnetx-4GF_fpn_1x_coco
+              namezh: mask-rcnn_regnetx-4GF_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7144
+              datasetA: 0.270
+              datasetB: 0.716
+              ranking: 205
+            
+            - nameen: mask-rcnn_r50_fpn_gn-all_2x_coco
+              namezh: mask-rcnn_r50_fpn_gn-all_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6103
+              datasetA: 0.270
+              datasetB: 0.721
+              ranking: 206
+            
+            - nameen: retinanet_effb3_fpn_8xb4-crop896-1x_coco
+              namezh: retinanet_effb3_fpn_8xb4-crop896-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7461
+              datasetA: 0.270
+              datasetB: 0.739
+              ranking: 207
+            
+            - nameen: dab-detr_r50_8xb2-50e_coco.py
+              namezh: dab-detr_r50_8xb2-50e_coco.py
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 710
+              datasetA: 0.270
+              datasetB: 0.736
+              ranking: 208
+            
+            - nameen: mask-rcnn_regnetx-12GF_fpn_1x_coco
+              namezh: mask-rcnn_regnetx-12GF_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8261
+              datasetA: 0.269
+              datasetB: 0.738
+              ranking: 209
+            
+            - nameen: mask-rcnn_r50_fpn_gn-all_contrib_3x_coco
+              namezh: mask-rcnn_r50_fpn_gn-all_contrib_3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8566
+              datasetA: 0.269
+              datasetB: 0.714
+              ranking: 210
+            
+            - nameen: faster-rcnn_r50_fpg-chn128_crop640-50e_coco
+              namezh: faster-rcnn_r50_fpg-chn128_crop640-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5779
+              datasetA: 0.269
+              datasetB: 0.811
+              ranking: 211
+            
+            - nameen: gfl_r50_fpn_ms-2x_coco
+              namezh: gfl_r50_fpn_ms-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2374
+              datasetA: 0.269
+              datasetB: 0.750
+              ranking: 212
+            
+            - nameen: cascade-mask-rcnn_regnetx-800MF_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_regnetx-800MF_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8573
+              datasetA: 0.268
+              datasetB: 0.776
+              ranking: 213
+            
+            - nameen: cascade-rcnn_r101-caffe_fpn_1x_coco
+              namezh: cascade-rcnn_r101-caffe_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2476
+              datasetA: 0.268
+              datasetB: 0.765
+              ranking: 214
+            
+            - nameen: cascade-rcnn_r101_fpn_1x_coco
+              namezh: cascade-rcnn_r101_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 618
+              datasetA: 0.268
+              datasetB: 0.771
+              ranking: 215
+            
+            - nameen: sparse-rcnn_r50_fpn_ms-480-800-3x_coco
+              namezh: sparse-rcnn_r50_fpn_ms-480-800-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8379
+              datasetA: 0.267
+              datasetB: 0.355
+              ranking: 216
+            
+            - nameen: faster-rcnn_r101_fpn_ms-3x_coco
+              namezh: faster-rcnn_r101_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6491
+              datasetA: 0.267
+              datasetB: 0.729
+              ranking: 217
+            
+            - nameen: libra-faster-rcnn_r101_fpn_1x_coco
+              namezh: libra-faster-rcnn_r101_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6158
+              datasetA: 0.267
+              datasetB: 0.751
+              ranking: 218
+            
+            - nameen: faster-rcnn_r50_fpn_attention_1111_1x_coco
+              namezh: faster-rcnn_r50_fpn_attention_1111_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 620
+              datasetA: 0.267
+              datasetB: 0.681
+              ranking: 219
+            
+            - nameen: atss_r50-caffe_fpn_dyhead_1x_coco
+              namezh: atss_r50-caffe_fpn_dyhead_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4122
+              datasetA: 0.267
+              datasetB: 0.825
+              ranking: 220
+            
+            - nameen: retinanet_x101-32x4d_fpn_ghm-1x_coco
+              namezh: retinanet_x101-32x4d_fpn_ghm-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1585
+              datasetA: 0.267
+              datasetB: 0.807
+              ranking: 221
+            
+            - nameen: boxinst_r101_fpn_ms-90k_coco
+              namezh: boxinst_r101_fpn_ms-90k_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4993
+              datasetA: 0.267
+              datasetB: 0.758
+              ranking: 222
+            
+            - nameen: faster-rcnn_hrnetv2p-w32-1x_coco
+              namezh: faster-rcnn_hrnetv2p-w32-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4023
+              datasetA: 0.267
+              datasetB: 0.803
+              ranking: 223
+            
+            - nameen: retinanet_r50_fpg-chn128_crop640_50e_coco
+              namezh: retinanet_r50_fpg-chn128_crop640_50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9453
+              datasetA: 0.266
+              datasetB: 0.743
+              ranking: 224
+            
+            - nameen: mask-rcnn_r50_fpn_gn-all_contrib_2x_coco
+              namezh: mask-rcnn_r50_fpn_gn-all_contrib_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4150
+              datasetA: 0.266
+              datasetB: 0.774
+              ranking: 225
+            
+            - nameen: conditional-detr_r50_8xb2-50e_coco.py
+              namezh: conditional-detr_r50_8xb2-50e_coco.py
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5147
+              datasetA: 0.266
+              datasetB: 0.734
+              ranking: 226
+            
+            - nameen: faster-rcnn_x101-32x4d_fpn_2x_coco
+              namezh: faster-rcnn_x101-32x4d_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2983
+              datasetA: 0.266
+              datasetB: 0.731
+              ranking: 227
+            
+            - nameen: retinanet_x101-64x4d_fpn_ms-640-800-3x_coco
+              namezh: retinanet_x101-64x4d_fpn_ms-640-800-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9285
+              datasetA: 0.266
+              datasetB: 0.786
+              ranking: 228
+            
+            - nameen: mask-rcnn_x101-32x8d_fpn_ms-poly-3x_coco
+              namezh: mask-rcnn_x101-32x8d_fpn_ms-poly-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 360
+              datasetA: 0.265
+              datasetB: 0.801
+              ranking: 229
+            
+            - nameen: fcos_hrnetv2p-w32-gn-head_4xb4-1x_coco
+              namezh: fcos_hrnetv2p-w32-gn-head_4xb4-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 516
+              datasetA: 0.265
+              datasetB: 0.652
+              ranking: 230
+            
+            - nameen: tridentnet_r50-caffe_ms-3x_coco
+              namezh: tridentnet_r50-caffe_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8461
+              datasetA: 0.265
+              datasetB: 0.760
+              ranking: 231
+            
+            - nameen: htc_r50_fpn_1x_coco
+              namezh: htc_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2204
+              datasetA: 0.265
+              datasetB: 0.717
+              ranking: 232
+            
+            - nameen: sabl-faster-rcnn_r101_fpn_1x_coco
+              namezh: sabl-faster-rcnn_r101_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3358
+              datasetA: 0.265
+              datasetB: 0.733
+              ranking: 233
+            
+            - nameen: retinanet_r50_nasfpn_crop640-50e_coco
+              namezh: retinanet_r50_nasfpn_crop640-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4865
+              datasetA: 0.264
+              datasetB: 0.823
+              ranking: 234
+            
+            - nameen: faster-rcnn_r50_fpn_rsb-pretrain_1x_coco
+              namezh: faster-rcnn_r50_fpn_rsb-pretrain_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3000
+              datasetA: 0.264
+              datasetB: 0.698
+              ranking: 235
+            
+            - nameen: grid-rcnn_r101_fpn_gn-head_2x_coco
+              namezh: grid-rcnn_r101_fpn_gn-head_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4819
+              datasetA: 0.264
+              datasetB: 0.790
+              ranking: 236
+            
+            - nameen: mask-rcnn_r50_fpn_r16_gcb_c3-c5_1x_coco
+              namezh: mask-rcnn_r50_fpn_r16_gcb_c3-c5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4152
+              datasetA: 0.264
+              datasetB: 0.800
+              ranking: 237
+            
+            - nameen: atss_r101_fpn_1x_coco
+              namezh: atss_r101_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7340
+              datasetA: 0.264
+              datasetB: 0.724
+              ranking: 238
+            
+            - nameen: mask-rcnn_r50_fpn_rsb-pretrain_1x_coco
+              namezh: mask-rcnn_r50_fpn_rsb-pretrain_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7692
+              datasetA: 0.263
+              datasetB: 0.681
+              ranking: 239
+            
+            - nameen: retinanet_x101-64x4d_fpn_2x_coco
+              namezh: retinanet_x101-64x4d_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9412
+              datasetA: 0.263
+              datasetB: 0.824
+              ranking: 240
+            
+            - nameen: mask-rcnn_hrnetv2p-w18-2x_coco
+              namezh: mask-rcnn_hrnetv2p-w18-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 645
+              datasetA: 0.263
+              datasetB: 0.707
+              ranking: 241
+            
+            - nameen: faster-rcnn_regnetx-3.2GF_fpn_2x_coco
+              namezh: faster-rcnn_regnetx-3.2GF_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6725
+              datasetA: 0.263
+              datasetB: 0.709
+              ranking: 242
+            
+            - nameen: pisa_retinanet_x101_32x4d_fpn_1x_coco
+              namezh: pisa_retinanet_x101_32x4d_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 345
+              datasetA: 0.263
+              datasetB: 0.758
+              ranking: 243
+            
+            - nameen: mask-rcnn_regnetx-3.2GF_fpn_1x_coco
+              namezh: mask-rcnn_regnetx-3.2GF_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6711
+              datasetA: 0.262
+              datasetB: 0.781
+              ranking: 244
+            
+            - nameen: sabl-retinanet_r101-gn_fpn_1x_coco
+              namezh: sabl-retinanet_r101-gn_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8621
+              datasetA: 0.262
+              datasetB: 0.789
+              ranking: 245
+            
+            - nameen: mask-rcnn_regnetx-1.6GF_fpn_ms-poly-3x_coco
+              namezh: mask-rcnn_regnetx-1.6GF_fpn_ms-poly-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1428
+              datasetA: 0.261
+              datasetB: 0.718
+              ranking: 246
             
             - nameen: tood_r50_fpn_anchor-based_1x_coco
               namezh: tood_r50_fpn_anchor-based_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6840
+              datasetA: 0.261
+              datasetB: 0.757
+              ranking: 247
             
-            - nameen: tood_r50_fpn_1x_coco
-              namezh: tood_r50_fpn_1x_coco
+            - nameen: retinanet_x101-32x4d_fpn_2x_coco
+              namezh: retinanet_x101-32x4d_fpn_2x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3917
+              datasetA: 0.260
+              datasetB: 0.719
+              ranking: 248
             
-            - nameen: tood_r50_fpn_ms-2x_coco
-              namezh: tood_r50_fpn_ms-2x_coco
+            - nameen: ddod_r50_fpn_1x_coco
+              namezh: ddod_r50_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9788
+              datasetA: 0.260
+              datasetB: 0.729
+              ranking: 249
             
-            - nameen: vfnet_r50_fpn_1x_coco
-              namezh: vfnet_r50_fpn_1x_coco
+            - nameen: retinanet_x101-32x4d_fpn_1x_coco
+              namezh: retinanet_x101-32x4d_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1135
+              datasetA: 0.260
+              datasetB: 0.770
+              ranking: 250
             
-            - nameen: vfnet_r50_fpn_ms-2x_coco
-              namezh: vfnet_r50_fpn_ms-2x_coco
+            - nameen: mask-rcnn_r101-syncbn_fpn_1x_coco
+              namezh: mask-rcnn_r101-syncbn_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1199
+              datasetA: 0.260
+              datasetB: 0.774
+              ranking: 251
             
-            - nameen: vfnet_r50-mdconv-c3-c5_fpn_ms-2x_coco
-              namezh: vfnet_r50-mdconv-c3-c5_fpn_ms-2x_coco
+            - nameen: retinanet_pvtv2-b0_fpn_1x_coco
+              namezh: retinanet_pvtv2-b0_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5877
+              datasetA: 0.259
+              datasetB: 0.657
+              ranking: 252
             
-            - nameen: vfnet_r101_fpn_1x_coco
-              namezh: vfnet_r101_fpn_1x_coco
+            - nameen: mask-rcnn_r101_fpn_2x_coco
+              namezh: mask-rcnn_r101_fpn_2x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1022
+              datasetA: 0.259
+              datasetB: 0.657
+              ranking: 253
             
-            - nameen: vfnet_r101_fpn_ms-2x_coco
-              namezh: vfnet_r101_fpn_ms-2x_coco
+            - nameen: queryinst_r50_fpn_1x_coco
+              namezh: queryinst_r50_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9249
+              datasetA: 0.259
+              datasetB: 0.509
+              ranking: 254
             
-            - nameen: vfnet_r101-mdconv-c3-c5_fpn_ms-2x_coco
-              namezh: vfnet_r101-mdconv-c3-c5_fpn_ms-2x_coco
+            - nameen: lad_r50-paa-r101_fpn_2xb8_coco_1x
+              namezh: lad_r50-paa-r101_fpn_2xb8_coco_1x
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4827
+              datasetA: 0.258
+              datasetB: 0.684
+              ranking: 255
             
-            - nameen: vfnet_x101-32x4d-mdconv-c3-c5_fpn_ms-2x_coco
-              namezh: vfnet_x101-32x4d-mdconv-c3-c5_fpn_ms-2x_coco
+            - nameen: cascade-mask-rcnn_r50_fpn_20e_coco
+              namezh: cascade-mask-rcnn_r50_fpn_20e_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9591
+              datasetA: 0.257
+              datasetB: 0.781
+              ranking: 256
             
-            - nameen: vfnet_x101-64x4d-mdconv-c3-c5_fpn_ms-2x_coco
-              namezh: vfnet_x101-64x4d-mdconv-c3-c5_fpn_ms-2x_coco
+            - nameen: mask-rcnn_regnetx-6.4GF_fpn_1x_coco
+              namezh: mask-rcnn_regnetx-6.4GF_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8995
+              datasetA: 0.257
+              datasetB: 0.729
+              ranking: 257
             
-            - nameen: yolact_r50_1x8_coco
-              namezh: yolact_r50_1x8_coco
+            - nameen: freeanchor_r101_fpn_1x_coco
+              namezh: freeanchor_r101_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9048
+              datasetA: 0.257
+              datasetB: 0.772
+              ranking: 258
             
-            - nameen: yolact_r50_8x8_coco
-              namezh: yolact_r50_8x8_coco
+            - nameen: paa_r50_fpn_2x_coco
+              namezh: paa_r50_fpn_2x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 342
+              datasetA: 0.257
+              datasetB: 0.676
+              ranking: 259
             
-            - nameen: yolact_r101_1x8_coco
-              namezh: yolact_r101_1x8_coco
+            - nameen: faster-rcnn_hrnetv2p-w18-2x_coco
+              namezh: faster-rcnn_hrnetv2p-w18-2x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5479
+              datasetA: 0.257
+              datasetB: 0.737
+              ranking: 260
             
-            - nameen: yolov3_d53_320_273e_coco
-              namezh: yolov3_d53_320_273e_coco
+            - nameen: retinanet_r101_fpn_ms-640-800-3x_coco
+              namezh: retinanet_r101_fpn_ms-640-800-3x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5421
+              datasetA: 0.257
+              datasetB: 0.782
+              ranking: 261
             
-            - nameen: yolov3_d53_mstrain-416_273e_coco
-              namezh: yolov3_d53_mstrain-416_273e_coco
+            - nameen: cascade-rpn_faster-rcnn_r50-caffe_fpn_1x_coco
+              namezh: cascade-rpn_faster-rcnn_r50-caffe_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3981
+              datasetA: 0.257
+              datasetB: 0.806
+              ranking: 262
             
-            - nameen: yolov3_d53_mstrain-608_273e_coco
-              namezh: yolov3_d53_mstrain-608_273e_coco
+            - nameen: mask-rcnn_r101-caffe_fpn_1x_coco
+              namezh: mask-rcnn_r101-caffe_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2261
+              datasetA: 0.257
+              datasetB: 0.778
+              ranking: 263
             
-            - nameen: yolov3_d53_fp16_mstrain-608_273e_coco
-              namezh: yolov3_d53_fp16_mstrain-608_273e_coco
+            - nameen: mask-rcnn_r101_fpn_1x_coco
+              namezh: mask-rcnn_r101_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4428
+              datasetA: 0.256
+              datasetB: 0.823
+              ranking: 264
             
-            - nameen: yolov3_mobilenetv2_8xb24-320-300e_coco
-              namezh: yolov3_mobilenetv2_8xb24-320-300e_coco
+            - nameen: faster-rcnn_regnetx-3.2GF_fpn_1x_coco
+              namezh: faster-rcnn_regnetx-3.2GF_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8537
+              datasetA: 0.256
+              datasetB: 0.773
+              ranking: 265
             
-            - nameen: yolov3_mobilenetv2_8xb24-ms-416-300e_coco
-              namezh: yolov3_mobilenetv2_8xb24-ms-416-300e_coco
+            - nameen: reppoints-moment_r101_fpn-gn_head-gn_2x_coco
+              namezh: reppoints-moment_r101_fpn-gn_head-gn_2x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3800
+              datasetA: 0.255
+              datasetB: 0.670
+              ranking: 266
             
-            - nameen: yolof_r50_c5_8x8_1x_coco
-              namezh: yolof_r50_c5_8x8_1x_coco
+            - nameen: cascade-mask-rcnn_regnetx-400MF_fpn_ms-3x_coco
+              namezh: cascade-mask-rcnn_regnetx-400MF_fpn_ms-3x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7325
+              datasetA: 0.255
+              datasetB: 0.742
+              ranking: 267
             
-            - nameen: yolox_s_8x8_300e_coco
-              namezh: yolox_s_8x8_300e_coco
+            - nameen: ms-rcnn_r101-caffe_fpn_1x_coco
+              namezh: ms-rcnn_r101-caffe_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5914
+              datasetA: 0.255
+              datasetB: 0.695
+              ranking: 268
             
-            - nameen: yolox_l_8x8_300e_coco
-              namezh: yolox_l_8x8_300e_coco
+            - nameen: cascade-mask-rcnn_r50-caffe_fpn_1x_coco
+              namezh: cascade-mask-rcnn_r50-caffe_fpn_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3740
+              datasetA: 0.255
+              datasetB: 0.798
+              ranking: 269
             
-            - nameen: yolox_x_8x8_300e_coco
-              namezh: yolox_x_8x8_300e_coco
+            - nameen: mask-rcnn_r50_fpn_mstrain-poly_3x_coco
+              namezh: mask-rcnn_r50_fpn_mstrain-poly_3x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 294
+              datasetA: 0.255
+              datasetB: 0.743
+              ranking: 270
             
-            - nameen: yolox_tiny_8x8_300e_coco
-              namezh: yolox_tiny_8x8_300e_coco
+            - nameen: faster-rcnn_r50_fpn_attention_0010_1x_coco
+              namezh: faster-rcnn_r50_fpn_attention_0010_1x_coco
               paper:
                 text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7417
+              datasetA: 0.254
+              datasetB: 0.754
+              ranking: 271
+            
+            - nameen: paa_r50_fpn_1.5x_coco
+              namezh: paa_r50_fpn_1.5x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 103
+              datasetA: 0.254
+              datasetB: 0.675
+              ranking: 272
+            
+            - nameen: mask-rcnn_r50_fpn_instaboost_4x_coco
+              namezh: mask-rcnn_r50_fpn_instaboost_4x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2733
+              datasetA: 0.254
+              datasetB: 0.794
+              ranking: 273
+            
+            - nameen: faster-rcnn_regnetx-1.6GF_fpn_ms-3x_coco
+              namezh: faster-rcnn_regnetx-1.6GF_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2460
+              datasetA: 0.254
+              datasetB: 0.726
+              ranking: 274
+            
+            - nameen: fcos_r101-caffe_fpn_gn-head_ms-640-800-2x_coco
+              namezh: fcos_r101-caffe_fpn_gn-head_ms-640-800-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7752
+              datasetA: 0.254
+              datasetB: 0.714
+              ranking: 275
+            
+            - nameen: fovea_r101_fpn_gn-head-align_4xb4-2x_coco
+              namezh: fovea_r101_fpn_gn-head-align_4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6335
+              datasetA: 0.253
+              datasetB: 0.726
+              ranking: 276
+            
+            - nameen: ms-rcnn_r101-caffe_fpn_2x_coco
+              namezh: ms-rcnn_r101-caffe_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4946
+              datasetA: 0.253
+              datasetB: 0.773
+              ranking: 277
+            
+            - nameen: faster-rcnn_r101_fpn_1x_coco
+              namezh: faster-rcnn_r101_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2378
+              datasetA: 0.253
+              datasetB: 0.755
+              ranking: 278
+            
+            - nameen: fovea_r50_fpn_gn-head-align_ms-640-800-4xb4-2x_coco
+              namezh: fovea_r50_fpn_gn-head-align_ms-640-800-4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 803
+              datasetA: 0.252
+              datasetB: 0.832
+              ranking: 279
+            
+            - nameen: sabl-cascade-rcnn_r50_fpn_1x_coco
+              namezh: sabl-cascade-rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3761
+              datasetA: 0.252
+              datasetB: 0.779
+              ranking: 280
+            
+            - nameen: cascade-rcnn_r50_fpn_20e_coco
+              namezh: cascade-rcnn_r50_fpn_20e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3727
+              datasetA: 0.252
+              datasetB: 0.810
+              ranking: 281
+            
+            - nameen: cascade-mask-rcnn_r50_fpn_1x_coco
+              namezh: cascade-mask-rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5665
+              datasetA: 0.251
+              datasetB: 0.795
+              ranking: 282
+            
+            - nameen: mask-rcnn_r50-caffe_fpn_ms-poly-3x_coco
+              namezh: mask-rcnn_r50-caffe_fpn_ms-poly-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8923
+              datasetA: 0.251
+              datasetB: 0.792
+              ranking: 283
+            
+            - nameen: faster-rcnn_r101_fpn_2x_coco
+              namezh: faster-rcnn_r101_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8764
+              datasetA: 0.251
+              datasetB: 0.779
+              ranking: 284
+            
+            - nameen: faster-rcnn_r101-caffe_fpn_1x_coco
+              namezh: faster-rcnn_r101-caffe_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4045
+              datasetA: 0.251
+              datasetB: 0.721
+              ranking: 285
+            
+            - nameen: faster-rcnn_r50_fpn_tnr-pretrain_1x_coco
+              namezh: faster-rcnn_r50_fpn_tnr-pretrain_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8644
+              datasetA: 0.250
+              datasetB: 0.734
+              ranking: 286
+            
+            - nameen: retinanet_r101-caffe_fpn_ms-3x_coco
+              namezh: retinanet_r101-caffe_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1009
+              datasetA: 0.249
+              datasetB: 0.715
+              ranking: 287
+            
+            - nameen: fcos_hrnetv2p-w18-gn-head_4xb4-2x_coco
+              namezh: fcos_hrnetv2p-w18-gn-head_4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4492
+              datasetA: 0.248
+              datasetB: 0.735
+              ranking: 288
+            
+            - nameen: cascade-rcnn_r50-caffe_fpn_1x_coco
+              namezh: cascade-rcnn_r50-caffe_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7902
+              datasetA: 0.248
+              datasetB: 0.797
+              ranking: 289
+            
+            - nameen: faster-rcnn_r50_fpn_mstrain_3x_coco
+              namezh: faster-rcnn_r50_fpn_mstrain_3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 624
+              datasetA: 0.248
+              datasetB: 0.699
+              ranking: 290
+            
+            - nameen: retinanet_regnetx-3.2GF_fpn_1x_coco
+              namezh: retinanet_regnetx-3.2GF_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2315
+              datasetA: 0.248
+              datasetB: 0.754
+              ranking: 291
+            
+            - nameen: sabl-retinanet_r101_fpn_1x_coco
+              namezh: sabl-retinanet_r101_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8514
+              datasetA: 0.248
+              datasetB: 0.714
+              ranking: 292
+            
+            - nameen: dh-faster-rcnn_r50_fpn_1x_coco
+              namezh: dh-faster-rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8435
+              datasetA: 0.247
+              datasetB: 0.753
+              ranking: 293
+            
+            - nameen: mask-rcnn_hrnetv2p-w18-1x_coco
+              namezh: mask-rcnn_hrnetv2p-w18-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5804
+              datasetA: 0.247
+              datasetB: 0.666
+              ranking: 294
+            
+            - nameen: retinanet_r50-rsb-pre_fpn_1x_coco
+              namezh: retinanet_r50-rsb-pre_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7000
+              datasetA: 0.247
+              datasetB: 0.740
+              ranking: 295
+            
+            - nameen: gfl_r50_fpn_1x_coco
+              namezh: gfl_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1776
+              datasetA: 0.246
+              datasetB: 0.717
+              ranking: 296
+            
+            - nameen: autoassign_r50-caffe_fpn_1x_coco
+              namezh: autoassign_r50-caffe_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4043
+              datasetA: 0.246
+              datasetB: 0.776
+              ranking: 297
+            
+            - nameen: paa_r50_fpn_1x_coco
+              namezh: paa_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3321
+              datasetA: 0.246
+              datasetB: 0.649
+              ranking: 298
+            
+            - nameen: fcos_hrnetv2p-w18-gn-head_ms-640-800-4xb4-2x_coco
+              namezh: fcos_hrnetv2p-w18-gn-head_ms-640-800-4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8879
+              datasetA: 0.246
+              datasetB: 0.711
+              ranking: 299
+            
+            - nameen: mask-rcnn_regnetx-800MF_fpn_ms-poly-3x_coco
+              namezh: mask-rcnn_regnetx-800MF_fpn_ms-poly-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4876
+              datasetA: 0.246
+              datasetB: 0.718
+              ranking: 300
+            
+            - nameen: mask-rcnn_r50-caffe_fpn_ms-poly-2x_coco
+              namezh: mask-rcnn_r50-caffe_fpn_ms-poly-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5841
+              datasetA: 0.245
+              datasetB: 0.806
+              ranking: 301
+            
+            - nameen: cascade-rcnn_r50_fpn_1x_coco
+              namezh: cascade-rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4243
+              datasetA: 0.245
+              datasetB: 0.826
+              ranking: 302
+            
+            - nameen: mask-rcnn_r50_fpn_carafe_1x_coco
+              namezh: mask-rcnn_r50_fpn_carafe_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2941
+              datasetA: 0.245
+              datasetB: 0.779
+              ranking: 303
+            
+            - nameen: tridentnet_r50-caffe_ms-1x_coco
+              namezh: tridentnet_r50-caffe_ms-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 352
+              datasetA: 0.244
+              datasetB: 0.766
+              ranking: 304
+            
+            - nameen: fsaf_r101_fpn_1x_coco
+              namezh: fsaf_r101_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9511
+              datasetA: 0.244
+              datasetB: 0.751
+              ranking: 305
+            
+            - nameen: faster-rcnn_r50-caffe_fpn_ms-3x_coco
+              namezh: faster-rcnn_r50-caffe_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8684
+              datasetA: 0.244
+              datasetB: 0.725
+              ranking: 306
+            
+            - nameen: centernet-update_r50-caffe_fpn_ms-1x_coco
+              namezh: centernet-update_r50-caffe_fpn_ms-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7941
+              datasetA: 0.243
+              datasetB: 0.822
+              ranking: 307
+            
+            - nameen: retinanet_r101_fpn_2x_coco
+              namezh: retinanet_r101_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4237
+              datasetA: 0.242
+              datasetB: 0.781
+              ranking: 308
+            
+            - nameen: fovea_r101_fpn_4xb4-2x_coco
+              namezh: fovea_r101_fpn_4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9895
+              datasetA: 0.242
+              datasetB: 0.769
+              ranking: 309
+            
+            - nameen: fovea_r101_fpn_4xb4-1x_coco
+              namezh: fovea_r101_fpn_4xb4-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9477
+              datasetA: 0.242
+              datasetB: 0.722
+              ranking: 310
+            
+            - nameen: tridentnet_r50-caffe_1x_coco
+              namezh: tridentnet_r50-caffe_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9927
+              datasetA: 0.242
+              datasetB: 0.710
+              ranking: 311
+            
+            - nameen: fcos_r101-caffe_fpn_gn-head-1x_coco
+              namezh: fcos_r101-caffe_fpn_gn-head-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1883
+              datasetA: 0.242
+              datasetB: 0.735
+              ranking: 312
+            
+            - nameen: grid-rcnn_r50_fpn_gn-head_2x_coco
+              namezh: grid-rcnn_r50_fpn_gn-head_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6502
+              datasetA: 0.242
+              datasetB: 0.766
+              ranking: 313
+            
+            - nameen: faster-rcnn_r50_fpn_carafe_1x_coco
+              namezh: faster-rcnn_r50_fpn_carafe_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9640
+              datasetA: 0.241
+              datasetB: 0.778
+              ranking: 314
+            
+            - nameen: retinanet_r101_fpn_ghm-1x_coco
+              namezh: retinanet_r101_fpn_ghm-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9711
+              datasetA: 0.241
+              datasetB: 0.772
+              ranking: 315
+            
+            - nameen: detr_r50_8xb2-150e_coco
+              namezh: detr_r50_8xb2-150e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4585
+              datasetA: 0.241
+              datasetB: 0.651
+              ranking: 316
+            
+            - nameen: retinanet_r101_fpn_1x_coco
+              namezh: retinanet_r101_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1072
+              datasetA: 0.241
+              datasetB: 0.747
+              ranking: 317
+            
+            - nameen: faster-rcnn_r50-caffe_fpn_ms-2x_coco
+              namezh: faster-rcnn_r50-caffe_fpn_ms-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4097
+              datasetA: 0.241
+              datasetB: 0.767
+              ranking: 318
+            
+            - nameen: retinanet_r50_fpn_crop640-50e_coco
+              namezh: retinanet_r50_fpn_crop640-50e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1416
+              datasetA: 0.240
+              datasetB: 0.750
+              ranking: 319
+            
+            - nameen: libra-faster-rcnn_r50_fpn_1x_coco
+              namezh: libra-faster-rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3203
+              datasetA: 0.240
+              datasetB: 0.708
+              ranking: 320
+            
+            - nameen: nas-fcos_r50-caffe_fpn_nashead-gn-head_4xb4-1x_coco
+              namezh: nas-fcos_r50-caffe_fpn_nashead-gn-head_4xb4-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9561
+              datasetA: 0.240
+              datasetB: 0.757
+              ranking: 321
+            
+            - nameen: condinst_r50_fpn_ms-poly-90k_coco_instance
+              namezh: condinst_r50_fpn_ms-poly-90k_coco_instance
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8490
+              datasetA: 0.239
+              datasetB: 0.766
+              ranking: 322
+            
+            - nameen: pisa_mask_rcnn_r50_fpn_1x_coco
+              namezh: pisa_mask_rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5956
+              datasetA: 0.239
+              datasetB: 0.786
+              ranking: 323
+            
+            - nameen: faster-rcnn_hrnetv2p-w18-1x_coco
+              namezh: faster-rcnn_hrnetv2p-w18-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4075
+              datasetA: 0.239
+              datasetB: 0.725
+              ranking: 324
+            
+            - nameen: mask-rcnn_r50_fpn_albu-1x_coco
+              namezh: mask-rcnn_r50_fpn_albu-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6022
+              datasetA: 0.239
+              datasetB: 0.768
+              ranking: 325
+            
+            - nameen: atss_r50_fpn_1x_coco
+              namezh: atss_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8054
+              datasetA: 0.239
+              datasetB: 0.645
+              ranking: 326
+            
+            - nameen: reppoints-moment_r50_fpn-gn_head-gn_2x_coco
+              namezh: reppoints-moment_r50_fpn-gn_head-gn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9249
+              datasetA: 0.238
+              datasetB: 0.701
+              ranking: 327
+            
+            - nameen: faster-rcnn_regnetx-800MF_fpn_ms-3x_coco
+              namezh: faster-rcnn_regnetx-800MF_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4767
+              datasetA: 0.238
+              datasetB: 0.692
+              ranking: 328
+            
+            - nameen: mask-rcnn_r50_fpn_2x_coco
+              namezh: mask-rcnn_r50_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9361
+              datasetA: 0.237
+              datasetB: 0.732
+              ranking: 329
+            
+            - nameen: boxinst_r50_fpn_ms-90k_coco
+              namezh: boxinst_r50_fpn_ms-90k_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7505
+              datasetA: 0.237
+              datasetB: 0.723
+              ranking: 330
+            
+            - nameen: sabl-faster-rcnn_r50_fpn_1x_coco
+              namezh: sabl-faster-rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2086
+              datasetA: 0.237
+              datasetB: 0.754
+              ranking: 331
+            
+            - nameen: retinanet_r101-caffe_fpn_1x_coco
+              namezh: retinanet_r101-caffe_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1250
+              datasetA: 0.236
+              datasetB: 0.735
+              ranking: 332
+            
+            - nameen: mask-rcnn_r50_fpn_groie_1x_coco
+              namezh: mask-rcnn_r50_fpn_groie_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4827
+              datasetA: 0.236
+              datasetB: 0.788
+              ranking: 333
+            
+            - nameen: faster-rcnn_r50-caffe-dc5_mstrain_3x_coco
+              namezh: faster-rcnn_r50-caffe-dc5_mstrain_3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 894
+              datasetA: 0.236
+              datasetB: 0.731
+              ranking: 334
+            
+            - nameen: retinanet_r50_fpn_ms-640-800-3x_coco
+              namezh: retinanet_r50_fpn_ms-640-800-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2214
+              datasetA: 0.236
+              datasetB: 0.731
+              ranking: 335
+            
+            - nameen: faster-rcnn_r50_fpn_mdpool_1x_coco
+              namezh: faster-rcnn_r50_fpn_mdpool_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7590
+              datasetA: 0.234
+              datasetB: 0.822
+              ranking: 336
+            
+            - nameen: dynamic-rcnn_r50_fpn_1x_coco
+              namezh: dynamic-rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4036
+              datasetA: 0.234
+              datasetB: 0.788
+              ranking: 337
+            
+            - nameen: ms-rcnn_r50-caffe_fpn_1x_coco
+              namezh: ms-rcnn_r50-caffe_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7193
+              datasetA: 0.234
+              datasetB: 0.708
+              ranking: 338
+            
+            - nameen: reppoints-moment_r50_fpn-gn_head-gn_1x_coco
+              namezh: reppoints-moment_r50_fpn-gn_head-gn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9006
+              datasetA: 0.234
+              datasetB: 0.702
+              ranking: 339
+            
+            - nameen: faster-rcnn_r50_fpn_dpool_1x_coco
+              namezh: faster-rcnn_r50_fpn_dpool_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 443
+              datasetA: 0.234
+              datasetB: 0.725
+              ranking: 340
+            
+            - nameen: mask-rcnn_r50-caffe_fpn_1x_coco
+              namezh: mask-rcnn_r50-caffe_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8641
+              datasetA: 0.234
+              datasetB: 0.769
+              ranking: 341
+            
+            - nameen: sabl-retinanet_r50-gn_fpn_1x_coco
+              namezh: sabl-retinanet_r50-gn_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7010
+              datasetA: 0.233
+              datasetB: 0.746
+              ranking: 342
+            
+            - nameen: faster-rcnn_r50_fpn_groie_1x_coco
+              namezh: faster-rcnn_r50_fpn_groie_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2765
+              datasetA: 0.233
+              datasetB: 0.716
+              ranking: 343
+            
+            - nameen: nas-fcos_r50-caffe_fpn_fcoshead-gn-head_4xb4-1x_coco
+              namezh: nas-fcos_r50-caffe_fpn_fcoshead-gn-head_4xb4-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4293
+              datasetA: 0.233
+              datasetB: 0.744
+              ranking: 344
+            
+            - nameen: pisa_faster_rcnn_r50_fpn_1x_coco
+              namezh: pisa_faster_rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4318
+              datasetA: 0.232
+              datasetB: 0.791
+              ranking: 345
+            
+            - nameen: fovea_r50_fpn_gn-head-align_4xb4-2x_coco
+              namezh: fovea_r50_fpn_gn-head-align_4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 575
+              datasetA: 0.232
+              datasetB: 0.746
+              ranking: 346
+            
+            - nameen: freeanchor_r50_fpn_1x_coco
+              namezh: freeanchor_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8135
+              datasetA: 0.231
+              datasetB: 0.742
+              ranking: 347
+            
+            - nameen: mask-rcnn_r50_fpn_1x_coco
+              namezh: mask-rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1530
+              datasetA: 0.230
+              datasetB: 0.785
+              ranking: 348
+            
+            - nameen: mask-rcnn_r50_fpn_syncbn-backbone_1x_coco
+              namezh: mask-rcnn_r50_fpn_syncbn-backbone_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6873
+              datasetA: 0.230
+              datasetB: 0.780
+              ranking: 349
+            
+            - nameen: sparse-rcnn_r50_fpn_1x_coco
+              namezh: sparse-rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 651
+              datasetA: 0.230
+              datasetB: 0.490
+              ranking: 350
+            
+            - nameen: mask-rcnn_r50_fpn_fp16_1x_coco
+              namezh: mask-rcnn_r50_fpn_fp16_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2931
+              datasetA: 0.230
+              datasetB: 0.819
+              ranking: 351
+            
+            - nameen: mask-rcnn_regnetx-400MF_fpn_ms-poly-3x_coco
+              namezh: mask-rcnn_regnetx-400MF_fpn_ms-poly-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6282
+              datasetA: 0.230
+              datasetB: 0.707
+              ranking: 352
+            
+            - nameen: faster-rcnn_r50-caffe-dc5_mstrain_1x_coco
+              namezh: faster-rcnn_r50-caffe-dc5_mstrain_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9575
+              datasetA: 0.229
+              datasetB: 0.758
+              ranking: 353
+            
+            - nameen: libra-retinanet_r50_fpn_1x_coco
+              namezh: libra-retinanet_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5355
+              datasetA: 0.229
+              datasetB: 0.778
+              ranking: 354
+            
+            - nameen: faster-rcnn_r50_fpn_iou_1x_coco
+              namezh: faster-rcnn_r50_fpn_iou_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9652
+              datasetA: 0.229
+              datasetB: 0.734
+              ranking: 355
+            
+            - nameen: faster-rcnn_r50-caffe-dc5_1x_coco
+              namezh: faster-rcnn_r50-caffe-dc5_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 330
+              datasetA: 0.229
+              datasetB: 0.805
+              ranking: 356
+            
+            - nameen: faster-rcnn_r50_fpn_2x_coco
+              namezh: faster-rcnn_r50_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3030
+              datasetA: 0.229
+              datasetB: 0.737
+              ranking: 357
+            
+            - nameen: faster-rcnn_r50-caffe_fpn_1x_coco
+              namezh: faster-rcnn_r50-caffe_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4165
+              datasetA: 0.228
+              datasetB: 0.740
+              ranking: 358
+            
+            - nameen: fcos_r50-caffe_fpn_gn-head-center-normbbox-centeronreg-giou_1x_coco
+              namezh: fcos_r50-caffe_fpn_gn-head-center-normbbox-centeronreg-giou_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1460
+              datasetA: 0.228
+              datasetB: 0.727
+              ranking: 359
+            
+            - nameen: faster-rcnn_r50_fpn_giou_1x_coco
+              namezh: faster-rcnn_r50_fpn_giou_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2649
+              datasetA: 0.227
+              datasetB: 0.717
+              ranking: 360
+            
+            - nameen: faster-rcnn_r50_pafpn_1x_coco
+              namezh: faster-rcnn_r50_pafpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5690
+              datasetA: 0.227
+              datasetB: 0.794
+              ranking: 361
+            
+            - nameen: retinanet_regnetx-1.6GF_fpn_1x_coco
+              namezh: retinanet_regnetx-1.6GF_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1709
+              datasetA: 0.227
+              datasetB: 0.775
+              ranking: 362
+            
+            - nameen: faster-rcnn_r50_fpn_fp16_1x_coco
+              namezh: faster-rcnn_r50_fpn_fp16_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8906
+              datasetA: 0.226
+              datasetB: 0.745
+              ranking: 363
+            
+            - nameen: faster-rcnn_r50_fpn_1x_coco
+              namezh: faster-rcnn_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4061
+              datasetA: 0.224
+              datasetB: 0.791
+              ranking: 364
+            
+            - nameen: faster-rcnn_r50_fpn_bounded_iou_1x_coco
+              namezh: faster-rcnn_r50_fpn_bounded_iou_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1292
+              datasetA: 0.223
+              datasetB: 0.760
+              ranking: 365
+            
+            - nameen: reppoints-bbox_r50-center_fpn-gn_head-gn-grid_1x_coco
+              namezh: reppoints-bbox_r50-center_fpn-gn_head-gn-grid_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6404
+              datasetA: 0.222
+              datasetB: 0.703
+              ranking: 366
+            
+            - nameen: reppoints-bbox_r50_fpn-gn_head-gn-grid_1x_coco
+              namezh: reppoints-bbox_r50_fpn-gn_head-gn-grid_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6301
+              datasetA: 0.222
+              datasetB: 0.703
+              ranking: 367
+            
+            - nameen: retinanet_r50_fpn_ghm-1x_coco
+              namezh: retinanet_r50_fpn_ghm-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2218
+              datasetA: 0.222
+              datasetB: 0.736
+              ranking: 368
+            
+            - nameen: retinanet_r50_fpn_2x_coco
+              namezh: retinanet_r50_fpn_2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3308
+              datasetA: 0.221
+              datasetB: 0.685
+              ranking: 369
+            
+            - nameen: sabl-retinanet_r50_fpn_1x_coco
+              namezh: sabl-retinanet_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1946
+              datasetA: 0.221
+              datasetB: 0.776
+              ranking: 370
+            
+            - nameen: faster-rcnn_regnetx-400MF_fpn_ms-3x_coco
+              namezh: faster-rcnn_regnetx-400MF_fpn_ms-3x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1211
+              datasetA: 0.221
+              datasetB: 0.635
+              ranking: 371
+            
+            - nameen: fovea_r50_fpn_4xb4-2x_coco
+              namezh: fovea_r50_fpn_4xb4-2x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2856
+              datasetA: 0.218
+              datasetB: 0.753
+              ranking: 372
+            
+            - nameen: reppoints-moment_r50_fpn_1x_coco
+              namezh: reppoints-moment_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6062
+              datasetA: 0.218
+              datasetB: 0.766
+              ranking: 373
+            
+            - nameen: fsaf_r50_fpn_1x_coco
+              namezh: fsaf_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2876
+              datasetA: 0.217
+              datasetB: 0.708
+              ranking: 374
+            
+            - nameen: pisa_retinanet_r50_fpn_1x_coco
+              namezh: pisa_retinanet_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1316
+              datasetA: 0.217
+              datasetB: 0.751
+              ranking: 375
+            
+            - nameen: fcos_r50-caffe_fpn_gn-head_1x_coco
+              namezh: fcos_r50-caffe_fpn_gn-head_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8815
+              datasetA: 0.216
+              datasetB: 0.675
+              ranking: 376
+            
+            - nameen: fovea_r50_fpn_4xb4-1x_coco
+              namezh: fovea_r50_fpn_4xb4-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5143
+              datasetA: 0.216
+              datasetB: 0.699
+              ranking: 377
+            
+            - nameen: faster-rcnn_r50-caffe-c4_mstrain_1x_coco
+              namezh: faster-rcnn_r50-caffe-c4_mstrain_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2407
+              datasetA: 0.215
+              datasetB: 0.709
+              ranking: 378
+            
+            - nameen: retinanet_r50_fpn_1x_coco
+              namezh: retinanet_r50_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3327
+              datasetA: 0.215
+              datasetB: 0.680
+              ranking: 379
+            
+            - nameen: retinanet_regnetx-800MF_fpn_1x_coco
+              namezh: retinanet_regnetx-800MF_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4232
+              datasetA: 0.215
+              datasetB: 0.754
+              ranking: 380
+            
+            - nameen: retinanet_r50_fpn_amp-1x_coco
+              namezh: retinanet_r50_fpn_amp-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8676
+              datasetA: 0.214
+              datasetB: 0.782
+              ranking: 381
+            
+            - nameen: faster-rcnn_r50-caffe-c4_1x_coco
+              namezh: faster-rcnn_r50-caffe-c4_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4122
+              datasetA: 0.214
+              datasetB: 0.759
+              ranking: 382
+            
+            - nameen: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.1-coco.py
+              namezh: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.1-coco.py
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 6998
+              datasetA: 0.212
+              datasetB: 0.810
+              ranking: 383
+            
+            - nameen: retinanet_r50-caffe_fpn_1x_coco
+              namezh: retinanet_r50-caffe_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1558
+              datasetA: 0.210
+              datasetB: 0.728
+              ranking: 384
+            
+            - nameen: centernet_r18-dcnv2_8xb16-crop512-140e_coco
+              namezh: centernet_r18-dcnv2_8xb16-crop512-140e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9827
+              datasetA: 0.192
+              datasetB: 0.769
+              ranking: 385
+            
+            - nameen: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.05-coco.py
+              namezh: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.05-coco.py
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5387
+              datasetA: 0.191
+              datasetB: 0.789
+              ranking: 386
+            
+            - nameen: ssd512_coco
+              namezh: ssd512_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 5758
+              datasetA: 0.177
+              datasetB: 0.673
+              ranking: 387
+            
+            - nameen: retinanet_r18_fpn_1xb8-1x_coco
+              namezh: retinanet_r18_fpn_1xb8-1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 2087
+              datasetA: 0.176
+              datasetB: 0.712
+              ranking: 388
+            
+            - nameen: retinanet_r18_fpn_1x_coco
+              namezh: retinanet_r18_fpn_1x_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 8926
+              datasetA: 0.175
+              datasetB: 0.737
+              ranking: 389
+            
+            - nameen: centernet_r18_8xb16-crop512-140e_coco
+              namezh: centernet_r18_8xb16-crop512-140e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 1986
+              datasetA: 0.167
+              datasetB: 0.799
+              ranking: 390
+            
+            - nameen: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.02-coco.py
+              namezh: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.02-coco.py
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 4940
+              datasetA: 0.158
+              datasetB: 0.786
+              ranking: 391
+            
+            - nameen: ssd300_coco
+              namezh: ssd300_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 9952
+              datasetA: 0.145
+              datasetB: 0.705
+              ranking: 392
+            
+            - nameen: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.01-coco.py
+              namezh: soft-teacher_faster-rcnn_r50-caffe_fpn_180k_semi-0.01-coco.py
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 7269
+              datasetA: 0.130
+              datasetB: 0.839
+              ranking: 393
+            
+            - nameen: ssdlite_mobilenetv2-scratch_8xb24-600e_coco
+              namezh: ssdlite_mobilenetv2-scratch_8xb24-600e_coco
+              paper:
+                text: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+                link: 'https://github.com/open-mmlab/mmdetection/tree/main/configs'
+              download: 3090
+              datasetA: 0.106
+              datasetB: 0.590
+              ranking: 394
+            
             
         - titlezh: 实例分割
           titleen: Instance Segmentation - COCO
