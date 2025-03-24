@@ -6972,9 +6972,9 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/KNet?athId=36dcc0bba02bb32f43af76a927e050cf&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
                 link: >-
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/KNet?athId=36dcc0bba02bb32f43af76a927e050cf&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
-              download: 343
-              datasetA: '42.31'
-              datasetB: '0.6286'
+              download: 888
+              datasetA: '39.91'
+              datasetB: '27.67'
               ranking: '1'
             - nameen: >-
                 upernet_swin_large_patch4_window12_512x512_pretrain_384x384_22K_160k_ade20k
@@ -6985,9 +6985,9 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/UPerNet?athId=6eedb26553f6ddb295adee667149f722&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
                 link: >-
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/UPerNet?athId=6eedb26553f6ddb295adee667149f722&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
-              download: 1967
-              datasetA: '40.35'
-              datasetB: '0.5528'
+              download: 4932
+              datasetA: '39.78'
+              datasetB: '35.56'
               ranking: '2'
             - nameen: segformer_mit-b4_512x512_160k_ade20k
               namezh: segformer_mit-b4_512x512_160k_ade20k
@@ -6996,9 +6996,9 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/Segformer?athId=94937aa281ea263f6484a359dfa3ec4b&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
                 link: >-
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/Segformer?athId=94937aa281ea263f6484a359dfa3ec4b&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
-              download: 4600
-              datasetA: '36.88'
-              datasetB: '0.4756'
+              download: 5110
+              datasetA: '39.75'
+              datasetB: '48.01'
               ranking: '3'
             - nameen: setr_mla_512x512_160k_b16_ade20k
               namezh: setr_mla_512x512_160k_b16_ade20k
@@ -7007,9 +7007,9 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/SETR?athId=a0088b8a1527ee3e20b6241c2b66b496&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
                 link: >-
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/SETR?athId=a0088b8a1527ee3e20b6241c2b66b496&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
-              download: 3437
-              datasetA: '36.67'
-              datasetB: '0.5365'
+              download: 5806
+              datasetA: '39.62'
+              datasetB: '40.79'
               ranking: '4'
             - nameen: twins_svt-b_fpn_fpnhead_8x4_512x512_80k_ade20k
               namezh: twins_svt-b_fpn_fpnhead_8x4_512x512_80k_ade20k
@@ -7018,9 +7018,9 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/FPN?athId=7f617fa591d3dfd31fb2a9a7cc0ae8ba&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
                 link: >-
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/FPN?athId=7f617fa591d3dfd31fb2a9a7cc0ae8ba&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
-              download: 1503
-              datasetA: '31.82'
-              datasetB: '0.5073'
+              download: 7033
+              datasetA: '39.42'
+              datasetB: '22.80'
               ranking: '5'
             - nameen: dpt_vit-b16_512x512_160k_ade20k
               namezh: dpt_vit-b16_512x512_160k_ade20k
@@ -7029,9 +7029,9 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/DPT?athId=b2c699d0fddf59a4e952cecea08b1b8b&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
                 link: >-
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/DPT?athId=b2c699d0fddf59a4e952cecea08b1b8b&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
-              download: 1813
-              datasetA: '30.61'
-              datasetB: '0.4642'
+              download: 5535
+              datasetA: '39.40'
+              datasetB: '24.25'
               ranking: '6'
             - nameen: deeplabv3_r101-d8_512x512_160k_ade20k
               namezh: deeplabv3_r101-d8_512x512_160k_ade20k
@@ -7040,9 +7040,9 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/DeepLabV3?athId=6f315fcddecd0407b37cae1346078876&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
                 link: >-
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/DeepLabV3?athId=6f315fcddecd0407b37cae1346078876&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
-              download: 11112
-              datasetA: '30.4'
-              datasetB: '0.4265'
+              download: 5084
+              datasetA: '39.40'
+              datasetB: '48.16'
               ranking: '7'
             - nameen: fcn_hr48_512x512_160k_ade20k
               namezh: fcn_hr48_512x512_160k_ade20k
@@ -7051,9 +7051,9 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/FCN?athId=9cb4ee8cc5fee1e37d4418259aa76d81&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
                 link: >-
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/FCN?athId=9cb4ee8cc5fee1e37d4418259aa76d81&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
-              download: 52662
-              datasetA: '27.4'
-              datasetB: '0.4143'
+              download: 1103
+              datasetA: '39.39'
+              datasetB: '35.78'
               ranking: '8'
             - nameen: dnl_r50-d8_4xb4-160k_ade20k-512x512
               namezh: dnl_r50-d8_4xb4-160k_ade20k-512x512
@@ -7062,9 +7062,9 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/DNLNet?athId=e7a94769be0d3a1b41a6e067db8e0f5d&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
                 link: >-
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/DNLNet?athId=e7a94769be0d3a1b41a6e067db8e0f5d&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
-              download: 375
-              datasetA: '26.3'
-              datasetB: '0.4419'
+              download: 1957
+              datasetA: '39.29'
+              datasetB: '44.40'
               ranking: '9'
             - nameen: segmenter_vit-b_mask_8x1_512x512_160k_ade20k
               namezh: segmenter_vit-b_mask_8x1_512x512_160k_ade20k
@@ -7073,9 +7073,9 @@ blocks:
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/Segmenter?athId=0a8f2e1dccdce40c26a35ebe5b074f36&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
                 link: >-
                   https://platform.openmmlab.com/modelzoo/mmsegmentation/Segmenter?athId=0a8f2e1dccdce40c26a35ebe5b074f36&repo=mmsegmentation&repoNameId=aa8108d30b48600d2dd34b4b6ef93112&task=Semantic%20Segmentation
-              download: 1845
-              datasetA: '22.29'
-              datasetB: '0.6068'
+              download: 9498
+              datasetA: '39.27'
+              datasetB: '54.76'
               ranking: '10'
               
             - nameen: ann_r50-d8_4xb4-80k_ade20k-512x512
@@ -7083,1760 +7083,1760 @@ blocks:
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9536
+              datasetA: '39.12'
+              datasetB: '43.18'
+              ranking: '11'
             
             - nameen: ann_r101-d8_4xb4-80k_ade20k-512x512
               namezh: ann_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1759
+              datasetA: '39.11'
+              datasetB: '53.14'
+              ranking: '12'
             
             - nameen: ann_r50-d8_4xb4-160k_ade20k-512x512
               namezh: ann_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6248
+              datasetA: '39.10'
+              datasetB: '41.13'
+              ranking: '13'
             
             - nameen: ann_r101-d8_4xb4-160k_ade20k-512x512
               namezh: ann_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4232
+              datasetA: '39.10'
+              datasetB: '44.86'
+              ranking: '14'
             
             - nameen: apcnet_r50-d8_4xb4-80k_ade20k-512x512
               namezh: apcnet_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4648
+              datasetA: '38.95'
+              datasetB: '57.64'
+              ranking: '15'
             
             - nameen: apcnet_r101-d8_4xb4-80k_ade20k-512x512
               namezh: apcnet_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5377
+              datasetA: '38.93'
+              datasetB: '44.38'
+              ranking: '16'
             
             - nameen: apcnet_r50-d8_4xb4-160k_ade20k-512x512
               namezh: apcnet_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8915
+              datasetA: '38.90'
+              datasetB: '26.49'
+              ranking: '17'
             
             - nameen: apcnet_r101-d8_4xb4-160k_ade20k-512x512
               namezh: apcnet_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9670
+              datasetA: '38.89'
+              datasetB: '57.73'
+              ranking: '18'
             
             - nameen: beit-base_upernet_8xb2-160k_ade20k-640x640
               namezh: beit-base_upernet_8xb2-160k_ade20k-640x640
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8432
+              datasetA: '38.85'
+              datasetB: '21.74'
+              ranking: '19'
             
             - nameen: beit-large_upernet_8xb1-amp-160k_ade20k-640x640
               namezh: beit-large_upernet_8xb1-amp-160k_ade20k-640x640
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2378
+              datasetA: '38.76'
+              datasetB: '43.92'
+              ranking: '20'
             
             - nameen: ccnet_r50-d8_4xb4-80k_ade20k-512x512
               namezh: ccnet_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 484
+              datasetA: '38.74'
+              datasetB: '21.96'
+              ranking: '21'
             
             - nameen: ccnet_r101-d8_4xb4-80k_ade20k-512x512
               namezh: ccnet_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3850
+              datasetA: '38.72'
+              datasetB: '56.55'
+              ranking: '22'
             
             - nameen: ccnet_r50-d8_4xb4-160k_ade20k-512x512
               namezh: ccnet_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5157
+              datasetA: '38.60'
+              datasetB: '34.95'
+              ranking: '23'
             
             - nameen: ccnet_r101-d8_4xb4-160k_ade20k-512x512
               namezh: ccnet_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9032
+              datasetA: '38.57'
+              datasetB: '21.65'
+              ranking: '24'
             
             - nameen: convnext-tiny_upernet_8xb2-amp-160k_ade20k-512x512
               namezh: convnext-tiny_upernet_8xb2-amp-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6839
+              datasetA: '38.51'
+              datasetB: '32.47'
+              ranking: '25'
             
             - nameen: convnext-small_upernet_8xb2-amp-160k_ade20k-512x512
               namezh: convnext-small_upernet_8xb2-amp-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2489
+              datasetA: '38.31'
+              datasetB: '45.62'
+              ranking: '26'
             
             - nameen: convnext-base_upernet_8xb2-amp-160k_ade20k-512x512
               namezh: convnext-base_upernet_8xb2-amp-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2055
+              datasetA: '38.21'
+              datasetB: '39.88'
+              ranking: '27'
             
             - nameen: convnext-base_upernet_8xb2-amp-160k_ade20k-640x640
               namezh: convnext-base_upernet_8xb2-amp-160k_ade20k-640x640
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9670
+              datasetA: '38.16'
+              datasetB: '36.87'
+              ranking: '28'
             
             - nameen: convnext-large_upernet_8xb2-amp-160k_ade20k-640x640
               namezh: convnext-large_upernet_8xb2-amp-160k_ade20k-640x640
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1754
+              datasetA: '38.06'
+              datasetB: '58.22'
+              ranking: '29'
             
             - nameen: convnext-xlarge_upernet_8xb2-amp-160k_ade20k-640x640
               namezh: convnext-xlarge_upernet_8xb2-amp-160k_ade20k-640x640
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5371
+              datasetA: '37.89'
+              datasetB: '33.68'
+              ranking: '30'
             
             - nameen: danet_r50-d8_4xb4-80k_ade20k-512x512
               namezh: danet_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 448
+              datasetA: '37.83'
+              datasetB: '33.08'
+              ranking: '31'
             
             - nameen: danet_r101-d8_4xb4-80k_ade20k-512x512
               namezh: danet_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2622
+              datasetA: '37.78'
+              datasetB: '32.74'
+              ranking: '32'
             
             - nameen: danet_r50-d8_4xb4-160k_ade20k-512x512
               namezh: danet_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1840
+              datasetA: '37.62'
+              datasetB: '29.84'
+              ranking: '33'
             
             - nameen: danet_r101-d8_4xb4-160k_ade20k-512x512
               namezh: danet_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1116
+              datasetA: '37.43'
+              datasetB: '26.24'
+              ranking: '34'
             
             - nameen: deeplabv3_r50-d8_4xb4-80k_ade20k-512x512
               namezh: deeplabv3_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6265
+              datasetA: '37.38'
+              datasetB: '30.64'
+              ranking: '35'
             
             - nameen: deeplabv3_r101-d8_4xb4-80k_ade20k-512x512
               namezh: deeplabv3_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1451
+              datasetA: '37.13'
+              datasetB: '32.04'
+              ranking: '36'
             
             - nameen: deeplabv3_r50-d8_4xb4-160k_ade20k-512x512
               namezh: deeplabv3_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1367
+              datasetA: '37.06'
+              datasetB: '53.90'
+              ranking: '37'
             
             - nameen: deeplabv3_r101-d8_4xb4-160k_ade20k-512x512
               namezh: deeplabv3_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5705
+              datasetA: '36.96'
+              datasetB: '58.75'
+              ranking: '38'
             
             - nameen: deeplabv3plus_r50-d8_4xb4-80k_ade20k-512x512
               namezh: deeplabv3plus_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2942
+              datasetA: '36.81'
+              datasetB: '22.38'
+              ranking: '39'
             
             - nameen: deeplabv3plus_r101-d8_4xb4-160k_ade20k-512x512
               namezh: deeplabv3plus_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1670
+              datasetA: '36.52'
+              datasetB: '55.86'
+              ranking: '40'
             
             - nameen: deeplabv3plus_r50-d8_4xb4-160k_ade20k-512x512
               namezh: deeplabv3plus_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1194
+              datasetA: '36.43'
+              datasetB: '56.89'
+              ranking: '41'
             
             - nameen: deeplabv3plus_r101-d8_4xb4-160k_ade20k-512x512
               namezh: deeplabv3plus_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3042
+              datasetA: '36.40'
+              datasetB: '25.02'
+              ranking: '42'
             
             - nameen: dmnet_r50-d8_4xb4-80k_ade20k-512x512
               namezh: dmnet_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4130
+              datasetA: '36.23'
+              datasetB: '34.50'
+              ranking: '43'
             
             - nameen: dmnet_r101-d8_4xb4-80k_ade20k-512x512
               namezh: dmnet_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9327
+              datasetA: '36.17'
+              datasetB: '46.88'
+              ranking: '44'
             
             - nameen: dmnet_r50-d8_4xb4-160k_ade20k-512x512
               namezh: dmnet_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4252
+              datasetA: '36.15'
+              datasetB: '34.71'
+              ranking: '45'
             
             - nameen: dmnet_r101-d8_4xb4-160k_ade20k-512x512
               namezh: dmnet_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7667
+              datasetA: '35.99'
+              datasetB: '48.05'
+              ranking: '46'
             
             - nameen: dnl_r50-d8_4xb4-80k_ade20k-512x512
               namezh: dnl_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9786
+              datasetA: '35.93'
+              datasetB: '32.24'
+              ranking: '47'
             
             - nameen: dnl_r101-d8_4xb4-80k_ade20k-512x512
               namezh: dnl_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9293
+              datasetA: '35.78'
+              datasetB: '44.22'
+              ranking: '48'
             
             - nameen: dnl_r50-d8_4xb4-160k_ade20k-512x512
               namezh: dnl_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5180
+              datasetA: '35.74'
+              datasetB: '32.93'
+              ranking: '49'
             
             - nameen: dnl_r101-d8_4xb4-160k_ade20k-512x512
               namezh: dnl_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1010
+              datasetA: '35.74'
+              datasetB: '56.91'
+              ranking: '50'
             
             - nameen: dpt_vit-b16_8xb2-160k_ade20k-512x512
               namezh: dpt_vit-b16_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8271
+              datasetA: '35.69'
+              datasetB: '22.07'
+              ranking: '51'
             
             - nameen: encnet_r50-d8_4xb4-80k_ade20k-512x512
               namezh: encnet_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5956
+              datasetA: '35.65'
+              datasetB: '44.95'
+              ranking: '52'
             
             - nameen: encnet_r101-d8_4xb4-80k_ade20k-512x512
               namezh: encnet_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9795
+              datasetA: '35.33'
+              datasetB: '50.23'
+              ranking: '53'
             
             - nameen: encnet_r50-d8_4xb4-160k_ade20k-512x512
               namezh: encnet_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7796
+              datasetA: '35.15'
+              datasetB: '53.70'
+              ranking: '54'
             
             - nameen: encnet_r101-d8_4xb4-160k_ade20k-512x512
               namezh: encnet_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3533
+              datasetA: '34.72'
+              datasetB: '22.20'
+              ranking: '55'
             
             - nameen: fastfcn_r50-d32_jpu_aspp_4xb4-80k_ade20k-512x512
               namezh: fastfcn_r50-d32_jpu_aspp_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3470
+              datasetA: '34.54'
+              datasetB: '39.82'
+              ranking: '56'
             
             - nameen: fastfcn_r50-d32_jpu_aspp_4xb4-160k_ade20k-512x512
               namezh: fastfcn_r50-d32_jpu_aspp_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1591
+              datasetA: '34.53'
+              datasetB: '50.05'
+              ranking: '57'
             
             - nameen: fastfcn_r50-d32_jpu_psp_4xb4-80k_ade20k-512x512
               namezh: fastfcn_r50-d32_jpu_psp_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8865
+              datasetA: '34.37'
+              datasetB: '36.93'
+              ranking: '58'
             
             - nameen: fastfcn_r50-d32_jpu_psp_4xb4-160k_ade20k-512x512
               namezh: fastfcn_r50-d32_jpu_psp_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7112
+              datasetA: '34.25'
+              datasetB: '46.80'
+              ranking: '59'
             
             - nameen: fastfcn_r50-d32_jpu_enc_4xb4-80k_ade20k-512x512
               namezh: fastfcn_r50-d32_jpu_enc_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3669
+              datasetA: '34.11'
+              datasetB: '43.87'
+              ranking: '60'
             
             - nameen: fastfcn_r50-d32_jpu_enc_4xb4-160k_ade20k-512x512
               namezh: fastfcn_r50-d32_jpu_enc_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6932
+              datasetA: '33.96'
+              datasetB: '44.91'
+              ranking: '61'
             
             - nameen: fcn_r50-d8_4xb4-80k_ade20k-512x512
               namezh: fcn_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6425
+              datasetA: '33.92'
+              datasetB: '24.13'
+              ranking: '62'
             
             - nameen: fcn_r101-d8_4xb4-80k_ade20k-512x512
               namezh: fcn_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9436
+              datasetA: '33.81'
+              datasetB: '40.36'
+              ranking: '63'
             
             - nameen: fcn_r50-d8_4xb4-160k_ade20k-512x512
               namezh: fcn_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2624
+              datasetA: '33.58'
+              datasetB: '49.62'
+              ranking: '64'
             
             - nameen: fcn_r101-d8_4xb4-160k_ade20k-512x512
               namezh: fcn_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3665
+              datasetA: '33.58'
+              datasetB: '45.01'
+              ranking: '65'
             
             - nameen: gcnet_r50-d8_4xb4-80k_ade20k-512x512
               namezh: gcnet_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5500
+              datasetA: '33.53'
+              datasetB: '48.92'
+              ranking: '66'
             
             - nameen: gcnet_r101-d8_4xb4-80k_ade20k-512x512
               namezh: gcnet_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7080
+              datasetA: '33.04'
+              datasetB: '56.64'
+              ranking: '67'
             
             - nameen: gcnet_r50-d8_4xb4-160k_ade20k-512x512
               namezh: gcnet_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1845
+              datasetA: '32.88'
+              datasetB: '45.55'
+              ranking: '68'
             
             - nameen: gcnet_r101-d8_4xb4-160k_ade20k-512x512
               namezh: gcnet_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5528
+              datasetA: '32.81'
+              datasetB: '34.88'
+              ranking: '69'
             
             - nameen: fcn_hr18s_4xb4-80k_ade20k-512x512
               namezh: fcn_hr18s_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9079
+              datasetA: '32.75'
+              datasetB: '46.89'
+              ranking: '70'
             
             - nameen: fcn_hr18_4xb4-80k_ade20k-512x512
               namezh: fcn_hr18_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9100
+              datasetA: '32.72'
+              datasetB: '21.55'
+              ranking: '71'
             
             - nameen: fcn_hr48_4xb4-80k_ade20k-512x512
               namezh: fcn_hr48_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9815
+              datasetA: '32.58'
+              datasetB: '28.38'
+              ranking: '72'
             
             - nameen: fcn_hr18s_4xb4-160k_ade20k-512x512
               namezh: fcn_hr18s_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 226
+              datasetA: '32.56'
+              datasetB: '39.01'
+              ranking: '73'
             
             - nameen: fcn_hr18_4xb4-160k_ade20k-512x512
               namezh: fcn_hr18_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3208
+              datasetA: '32.54'
+              datasetB: '24.18'
+              ranking: '74'
             
             - nameen: fcn_hr48_4xb4-160k_ade20k-512x512
               namezh: fcn_hr48_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7700
+              datasetA: '32.35'
+              datasetB: '27.77'
+              ranking: '75'
             
             - nameen: isanet_r50-d8_4xb4-80k_ade20k-512x512
               namezh: isanet_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 313
+              datasetA: '32.27'
+              datasetB: '48.99'
+              ranking: '76'
             
             - nameen: isanet_r50-d8_4xb4-160k_ade20k-512x512
               namezh: isanet_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1322
+              datasetA: '32.15'
+              datasetB: '28.62'
+              ranking: '77'
             
             - nameen: isanet_r101-d8_4xb4-80k_ade20k-512x512
               namezh: isanet_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5798
+              datasetA: '32.06'
+              datasetB: '25.30'
+              ranking: '78'
             
             - nameen: isanet_r101-d8_4xb4-160k_ade20k-512x512
               namezh: isanet_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1343
+              datasetA: '32.02'
+              datasetB: '27.26'
+              ranking: '79'
             
             - nameen: knet-s3_r50-d8_fcn_8xb2-adamw-80k_ade20k-512x512
               namezh: knet-s3_r50-d8_fcn_8xb2-adamw-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3523
+              datasetA: '32.01'
+              datasetB: '51.19'
+              ranking: '80'
             
             - nameen: knet-s3_r50-d8_pspnet_8xb2-adamw-80k_ade20k-512x512
               namezh: knet-s3_r50-d8_pspnet_8xb2-adamw-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7819
+              datasetA: '31.99'
+              datasetB: '26.08'
+              ranking: '81'
             
             - nameen: knet-s3_r50-d8_deeplabv3_8xb2-adamw-80k_ade20k-512x512
               namezh: knet-s3_r50-d8_deeplabv3_8xb2-adamw-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1788
+              datasetA: '31.92'
+              datasetB: '40.56'
+              ranking: '82'
             
             - nameen: knet-s3_r50-d8_upernet_8xb2-adamw-80k_ade20k-512x512
               namezh: knet-s3_r50-d8_upernet_8xb2-adamw-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1117
+              datasetA: '31.91'
+              datasetB: '24.83'
+              ranking: '83'
             
             - nameen: knet-s3_swin-t_upernet_8xb2-adamw-80k_ade20k-512x512
               namezh: knet-s3_swin-t_upernet_8xb2-adamw-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3303
+              datasetA: '31.66'
+              datasetB: '32.96'
+              ranking: '84'
             
             - nameen: knet-s3_swin-l_upernet_8xb2-adamw-80k_ade20k-512x512
               namezh: knet-s3_swin-l_upernet_8xb2-adamw-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9478
+              datasetA: '31.25'
+              datasetB: '48.30'
+              ranking: '85'
             
             - nameen: knet-s3_swin-l_upernet_8xb2-adamw-80k_ade20k-640x640
               namezh: knet-s3_swin-l_upernet_8xb2-adamw-80k_ade20k-640x640
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7142
+              datasetA: '31.15'
+              datasetB: '54.76'
+              ranking: '86'
             
             - nameen: mae-base_upernet_8xb2-amp-160k_ade20k-512x512
               namezh: mae-base_upernet_8xb2-amp-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5791
+              datasetA: '31.15'
+              datasetB: '58.91'
+              ranking: '87'
             
             - nameen: mask2former_r50_8xb2-160k_ade20k-512x512
               namezh: mask2former_r50_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2203
+              datasetA: '31.13'
+              datasetB: '56.20'
+              ranking: '88'
             
             - nameen: mask2former_r101_8xb2-160k_ade20k-512x512
               namezh: mask2former_r101_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4989
+              datasetA: '30.95'
+              datasetB: '32.84'
+              ranking: '89'
             
             - nameen: mask2former_swin-t_8xb2-160k_ade20k-512x512
               namezh: mask2former_swin-t_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5906
+              datasetA: '30.92'
+              datasetB: '50.36'
+              ranking: '90'
             
             - nameen: mask2former_swin-s_8xb2-160k_ade20k-512x512
               namezh: mask2former_swin-s_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2738
+              datasetA: '30.79'
+              datasetB: '32.26'
+              ranking: '91'
             
             - nameen: mask2former_swin-b-in1k-384x384-pre_8xb2-160k_ade20k-640x640
               namezh: mask2former_swin-b-in1k-384x384-pre_8xb2-160k_ade20k-640x640
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6779
+              datasetA: '30.75'
+              datasetB: '59.78'
+              ranking: '92'
             
             - nameen: mask2former_swin-b-in22k-384x384-pre_8xb2-160k_ade20k-640x640
               namezh: mask2former_swin-b-in22k-384x384-pre_8xb2-160k_ade20k-640x640
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2904
+              datasetA: '30.59'
+              datasetB: '34.29'
+              ranking: '93'
             
             - nameen: mask2former_swin-l-in22k-384x384-pre_8xb2-160k_ade20k-640x640
               namezh: mask2former_swin-l-in22k-384x384-pre_8xb2-160k_ade20k-640x640
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8167
+              datasetA: '30.42'
+              datasetB: '32.11'
+              ranking: '94'
             
             - nameen: maskformer_r50-d32_8xb2-160k_ade20k-512x512
               namezh: maskformer_r50-d32_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3840
+              datasetA: '30.40'
+              datasetB: '33.50'
+              ranking: '95'
             
             - nameen: maskformer_r101-d32_8xb2-160k_ade20k-512x512
               namezh: maskformer_r101-d32_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4812
+              datasetA: '30.30'
+              datasetB: '40.82'
+              ranking: '96'
             
             - nameen: maskformer_swin-t_upernet_8xb2-160k_ade20k-512x512
               namezh: maskformer_swin-t_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7426
+              datasetA: '30.18'
+              datasetB: '22.26'
+              ranking: '97'
             
             - nameen: maskformer_swin-s_upernet_8xb2-160k_ade20k-512x512
               namezh: maskformer_swin-s_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 100
+              datasetA: '30.04'
+              datasetB: '23.20'
+              ranking: '98'
             
             - nameen: mobilenet-v2-d8_fcn_4xb4-160k_ade20k-512x512
               namezh: mobilenet-v2-d8_fcn_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8117
+              datasetA: '29.99'
+              datasetB: '31.15'
+              ranking: '99'
             
             - nameen: mobilenet-v2-d8_pspnet_4xb4-160k_ade20k-512x512
               namezh: mobilenet-v2-d8_pspnet_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7332
+              datasetA: '29.97'
+              datasetB: '26.92'
+              ranking: '100'
             
             - nameen: mobilenet-v2-d8_deeplabv3_4xb4-160k_ade20k-512x512
               namezh: mobilenet-v2-d8_deeplabv3_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3987
+              datasetA: '29.95'
+              datasetB: '29.09'
+              ranking: '101'
             
             - nameen: mobilenet-v2-d8_deeplabv3plus_4xb4-160k_ade20k-512x512
               namezh: mobilenet-v2-d8_deeplabv3plus_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7958
+              datasetA: '29.88'
+              datasetB: '47.61'
+              ranking: '102'
             
             - nameen: nonlocal_r50-d8_4xb4-80k_ade20k-512x512
               namezh: nonlocal_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2597
+              datasetA: '29.86'
+              datasetB: '37.72'
+              ranking: '103'
             
             - nameen: nonlocal_r101-d8_4xb4-80k_ade20k-512x512
               namezh: nonlocal_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5464
+              datasetA: '29.72'
+              datasetB: '47.36'
+              ranking: '104'
             
             - nameen: nonlocal_r50-d8_4xb4-160k_ade20k-512x512
               namezh: nonlocal_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4260
+              datasetA: '29.62'
+              datasetB: '57.50'
+              ranking: '105'
             
             - nameen: nonlocal_r101-d8_4xb4-160k_ade20k-512x512
               namezh: nonlocal_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4264
+              datasetA: '29.53'
+              datasetB: '56.91'
+              ranking: '106'
             
             - nameen: ocrnet_hr18s_4xb4-80k_ade20k-512x512
               namezh: ocrnet_hr18s_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8712
+              datasetA: '29.51'
+              datasetB: '31.71'
+              ranking: '107'
             
             - nameen: ocrnet_hr18_4xb4-80k_ade20k-512x512
               namezh: ocrnet_hr18_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3046
+              datasetA: '29.50'
+              datasetB: '38.51'
+              ranking: '108'
             
             - nameen: ocrnet_hr48_4xb4-80k_ade20k-512x512
               namezh: ocrnet_hr48_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7899
+              datasetA: '29.41'
+              datasetB: '39.37'
+              ranking: '109'
             
             - nameen: ocrnet_hr18s_4xb4-80k_ade20k-512x512
               namezh: ocrnet_hr18s_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6857
+              datasetA: '29.37'
+              datasetB: '22.70'
+              ranking: '110'
             
             - nameen: ocrnet_hr18_4xb4-80k_ade20k-512x512
               namezh: ocrnet_hr18_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6008
+              datasetA: '29.35'
+              datasetB: '58.52'
+              ranking: '111'
             
             - nameen: ocrnet_hr48_4xb4-160k_ade20k-512x512
               namezh: ocrnet_hr48_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8255
+              datasetA: '29.31'
+              datasetB: '37.20'
+              ranking: '112'
             
             - nameen: pointrend_r50_4xb4-160k_ade20k-512x512
               namezh: pointrend_r50_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8768
+              datasetA: '29.25'
+              datasetB: '20.29'
+              ranking: '113'
             
             - nameen: pointrend_r101_4xb4-160k_ade20k-512x512
               namezh: pointrend_r101_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3930
+              datasetA: '29.16'
+              datasetB: '42.36'
+              ranking: '114'
             
             - nameen: fpn_poolformer_s12_8xb4-40k_ade20k-512x512
               namezh: fpn_poolformer_s12_8xb4-40k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3331
+              datasetA: '28.91'
+              datasetB: '37.94'
+              ranking: '115'
             
             - nameen: fpn_poolformer_s24_8xb4-40k_ade20k-512x512
               namezh: fpn_poolformer_s24_8xb4-40k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 200
+              datasetA: '28.90'
+              datasetB: '25.23'
+              ranking: '116'
             
             - nameen: fpn_poolformer_s36_8xb4-40k_ade20k-512x512
               namezh: fpn_poolformer_s36_8xb4-40k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3770
+              datasetA: '28.54'
+              datasetB: '22.69'
+              ranking: '117'
             
             - nameen: fpn_poolformer_m36_8xb4-40k_ade20k-512x512
               namezh: fpn_poolformer_m36_8xb4-40k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6086
+              datasetA: '28.46'
+              datasetB: '59.84'
+              ranking: '118'
             
             - nameen: fpn_poolformer_m48_8xb4-40k_ade20k-512x512
               namezh: fpn_poolformer_m48_8xb4-40k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7379
+              datasetA: '28.34'
+              datasetB: '30.67'
+              ranking: '119'
             
             - nameen: psanet_r50-d8_4xb4-80k_ade20k-512x512
               namezh: psanet_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9339
+              datasetA: '28.18'
+              datasetB: '42.42'
+              ranking: '120'
             
             - nameen: psanet_r101-d8_4xb4-80k_ade20k-512x512
               namezh: psanet_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9930
+              datasetA: '27.96'
+              datasetB: '41.57'
+              ranking: '121'
             
             - nameen: psanet_r50-d8_4xb4-160k_ade20k-512x512
               namezh: psanet_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2349
+              datasetA: '27.95'
+              datasetB: '36.87'
+              ranking: '122'
             
             - nameen: psanet_r101-d8_4xb4-160k_ade20k-512x512
               namezh: psanet_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9530
+              datasetA: '27.60'
+              datasetB: '28.22'
+              ranking: '123'
             
             - nameen: pspnet_r50-d8_4xb4-80k_ade20k-512x512
               namezh: pspnet_r50-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3275
+              datasetA: '27.59'
+              datasetB: '29.99'
+              ranking: '124'
             
             - nameen: pspnet_r101-d8_4xb4-80k_ade20k-512x512
               namezh: pspnet_r101-d8_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7846
+              datasetA: '27.44'
+              datasetB: '23.20'
+              ranking: '125'
             
             - nameen: pspnet_r50-d8_4xb4-160k_ade20k-512x512
               namezh: pspnet_r50-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6204
+              datasetA: '27.36'
+              datasetB: '31.27'
+              ranking: '126'
             
             - nameen: pspnet_r101-d8_4xb4-160k_ade20k-512x512
               namezh: pspnet_r101-d8_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4471
+              datasetA: '27.31'
+              datasetB: '48.92'
+              ranking: '127'
             
             - nameen: resnest_s101-d8_fcn_4xb4-160k_ade20k-512x512
               namezh: resnest_s101-d8_fcn_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8326
+              datasetA: '27.21'
+              datasetB: '55.38'
+              ranking: '128'
             
             - nameen: resnest_s101-d8_pspnet_4xb4-160k_ade20k-512x512
               namezh: resnest_s101-d8_pspnet_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4284
+              datasetA: '27.05'
+              datasetB: '40.90'
+              ranking: '129'
             
             - nameen: resnest_s101-d8_deeplabv3_4xb4-160k_ade20k-512x512
               namezh: resnest_s101-d8_deeplabv3_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4842
+              datasetA: '26.84'
+              datasetB: '55.94'
+              ranking: '130'
             
             - nameen: resnest_s101-d8_deeplabv3plus_4xb4-160k_ade20k-512x512
               namezh: resnest_s101-d8_deeplabv3plus_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1542
+              datasetA: '26.70'
+              datasetB: '20.27'
+              ranking: '131'
             
             - nameen: segformer_mit-b0_8xb2-160k_ade20k-512x512
               namezh: segformer_mit-b0_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4754
+              datasetA: '26.67'
+              datasetB: '28.21'
+              ranking: '132'
             
             - nameen: segformer_mit-b1_8xb2-160k_ade20k-512x512
               namezh: segformer_mit-b1_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4587
+              datasetA: '26.58'
+              datasetB: '41.05'
+              ranking: '133'
             
             - nameen: segformer_mit-b2_8xb2-160k_ade20k-512x512
               namezh: segformer_mit-b2_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 735
+              datasetA: '26.53'
+              datasetB: '52.32'
+              ranking: '134'
             
             - nameen: segformer_mit-b3_8xb2-160k_ade20k-512x512
               namezh: segformer_mit-b3_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 9396
+              datasetA: '26.06'
+              datasetB: '33.07'
+              ranking: '135'
             
             - nameen: segformer_mit-b4_8xb2-160k_ade20k-512x512
               namezh: segformer_mit-b4_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8993
+              datasetA: '25.90'
+              datasetB: '36.44'
+              ranking: '136'
             
             - nameen: segformer_mit-b5_8xb2-160k_ade20k-512x512
               namezh: segformer_mit-b5_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4772
+              datasetA: '25.70'
+              datasetB: '33.30'
+              ranking: '137'
             
             - nameen: segformer_mit-b5_8xb2-160k_ade20k-640x640
               namezh: segformer_mit-b5_8xb2-160k_ade20k-640x640
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3937
+              datasetA: '25.49'
+              datasetB: '32.74'
+              ranking: '138'
             
             - nameen: segmenter_vit-t_mask_8xb1-160k_ade20k-512x512
               namezh: segmenter_vit-t_mask_8xb1-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3259
+              datasetA: '25.33'
+              datasetB: '55.34'
+              ranking: '139'
             
             - nameen: segmenter_vit-s_fcn_8xb1-160k_ade20k-512x512
               namezh: segmenter_vit-s_fcn_8xb1-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 385
+              datasetA: '25.23'
+              datasetB: '49.66'
+              ranking: '140'
             
             - nameen: segmenter_vit-s_mask_8xb1-160k_ade20k-512x512
               namezh: segmenter_vit-s_mask_8xb1-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3950
+              datasetA: '25.11'
+              datasetB: '28.30'
+              ranking: '141'
             
             - nameen: segmenter_vit-b_mask_8xb1-160k_ade20k-512x512
               namezh: segmenter_vit-b_mask_8xb1-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8969
+              datasetA: '25.02'
+              datasetB: '43.94'
+              ranking: '142'
             
             - nameen: segmenter_vit-l_mask_8xb1-160k_ade20k-512x512
               namezh: segmenter_vit-l_mask_8xb1-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8045
+              datasetA: '24.99'
+              datasetB: '37.75'
+              ranking: '143'
             
             - nameen: segnext_mscan-t_1xb16-adamw-160k_ade20k-512x512
               namezh: segnext_mscan-t_1xb16-adamw-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6660
+              datasetA: '24.98'
+              datasetB: '31.03'
+              ranking: '144'
             
             - nameen: segnext_mscan-s_1xb16-adamw-160k_ade20k-512x512
               namezh: segnext_mscan-s_1xb16-adamw-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1992
+              datasetA: '24.93'
+              datasetB: '33.09'
+              ranking: '145'
             
             - nameen: segnext_mscan-b_1xb16-adamw-160k_ade20k-512x512
               namezh: segnext_mscan-b_1xb16-adamw-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8335
+              datasetA: '24.78'
+              datasetB: '30.34'
+              ranking: '146'
             
             - nameen: segnext_mscan-l_1xb16-adamw-160k_ade20k-512x512
               namezh: segnext_mscan-l_1xb16-adamw-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 354
+              datasetA: '24.73'
+              datasetB: '46.49'
+              ranking: '147'
             
             - nameen: fpn_r50_4xb4-160k_ade20k-512x512
               namezh: fpn_r50_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8143
+              datasetA: '24.48'
+              datasetB: '21.27'
+              ranking: '148'
             
             - nameen: fpn_r101_4xb4-160k_ade20k-512x512
               namezh: fpn_r101_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4603
+              datasetA: '24.47'
+              datasetB: '34.05'
+              ranking: '149'
             
             - nameen: setr_vit-l_naive_8xb2-160k_ade20k-512x512
               namezh: setr_vit-l_naive_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1863
+              datasetA: '24.40'
+              datasetB: '48.51'
+              ranking: '150'
             
             - nameen: setr_vit-l_pup_8xb2-160k_ade20k-512x512
               namezh: setr_vit-l_pup_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6187
+              datasetA: '24.38'
+              datasetB: '30.98'
+              ranking: '151'
             
             - nameen: setr_vit-l-mla_8xb1-160k_ade20k-512x512
               namezh: setr_vit-l-mla_8xb1-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6735
+              datasetA: '24.24'
+              datasetB: '42.25'
+              ranking: '152'
             
             - nameen: setr_vit-l_mla_8xb2-160k_ade20k-512x512
               namezh: setr_vit-l_mla_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1083
+              datasetA: '24.01'
+              datasetB: '23.76'
+              ranking: '153'
             
             - nameen: swin-tiny-patch4-window7-in1k-pre_upernet_8xb2-160k_ade20k-512x512
               namezh: swin-tiny-patch4-window7-in1k-pre_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5885
+              datasetA: '23.90'
+              datasetB: '41.18'
+              ranking: '154'
             
             - nameen: swin-small-patch4-window7-in1k-pre_upernet_8xb2-160k_ade20k-512x512
               namezh: swin-small-patch4-window7-in1k-pre_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5104
+              datasetA: '23.65'
+              datasetB: '20.37'
+              ranking: '155'
             
             - nameen: swin-base-patch4-window7-in1k-pre_upernet_8xb2-160k_ade20k-512x512
               namezh: swin-base-patch4-window7-in1k-pre_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8781
+              datasetA: '23.62'
+              datasetB: '47.75'
+              ranking: '156'
             
             - nameen: swin-base-patch4-window7-in22k-pre_upernet_8xb2-160k_ade20k-512x512
               namezh: swin-base-patch4-window7-in22k-pre_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3476
+              datasetA: '23.54'
+              datasetB: '31.75'
+              ranking: '157'
             
             - nameen: swin-base-patch4-window12-in1k-384x384-pre_upernet_8xb2-160k_ade20k-512x512
               namezh: swin-base-patch4-window12-in1k-384x384-pre_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7881
+              datasetA: '23.48'
+              datasetB: '38.84'
+              ranking: '158'
             
             - nameen: swin-base-patch4-window12-in22k-384x384-pre_upernet_8xb2-160k_ade20k-512x512
               namezh: swin-base-patch4-window12-in22k-384x384-pre_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2851
+              datasetA: '23.41'
+              datasetB: '48.99'
+              ranking: '159'
             
             - nameen: twins_pcpvt-s_fpn_fpnhead_8xb4-80k_ade20k-512x512
               namezh: twins_pcpvt-s_fpn_fpnhead_8xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 322
+              datasetA: '23.30'
+              datasetB: '48.12'
+              ranking: '160'
             
             - nameen: twins_pcpvt-s_uperhead_8xb4-160k_ade20k-512x512
               namezh: twins_pcpvt-s_uperhead_8xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1106
+              datasetA: '23.21'
+              datasetB: '40.53'
+              ranking: '161'
             
             - nameen: twins_pcpvt-b_fpn_fpnhead_8xb4-80k_ade20k-512x512
               namezh: twins_pcpvt-b_fpn_fpnhead_8xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8255
+              datasetA: '23.07'
+              datasetB: '30.62'
+              ranking: '162'
             
             - nameen: twins_pcpvt-b_uperhead_8xb2-160k_ade20k-512x512
               namezh: twins_pcpvt-b_uperhead_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 549
+              datasetA: '22.96'
+              datasetB: '34.95'
+              ranking: '163'
             
             - nameen: twins_pcpvt-l_fpn_fpnhead_8xb4-80k_ade20k-512x512
               namezh: twins_pcpvt-l_fpn_fpnhead_8xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8558
+              datasetA: '22.75'
+              datasetB: '34.30'
+              ranking: '164'
             
             - nameen: twins_pcpvt-l_uperhead_8xb2-160k_ade20k-512x512
               namezh: twins_pcpvt-l_uperhead_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4589
+              datasetA: '22.62'
+              datasetB: '33.82'
+              ranking: '165'
             
             - nameen: twins_svt-s_fpn_fpnhead_8xb4-80k_ade20k-512x512
               namezh: twins_svt-s_fpn_fpnhead_8xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8916
+              datasetA: '22.58'
+              datasetB: '43.95'
+              ranking: '166'
             
             - nameen: twins_svt-s_uperhead_8xb2-160k_ade20k-512x512
               namezh: twins_svt-s_uperhead_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4721
+              datasetA: '22.50'
+              datasetB: '36.09'
+              ranking: '167'
             
             - nameen: twins_svt-b_fpn_fpnhead_8xb4-80k_ade20k-512x512
               namezh: twins_svt-b_fpn_fpnhead_8xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8636
+              datasetA: '22.21'
+              datasetB: '31.85'
+              ranking: '168'
             
             - nameen: twins_svt-b_uperhead_8xb2-160k_ade20k-512x512
               namezh: twins_svt-b_uperhead_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 344
+              datasetA: '21.84'
+              datasetB: '32.64'
+              ranking: '169'
             
             - nameen: twins_svt-l_fpn_fpnhead_8xb4-80k_ade20k-512x512
               namezh: twins_svt-l_fpn_fpnhead_8xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3559
+              datasetA: '21.65'
+              datasetB: '48.65'
+              ranking: '170'
             
             - nameen: twins_pcpvt-l_uperhead_8xb2-160k_ade20k-512x512
               namezh: twins_pcpvt-l_uperhead_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2103
+              datasetA: '21.60'
+              datasetB: '29.17'
+              ranking: '171'
             
             - nameen: upernet_r50_4xb4-80k_ade20k-512x512
               namezh: upernet_r50_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3111
+              datasetA: '21.54'
+              datasetB: '25.67'
+              ranking: '172'
             
             - nameen: upernet_r101_4xb4-80k_ade20k-512x512
               namezh: upernet_r101_4xb4-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2391
+              datasetA: '21.51'
+              datasetB: '54.21'
+              ranking: '173'
             
             - nameen: upernet_r50_4xb4-160k_ade20k-512x512
               namezh: upernet_r50_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2430
+              datasetA: '21.51'
+              datasetB: '26.67'
+              ranking: '174'
             
             - nameen: upernet_r101_4xb4-160k_ade20k-512x512
               namezh: upernet_r101_4xb4-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8901
+              datasetA: '21.50'
+              datasetB: '51.96'
+              ranking: '175'
             
             - nameen: vit_vit-b16_mln_upernet_8xb2-80k_ade20k-512x512
               namezh: vit_vit-b16_mln_upernet_8xb2-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5313
+              datasetA: '21.28'
+              datasetB: '52.88'
+              ranking: '176'
             
             - nameen: vit_vit-b16_mln_upernet_8xb2-160k_ade20k-512x512
               namezh: vit_vit-b16_mln_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6854
+              datasetA: '20.86'
+              datasetB: '30.22'
+              ranking: '177'
             
             - nameen: vit_vit-b16-ln_mln_upernet_8xb2-160k_ade20k-512x512
               namezh: vit_vit-b16-ln_mln_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 4166
+              datasetA: '20.54'
+              datasetB: '48.19'
+              ranking: '178'
             
             - nameen: vit_deit-s16_upernet_8xb2-80k_ade20k-512x512
               namezh: vit_deit-s16_upernet_8xb2-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 5716
+              datasetA: '20.47'
+              datasetB: '57.86'
+              ranking: '179'
             
             - nameen: vit_deit-s16_upernet_8xb2-160k_ade20k-512x512
               namezh: vit_deit-s16_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 6261
+              datasetA: '20.45'
+              datasetB: '34.90'
+              ranking: '180'
             
             - nameen: vit_deit-s16_mln_upernet_8xb2-160k_ade20k-512x512
               namezh: vit_deit-s16_mln_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 8326
+              datasetA: '20.44'
+              datasetB: '40.42'
+              ranking: '181'
             
             - nameen: vit_deit-s16-ln_mln_upernet_8xb2-160k_ade20k-512x512
               namezh: vit_deit-s16-ln_mln_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 1447
+              datasetA: '20.36'
+              datasetB: '27.46'
+              ranking: '182'
             
             - nameen: vit_deit-b16_upernet_8xb2-80k_ade20k-512x512
               namezh: vit_deit-b16_upernet_8xb2-80k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 3112
+              datasetA: '20.35'
+              datasetB: '34.98'
+              ranking: '183'
             
             - nameen: vit_deit-b16_upernet_8xb2-160k_ade20k-512x512
               namezh: vit_deit-b16_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 889
+              datasetA: '20.33'
+              datasetB: '35.19'
+              ranking: '184'
             
             - nameen: vit_deit-b16_mln_upernet_8xb2-160k_ade20k-512x512
               namezh: vit_deit-b16_mln_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 2322
+              datasetA: '20.23'
+              datasetB: '55.81'
+              ranking: '185'
             
             - nameen: vit_deit-b16-ln_mln_upernet_8xb2-160k_ade20k-512x512
               namezh: vit_deit-b16-ln_mln_upernet_8xb2-160k_ade20k-512x512
               paper:
                 text: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
                 link: 'https://github.com/open-mmlab/mmsegmentation/tree/main/configs'
-              download: 9999
-              datasetA: 99%
-              datasetB: 99%
-              ranking: '999'
+              download: 7448
+              datasetA: '20.21'
+              datasetB: '49.21'
+              ranking: '186'
             
         - titlezh: 医学图像分类
           titleen: Medical Image Classification - CheXpert
