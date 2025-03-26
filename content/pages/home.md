@@ -131,9 +131,9 @@ blocks:
           application scenarios.
       - image:
           src: /uploads/transferbasedAttackIcon1.png
-        titleen: 'AdvPatch-1K: The First Physical-world Adversarial T-Shirt Dataset'
+        titleen: 'AdvT-shirt-1k: The First Physical-world Adversarial T-Shirt Dataset'
         texten: >-
-          AdvPatch-1K consists of 1,131 images, including 5+ scenarios (lab,
+          AdvT-shirt-1k consists of 1,131 images, including 5+ scenarios (lab,
           outdoor, cafeteria, subway, shopping mall), 1-10+ persons in the
           images, and 9 adversarial t-shirts. The dataset is available on
           Huggingface.
@@ -169,8 +169,8 @@ blocks:
           alt: CC1M-Adv-C/F
           href: 'https://github.com/treeman2000/CC1M-Adv-CF'
         bgImage: /uploads/GitHubBackground2.jpg
-      - repoNameen: AdvPatch-1K
-        repoNamezh: AdvPatch-1K
+      - repoNameen: AdvT-shirt-1k
+        repoNamezh: AdvT-shirt-1k
         repoTexten: >-
           The first physical-world adversarial T-shirt dataset released to evaluate
           the robustness of object detection models and support defense research.
@@ -180,8 +180,8 @@ blocks:
           pinpoint accuracy.
         linkImage:
           src: /uploads/GitHubButton.png
-          alt: AdvPatch-1K
-          href: 'https://github.com/Wwangb/AdvPatch-1K'
+          alt: AdvT-shirt-1k
+          href: 'https://github.com/Wwangb/AdvT-shirt-1k'
         bgImage: /uploads/GitHubBackground3.jpg
     _template: repositories
   - titleen: Leaderboards
