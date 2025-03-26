@@ -157,13 +157,13 @@ blocks:
       - repoNameen: CC1M-Adv-C/F
         repoNamezh: CC1M-Adv-C/F
         repoTexten: >-
-          Two million-scale adversarial images datasets.  CC1M-Adv-C was generated
-          to evaluate classification models, while CC1M-Adv-F can be applied to any
-          vision models. 
+          Two million-scale adversarial images datasets.  CC1M-Adv-C was
+          generated to evaluate classification models, while CC1M-Adv-F can be
+          applied to any vision models. 
         repoTextzh: >-
           This comprehensive visibility allows for a meticulous examination of
-          security loopholes, enabling us to simulate real-world attack scenarios
-          pinpoint accuracy.
+          security loopholes, enabling us to simulate real-world attack
+          scenarios pinpoint accuracy.
         linkImage:
           src: /uploads/GitHubButton.png
           alt: CC1M-Adv-C/F
@@ -172,12 +172,13 @@ blocks:
       - repoNameen: AdvPatch-1K
         repoNamezh: AdvPatch-1K
         repoTexten: >-
-          The first physical-world adversarial T-shirt dataset released to evaluate
-          the robustness of object detection models and support defense research.
+          The first physical-world adversarial T-shirt dataset released to
+          evaluate the robustness of object detection models and support defense
+          research.
         repoTextzh: >-
           This comprehensive visibility allows for a meticulous examination of
-          security loopholes, enabling us to simulate real-world attack scenarios
-          pinpoint accuracy.
+          security loopholes, enabling us to simulate real-world attack
+          scenarios pinpoint accuracy.
         linkImage:
           src: /uploads/GitHubButton.png
           alt: AdvPatch-1K
@@ -193,14 +194,14 @@ blocks:
         titlezh: ImageNet
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
-        modelSum: 10
+        modelSum: 1112
         score: '4.8'
         detailen: ''
       - titleen: ADE20K - Semantic Segmentation
         titlezh: ADE20K - 语义分割
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
-        modelSum: 10
+        modelSum: 176
         score: '4.8'
       - titleen: CIFAR100 - Image Classification
         titlezh: CIFAR100 -  图像分类
@@ -211,7 +212,7 @@ blocks:
         titlezh: ImageNet
         subtitleen: Label Attack
         subtitlezh: 类别攻击
-        modelSum: 10
+        modelSum: 1112
         score: '4.8'
         detailen: ''
         detailzh: Reviewed by more than 200K Users
@@ -219,7 +220,7 @@ blocks:
         titlezh: COCO - OD
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
-        modelSum: 10
+        modelSum: 394
         score: '4.8'
         detailen: ''
         detailzh: Reviewed by more than 200K Users
@@ -227,7 +228,7 @@ blocks:
         titlezh: 语义分割
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
-        modelSum: 10
+        modelSum: 152
         score: '4.8'
         detailen: ''
         detailzh: Reviewed by more than 200K Users
@@ -253,3 +254,4 @@ blocks:
     rightListTitlezh: ''
     _template: testimonial
 ---
+
