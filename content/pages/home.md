@@ -193,14 +193,14 @@ blocks:
         titlezh: ImageNet
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
-        modelSum: 10
+        modelSum: 1112
         score: '4.8'
         detailen: ''
       - titleen: ADE20K - Semantic Segmentation
         titlezh: ADE20K - 语义分割
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
-        modelSum: 10
+        modelSum: 176
         score: '4.8'
       - titleen: CIFAR100 - Image Classification
         titlezh: CIFAR100 -  图像分类
@@ -211,7 +211,7 @@ blocks:
         titlezh: ImageNet
         subtitleen: Label Attack
         subtitlezh: 类别攻击
-        modelSum: 10
+        modelSum: 1112
         score: '4.8'
         detailen: ''
         detailzh: Reviewed by more than 200K Users
@@ -219,7 +219,7 @@ blocks:
         titlezh: COCO - OD
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
-        modelSum: 10
+        modelSum: 394
         score: '4.8'
         detailen: ''
         detailzh: Reviewed by more than 200K Users
@@ -227,7 +227,7 @@ blocks:
         titlezh: 语义分割
         subtitleen: Feature Attack
         subtitlezh: 特征攻击
-        modelSum: 10
+        modelSum: 152
         score: '4.8'
         detailen: ''
         detailzh: Reviewed by more than 200K Users
