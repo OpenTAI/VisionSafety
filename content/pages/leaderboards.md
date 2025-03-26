@@ -32,8 +32,7 @@ blocks:
               download: 2770
               datasetA: '35.36'
               datasetB: '53.86'
-              ranking: '773'
-            
+              ranking: '1'            
             - nameen: nf_regnet_b2
               namezh: nf_regnet_b2
               paper:
@@ -42,8 +41,7 @@ blocks:
               download: 4668
               datasetA: '46.68'
               datasetB: '53.84'
-              ranking: '553'
-            
+              ranking: '2'            
             - nameen: hrnet_w18_ssld
               namezh: hrnet_w18_ssld
               paper:
@@ -52,8 +50,7 @@ blocks:
               download: 5635
               datasetA: '53.89'
               datasetB: '53.83'
-              ranking: '383'
-            
+              ranking: '3'            
             - nameen: rexnetr_150
               namezh: rexnetr_150
               paper:
@@ -62,8 +59,7 @@ blocks:
               download: 2494
               datasetA: '35.21'
               datasetB: '53.75'
-              ranking: '776'
-            
+              ranking: '4'            
             - nameen: repghostnet_080
               namezh: repghostnet_080
               paper:
@@ -72,8 +68,7 @@ blocks:
               download: 4221
               datasetA: '42.24'
               datasetB: '53.71'
-              ranking: '644'
-            
+              ranking: '5'            
             - nameen: repghostnet_100
               namezh: repghostnet_100
               paper:
@@ -82,8 +77,7 @@ blocks:
               download: 4031
               datasetA: '42.2'
               datasetB: '53.65'
-              ranking: '645'
-            
+              ranking: '6'            
             - nameen: resnet101
               namezh: resnet101
               paper:
@@ -92,8 +86,7 @@ blocks:
               download: 7956
               datasetA: '37.85'
               datasetB: '53.6'
-              ranking: '718'
-            
+              ranking: '7'            
             - nameen: mobilenetv3_small_050
               namezh: mobilenetv3_small_050
               paper:
@@ -102,8 +95,7 @@ blocks:
               download: 1414
               datasetA: '48.33'
               datasetB: '53.58'
-              ranking: '503'
-            
+              ranking: '8'            
             - nameen: eva_large_patch14_336
               namezh: eva_large_patch14_336
               paper:
@@ -112,8 +104,7 @@ blocks:
               download: 1241
               datasetA: '57.39'
               datasetB: '53.54'
-              ranking: '299'
-            
+              ranking: '9'            
             - nameen: hardcorenas_e
               namezh: hardcorenas_e
               paper:
@@ -122,8 +113,7 @@ blocks:
               download: 7558
               datasetA: '54.66'
               datasetB: '53.54'
-              ranking: '362'
-            
+              ranking: '10'            
             - nameen: hgnetv2_b2
               namezh: hgnetv2_b2
               paper:
@@ -132,8 +122,7 @@ blocks:
               download: 7042
               datasetA: '54.37'
               datasetB: '53.49'
-              ranking: '369'
-            
+              ranking: '11'            
             - nameen: levit_conv_512d
               namezh: levit_conv_512d
               paper:
@@ -142,8 +131,7 @@ blocks:
               download: 6666
               datasetA: '51.58'
               datasetB: '53.43'
-              ranking: '435'
-            
+              ranking: '12'            
             - nameen: lcnet_035
               namezh: lcnet_035
               paper:
@@ -152,8 +140,7 @@ blocks:
               download: 8948
               datasetA: '52.87'
               datasetB: '53.42'
-              ranking: '401'
-            
+              ranking: '13'            
             - nameen: efficientnetv2_rw_s
               namezh: efficientnetv2_rw_s
               paper:
@@ -162,8 +149,7 @@ blocks:
               download: 6527
               datasetA: '59.14'
               datasetB: '53.4'
-              ranking: '258'
-            
+              ranking: '14'            
             - nameen: lcnet_050
               namezh: lcnet_050
               paper:
@@ -172,8 +158,7 @@ blocks:
               download: 1131
               datasetA: '52.83'
               datasetB: '53.4'
-              ranking: '402'
-            
+              ranking: '15'            
             - nameen: convformer_m36
               namezh: convformer_m36
               paper:
@@ -182,8 +167,7 @@ blocks:
               download: 2712
               datasetA: '68.56'
               datasetB: '53.39'
-              ranking: '67'
-            
+              ranking: '16'            
             - nameen: vgg19
               namezh: vgg19
               paper:
@@ -192,8 +176,7 @@ blocks:
               download: 2616
               datasetA: '28.38'
               datasetB: '53.24'
-              ranking: '929'
-            
+              ranking: '17'            
             - nameen: volo_d4_448
               namezh: volo_d4_448
               paper:
@@ -202,8 +185,7 @@ blocks:
               download: 5869
               datasetA: '21.73'
               datasetB: '53.22'
-              ranking: '1083'
-            
+              ranking: '18'            
             - nameen: resnet50t
               namezh: resnet50t
               paper:
@@ -212,8 +194,7 @@ blocks:
               download: 1027
               datasetA: '38.16'
               datasetB: '53.19'
-              ranking: '709'
-            
+              ranking: '19'            
             - nameen: tf_mobilenetv3_small_100
               namezh: tf_mobilenetv3_small_100
               paper:
@@ -222,8 +203,7 @@ blocks:
               download: 3180
               datasetA: '30.05'
               datasetB: '53.17'
-              ranking: '899'
-            
+              ranking: '20'            
             - nameen: vit_medium_patch16_gap_384
               namezh: vit_medium_patch16_gap_384
               paper:
@@ -232,8 +212,7 @@ blocks:
               download: 2202
               datasetA: '24.78'
               datasetB: '53.17'
-              ranking: '1015'
-            
+              ranking: '21'            
             - nameen: efficientvit_b2
               namezh: efficientvit_b2
               paper:
@@ -242,8 +221,7 @@ blocks:
               download: 5615
               datasetA: '58.96'
               datasetB: '53.16'
-              ranking: '264'
-            
+              ranking: '22'            
             - nameen: nfnet_f5
               namezh: nfnet_f5
               paper:
@@ -252,8 +230,7 @@ blocks:
               download: 5806
               datasetA: '46.01'
               datasetB: '53.16'
-              ranking: '568'
-            
+              ranking: '23'            
             - nameen: deit3_large_patch16_384
               namezh: deit3_large_patch16_384
               paper:
@@ -262,8 +239,7 @@ blocks:
               download: 1739
               datasetA: '64.55'
               datasetB: '53.12'
-              ranking: '144'
-            
+              ranking: '24'            
             - nameen: efficientnet_el
               namezh: efficientnet_el
               paper:
@@ -272,8 +248,7 @@ blocks:
               download: 8558
               datasetA: '60.14'
               datasetB: '53.06'
-              ranking: '241'
-            
+              ranking: '25'            
             - nameen: mobilenet_edgetpu_v2_l
               namezh: mobilenet_edgetpu_v2_l
               paper:
@@ -282,8 +257,7 @@ blocks:
               download: 6471
               datasetA: '48.99'
               datasetB: '53.04'
-              ranking: '489'
-            
+              ranking: '26'            
             - nameen: efficientvit_m4
               namezh: efficientvit_m4
               paper:
@@ -292,8 +266,7 @@ blocks:
               download: 1180
               datasetA: '58.5'
               datasetB: '52.99'
-              ranking: '273'
-            
+              ranking: '27'            
             - nameen: tf_mixnet_l
               namezh: tf_mixnet_l
               paper:
@@ -302,8 +275,7 @@ blocks:
               download: 9276
               datasetA: '30.28'
               datasetB: '52.88'
-              ranking: '892'
-            
+              ranking: '28'            
             - nameen: mobilenetv4_conv_medium
               namezh: mobilenetv4_conv_medium
               paper:
@@ -312,8 +284,7 @@ blocks:
               download: 9127
               datasetA: '48.08'
               datasetB: '52.87'
-              ranking: '509'
-            
+              ranking: '29'            
             - nameen: regnetz_040_h
               namezh: regnetz_040_h
               paper:
@@ -322,8 +293,7 @@ blocks:
               download: 8231
               datasetA: '43.03'
               datasetB: '52.81'
-              ranking: '633'
-            
+              ranking: '30'            
             - nameen: vgg11
               namezh: vgg11
               paper:
@@ -332,8 +302,7 @@ blocks:
               download: 3706
               datasetA: '28.99'
               datasetB: '52.73'
-              ranking: '923'
-            
+              ranking: '31'            
             - nameen: convnextv2_large
               namezh: convnextv2_large
               paper:
@@ -342,8 +311,7 @@ blocks:
               download: 7852
               datasetA: '67.3'
               datasetB: '52.67'
-              ranking: '96'
-            
+              ranking: '32'            
             - nameen: ese_vovnet39b
               namezh: ese_vovnet39b
               paper:
@@ -352,8 +320,7 @@ blocks:
               download: 5184
               datasetA: '58.32'
               datasetB: '52.54'
-              ranking: '278'
-            
+              ranking: '33'            
             - nameen: nf_ecaresnet50
               namezh: nf_ecaresnet50
               paper:
@@ -362,8 +329,7 @@ blocks:
               download: 3364
               datasetA: '46.78'
               datasetB: '52.53'
-              ranking: '549'
-            
+              ranking: '34'            
             - nameen: vgg16
               namezh: vgg16
               paper:
@@ -372,8 +338,7 @@ blocks:
               download: 8866
               datasetA: '28.72'
               datasetB: '52.53'
-              ranking: '927'
-            
+              ranking: '35'            
             - nameen: vit_large_patch14_clip_quickgelu_336
               namezh: vit_large_patch14_clip_quickgelu_336
               paper:
@@ -382,8 +347,7 @@ blocks:
               download: 7317
               datasetA: '25.42'
               datasetB: '52.52'
-              ranking: '996'
-            
+              ranking: '36'            
             - nameen: fbnetv3_d
               namezh: fbnetv3_d
               paper:
@@ -392,8 +356,7 @@ blocks:
               download: 1696
               datasetA: '56.83'
               datasetB: '52.49'
-              ranking: '312'
-            
+              ranking: '37'            
             - nameen: vit_large_r50_s32_224
               namezh: vit_large_r50_s32_224
               paper:
@@ -402,8 +365,7 @@ blocks:
               download: 5815
               datasetA: '25.07'
               datasetB: '52.49'
-              ranking: '1008'
-            
+              ranking: '38'            
             - nameen: resnet50x4_clip
               namezh: resnet50x4_clip
               paper:
@@ -412,8 +374,7 @@ blocks:
               download: 3458
               datasetA: '38.16'
               datasetB: '52.47'
-              ranking: '710'
-            
+              ranking: '39'            
             - nameen: vit_medium_patch32_clip_224
               namezh: vit_medium_patch32_clip_224
               paper:
@@ -422,8 +383,7 @@ blocks:
               download: 6674
               datasetA: '24.47'
               datasetB: '52.47'
-              ranking: '1019'
-            
+              ranking: '40'            
             - nameen: volo_d5_512
               namezh: volo_d5_512
               paper:
@@ -432,8 +392,7 @@ blocks:
               download: 4290
               datasetA: '21.66'
               datasetB: '52.46'
-              ranking: '1086'
-            
+              ranking: '41'            
             - nameen: caformer_s36
               namezh: caformer_s36
               paper:
@@ -442,8 +401,7 @@ blocks:
               download: 3180
               datasetA: '70.18'
               datasetB: '52.45'
-              ranking: '25'
-            
+              ranking: '42'            
             - nameen: focalnet_huge_fl4
               namezh: focalnet_huge_fl4
               paper:
@@ -452,8 +410,7 @@ blocks:
               download: 5232
               datasetA: '56.59'
               datasetB: '52.41'
-              ranking: '320'
-            
+              ranking: '43'            
             - nameen: fastvit_mci0
               namezh: fastvit_mci0
               paper:
@@ -462,8 +419,7 @@ blocks:
               download: 4519
               datasetA: '57.23'
               datasetB: '52.33'
-              ranking: '301'
-            
+              ranking: '44'            
             - nameen: resnetblur101d
               namezh: resnetblur101d
               paper:
@@ -472,8 +428,7 @@ blocks:
               download: 8083
               datasetA: '36.96'
               datasetB: '52.31'
-              ranking: '737'
-            
+              ranking: '45'            
             - nameen: swinv2_cr_giant_224
               namezh: swinv2_cr_giant_224
               paper:
@@ -482,8 +437,7 @@ blocks:
               download: 8876
               datasetA: '32.36'
               datasetB: '52.29'
-              ranking: '843'
-            
+              ranking: '46'            
             - nameen: vit_base_patch16_reg4_gap_256
               namezh: vit_base_patch16_reg4_gap_256
               paper:
@@ -492,8 +446,7 @@ blocks:
               download: 9642
               datasetA: '27.79'
               datasetB: '52.29'
-              ranking: '946'
-            
+              ranking: '47'            
             - nameen: repvit_m2
               namezh: repvit_m2
               paper:
@@ -502,8 +455,7 @@ blocks:
               download: 9968
               datasetA: '40.98'
               datasetB: '52.26'
-              ranking: '666'
-            
+              ranking: '48'            
             - nameen: vit_so400m_patch14_siglip_gap_384
               namezh: vit_so400m_patch14_siglip_gap_384
               paper:
@@ -512,8 +464,7 @@ blocks:
               download: 4731
               datasetA: '23.21'
               datasetB: '52.26'
-              ranking: '1052'
-            
+              ranking: '49'            
             - nameen: regnetz_e8
               namezh: regnetz_e8
               paper:
@@ -522,8 +473,7 @@ blocks:
               download: 9116
               datasetA: '42.51'
               datasetB: '52.25'
-              ranking: '641'
-            
+              ranking: '50'            
             - nameen: mvitv2_huge_cls
               namezh: mvitv2_huge_cls
               paper:
@@ -532,8 +482,7 @@ blocks:
               download: 3503
               datasetA: '47.43'
               datasetB: '52.23'
-              ranking: '532'
-            
+              ranking: '51'            
             - nameen: resnet32ts
               namezh: resnet32ts
               paper:
@@ -542,8 +491,7 @@ blocks:
               download: 3210
               datasetA: '39.02'
               datasetB: '52.16'
-              ranking: '697'
-            
+              ranking: '52'            
             - nameen: poolformer_s24
               namezh: poolformer_s24
               paper:
@@ -552,8 +500,7 @@ blocks:
               download: 1688
               datasetA: '45.54'
               datasetB: '52.14'
-              ranking: '584'
-            
+              ranking: '53'            
             - nameen: xcit_nano_12_p16_224
               namezh: xcit_nano_12_p16_224
               paper:
@@ -562,8 +509,7 @@ blocks:
               download: 9224
               datasetA: '20.76'
               datasetB: '52.13'
-              ranking: '1106'
-            
+              ranking: '54'            
             - nameen: convmixer_1536_20
               namezh: convmixer_1536_20
               paper:
@@ -572,8 +518,7 @@ blocks:
               download: 4614
               datasetA: '68.23'
               datasetB: '52.09'
-              ranking: '75'
-            
+              ranking: '55'            
             - nameen: mobilenetv3_rw
               namezh: mobilenetv3_rw
               paper:
@@ -582,8 +527,7 @@ blocks:
               download: 4317
               datasetA: '48.41'
               datasetB: '52.08'
-              ranking: '502'
-            
+              ranking: '56'            
             - nameen: mixnet_xxl
               namezh: mixnet_xxl
               paper:
@@ -592,8 +536,7 @@ blocks:
               download: 4838
               datasetA: '49.6'
               datasetB: '52.06'
-              ranking: '480'
-            
+              ranking: '57'            
             - nameen: efficientvit_m0
               namezh: efficientvit_m0
               paper:
@@ -602,8 +545,7 @@ blocks:
               download: 1646
               datasetA: '58.81'
               datasetB: '52.04'
-              ranking: '269'
-            
+              ranking: '58'            
             - nameen: vit_small_resnet26d_224
               namezh: vit_small_resnet26d_224
               paper:
@@ -612,8 +554,7 @@ blocks:
               download: 8015
               datasetA: '23.49'
               datasetB: '51.99'
-              ranking: '1045'
-            
+              ranking: '59'            
             - nameen: regnetz_c16
               namezh: regnetz_c16
               paper:
@@ -622,8 +563,7 @@ blocks:
               download: 4612
               datasetA: '42.86'
               datasetB: '51.95'
-              ranking: '636'
-            
+              ranking: '60'            
             - nameen: ConvNeXt-S + ConvStem
               namezh: ConvNeXt-S + ConvStem
               paper:
@@ -634,8 +574,7 @@ blocks:
               download: 6670
               datasetA: '70.86'
               datasetB: '51.94'
-              ranking: '9'
-            - nameen: mixer_l32_224
+              ranking: '61'            - nameen: mixer_l32_224
               namezh: mixer_l32_224
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -643,8 +582,7 @@ blocks:
               download: 1218
               datasetA: '50.12'
               datasetB: '51.93'
-              ranking: '473'
-            
+              ranking: '62'            
             - nameen: repvit_m3
               namezh: repvit_m3
               paper:
@@ -653,8 +591,7 @@ blocks:
               download: 5729
               datasetA: '40.82'
               datasetB: '51.93'
-              ranking: '668'
-            
+              ranking: '63'            
             - nameen: eca_nfnet_l3
               namezh: eca_nfnet_l3
               paper:
@@ -663,8 +600,7 @@ blocks:
               download: 7390
               datasetA: '62.25'
               datasetB: '51.81'
-              ranking: '193'
-            
+              ranking: '64'            
             - nameen: cs3darknet_m
               namezh: cs3darknet_m
               paper:
@@ -673,8 +609,7 @@ blocks:
               download: 1754
               datasetA: '65.97'
               datasetB: '51.67'
-              ranking: '117'
-            
+              ranking: '65'            
             - nameen: efficientnet_cc_b1_8e
               namezh: efficientnet_cc_b1_8e
               paper:
@@ -683,8 +618,7 @@ blocks:
               download: 9551
               datasetA: '60.16'
               datasetB: '51.67'
-              ranking: '240'
-            
+              ranking: '66'            
             - nameen: hgnetv2_b5
               namezh: hgnetv2_b5
               paper:
@@ -693,8 +627,7 @@ blocks:
               download: 4241
               datasetA: '54.29'
               datasetB: '51.59'
-              ranking: '372'
-            
+              ranking: '67'            
             - nameen: resnetblur50d
               namezh: resnetblur50d
               paper:
@@ -703,8 +636,7 @@ blocks:
               download: 1918
               datasetA: '37.11'
               datasetB: '51.57'
-              ranking: '736'
-            
+              ranking: '68'            
             - nameen: regnetx_002
               namezh: regnetx_002
               paper:
@@ -713,8 +645,7 @@ blocks:
               download: 4310
               datasetA: '44.94'
               datasetB: '51.55'
-              ranking: '600'
-            
+              ranking: '69'            
             - nameen: tf_mobilenetv3_large_075
               namezh: tf_mobilenetv3_large_075
               paper:
@@ -723,8 +654,7 @@ blocks:
               download: 7445
               datasetA: '30.17'
               datasetB: '51.5'
-              ranking: '895'
-            
+              ranking: '70'            
             - nameen: tnt_s_patch16_224
               namezh: tnt_s_patch16_224
               paper:
@@ -733,8 +663,7 @@ blocks:
               download: 4803
               datasetA: '29.42'
               datasetB: '51.5'
-              ranking: '912'
-            
+              ranking: '71'            
             - nameen: regnetx_004
               namezh: regnetx_004
               paper:
@@ -743,8 +672,7 @@ blocks:
               download: 7185
               datasetA: '44.87'
               datasetB: '51.45'
-              ranking: '601'
-            
+              ranking: '72'            
             - nameen: efficientnetv2_m
               namezh: efficientnetv2_m
               paper:
@@ -753,8 +681,7 @@ blocks:
               download: 3004
               datasetA: '59.19'
               datasetB: '51.35'
-              ranking: '256'
-            
+              ranking: '73'            
             - nameen: hrnet_w48
               namezh: hrnet_w48
               paper:
@@ -763,8 +690,7 @@ blocks:
               download: 6881
               datasetA: '53.5'
               datasetB: '51.28'
-              ranking: '388'
-            
+              ranking: '74'            
             - nameen: xcit_small_12_p8_384
               namezh: xcit_small_12_p8_384
               paper:
@@ -773,8 +699,7 @@ blocks:
               download: 4990
               datasetA: '20.68'
               datasetB: '51.28'
-              ranking: '1109'
-            
+              ranking: '75'            
             - nameen: efficientnet_b0_g8_gn
               namezh: efficientnet_b0_g8_gn
               paper:
@@ -783,8 +708,7 @@ blocks:
               download: 9581
               datasetA: '61.14'
               datasetB: '51.25'
-              ranking: '221'
-            
+              ranking: '76'            
             - nameen: efficientnet_b4
               namezh: efficientnet_b4
               paper:
@@ -793,8 +717,7 @@ blocks:
               download: 5331
               datasetA: '60.62'
               datasetB: '51.24'
-              ranking: '232'
-            
+              ranking: '77'            
             - nameen: vit_base_patch16_clip_384
               namezh: vit_base_patch16_clip_384
               paper:
@@ -803,8 +726,7 @@ blocks:
               download: 7052
               datasetA: '28.05'
               datasetB: '51.22'
-              ranking: '942'
-            
+              ranking: '78'            
             - nameen: tf_efficientnet_lite4
               namezh: tf_efficientnet_lite4
               paper:
@@ -813,8 +735,7 @@ blocks:
               download: 2941
               datasetA: '30.61'
               datasetB: '51.09'
-              ranking: '883'
-            
+              ranking: '79'            
             - nameen: seresnext101d_32x8d
               namezh: seresnext101d_32x8d
               paper:
@@ -823,8 +744,7 @@ blocks:
               download: 9324
               datasetA: '33.76'
               datasetB: '50.87'
-              ranking: '817'
-            
+              ranking: '80'            
             - nameen: nextvit_large
               namezh: nextvit_large
               paper:
@@ -833,8 +753,7 @@ blocks:
               download: 1585
               datasetA: '46.9'
               datasetB: '50.85'
-              ranking: '546'
-            
+              ranking: '81'            
             - nameen: mobilenetv4_hybrid_medium_075
               namezh: mobilenetv4_hybrid_medium_075
               paper:
@@ -843,8 +762,7 @@ blocks:
               download: 8535
               datasetA: '47.92'
               datasetB: '50.74'
-              ranking: '514'
-            
+              ranking: '82'            
             - nameen: maxvit_nano_rw_256
               namezh: maxvit_nano_rw_256
               paper:
@@ -853,8 +771,7 @@ blocks:
               download: 1385
               datasetA: '51.23'
               datasetB: '50.73'
-              ranking: '442'
-            
+              ranking: '83'            
             - nameen: cspresnet50d
               namezh: cspresnet50d
               paper:
@@ -863,8 +780,7 @@ blocks:
               download: 2543
               datasetA: '65.42'
               datasetB: '50.72'
-              ranking: '127'
-            
+              ranking: '84'            
             - nameen: mixnet_s
               namezh: mixnet_s
               paper:
@@ -873,8 +789,7 @@ blocks:
               download: 9455
               datasetA: '49.82'
               datasetB: '50.71'
-              ranking: '478'
-            
+              ranking: '85'            
             - nameen: repghostnet_050
               namezh: repghostnet_050
               paper:
@@ -883,8 +798,7 @@ blocks:
               download: 1123
               datasetA: '42.49'
               datasetB: '50.69'
-              ranking: '642'
-            
+              ranking: '86'            
             - nameen: tiny_vit_21m_512
               namezh: tiny_vit_21m_512
               paper:
@@ -893,8 +807,7 @@ blocks:
               download: 2850
               datasetA: '29.67'
               datasetB: '50.69'
-              ranking: '905'
-            
+              ranking: '87'            
             - nameen: vgg11_bn
               namezh: vgg11_bn
               paper:
@@ -903,8 +816,7 @@ blocks:
               download: 6962
               datasetA: '28.84'
               datasetB: '50.66'
-              ranking: '924'
-            
+              ranking: '88'            
             - nameen: maxvit_small_tf_512
               namezh: maxvit_small_tf_512
               paper:
@@ -913,8 +825,7 @@ blocks:
               download: 1539
               datasetA: '50.76'
               datasetB: '50.65'
-              ranking: '453'
-            
+              ranking: '89'            
             - nameen: vit_betwixt_patch16_reg1_gap_256
               namezh: vit_betwixt_patch16_reg1_gap_256
               paper:
@@ -923,8 +834,7 @@ blocks:
               download: 5361
               datasetA: '26.56'
               datasetB: '50.62'
-              ranking: '972'
-            
+              ranking: '90'            
             - nameen: twins_svt_large
               namezh: twins_svt_large
               paper:
@@ -933,8 +843,7 @@ blocks:
               download: 5895
               datasetA: '29.03'
               datasetB: '50.47'
-              ranking: '921'
-            
+              ranking: '91'            
             - nameen: vit_base_patch32_224
               namezh: vit_base_patch32_224
               paper:
@@ -943,8 +852,7 @@ blocks:
               download: 3782
               datasetA: '27.09'
               datasetB: '50.37'
-              ranking: '958'
-            
+              ranking: '92'            
             - nameen: vit_small_patch32_384
               namezh: vit_small_patch32_384
               paper:
@@ -953,8 +861,7 @@ blocks:
               download: 4495
               datasetA: '23.55'
               datasetB: '50.24'
-              ranking: '1042'
-            
+              ranking: '93'            
             - nameen: hardcorenas_b
               namezh: hardcorenas_b
               paper:
@@ -963,8 +870,7 @@ blocks:
               download: 5526
               datasetA: '54.72'
               datasetB: '50.23'
-              ranking: '359'
-            
+              ranking: '94'            
             - nameen: ConvNeXt-B + ConvStem
               namezh: ConvNeXt-B + ConvStem
               paper:
@@ -975,8 +881,7 @@ blocks:
               download: 5431
               datasetA: '70.99'
               datasetB: '50.16'
-              ranking: '7'
-            - nameen: efficientnet_b3
+              ranking: '95'            - nameen: efficientnet_b3
               namezh: efficientnet_b3
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -984,8 +889,7 @@ blocks:
               download: 2692
               datasetA: '60.93'
               datasetB: '50.15'
-              ranking: '228'
-            
+              ranking: '96'            
             - nameen: swinv2_tiny_window16_256
               namezh: swinv2_tiny_window16_256
               paper:
@@ -994,8 +898,7 @@ blocks:
               download: 4357
               datasetA: '31.49'
               datasetB: '50.15'
-              ranking: '862'
-            
+              ranking: '97'            
             - nameen: vit_tiny_r_s16_p8_384
               namezh: vit_tiny_r_s16_p8_384
               paper:
@@ -1004,8 +907,7 @@ blocks:
               download: 2579
               datasetA: '22.8'
               datasetB: '50.13'
-              ranking: '1060'
-            
+              ranking: '98'            
             - nameen: vit_base_patch32_plus_256
               namezh: vit_base_patch32_plus_256
               paper:
@@ -1014,8 +916,7 @@ blocks:
               download: 4083
               datasetA: '26.82'
               datasetB: '50.06'
-              ranking: '965'
-            
+              ranking: '99'            
             - nameen: repvit_m0_9
               namezh: repvit_m0_9
               paper:
@@ -1024,8 +925,7 @@ blocks:
               download: 1922
               datasetA: '41.46'
               datasetB: '50.0'
-              ranking: '661'
-            
+              ranking: '100'            
             - nameen: efficientvit_m3
               namezh: efficientvit_m3
               paper:
@@ -1034,8 +934,7 @@ blocks:
               download: 2926
               datasetA: '58.64'
               datasetB: '49.95'
-              ranking: '272'
-            
+              ranking: '101'            
             - nameen: inception_next_tiny
               namezh: inception_next_tiny
               paper:
@@ -1044,8 +943,7 @@ blocks:
               download: 8429
               datasetA: '53.23'
               datasetB: '49.94'
-              ranking: '393'
-            
+              ranking: '102'            
             - nameen: mvitv2_large
               namezh: mvitv2_large
               paper:
@@ -1054,8 +952,7 @@ blocks:
               download: 5055
               datasetA: '47.38'
               datasetB: '49.92'
-              ranking: '533'
-            
+              ranking: '103'            
             - nameen: pnasnet5large
               namezh: pnasnet5large
               paper:
@@ -1064,8 +961,7 @@ blocks:
               download: 9087
               datasetA: '45.63'
               datasetB: '49.89'
-              ranking: '580'
-            
+              ranking: '104'            
             - nameen: mixnet_xl
               namezh: mixnet_xl
               paper:
@@ -1074,8 +970,7 @@ blocks:
               download: 1240
               datasetA: '49.75'
               datasetB: '49.87'
-              ranking: '479'
-            
+              ranking: '105'            
             - nameen: nf_regnet_b4
               namezh: nf_regnet_b4
               paper:
@@ -1084,8 +979,7 @@ blocks:
               download: 4159
               datasetA: '46.62'
               datasetB: '49.85'
-              ranking: '555'
-            
+              ranking: '106'            
             - nameen: fastvit_t8
               namezh: fastvit_t8
               paper:
@@ -1094,8 +988,7 @@ blocks:
               download: 6346
               datasetA: '57.02'
               datasetB: '49.81'
-              ranking: '308'
-            
+              ranking: '107'            
             - nameen: pit_xs_distilled_224
               namezh: pit_xs_distilled_224
               paper:
@@ -1104,8 +997,7 @@ blocks:
               download: 4329
               datasetA: '45.65'
               datasetB: '49.81'
-              ranking: '579'
-            
+              ranking: '108'            
             - nameen: nf_regnet_b5
               namezh: nf_regnet_b5
               paper:
@@ -1114,8 +1006,7 @@ blocks:
               download: 7416
               datasetA: '46.62'
               datasetB: '49.71'
-              ranking: '556'
-            
+              ranking: '109'            
             - nameen: vit_large_patch32_384
               namezh: vit_large_patch32_384
               paper:
@@ -1124,8 +1015,7 @@ blocks:
               download: 5439
               datasetA: '25.08'
               datasetB: '49.6'
-              ranking: '1007'
-            
+              ranking: '110'            
             - nameen: vit_base_patch32_clip_224
               namezh: vit_base_patch32_clip_224
               paper:
@@ -1134,8 +1024,7 @@ blocks:
               download: 7544
               datasetA: '26.98'
               datasetB: '49.59'
-              ranking: '960'
-            
+              ranking: '111'            
             - nameen: vit_base_patch16_siglip_224
               namezh: vit_base_patch16_siglip_224
               paper:
@@ -1144,8 +1033,7 @@ blocks:
               download: 6358
               datasetA: '27.64'
               datasetB: '49.58'
-              ranking: '949'
-            
+              ranking: '112'            
             - nameen: coatnet_rmlp_nano_rw_224
               namezh: coatnet_rmlp_nano_rw_224
               paper:
@@ -1154,8 +1042,7 @@ blocks:
               download: 9122
               datasetA: '68.64'
               datasetB: '49.46'
-              ranking: '64'
-            
+              ranking: '113'            
             - nameen: dla60x
               namezh: dla60x
               paper:
@@ -1164,8 +1051,7 @@ blocks:
               download: 2364
               datasetA: '63.44'
               datasetB: '49.42'
-              ranking: '168'
-            
+              ranking: '114'            
             - nameen: lamhalobotnet50ts_256
               namezh: lamhalobotnet50ts_256
               paper:
@@ -1174,8 +1060,7 @@ blocks:
               download: 8961
               datasetA: '52.88'
               datasetB: '49.36'
-              ranking: '400'
-            
+              ranking: '115'            
             - nameen: vit_wee_patch16_reg1_gap_256
               namezh: vit_wee_patch16_reg1_gap_256
               paper:
@@ -1184,8 +1069,7 @@ blocks:
               download: 8744
               datasetA: '22.77'
               datasetB: '49.35'
-              ranking: '1061'
-            
+              ranking: '116'            
             - nameen: mobilenetv4_hybrid_large
               namezh: mobilenetv4_hybrid_large
               paper:
@@ -1194,8 +1078,7 @@ blocks:
               download: 8495
               datasetA: '48.04'
               datasetB: '49.28'
-              ranking: '511'
-            
+              ranking: '117'            
             - nameen: eva02_large_patch14_clip_336
               namezh: eva02_large_patch14_clip_336
               paper:
@@ -1204,8 +1087,7 @@ blocks:
               download: 8602
               datasetA: '57.77'
               datasetB: '49.21'
-              ranking: '289'
-            
+              ranking: '118'            
             - nameen: maxvit_base_tf_224
               namezh: maxvit_base_tf_224
               paper:
@@ -1214,8 +1096,7 @@ blocks:
               download: 3292
               datasetA: '51.46'
               datasetB: '49.21'
-              ranking: '436'
-            
+              ranking: '119'            
             - nameen: cs3se_edgenet_x
               namezh: cs3se_edgenet_x
               paper:
@@ -1224,8 +1105,7 @@ blocks:
               download: 7957
               datasetA: '65.8'
               datasetB: '49.11'
-              ranking: '121'
-            
+              ranking: '120'            
             - nameen: hiera_base_plus_224
               namezh: hiera_base_plus_224
               paper:
@@ -1234,8 +1114,7 @@ blocks:
               download: 3615
               datasetA: '54.18'
               datasetB: '49.11'
-              ranking: '375'
-            
+              ranking: '121'            
             - nameen: regnetz_b16_evos
               namezh: regnetz_b16_evos
               paper:
@@ -1244,8 +1123,7 @@ blocks:
               download: 9793
               datasetA: '42.92'
               datasetB: '49.11'
-              ranking: '635'
-            
+              ranking: '122'            
             - nameen: vit_base_patch16_xp_224
               namezh: vit_base_patch16_xp_224
               paper:
@@ -1254,8 +1132,7 @@ blocks:
               download: 7992
               datasetA: '27.17'
               datasetB: '49.02'
-              ranking: '957'
-            
+              ranking: '123'            
             - nameen: eva_large_patch14_196
               namezh: eva_large_patch14_196
               paper:
@@ -1264,8 +1141,7 @@ blocks:
               download: 7787
               datasetA: '57.42'
               datasetB: '48.97'
-              ranking: '298'
-            
+              ranking: '124'            
             - nameen: seresnextaa201d_32x8d
               namezh: seresnextaa201d_32x8d
               paper:
@@ -1274,8 +1150,7 @@ blocks:
               download: 4869
               datasetA: '33.72'
               datasetB: '48.94'
-              ranking: '819'
-            
+              ranking: '125'            
             - nameen: nfnet_f3
               namezh: nfnet_f3
               paper:
@@ -1284,8 +1159,7 @@ blocks:
               download: 7441
               datasetA: '46.09'
               datasetB: '48.93'
-              ranking: '566'
-            
+              ranking: '126'            
             - nameen: lcnet_100
               namezh: lcnet_100
               paper:
@@ -1294,8 +1168,7 @@ blocks:
               download: 2847
               datasetA: '52.73'
               datasetB: '48.83'
-              ranking: '404'
-            
+              ranking: '127'            
             - nameen: resnet33ts
               namezh: resnet33ts
               paper:
@@ -1304,8 +1177,7 @@ blocks:
               download: 1690
               datasetA: '39.01'
               datasetB: '48.81'
-              ranking: '698'
-            
+              ranking: '128'            
             - nameen: vit_so400m_patch14_siglip_384
               namezh: vit_so400m_patch14_siglip_384
               paper:
@@ -1314,8 +1186,7 @@ blocks:
               download: 5402
               datasetA: '23.3'
               datasetB: '48.79'
-              ranking: '1050'
-            
+              ranking: '129'            
             - nameen: rexnet_150
               namezh: rexnet_150
               paper:
@@ -1324,8 +1195,7 @@ blocks:
               download: 9866
               datasetA: '35.41'
               datasetB: '48.78'
-              ranking: '771'
-            
+              ranking: '130'            
             - nameen: ConvNeXt-T + ConvStem
               namezh: ConvNeXt-T + ConvStem
               paper:
@@ -1336,8 +1206,7 @@ blocks:
               download: 6192
               datasetA: '70.75'
               datasetB: '48.74'
-              ranking: '11'
-              
+              ranking: '131'              
             - nameen: deit_base_patch16_384
               namezh: deit_base_patch16_384
               paper:
@@ -1346,8 +1215,7 @@ blocks:
               download: 2377
               datasetA: '64.31'
               datasetB: '48.68'
-              ranking: '151'
-            
+              ranking: '132'            
             - nameen: convit_small
               namezh: convit_small
               paper:
@@ -1356,8 +1224,7 @@ blocks:
               download: 8634
               datasetA: '68.4'
               datasetB: '48.57'
-              ranking: '71'
-            
+              ranking: '133'            
             - nameen: mobilenetv2_110d
               namezh: mobilenetv2_110d
               paper:
@@ -1366,8 +1233,7 @@ blocks:
               download: 3650
               datasetA: '48.64'
               datasetB: '48.55'
-              ranking: '497'
-            
+              ranking: '134'            
             - nameen: poolformer_m48
               namezh: poolformer_m48
               paper:
@@ -1376,8 +1242,7 @@ blocks:
               download: 1691
               datasetA: '45.57'
               datasetB: '48.52'
-              ranking: '582'
-            
+              ranking: '135'            
             - nameen: fastvit_s12
               namezh: fastvit_s12
               paper:
@@ -1386,8 +1251,7 @@ blocks:
               download: 5480
               datasetA: '57.16'
               datasetB: '48.48'
-              ranking: '304'
-            
+              ranking: '136'            
             - nameen: eva_giant_patch14_clip_224
               namezh: eva_giant_patch14_clip_224
               paper:
@@ -1396,8 +1260,7 @@ blocks:
               download: 2816
               datasetA: '57.44'
               datasetB: '48.34'
-              ranking: '297'
-            
+              ranking: '137'            
             - nameen: resnest26d
               namezh: resnest26d
               paper:
@@ -1406,8 +1269,7 @@ blocks:
               download: 6427
               datasetA: '39.8'
               datasetB: '48.24'
-              ranking: '683'
-            
+              ranking: '138'            
             - nameen: dpn98
               namezh: dpn98
               paper:
@@ -1416,8 +1278,7 @@ blocks:
               download: 8820
               datasetA: '62.54'
               datasetB: '48.18'
-              ranking: '185'
-            
+              ranking: '139'            
             - nameen: ConvNeXt-B
               namezh: ConvNeXt-B
               paper:
@@ -1428,8 +1289,7 @@ blocks:
               download: 9006
               datasetA: '71.01'
               datasetB: '48.13'
-              ranking: '6'
-            - nameen: coatnet_rmlp_0_rw_224
+              ranking: '140'            - nameen: coatnet_rmlp_0_rw_224
               namezh: coatnet_rmlp_0_rw_224
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -1437,8 +1297,7 @@ blocks:
               download: 3977
               datasetA: '68.76'
               datasetB: '48.07'
-              ranking: '58'
-            
+              ranking: '141'            
             - nameen: vit_base_patch16_plus_240
               namezh: vit_base_patch16_plus_240
               paper:
@@ -1447,8 +1306,7 @@ blocks:
               download: 6474
               datasetA: '27.91'
               datasetB: '48.01'
-              ranking: '945'
-            
+              ranking: '142'            
             - nameen: cait_s36_384
               namezh: cait_s36_384
               paper:
@@ -1457,8 +1315,7 @@ blocks:
               download: 9192
               datasetA: '69.96'
               datasetB: '47.99'
-              ranking: '30'
-            
+              ranking: '143'            
             - nameen: coatnet_rmlp_2_rw_224
               namezh: coatnet_rmlp_2_rw_224
               paper:
@@ -1467,8 +1324,7 @@ blocks:
               download: 6874
               datasetA: '68.73'
               datasetB: '47.99'
-              ranking: '61'
-            
+              ranking: '144'            
             - nameen: crossvit_9_dagger_240
               namezh: crossvit_9_dagger_240
               paper:
@@ -1477,8 +1333,7 @@ blocks:
               download: 9056
               datasetA: '67.06'
               datasetB: '47.97'
-              ranking: '102'
-            
+              ranking: '145'            
             - nameen: mvitv2_large_cls
               namezh: mvitv2_large_cls
               paper:
@@ -1487,8 +1342,7 @@ blocks:
               download: 8836
               datasetA: '47.33'
               datasetB: '47.95'
-              ranking: '534'
-            
+              ranking: '146'            
             - nameen: convnext_xxlarge
               namezh: convnext_xxlarge
               paper:
@@ -1497,8 +1351,7 @@ blocks:
               download: 7751
               datasetA: '67.49'
               datasetB: '47.94'
-              ranking: '91'
-            
+              ranking: '147'            
             - nameen: vit_base_patch16_gap_224
               namezh: vit_base_patch16_gap_224
               paper:
@@ -1507,8 +1360,7 @@ blocks:
               download: 6760
               datasetA: '28.0'
               datasetB: '47.93'
-              ranking: '944'
-            
+              ranking: '148'            
             - nameen: vit_base_patch16_siglip_gap_224
               namezh: vit_base_patch16_siglip_gap_224
               paper:
@@ -1517,8 +1369,7 @@ blocks:
               download: 7942
               datasetA: '27.51'
               datasetB: '47.9'
-              ranking: '953'
-            
+              ranking: '149'            
             - nameen: pit_ti_224
               namezh: pit_ti_224
               paper:
@@ -1527,8 +1378,7 @@ blocks:
               download: 6591
               datasetA: '45.74'
               datasetB: '47.83'
-              ranking: '576'
-            
+              ranking: '150'            
             - nameen: tinynet_b
               namezh: tinynet_b
               paper:
@@ -1537,8 +1387,7 @@ blocks:
               download: 2698
               datasetA: '29.64'
               datasetB: '47.82'
-              ranking: '907'
-            
+              ranking: '151'            
             - nameen: mixer_s16_224
               namezh: mixer_s16_224
               paper:
@@ -1547,8 +1396,7 @@ blocks:
               download: 9015
               datasetA: '50.02'
               datasetB: '47.79'
-              ranking: '474'
-            
+              ranking: '152'            
             - nameen: rexnetr_200
               namezh: rexnetr_200
               paper:
@@ -1557,8 +1405,7 @@ blocks:
               download: 6664
               datasetA: '35.2'
               datasetB: '47.78'
-              ranking: '777'
-            
+              ranking: '153'            
             - nameen: focalnet_huge_fl3
               namezh: focalnet_huge_fl3
               paper:
@@ -1567,8 +1414,7 @@ blocks:
               download: 8010
               datasetA: '56.61'
               datasetB: '47.74'
-              ranking: '319'
-            
+              ranking: '154'            
             - nameen: xcit_nano_12_p8_224
               namezh: xcit_nano_12_p8_224
               paper:
@@ -1577,8 +1423,7 @@ blocks:
               download: 7616
               datasetA: '20.81'
               datasetB: '47.74'
-              ranking: '1104'
-            
+              ranking: '155'            
             - nameen: vit_large_patch14_dinov2
               namezh: vit_large_patch14_dinov2
               paper:
@@ -1587,8 +1432,7 @@ blocks:
               download: 6094
               datasetA: '25.41'
               datasetB: '47.71'
-              ranking: '997'
-            
+              ranking: '156'            
             - nameen: vit_small_patch14_reg4_dinov2
               namezh: vit_small_patch14_reg4_dinov2
               paper:
@@ -1597,8 +1441,7 @@ blocks:
               download: 6929
               datasetA: '23.72'
               datasetB: '47.6'
-              ranking: '1036'
-            
+              ranking: '157'            
             - nameen: efficientnet_blur_b0
               namezh: efficientnet_blur_b0
               paper:
@@ -1607,8 +1450,7 @@ blocks:
               download: 4167
               datasetA: '60.41'
               datasetB: '47.57'
-              ranking: '237'
-            
+              ranking: '158'            
             - nameen: repvit_m1_0
               namezh: repvit_m1_0
               paper:
@@ -1617,8 +1459,7 @@ blocks:
               download: 2923
               datasetA: '41.18'
               datasetB: '47.54'
-              ranking: '663'
-            
+              ranking: '159'            
             - nameen: deit_tiny_patch16_224
               namezh: deit_tiny_patch16_224
               paper:
@@ -1627,8 +1468,7 @@ blocks:
               download: 9247
               datasetA: '64.14'
               datasetB: '47.49'
-              ranking: '155'
-            
+              ranking: '160'            
             - nameen: resnet50x64_clip
               namezh: resnet50x64_clip
               paper:
@@ -1637,8 +1477,7 @@ blocks:
               download: 1352
               datasetA: '38.13'
               datasetB: '47.48'
-              ranking: '714'
-            
+              ranking: '161'            
             - nameen: seresnetaa50d
               namezh: seresnetaa50d
               paper:
@@ -1647,8 +1486,7 @@ blocks:
               download: 6710
               datasetA: '33.92'
               datasetB: '47.34'
-              ranking: '809'
-            
+              ranking: '162'            
             - nameen: efficientnet_l2
               namezh: efficientnet_l2
               paper:
@@ -1657,8 +1495,7 @@ blocks:
               download: 7258
               datasetA: '59.83'
               datasetB: '47.33'
-              ranking: '247'
-            
+              ranking: '163'            
             - nameen: swin_base_patch4_window12_384
               namezh: swin_base_patch4_window12_384
               paper:
@@ -1667,8 +1504,7 @@ blocks:
               download: 5464
               datasetA: '33.25'
               datasetB: '47.27'
-              ranking: '827'
-            
+              ranking: '164'            
             - nameen: vit_small_patch16_36x1_224
               namezh: vit_small_patch16_36x1_224
               paper:
@@ -1677,8 +1513,7 @@ blocks:
               download: 5859
               datasetA: '23.58'
               datasetB: '47.26'
-              ranking: '1038'
-            
+              ranking: '165'            
             - nameen: repvgg_b3
               namezh: repvgg_b3
               paper:
@@ -1687,8 +1522,7 @@ blocks:
               download: 7697
               datasetA: '41.71'
               datasetB: '47.24'
-              ranking: '658'
-            
+              ranking: '166'            
             - nameen: vgg13_bn
               namezh: vgg13_bn
               paper:
@@ -1697,8 +1531,7 @@ blocks:
               download: 5818
               datasetA: '28.73'
               datasetB: '47.23'
-              ranking: '926'
-            
+              ranking: '167'            
             - nameen: legacy_senet154
               namezh: legacy_senet154
               paper:
@@ -1707,8 +1540,7 @@ blocks:
               download: 2238
               datasetA: '52.72'
               datasetB: '47.15'
-              ranking: '406'
-            
+              ranking: '168'            
             - nameen: ecaresnet200d
               namezh: ecaresnet200d
               paper:
@@ -1717,8 +1549,7 @@ blocks:
               download: 2103
               datasetA: '61.76'
               datasetB: '47.07'
-              ranking: '203'
-            
+              ranking: '169'            
             - nameen: regnety_040_sgn
               namezh: regnety_040_sgn
               paper:
@@ -1727,8 +1558,7 @@ blocks:
               download: 2636
               datasetA: '43.59'
               datasetB: '47.07'
-              ranking: '621'
-            
+              ranking: '170'            
             - nameen: coat_lite_mini
               namezh: coat_lite_mini
               paper:
@@ -1737,8 +1567,7 @@ blocks:
               download: 6822
               datasetA: '69.61'
               datasetB: '47.05'
-              ranking: '38'
-            
+              ranking: '171'            
             - nameen: semnasnet_075
               namezh: semnasnet_075
               paper:
@@ -1747,8 +1576,7 @@ blocks:
               download: 6703
               datasetA: '34.49'
               datasetB: '46.98'
-              ranking: '792'
-            
+              ranking: '172'            
             - nameen: resnetv2_50
               namezh: resnetv2_50
               paper:
@@ -1757,8 +1585,7 @@ blocks:
               download: 5759
               datasetA: '36.47'
               datasetB: '46.97'
-              ranking: '745'
-            
+              ranking: '173'            
             - nameen: vit_relpos_base_patch16_cls_224
               namezh: vit_relpos_base_patch16_cls_224
               paper:
@@ -1767,8 +1594,7 @@ blocks:
               download: 1001
               datasetA: '24.2'
               datasetB: '46.97'
-              ranking: '1024'
-            
+              ranking: '174'            
             - nameen: efficientnetv2_xl
               namezh: efficientnetv2_xl
               paper:
@@ -1777,8 +1603,7 @@ blocks:
               download: 3743
               datasetA: '59.03'
               datasetB: '46.96'
-              ranking: '261'
-            
+              ranking: '175'            
             - nameen: nf_ecaresnet26
               namezh: nf_ecaresnet26
               paper:
@@ -1787,8 +1612,7 @@ blocks:
               download: 9011
               datasetA: '46.79'
               datasetB: '46.94'
-              ranking: '548'
-            
+              ranking: '176'            
             - nameen: regnety_080_tv
               namezh: regnety_080_tv
               paper:
@@ -1797,8 +1621,7 @@ blocks:
               download: 1943
               datasetA: '43.5'
               datasetB: '46.85'
-              ranking: '624'
-            
+              ranking: '177'            
             - nameen: cs3darknet_l
               namezh: cs3darknet_l
               paper:
@@ -1807,8 +1630,7 @@ blocks:
               download: 7058
               datasetA: '66.0'
               datasetB: '46.83'
-              ranking: '116'
-            
+              ranking: '178'            
             - nameen: resnet200d
               namezh: resnet200d
               paper:
@@ -1817,8 +1639,7 @@ blocks:
               download: 5722
               datasetA: '37.4'
               datasetB: '46.83'
-              ranking: '729'
-            
+              ranking: '179'            
             - nameen: mobilenetv2_035
               namezh: mobilenetv2_035
               paper:
@@ -1827,8 +1648,7 @@ blocks:
               download: 3673
               datasetA: '48.82'
               datasetB: '46.82'
-              ranking: '493'
-            
+              ranking: '180'            
             - nameen: seresnet269d
               namezh: seresnet269d
               paper:
@@ -1837,8 +1657,7 @@ blocks:
               download: 5188
               datasetA: '33.93'
               datasetB: '46.66'
-              ranking: '808'
-            
+              ranking: '181'            
             - nameen: vit_tiny_patch16_384
               namezh: vit_tiny_patch16_384
               paper:
@@ -1847,8 +1666,7 @@ blocks:
               download: 5972
               datasetA: '22.81'
               datasetB: '46.63'
-              ranking: '1058'
-            
+              ranking: '182'            
             - nameen: cait_m48_448
               namezh: cait_m48_448
               paper:
@@ -1857,8 +1675,7 @@ blocks:
               download: 5559
               datasetA: '70.04'
               datasetB: '46.6'
-              ranking: '27'
-            
+              ranking: '183'            
             - nameen: inception_next_small
               namezh: inception_next_small
               paper:
@@ -1867,8 +1684,7 @@ blocks:
               download: 4472
               datasetA: '53.27'
               datasetB: '46.56'
-              ranking: '392'
-            
+              ranking: '184'            
             - nameen: skresnet18
               namezh: skresnet18
               paper:
@@ -1877,8 +1693,7 @@ blocks:
               download: 1465
               datasetA: '33.66'
               datasetB: '46.55'
-              ranking: '820'
-            
+              ranking: '185'            
             - nameen: vit_base_patch8_224
               namezh: vit_base_patch8_224
               paper:
@@ -1887,8 +1702,7 @@ blocks:
               download: 6545
               datasetA: '28.31'
               datasetB: '46.53'
-              ranking: '934'
-            
+              ranking: '186'            
             - nameen: eca_nfnet_l1
               namezh: eca_nfnet_l1
               paper:
@@ -1897,8 +1711,7 @@ blocks:
               download: 4265
               datasetA: '62.36'
               datasetB: '46.48'
-              ranking: '191'
-            
+              ranking: '187'            
             - nameen: pit_b_distilled_224
               namezh: pit_b_distilled_224
               paper:
@@ -1907,8 +1720,7 @@ blocks:
               download: 6016
               datasetA: '45.88'
               datasetB: '46.47'
-              ranking: '573'
-            
+              ranking: '188'            
             - nameen: tf_efficientnet_el
               namezh: tf_efficientnet_el
               paper:
@@ -1917,8 +1729,7 @@ blocks:
               download: 1528
               datasetA: '30.96'
               datasetB: '46.46'
-              ranking: '875'
-            
+              ranking: '189'            
             - nameen: dla169
               namezh: dla169
               paper:
@@ -1927,8 +1738,7 @@ blocks:
               download: 3800
               datasetA: '63.19'
               datasetB: '46.43'
-              ranking: '173'
-            
+              ranking: '190'            
             - nameen: haloregnetz_b
               namezh: haloregnetz_b
               paper:
@@ -1937,8 +1747,7 @@ blocks:
               download: 5887
               datasetA: '54.79'
               datasetB: '46.36'
-              ranking: '357'
-            
+              ranking: '191'            
             - nameen: efficientnet_b0_g16_evos
               namezh: efficientnet_b0_g16_evos
               paper:
@@ -1947,8 +1756,7 @@ blocks:
               download: 8257
               datasetA: '61.13'
               datasetB: '46.33'
-              ranking: '222'
-            
+              ranking: '192'            
             - nameen: maxxvitv2_rmlp_base_rw_384
               namezh: maxxvitv2_rmlp_base_rw_384
               paper:
@@ -1957,8 +1765,7 @@ blocks:
               download: 7016
               datasetA: '50.23'
               datasetB: '46.3'
-              ranking: '468'
-            
+              ranking: '193'            
             - nameen: volo_d1_384
               namezh: volo_d1_384
               paper:
@@ -1967,8 +1774,7 @@ blocks:
               download: 7260
               datasetA: '22.03'
               datasetB: '46.3'
-              ranking: '1077'
-            
+              ranking: '194'            
             - nameen: eva_giant_patch14_224
               namezh: eva_giant_patch14_224
               paper:
@@ -1977,8 +1783,7 @@ blocks:
               download: 4536
               datasetA: '57.54'
               datasetB: '46.28'
-              ranking: '294'
-            
+              ranking: '195'            
             - nameen: beit_large_patch16_512
               namezh: beit_large_patch16_512
               paper:
@@ -1987,8 +1792,7 @@ blocks:
               download: 5558
               datasetA: '70.57'
               datasetB: '46.24'
-              ranking: '17'
-            
+              ranking: '196'            
             - nameen: repvgg_b2
               namezh: repvgg_b2
               paper:
@@ -1997,8 +1801,7 @@ blocks:
               download: 1885
               datasetA: '41.78'
               datasetB: '46.16'
-              ranking: '656'
-            
+              ranking: '197'            
             - nameen: crossvit_18_240
               namezh: crossvit_18_240
               paper:
@@ -2007,8 +1810,7 @@ blocks:
               download: 5388
               datasetA: '66.86'
               datasetB: '46.13'
-              ranking: '106'
-            
+              ranking: '198'            
             - nameen: dla60x_c
               namezh: dla60x_c
               paper:
@@ -2017,8 +1819,7 @@ blocks:
               download: 9647
               datasetA: '63.39'
               datasetB: '46.12'
-              ranking: '169'
-            
+              ranking: '199'            
             - nameen: rexnetr_300
               namezh: rexnetr_300
               paper:
@@ -2027,8 +1828,7 @@ blocks:
               download: 4794
               datasetA: '35.17'
               datasetB: '46.12'
-              ranking: '778'
-            
+              ranking: '200'            
             - nameen: gcresnext26ts
               namezh: gcresnext26ts
               paper:
@@ -2037,8 +1837,7 @@ blocks:
               download: 2455
               datasetA: '55.71'
               datasetB: '46.08'
-              ranking: '332'
-            
+              ranking: '201'            
             - nameen: efficientformer_l1
               namezh: efficientformer_l1
               paper:
@@ -2047,8 +1846,7 @@ blocks:
               download: 6238
               datasetA: '61.38'
               datasetB: '46.06'
-              ranking: '213'
-            
+              ranking: '202'            
             - nameen: resnest101e
               namezh: resnest101e
               paper:
@@ -2057,8 +1855,7 @@ blocks:
               download: 7954
               datasetA: '39.51'
               datasetB: '46.06'
-              ranking: '687'
-            
+              ranking: '203'            
             - nameen: tnt_b_patch16_224
               namezh: tnt_b_patch16_224
               paper:
@@ -2067,8 +1864,7 @@ blocks:
               download: 1713
               datasetA: '29.45'
               datasetB: '46.02'
-              ranking: '911'
-            
+              ranking: '204'            
             - nameen: convnext_pico
               namezh: convnext_pico
               paper:
@@ -2077,8 +1873,7 @@ blocks:
               download: 4410
               datasetA: '67.68'
               datasetB: '45.95'
-              ranking: '85'
-            
+              ranking: '205'            
             - nameen: efficientnet_b0_gn
               namezh: efficientnet_b0_gn
               paper:
@@ -2087,8 +1882,7 @@ blocks:
               download: 3561
               datasetA: '61.13'
               datasetB: '45.91'
-              ranking: '223'
-            
+              ranking: '206'            
             - nameen: efficientnet_b6
               namezh: efficientnet_b6
               paper:
@@ -2097,8 +1891,7 @@ blocks:
               download: 5614
               datasetA: '60.56'
               datasetB: '45.89'
-              ranking: '234'
-            
+              ranking: '207'            
             - nameen: maxvit_tiny_pm_256
               namezh: maxvit_tiny_pm_256
               paper:
@@ -2107,8 +1900,7 @@ blocks:
               download: 4144
               datasetA: '50.69'
               datasetB: '45.87'
-              ranking: '454'
-            
+              ranking: '208'            
             - nameen: resnext26ts
               namezh: resnext26ts
               paper:
@@ -2117,8 +1909,7 @@ blocks:
               download: 4362
               datasetA: '35.81'
               datasetB: '45.77'
-              ranking: '761'
-            
+              ranking: '209'            
             - nameen: vit_medium_patch16_rope_reg1_gap_256
               namezh: vit_medium_patch16_rope_reg1_gap_256
               paper:
@@ -2127,8 +1918,7 @@ blocks:
               download: 7440
               datasetA: '24.5'
               datasetB: '45.73'
-              ranking: '1018'
-            
+              ranking: '210'            
             - nameen: xcit_small_24_p8_224
               namezh: xcit_small_24_p8_224
               paper:
@@ -2137,8 +1927,7 @@ blocks:
               download: 4251
               datasetA: '20.59'
               datasetB: '45.68'
-              ranking: '1112'
-            
+              ranking: '211'            
             - nameen: ecaresnet50d
               namezh: ecaresnet50d
               paper:
@@ -2147,8 +1936,7 @@ blocks:
               download: 9271
               datasetA: '61.96'
               datasetB: '45.67'
-              ranking: '198'
-            
+              ranking: '212'            
             - nameen: tf_efficientnetv2_m
               namezh: tf_efficientnetv2_m
               paper:
@@ -2157,8 +1945,7 @@ blocks:
               download: 2815
               datasetA: '30.48'
               datasetB: '45.67'
-              ranking: '889'
-            
+              ranking: '213'            
             - nameen: swin_s3_base_224
               namezh: swin_s3_base_224
               paper:
@@ -2167,8 +1954,7 @@ blocks:
               download: 4838
               datasetA: '33.17'
               datasetB: '45.65'
-              ranking: '830'
-            
+              ranking: '214'            
             - nameen: vit_relpos_medium_patch16_cls_224
               namezh: vit_relpos_medium_patch16_cls_224
               paper:
@@ -2177,8 +1963,7 @@ blocks:
               download: 4588
               datasetA: '23.91'
               datasetB: '45.61'
-              ranking: '1030'
-            
+              ranking: '215'            
             - nameen: mixer_b16_224
               namezh: mixer_b16_224
               paper:
@@ -2187,8 +1972,7 @@ blocks:
               download: 4749
               datasetA: '50.18'
               datasetB: '45.59'
-              ranking: '470'
-            
+              ranking: '216'            
             - nameen: coatnet_0_rw_224
               namezh: coatnet_0_rw_224
               paper:
@@ -2197,8 +1981,7 @@ blocks:
               download: 5400
               datasetA: '69.43'
               datasetB: '45.53'
-              ranking: '45'
-            
+              ranking: '217'            
             - nameen: levit_conv_192
               namezh: levit_conv_192
               paper:
@@ -2207,8 +1990,7 @@ blocks:
               download: 1097
               datasetA: '51.74'
               datasetB: '45.49'
-              ranking: '428'
-            
+              ranking: '218'            
             - nameen: cspresnet50w
               namezh: cspresnet50w
               paper:
@@ -2217,8 +1999,7 @@ blocks:
               download: 7670
               datasetA: '65.4'
               datasetB: '45.47'
-              ranking: '128'
-            
+              ranking: '219'            
             - nameen: fastvit_mci1
               namezh: fastvit_mci1
               paper:
@@ -2227,8 +2008,7 @@ blocks:
               download: 8658
               datasetA: '57.23'
               datasetB: '45.44'
-              ranking: '302'
-            
+              ranking: '220'            
             - nameen: poolformer_s12
               namezh: poolformer_s12
               paper:
@@ -2237,8 +2017,7 @@ blocks:
               download: 5184
               datasetA: '45.56'
               datasetB: '45.4'
-              ranking: '583'
-            
+              ranking: '221'            
             - nameen: resnet18d
               namezh: resnet18d
               paper:
@@ -2247,8 +2026,7 @@ blocks:
               download: 8995
               datasetA: '39.29'
               datasetB: '45.37'
-              ranking: '693'
-            
+              ranking: '222'            
             - nameen: efficientvit_l1
               namezh: efficientvit_l1
               paper:
@@ -2257,8 +2035,7 @@ blocks:
               download: 5991
               datasetA: '58.86'
               datasetB: '45.33'
-              ranking: '266'
-            
+              ranking: '223'            
             - nameen: repghostnet_150
               namezh: repghostnet_150
               paper:
@@ -2267,8 +2044,7 @@ blocks:
               download: 3512
               datasetA: '42.15'
               datasetB: '45.33'
-              ranking: '648'
-            
+              ranking: '224'            
             - nameen: coatnet_bn_0_rw_224
               namezh: coatnet_bn_0_rw_224
               paper:
@@ -2277,8 +2053,7 @@ blocks:
               download: 3902
               datasetA: '68.96'
               datasetB: '45.31'
-              ranking: '54'
-            
+              ranking: '225'            
             - nameen: eva02_small_patch14_224
               namezh: eva02_small_patch14_224
               paper:
@@ -2287,8 +2062,7 @@ blocks:
               download: 4915
               datasetA: '57.71'
               datasetB: '45.27'
-              ranking: '290'
-            
+              ranking: '226'            
             - nameen: vit_gigantic_patch14_clip_224
               namezh: vit_gigantic_patch14_clip_224
               paper:
@@ -2297,8 +2071,7 @@ blocks:
               download: 7998
               datasetA: '25.84'
               datasetB: '45.27'
-              ranking: '982'
-            
+              ranking: '227'            
             - nameen: resnet152s
               namezh: resnet152s
               paper:
@@ -2307,8 +2080,7 @@ blocks:
               download: 7131
               datasetA: '37.46'
               datasetB: '45.06'
-              ranking: '727'
-            
+              ranking: '228'            
             - nameen: twins_pcpvt_large
               namezh: twins_pcpvt_large
               paper:
@@ -2317,8 +2089,7 @@ blocks:
               download: 4111
               datasetA: '29.13'
               datasetB: '45.06'
-              ranking: '918'
-            
+              ranking: '229'            
             - nameen: efficientnet_b7
               namezh: efficientnet_b7
               paper:
@@ -2327,8 +2098,7 @@ blocks:
               download: 8195
               datasetA: '60.53'
               datasetB: '45.05'
-              ranking: '235'
-            
+              ranking: '230'            
             - nameen: dm_nfnet_f0
               namezh: dm_nfnet_f0
               paper:
@@ -2337,8 +2107,7 @@ blocks:
               download: 2952
               datasetA: '63.16'
               datasetB: '45.01'
-              ranking: '174'
-            
+              ranking: '231'            
             - nameen: xcit_medium_24_p16_224
               namezh: xcit_medium_24_p16_224
               paper:
@@ -2347,8 +2116,7 @@ blocks:
               download: 1573
               datasetA: '20.83'
               datasetB: '44.97'
-              ranking: '1102'
-            
+              ranking: '232'            
             - nameen: swinv2_small_window8_256
               namezh: swinv2_small_window8_256
               paper:
@@ -2357,8 +2125,7 @@ blocks:
               download: 7948
               datasetA: '31.67'
               datasetB: '44.93'
-              ranking: '859'
-            
+              ranking: '233'            
             - nameen: crossvit_small_240
               namezh: crossvit_small_240
               paper:
@@ -2367,8 +2134,7 @@ blocks:
               download: 2761
               datasetA: '66.47'
               datasetB: '44.91'
-              ranking: '110'
-            
+              ranking: '234'            
             - nameen: xcit_nano_12_p8_384
               namezh: xcit_nano_12_p8_384
               paper:
@@ -2377,8 +2143,7 @@ blocks:
               download: 2618
               datasetA: '20.78'
               datasetB: '44.9'
-              ranking: '1105'
-            
+              ranking: '235'            
             - nameen: vit_base_patch32_clip_448
               namezh: vit_base_patch32_clip_448
               paper:
@@ -2387,8 +2152,7 @@ blocks:
               download: 6111
               datasetA: '26.89'
               datasetB: '44.88'
-              ranking: '963'
-            
+              ranking: '236'            
             - nameen: seresnext50_32x4d
               namezh: seresnext50_32x4d
               paper:
@@ -2397,8 +2161,7 @@ blocks:
               download: 5968
               datasetA: '33.85'
               datasetB: '44.78'
-              ranking: '813'
-            
+              ranking: '237'            
             - nameen: xcit_small_12_p8_224
               namezh: xcit_small_12_p8_224
               paper:
@@ -2407,8 +2170,7 @@ blocks:
               download: 7515
               datasetA: '20.69'
               datasetB: '44.71'
-              ranking: '1108'
-            
+              ranking: '238'            
             - nameen: regnetz_d8_evos
               namezh: regnetz_d8_evos
               paper:
@@ -2417,8 +2179,7 @@ blocks:
               download: 2651
               datasetA: '42.63'
               datasetB: '44.67'
-              ranking: '639'
-            
+              ranking: '239'            
             - nameen: levit_conv_128
               namezh: levit_conv_128
               paper:
@@ -2427,8 +2188,7 @@ blocks:
               download: 2118
               datasetA: '51.8'
               datasetB: '44.56'
-              ranking: '426'
-            
+              ranking: '240'            
             - nameen: swinv2_cr_tiny_224
               namezh: swinv2_cr_tiny_224
               paper:
@@ -2437,8 +2197,7 @@ blocks:
               download: 2558
               datasetA: '31.88'
               datasetB: '44.56'
-              ranking: '853'
-            
+              ranking: '241'            
             - nameen: maxvit_tiny_rw_224
               namezh: maxvit_tiny_rw_224
               paper:
@@ -2447,8 +2206,7 @@ blocks:
               download: 4504
               datasetA: '50.67'
               datasetB: '44.54'
-              ranking: '455'
-            
+              ranking: '242'            
             - nameen: focalnet_tiny_srf
               namezh: focalnet_tiny_srf
               paper:
@@ -2457,8 +2215,7 @@ blocks:
               download: 6534
               datasetA: '55.88'
               datasetB: '44.53'
-              ranking: '326'
-            
+              ranking: '243'            
             - nameen: resnext50_32x4d
               namezh: resnext50_32x4d
               paper:
@@ -2467,8 +2224,7 @@ blocks:
               download: 9710
               datasetA: '35.8'
               datasetB: '44.52'
-              ranking: '762'
-            
+              ranking: '244'            
             - nameen: resnet50x16_clip
               namezh: resnet50x16_clip
               paper:
@@ -2477,8 +2233,7 @@ blocks:
               download: 2333
               datasetA: '38.15'
               datasetB: '44.36'
-              ranking: '712'
-            
+              ranking: '245'            
             - nameen: nest_tiny_jx
               namezh: nest_tiny_jx
               paper:
@@ -2487,8 +2242,7 @@ blocks:
               download: 8776
               datasetA: '47.01'
               datasetB: '44.31'
-              ranking: '544'
-            
+              ranking: '246'            
             - nameen: crossvit_15_dagger_240
               namezh: crossvit_15_dagger_240
               paper:
@@ -2497,8 +2251,7 @@ blocks:
               download: 4697
               datasetA: '66.98'
               datasetB: '44.26'
-              ranking: '104'
-            
+              ranking: '247'            
             - nameen: ghostnet_130
               namezh: ghostnet_130
               paper:
@@ -2507,8 +2260,7 @@ blocks:
               download: 8952
               datasetA: '55.18'
               datasetB: '44.25'
-              ranking: '344'
-            
+              ranking: '248'            
             - nameen: convformer_s18
               namezh: convformer_s18
               paper:
@@ -2517,8 +2269,7 @@ blocks:
               download: 1315
               datasetA: '68.55'
               datasetB: '44.21'
-              ranking: '68'
-            
+              ranking: '249'            
             - nameen: ecaresnet50t
               namezh: ecaresnet50t
               paper:
@@ -2527,8 +2278,7 @@ blocks:
               download: 5672
               datasetA: '61.93'
               datasetB: '44.16'
-              ranking: '200'
-            
+              ranking: '250'            
             - nameen: vit_giant_patch14_reg4_dinov2
               namezh: vit_giant_patch14_reg4_dinov2
               paper:
@@ -2537,8 +2287,7 @@ blocks:
               download: 4041
               datasetA: '26.01'
               datasetB: '44.16'
-              ranking: '979'
-            
+              ranking: '251'            
             - nameen: vitamin_large_336
               namezh: vitamin_large_336
               paper:
@@ -2547,8 +2296,7 @@ blocks:
               download: 7825
               datasetA: '22.47'
               datasetB: '44.14'
-              ranking: '1070'
-            
+              ranking: '252'            
             - nameen: vitamin_large2_256
               namezh: vitamin_large2_256
               paper:
@@ -2557,8 +2305,7 @@ blocks:
               download: 8485
               datasetA: '22.66'
               datasetB: '44.1'
-              ranking: '1065'
-            
+              ranking: '253'            
             - nameen: dm_nfnet_f6
               namezh: dm_nfnet_f6
               paper:
@@ -2567,8 +2314,7 @@ blocks:
               download: 7413
               datasetA: '62.9'
               datasetB: '44.07'
-              ranking: '180'
-            
+              ranking: '254'            
             - nameen: resnetv2_101x3_bit
               namezh: resnetv2_101x3_bit
               paper:
@@ -2577,8 +2323,7 @@ blocks:
               download: 9600
               datasetA: '36.06'
               datasetB: '44.07'
-              ranking: '756'
-            
+              ranking: '255'            
             - nameen: edgenext_small
               namezh: edgenext_small
               paper:
@@ -2587,8 +2332,7 @@ blocks:
               download: 6321
               datasetA: '61.57'
               datasetB: '44.05'
-              ranking: '209'
-            
+              ranking: '256'            
             - nameen: crossvit_18_dagger_408
               namezh: crossvit_18_dagger_408
               paper:
@@ -2597,8 +2341,7 @@ blocks:
               download: 4904
               datasetA: '66.67'
               datasetB: '43.93'
-              ranking: '108'
-            
+              ranking: '257'            
             - nameen: mobilevit_xs
               namezh: mobilevit_xs
               paper:
@@ -2607,8 +2350,7 @@ blocks:
               download: 2012
               datasetA: '47.79'
               datasetB: '43.81'
-              ranking: '521'
-            
+              ranking: '258'            
             - nameen: gcvit_small
               namezh: gcvit_small
               paper:
@@ -2617,8 +2359,7 @@ blocks:
               download: 4204
               datasetA: '55.57'
               datasetB: '43.7'
-              ranking: '335'
-            
+              ranking: '259'            
             - nameen: vit_large_patch16_siglip_gap_384
               namezh: vit_large_patch16_siglip_gap_384
               paper:
@@ -2627,8 +2368,7 @@ blocks:
               download: 5054
               datasetA: '25.09'
               datasetB: '43.68'
-              ranking: '1005'
-            
+              ranking: '260'            
             - nameen: legacy_seresnet34
               namezh: legacy_seresnet34
               paper:
@@ -2637,8 +2377,7 @@ blocks:
               download: 8864
               datasetA: '52.65'
               datasetB: '43.62'
-              ranking: '408'
-            
+              ranking: '261'            
             - nameen: vit_srelpos_small_patch16_224
               namezh: vit_srelpos_small_patch16_224
               paper:
@@ -2647,8 +2386,7 @@ blocks:
               download: 8476
               datasetA: '22.86'
               datasetB: '43.62'
-              ranking: '1056'
-            
+              ranking: '262'            
             - nameen: tf_efficientnet_b3
               namezh: tf_efficientnet_b3
               paper:
@@ -2657,8 +2395,7 @@ blocks:
               download: 5423
               datasetA: '31.38'
               datasetB: '43.57'
-              ranking: '866'
-            
+              ranking: '263'            
             - nameen: swinv2_tiny_window8_256
               namezh: swinv2_tiny_window8_256
               paper:
@@ -2667,8 +2404,7 @@ blocks:
               download: 6861
               datasetA: '31.52'
               datasetB: '43.51'
-              ranking: '861'
-            
+              ranking: '264'            
             - nameen: vitamin_xlarge_336
               namezh: vitamin_xlarge_336
               paper:
@@ -2677,8 +2413,7 @@ blocks:
               download: 7102
               datasetA: '22.19'
               datasetB: '43.46'
-              ranking: '1074'
-            
+              ranking: '265'            
             - nameen: res2net50_48w_2s
               namezh: res2net50_48w_2s
               paper:
@@ -2687,8 +2422,7 @@ blocks:
               download: 7362
               datasetA: '40.41'
               datasetB: '43.44'
-              ranking: '673'
-            
+              ranking: '266'            
             - nameen: lambda_resnet26t
               namezh: lambda_resnet26t
               paper:
@@ -2697,8 +2431,7 @@ blocks:
               download: 6475
               datasetA: '53.01'
               datasetB: '43.43'
-              ranking: '398'
-            
+              ranking: '267'            
             - nameen: efficientnet_b3_g8_gn
               namezh: efficientnet_b3_g8_gn
               paper:
@@ -2707,8 +2440,7 @@ blocks:
               download: 1987
               datasetA: '60.86'
               datasetB: '43.42'
-              ranking: '229'
-            
+              ranking: '268'            
             - nameen: darknet17
               namezh: darknet17
               paper:
@@ -2717,8 +2449,7 @@ blocks:
               download: 3625
               datasetA: '65.37'
               datasetB: '43.4'
-              ranking: '130'
-            
+              ranking: '269'            
             - nameen: hrnet_w18_small_v2
               namezh: hrnet_w18_small_v2
               paper:
@@ -2727,8 +2458,7 @@ blocks:
               download: 7452
               datasetA: '53.9'
               datasetB: '43.4'
-              ranking: '382'
-            
+              ranking: '270'            
             - nameen: coatnet_4_224
               namezh: coatnet_4_224
               paper:
@@ -2737,8 +2467,7 @@ blocks:
               download: 9951
               datasetA: '68.99'
               datasetB: '43.39'
-              ranking: '52'
-            
+              ranking: '271'            
             - nameen: resnetv2_50x1_bit
               namezh: resnetv2_50x1_bit
               paper:
@@ -2747,8 +2476,7 @@ blocks:
               download: 4682
               datasetA: '36.27'
               datasetB: '43.38'
-              ranking: '751'
-            
+              ranking: '272'            
             - nameen: efficientformerv2_l
               namezh: efficientformerv2_l
               paper:
@@ -2757,8 +2485,7 @@ blocks:
               download: 9145
               datasetA: '61.32'
               datasetB: '43.36'
-              ranking: '216'
-            
+              ranking: '273'            
             - nameen: levit_384
               namezh: levit_384
               paper:
@@ -2767,8 +2494,7 @@ blocks:
               download: 7264
               datasetA: '52.09'
               datasetB: '43.34'
-              ranking: '421'
-            
+              ranking: '274'            
             - nameen: resnet18
               namezh: resnet18
               paper:
@@ -2777,8 +2503,7 @@ blocks:
               download: 5996
               datasetA: '39.4'
               datasetB: '43.32'
-              ranking: '692'
-            
+              ranking: '275'            
             - nameen: coatnet_2_rw_224
               namezh: coatnet_2_rw_224
               paper:
@@ -2787,8 +2512,7 @@ blocks:
               download: 4984
               datasetA: '69.04'
               datasetB: '43.31'
-              ranking: '49'
-            
+              ranking: '276'            
             - nameen: convnextv2_nano
               namezh: convnextv2_nano
               paper:
@@ -2797,8 +2521,7 @@ blocks:
               download: 1030
               datasetA: '67.26'
               datasetB: '43.3'
-              ranking: '97'
-            
+              ranking: '277'            
             - nameen: gernet_s
               namezh: gernet_s
               paper:
@@ -2807,8 +2530,7 @@ blocks:
               download: 2694
               datasetA: '55.31'
               datasetB: '43.28'
-              ranking: '341'
-            
+              ranking: '278'            
             - nameen: efficientnet_x_b5
               namezh: efficientnet_x_b5
               paper:
@@ -2817,8 +2539,7 @@ blocks:
               download: 8984
               datasetA: '59.31'
               datasetB: '43.25'
-              ranking: '254'
-            
+              ranking: '279'            
             - nameen: maxvit_pico_rw_256
               namezh: maxvit_pico_rw_256
               paper:
@@ -2827,8 +2548,7 @@ blocks:
               download: 9405
               datasetA: '51.23'
               datasetB: '43.21'
-              ranking: '443'
-            
+              ranking: '280'            
             - nameen: coatnet_pico_rw_224
               namezh: coatnet_pico_rw_224
               paper:
@@ -2837,8 +2557,7 @@ blocks:
               download: 7550
               datasetA: '68.85'
               datasetB: '43.16'
-              ranking: '57'
-            
+              ranking: '281'            
             - nameen: vit_small_patch14_dinov2
               namezh: vit_small_patch14_dinov2
               paper:
@@ -2847,8 +2566,7 @@ blocks:
               download: 8752
               datasetA: '23.72'
               datasetB: '43.14'
-              ranking: '1035'
-            
+              ranking: '282'            
             - nameen: xcit_tiny_12_p16_384
               namezh: xcit_tiny_12_p16_384
               paper:
@@ -2857,8 +2575,7 @@ blocks:
               download: 2328
               datasetA: '20.32'
               datasetB: '43.14'
-              ranking: '1119'
-            
+              ranking: '283'            
             - nameen: ecaresnet50d_pruned
               namezh: ecaresnet50d_pruned
               paper:
@@ -2867,8 +2584,7 @@ blocks:
               download: 4659
               datasetA: '61.95'
               datasetB: '43.09'
-              ranking: '199'
-            
+              ranking: '284'            
             - nameen: resnet26
               namezh: resnet26
               paper:
@@ -2877,8 +2593,7 @@ blocks:
               download: 1249
               datasetA: '39.23'
               datasetB: '43.08'
-              ranking: '694'
-            
+              ranking: '285'            
             - nameen: regnetz_d8
               namezh: regnetz_d8
               paper:
@@ -2887,8 +2602,7 @@ blocks:
               download: 2801
               datasetA: '42.73'
               datasetB: '43.05'
-              ranking: '638'
-            
+              ranking: '286'            
             - nameen: gcvit_base
               namezh: gcvit_base
               paper:
@@ -2897,8 +2611,7 @@ blocks:
               download: 1737
               datasetA: '55.59'
               datasetB: '43.04'
-              ranking: '334'
-            
+              ranking: '287'            
             - nameen: convit_tiny
               namezh: convit_tiny
               paper:
@@ -2907,8 +2620,7 @@ blocks:
               download: 1261
               datasetA: '68.37'
               datasetB: '43.03'
-              ranking: '72'
-            
+              ranking: '288'            
             - nameen: tf_efficientnet_b2
               namezh: tf_efficientnet_b2
               paper:
@@ -2917,8 +2629,7 @@ blocks:
               download: 3927
               datasetA: '31.39'
               datasetB: '43.02'
-              ranking: '865'
-            
+              ranking: '289'            
             - nameen: resnext101_32x4d
               namezh: resnext101_32x4d
               paper:
@@ -2927,8 +2638,7 @@ blocks:
               download: 9968
               datasetA: '35.65'
               datasetB: '42.93'
-              ranking: '764'
-            
+              ranking: '290'            
             - nameen: resnet14t
               namezh: resnet14t
               paper:
@@ -2937,8 +2647,7 @@ blocks:
               download: 1930
               datasetA: '39.42'
               datasetB: '42.9'
-              ranking: '691'
-            
+              ranking: '291'            
             - nameen: efficientvit_m1
               namezh: efficientvit_m1
               paper:
@@ -2947,8 +2656,7 @@ blocks:
               download: 6707
               datasetA: '58.77'
               datasetB: '42.86'
-              ranking: '270'
-            
+              ranking: '292'            
             - nameen: gcresnet33ts
               namezh: gcresnet33ts
               paper:
@@ -2957,8 +2665,7 @@ blocks:
               download: 7266
               datasetA: '55.76'
               datasetB: '42.84'
-              ranking: '330'
-            
+              ranking: '293'            
             - nameen: vit_base_patch32_clip_384
               namezh: vit_base_patch32_clip_384
               paper:
@@ -2967,8 +2674,7 @@ blocks:
               download: 9847
               datasetA: '26.95'
               datasetB: '42.8'
-              ranking: '962'
-            
+              ranking: '294'            
             - nameen: convnext_tiny_hnf
               namezh: convnext_tiny_hnf
               paper:
@@ -2977,8 +2683,7 @@ blocks:
               download: 3000
               datasetA: '67.58'
               datasetB: '42.73'
-              ranking: '89'
-            
+              ranking: '295'            
             - nameen: gernet_m
               namezh: gernet_m
               paper:
@@ -2987,8 +2692,7 @@ blocks:
               download: 2024
               datasetA: '55.38'
               datasetB: '42.7'
-              ranking: '340'
-            
+              ranking: '296'            
             - nameen: vit_huge_patch14_clip_quickgelu_224
               namezh: vit_huge_patch14_clip_quickgelu_224
               paper:
@@ -2997,8 +2701,7 @@ blocks:
               download: 1992
               datasetA: '25.65'
               datasetB: '42.69'
-              ranking: '987'
-            
+              ranking: '297'            
             - nameen: vit_small_r26_s32_384
               namezh: vit_small_r26_s32_384
               paper:
@@ -3007,8 +2710,7 @@ blocks:
               download: 1069
               datasetA: '23.49'
               datasetB: '42.69'
-              ranking: '1044'
-            
+              ranking: '298'            
             - nameen: coatnet_0_224
               namezh: coatnet_0_224
               paper:
@@ -3017,8 +2719,7 @@ blocks:
               download: 4432
               datasetA: '69.43'
               datasetB: '42.68'
-              ranking: '44'
-            
+              ranking: '299'            
             - nameen: hgnet_base
               namezh: hgnet_base
               paper:
@@ -3027,8 +2728,7 @@ blocks:
               download: 8166
               datasetA: '54.57'
               datasetB: '42.56'
-              ranking: '364'
-            
+              ranking: '300'            
             - nameen: resnet152
               namezh: resnet152
               paper:
@@ -3037,8 +2737,7 @@ blocks:
               download: 1476
               datasetA: '37.66'
               datasetB: '42.54'
-              ranking: '724'
-            
+              ranking: '301'            
             - nameen: convnextv2_base
               namezh: convnextv2_base
               paper:
@@ -3047,8 +2746,7 @@ blocks:
               download: 3867
               datasetA: '67.32'
               datasetB: '42.52'
-              ranking: '93'
-            
+              ranking: '302'            
             - nameen: convnextv2_tiny
               namezh: convnextv2_tiny
               paper:
@@ -3057,8 +2755,7 @@ blocks:
               download: 4580
               datasetA: '67.13'
               datasetB: '42.5'
-              ranking: '100'
-            
+              ranking: '303'            
             - nameen: vitamin_small_224
               namezh: vitamin_small_224
               paper:
@@ -3067,8 +2764,7 @@ blocks:
               download: 6656
               datasetA: '22.35'
               datasetB: '42.23'
-              ranking: '1072'
-            
+              ranking: '304'            
             - nameen: regnety_008_tv
               namezh: regnety_008_tv
               paper:
@@ -3077,8 +2773,7 @@ blocks:
               download: 2606
               datasetA: '43.78'
               datasetB: '42.07'
-              ranking: '617'
-            
+              ranking: '305'            
             - nameen: vit_large_patch16_384
               namezh: vit_large_patch16_384
               paper:
@@ -3087,8 +2782,7 @@ blocks:
               download: 6701
               datasetA: '25.3'
               datasetB: '42.05'
-              ranking: '1001'
-            
+              ranking: '306'            
             - nameen: tf_efficientnetv2_b1
               namezh: tf_efficientnetv2_b1
               paper:
@@ -3097,8 +2791,7 @@ blocks:
               download: 4485
               datasetA: '30.57'
               datasetB: '42.01'
-              ranking: '885'
-            
+              ranking: '307'            
             - nameen: resnet51q
               namezh: resnet51q
               paper:
@@ -3107,8 +2800,7 @@ blocks:
               download: 1928
               datasetA: '38.05'
               datasetB: '41.99'
-              ranking: '716'
-            
+              ranking: '308'            
             - nameen: davit_tiny
               namezh: davit_tiny
               paper:
@@ -3117,8 +2809,7 @@ blocks:
               download: 8514
               datasetA: '64.7'
               datasetB: '41.96'
-              ranking: '139'
-            
+              ranking: '309'            
             - nameen: fbnetc_100
               namezh: fbnetc_100
               paper:
@@ -3127,8 +2818,7 @@ blocks:
               download: 9458
               datasetA: '56.88'
               datasetB: '41.91'
-              ranking: '310'
-            
+              ranking: '310'            
             - nameen: fbnetv3_b
               namezh: fbnetv3_b
               paper:
@@ -3137,8 +2827,7 @@ blocks:
               download: 7767
               datasetA: '56.83'
               datasetB: '41.91'
-              ranking: '311'
-            
+              ranking: '311'            
             - nameen: pit_ti_distilled_224
               namezh: pit_ti_distilled_224
               paper:
@@ -3147,8 +2836,7 @@ blocks:
               download: 9925
               datasetA: '45.72'
               datasetB: '41.86'
-              ranking: '577'
-            
+              ranking: '312'            
             - nameen: eva02_large_patch14_clip_224
               namezh: eva02_large_patch14_clip_224
               paper:
@@ -3157,8 +2845,7 @@ blocks:
               download: 1943
               datasetA: '57.8'
               datasetB: '41.74'
-              ranking: '288'
-            
+              ranking: '313'            
             - nameen: xcit_nano_12_p16_384
               namezh: xcit_nano_12_p16_384
               paper:
@@ -3167,8 +2854,7 @@ blocks:
               download: 6866
               datasetA: '20.7'
               datasetB: '41.71'
-              ranking: '1107'
-            
+              ranking: '314'            
             - nameen: tresnet_m
               namezh: tresnet_m
               paper:
@@ -3177,8 +2863,7 @@ blocks:
               download: 4026
               datasetA: '29.34'
               datasetB: '41.69'
-              ranking: '914'
-            
+              ranking: '315'            
             - nameen: nf_regnet_b0
               namezh: nf_regnet_b0
               paper:
@@ -3187,8 +2872,7 @@ blocks:
               download: 6998
               datasetA: '46.78'
               datasetB: '41.68'
-              ranking: '551'
-            
+              ranking: '316'            
             - nameen: rexnet_130
               namezh: rexnet_130
               paper:
@@ -3197,8 +2881,7 @@ blocks:
               download: 2939
               datasetA: '35.43'
               datasetB: '41.67'
-              ranking: '770'
-            
+              ranking: '317'            
             - nameen: maxxvit_rmlp_small_rw_256
               namezh: maxxvit_rmlp_small_rw_256
               paper:
@@ -3207,8 +2890,7 @@ blocks:
               download: 2689
               datasetA: '50.29'
               datasetB: '41.57'
-              ranking: '464'
-            
+              ranking: '318'            
             - nameen: levit_256
               namezh: levit_256
               paper:
@@ -3217,8 +2899,7 @@ blocks:
               download: 3761
               datasetA: '52.13'
               datasetB: '41.44'
-              ranking: '419'
-            
+              ranking: '319'            
             - nameen: mobilenet_100
               namezh: mobilenet_100
               paper:
@@ -3227,8 +2908,7 @@ blocks:
               download: 8510
               datasetA: '49.19'
               datasetB: '41.43'
-              ranking: '486'
-            
+              ranking: '320'            
             - nameen: efficientnet_x_b3
               namezh: efficientnet_x_b3
               paper:
@@ -3237,8 +2917,7 @@ blocks:
               download: 3614
               datasetA: '59.37'
               datasetB: '41.19'
-              ranking: '253'
-            
+              ranking: '321'            
             - nameen: hrnet_w30
               namezh: hrnet_w30
               paper:
@@ -3247,8 +2926,7 @@ blocks:
               download: 7999
               datasetA: '53.87'
               datasetB: '41.16'
-              ranking: '384'
-            
+              ranking: '322'            
             - nameen: tf_efficientnetv2_b0
               namezh: tf_efficientnetv2_b0
               paper:
@@ -3257,8 +2935,7 @@ blocks:
               download: 2950
               datasetA: '30.58'
               datasetB: '41.1'
-              ranking: '884'
-            
+              ranking: '323'            
             - nameen: swinv2_cr_base_224
               namezh: swinv2_cr_base_224
               paper:
@@ -3267,8 +2944,7 @@ blocks:
               download: 3202
               datasetA: '32.46'
               datasetB: '41.03'
-              ranking: '840'
-            
+              ranking: '324'            
             - nameen: dm_nfnet_f1
               namezh: dm_nfnet_f1
               paper:
@@ -3277,8 +2953,7 @@ blocks:
               download: 3488
               datasetA: '63.06'
               datasetB: '41.0'
-              ranking: '175'
-            
+              ranking: '325'            
             - nameen: resnext101_64x4d
               namezh: resnext101_64x4d
               paper:
@@ -3287,8 +2962,7 @@ blocks:
               download: 5095
               datasetA: '35.5'
               datasetB: '40.94'
-              ranking: '768'
-            
+              ranking: '326'            
             - nameen: volo_d3_448
               namezh: volo_d3_448
               paper:
@@ -3297,8 +2971,7 @@ blocks:
               download: 5361
               datasetA: '21.76'
               datasetB: '40.94'
-              ranking: '1081'
-            
+              ranking: '327'            
             - nameen: densenet161
               namezh: densenet161
               paper:
@@ -3307,8 +2980,7 @@ blocks:
               download: 5040
               datasetA: '64.12'
               datasetB: '40.9'
-              ranking: '157'
-            
+              ranking: '328'            
             - nameen: vit_huge_patch14_gap_224
               namezh: vit_huge_patch14_gap_224
               paper:
@@ -3317,8 +2989,7 @@ blocks:
               download: 3688
               datasetA: '25.6'
               datasetB: '40.84'
-              ranking: '989'
-            
+              ranking: '329'            
             - nameen: resnet50_clip_gap
               namezh: resnet50_clip_gap
               paper:
@@ -3327,8 +2998,7 @@ blocks:
               download: 9821
               datasetA: '38.61'
               datasetB: '40.82'
-              ranking: '703'
-            
+              ranking: '330'            
             - nameen: vit_huge_patch14_clip_quickgelu_378
               namezh: vit_huge_patch14_clip_quickgelu_378
               paper:
@@ -3337,8 +3007,7 @@ blocks:
               download: 5896
               datasetA: '25.62'
               datasetB: '40.82'
-              ranking: '988'
-            
+              ranking: '331'            
             - nameen: efficientnet_lite3
               namezh: efficientnet_lite3
               paper:
@@ -3347,8 +3016,7 @@ blocks:
               download: 7950
               datasetA: '59.46'
               datasetB: '40.81'
-              ranking: '251'
-            
+              ranking: '332'            
             - nameen: resmlp_24_224
               namezh: resmlp_24_224
               paper:
@@ -3357,8 +3025,7 @@ blocks:
               download: 4586
               datasetA: '40.21'
               datasetB: '40.8'
-              ranking: '679'
-            
+              ranking: '333'            
             - nameen: tf_efficientnet_l2
               namezh: tf_efficientnet_l2
               paper:
@@ -3367,8 +3034,7 @@ blocks:
               download: 5084
               datasetA: '30.88'
               datasetB: '40.8'
-              ranking: '878'
-            
+              ranking: '334'            
             - nameen: efficientvit_m2
               namezh: efficientvit_m2
               paper:
@@ -3377,8 +3043,7 @@ blocks:
               download: 6889
               datasetA: '58.7'
               datasetB: '40.78'
-              ranking: '271'
-            
+              ranking: '335'            
             - nameen: res2net50_26w_4s
               namezh: res2net50_26w_4s
               paper:
@@ -3387,8 +3052,7 @@ blocks:
               download: 2416
               datasetA: '40.67'
               datasetB: '40.68'
-              ranking: '670'
-            
+              ranking: '336'            
             - nameen: xcit_small_12_p16_384
               namezh: xcit_small_12_p16_384
               paper:
@@ -3397,8 +3061,7 @@ blocks:
               download: 7544
               datasetA: '20.64'
               datasetB: '40.6'
-              ranking: '1111'
-            
+              ranking: '337'            
             - nameen: resnest14d
               namezh: resnest14d
               paper:
@@ -3407,8 +3070,7 @@ blocks:
               download: 9792
               datasetA: '39.93'
               datasetB: '40.59'
-              ranking: '682'
-            
+              ranking: '338'            
             - nameen: convnextv2_pico
               namezh: convnextv2_pico
               paper:
@@ -3417,8 +3079,7 @@ blocks:
               download: 1120
               datasetA: '67.21'
               datasetB: '40.58'
-              ranking: '98'
-            
+              ranking: '339'            
             - nameen: pvt_v2_b1
               namezh: pvt_v2_b1
               paper:
@@ -3427,8 +3088,7 @@ blocks:
               download: 3736
               datasetA: '45.19'
               datasetB: '40.58'
-              ranking: '592'
-            
+              ranking: '340'            
             - nameen: maxvit_rmlp_small_rw_256
               namezh: maxvit_rmlp_small_rw_256
               paper:
@@ -3437,8 +3097,7 @@ blocks:
               download: 7023
               datasetA: '50.99'
               datasetB: '40.53'
-              ranking: '449'
-            
+              ranking: '341'            
             - nameen: efficientvit_b3
               namezh: efficientvit_b3
               paper:
@@ -3447,8 +3106,7 @@ blocks:
               download: 7279
               datasetA: '58.86'
               datasetB: '40.46'
-              ranking: '265'
-            
+              ranking: '342'            
             - nameen: vit_small_patch8_224
               namezh: vit_small_patch8_224
               paper:
@@ -3457,8 +3115,7 @@ blocks:
               download: 3435
               datasetA: '23.73'
               datasetB: '40.42'
-              ranking: '1034'
-            
+              ranking: '343'            
             - nameen: repvgg_b2g4
               namezh: repvgg_b2g4
               paper:
@@ -3467,8 +3124,7 @@ blocks:
               download: 8896
               datasetA: '41.78'
               datasetB: '40.38'
-              ranking: '657'
-            
+              ranking: '344'            
             - nameen: efficientnet_b1
               namezh: efficientnet_b1
               paper:
@@ -3477,8 +3133,7 @@ blocks:
               download: 5669
               datasetA: '61.09'
               datasetB: '40.36'
-              ranking: '224'
-            
+              ranking: '345'            
             - nameen: vit_giant_patch14_224
               namezh: vit_giant_patch14_224
               paper:
@@ -3487,8 +3142,7 @@ blocks:
               download: 9784
               datasetA: '26.17'
               datasetB: '40.35'
-              ranking: '976'
-            
+              ranking: '346'            
             - nameen: maxxvitv2_nano_rw_256
               namezh: maxxvitv2_nano_rw_256
               paper:
@@ -3497,8 +3151,7 @@ blocks:
               download: 1750
               datasetA: '50.25'
               datasetB: '40.2'
-              ranking: '466'
-            
+              ranking: '347'            
             - nameen: hgnetv2_b0
               namezh: hgnetv2_b0
               paper:
@@ -3507,8 +3160,7 @@ blocks:
               download: 8212
               datasetA: '54.48'
               datasetB: '40.17'
-              ranking: '367'
-            
+              ranking: '348'            
             - nameen: eva02_tiny_patch14_336
               namezh: eva02_tiny_patch14_336
               paper:
@@ -3517,8 +3169,7 @@ blocks:
               download: 1676
               datasetA: '57.54'
               datasetB: '40.16'
-              ranking: '293'
-            
+              ranking: '349'            
             - nameen: vit_so400m_patch14_siglip_gap_448
               namezh: vit_so400m_patch14_siglip_gap_448
               paper:
@@ -3527,8 +3178,7 @@ blocks:
               download: 5749
               datasetA: '23.15'
               datasetB: '40.15'
-              ranking: '1053'
-            
+              ranking: '350'            
             - nameen: legacy_seresnet50
               namezh: legacy_seresnet50
               paper:
@@ -3537,8 +3187,7 @@ blocks:
               download: 6311
               datasetA: '52.52'
               datasetB: '40.13'
-              ranking: '409'
-            
+              ranking: '351'            
             - nameen: skresnet50d
               namezh: skresnet50d
               paper:
@@ -3547,8 +3196,7 @@ blocks:
               download: 8590
               datasetA: '33.53'
               datasetB: '40.13'
-              ranking: '823'
-            
+              ranking: '352'            
             - nameen: efficientnet_em
               namezh: efficientnet_em
               paper:
@@ -3557,8 +3205,7 @@ blocks:
               download: 8708
               datasetA: '60.11'
               datasetB: '40.03'
-              ranking: '243'
-            
+              ranking: '353'            
             - nameen: vit_relpos_base_patch32_plus_rpn_256
               namezh: vit_relpos_base_patch32_plus_rpn_256
               paper:
@@ -3567,8 +3214,7 @@ blocks:
               download: 5088
               datasetA: '24.08'
               datasetB: '40.0'
-              ranking: '1028'
-            
+              ranking: '354'            
             - nameen: xcit_small_24_p8_384
               namezh: xcit_small_24_p8_384
               paper:
@@ -3577,8 +3223,7 @@ blocks:
               download: 5189
               datasetA: '20.53'
               datasetB: '39.98'
-              ranking: '1113'
-            
+              ranking: '355'            
             - nameen: swinv2_cr_huge_224
               namezh: swinv2_cr_huge_224
               paper:
@@ -3587,8 +3232,7 @@ blocks:
               download: 2747
               datasetA: '32.27'
               datasetB: '39.97'
-              ranking: '845'
-            
+              ranking: '356'            
             - nameen: vit_large_patch14_224
               namezh: vit_large_patch14_224
               paper:
@@ -3597,8 +3241,7 @@ blocks:
               download: 3587
               datasetA: '25.47'
               datasetB: '39.94'
-              ranking: '992'
-            
+              ranking: '357'            
             - nameen: eca_halonext26ts
               namezh: eca_halonext26ts
               paper:
@@ -3607,8 +3250,7 @@ blocks:
               download: 1845
               datasetA: '62.38'
               datasetB: '39.92'
-              ranking: '189'
-            
+              ranking: '358'            
             - nameen: efficientnet_lite2
               namezh: efficientnet_lite2
               paper:
@@ -3617,8 +3259,7 @@ blocks:
               download: 8781
               datasetA: '59.51'
               datasetB: '39.91'
-              ranking: '250'
-            
+              ranking: '359'            
             - nameen: skresnext50_32x4d
               namezh: skresnext50_32x4d
               paper:
@@ -3627,8 +3268,7 @@ blocks:
               download: 4920
               datasetA: '33.39'
               datasetB: '39.81'
-              ranking: '824'
-            
+              ranking: '360'            
             - nameen: coatnet_3_224
               namezh: coatnet_3_224
               paper:
@@ -3637,8 +3277,7 @@ blocks:
               download: 1904
               datasetA: '69.03'
               datasetB: '39.8'
-              ranking: '50'
-            
+              ranking: '361'            
             - nameen: convnextv2_femto
               namezh: convnextv2_femto
               paper:
@@ -3647,8 +3286,7 @@ blocks:
               download: 6226
               datasetA: '67.31'
               datasetB: '39.8'
-              ranking: '94'
-            
+              ranking: '362'            
             - nameen: nest_base_jx
               namezh: nest_base_jx
               paper:
@@ -3657,8 +3295,7 @@ blocks:
               download: 5030
               datasetA: '47.15'
               datasetB: '39.74'
-              ranking: '540'
-            
+              ranking: '363'            
             - nameen: hrnet_w18
               namezh: hrnet_w18
               paper:
@@ -3667,8 +3304,7 @@ blocks:
               download: 7661
               datasetA: '54.09'
               datasetB: '39.7'
-              ranking: '380'
-            
+              ranking: '364'            
             - nameen: eva02_base_patch14_224
               namezh: eva02_base_patch14_224
               paper:
@@ -3677,8 +3313,7 @@ blocks:
               download: 6778
               datasetA: '58.12'
               datasetB: '39.66'
-              ranking: '282'
-            
+              ranking: '365'            
             - nameen: tf_efficientnet_b4
               namezh: tf_efficientnet_b4
               paper:
@@ -3687,8 +3322,7 @@ blocks:
               download: 3573
               datasetA: '31.32'
               datasetB: '39.6'
-              ranking: '867'
-            
+              ranking: '366'            
             - nameen: coatnet_nano_cc_224
               namezh: coatnet_nano_cc_224
               paper:
@@ -3697,8 +3331,7 @@ blocks:
               download: 9040
               datasetA: '68.92'
               datasetB: '39.59'
-              ranking: '55'
-            
+              ranking: '367'            
             - nameen: coat_mini
               namezh: coat_mini
               paper:
@@ -3707,8 +3340,7 @@ blocks:
               download: 9924
               datasetA: '69.45'
               datasetB: '39.57'
-              ranking: '41'
-            
+              ranking: '368'            
             - nameen: regnetz_c16_evos
               namezh: regnetz_c16_evos
               paper:
@@ -3717,8 +3349,7 @@ blocks:
               download: 9405
               datasetA: '42.82'
               datasetB: '39.43'
-              ranking: '637'
-            
+              ranking: '369'            
             - nameen: coat_lite_medium
               namezh: coat_lite_medium
               paper:
@@ -3727,8 +3358,7 @@ blocks:
               download: 2967
               datasetA: '69.66'
               datasetB: '39.33'
-              ranking: '36'
-            
+              ranking: '370'            
             - nameen: nf_resnet26
               namezh: nf_resnet26
               paper:
@@ -3737,8 +3367,7 @@ blocks:
               download: 7539
               datasetA: '46.57'
               datasetB: '39.22'
-              ranking: '557'
-            
+              ranking: '371'            
             - nameen: gc_efficientnetv2_rw_t
               namezh: gc_efficientnetv2_rw_t
               paper:
@@ -3747,8 +3376,7 @@ blocks:
               download: 7512
               datasetA: '55.82'
               datasetB: '39.14'
-              ranking: '329'
-            
+              ranking: '372'            
             - nameen: gernet_l
               namezh: gernet_l
               paper:
@@ -3757,8 +3385,7 @@ blocks:
               download: 5258
               datasetA: '55.39'
               datasetB: '39.13'
-              ranking: '339'
-            
+              ranking: '373'            
             - nameen: mobilenetv4_conv_blur_medium
               namezh: mobilenetv4_conv_blur_medium
               paper:
@@ -3767,8 +3394,7 @@ blocks:
               download: 4023
               datasetA: '48.15'
               datasetB: '39.05'
-              ranking: '507'
-            
+              ranking: '374'            
             - nameen: res2net50_26w_6s
               namezh: res2net50_26w_6s
               paper:
@@ -3777,8 +3403,7 @@ blocks:
               download: 1080
               datasetA: '40.64'
               datasetB: '39.05'
-              ranking: '671'
-            
+              ranking: '375'            
             - nameen: tf_efficientnet_b0
               namezh: tf_efficientnet_b0
               paper:
@@ -3787,8 +3412,7 @@ blocks:
               download: 1208
               datasetA: '31.44'
               datasetB: '39.05'
-              ranking: '863'
-            
+              ranking: '376'            
             - nameen: semnasnet_140
               namezh: semnasnet_140
               paper:
@@ -3797,8 +3421,7 @@ blocks:
               download: 5872
               datasetA: '34.42'
               datasetB: '39.0'
-              ranking: '794'
-            
+              ranking: '377'            
             - nameen: vit_base_patch32_clip_quickgelu_224
               namezh: vit_base_patch32_clip_quickgelu_224
               paper:
@@ -3807,8 +3430,7 @@ blocks:
               download: 6229
               datasetA: '26.82'
               datasetB: '38.93'
-              ranking: '964'
-            
+              ranking: '378'            
             - nameen: vit_base_patch16_clip_224
               namezh: vit_base_patch16_clip_224
               paper:
@@ -3817,8 +3439,7 @@ blocks:
               download: 8491
               datasetA: '28.07'
               datasetB: '38.82'
-              ranking: '941'
-            
+              ranking: '379'            
             - nameen: repvgg_a1
               namezh: repvgg_a1
               paper:
@@ -3827,8 +3448,7 @@ blocks:
               download: 4769
               datasetA: '42.04'
               datasetB: '38.71'
-              ranking: '651'
-            
+              ranking: '380'            
             - nameen: maxvit_tiny_tf_512
               namezh: maxvit_tiny_tf_512
               paper:
@@ -3837,8 +3457,7 @@ blocks:
               download: 6007
               datasetA: '50.38'
               datasetB: '38.7'
-              ranking: '459'
-            
+              ranking: '381'            
             - nameen: caformer_b36
               namezh: caformer_b36
               paper:
@@ -3847,8 +3466,7 @@ blocks:
               download: 3920
               datasetA: '70.4'
               datasetB: '38.64'
-              ranking: '22'
-            
+              ranking: '382'            
             - nameen: hiera_small_224
               namezh: hiera_small_224
               paper:
@@ -3857,8 +3475,7 @@ blocks:
               download: 2267
               datasetA: '54.16'
               datasetB: '38.6'
-              ranking: '378'
-            
+              ranking: '383'            
             - nameen: mvitv2_small_cls
               namezh: mvitv2_small_cls
               paper:
@@ -3867,8 +3484,7 @@ blocks:
               download: 4742
               datasetA: '47.29'
               datasetB: '38.59'
-              ranking: '536'
-            
+              ranking: '384'            
             - nameen: levit_128s
               namezh: levit_128s
               paper:
@@ -3877,8 +3493,7 @@ blocks:
               download: 1922
               datasetA: '52.22'
               datasetB: '38.38'
-              ranking: '417'
-            
+              ranking: '385'            
             - nameen: vit_so400m_patch14_siglip_gap_224
               namezh: vit_so400m_patch14_siglip_gap_224
               paper:
@@ -3887,8 +3502,7 @@ blocks:
               download: 3117
               datasetA: '23.29'
               datasetB: '38.33'
-              ranking: '1051'
-            
+              ranking: '386'            
             - nameen: maxxvitv2_rmlp_large_rw_224
               namezh: maxxvitv2_rmlp_large_rw_224
               paper:
@@ -3897,8 +3511,7 @@ blocks:
               download: 3832
               datasetA: '50.22'
               datasetB: '38.31'
-              ranking: '469'
-            
+              ranking: '387'            
             - nameen: xception65
               namezh: xception65
               paper:
@@ -3907,8 +3520,7 @@ blocks:
               download: 4177
               datasetA: '21.45'
               datasetB: '38.29'
-              ranking: '1093'
-            
+              ranking: '388'            
             - nameen: resnet152c
               namezh: resnet152c
               paper:
@@ -3917,8 +3529,7 @@ blocks:
               download: 5094
               datasetA: '37.63'
               datasetB: '38.16'
-              ranking: '725'
-            
+              ranking: '389'            
             - nameen: coatnet_rmlp_1_rw_224
               namezh: coatnet_rmlp_1_rw_224
               paper:
@@ -3927,8 +3538,7 @@ blocks:
               download: 5556
               datasetA: '68.73'
               datasetB: '38.14'
-              ranking: '60'
-            
+              ranking: '390'            
             - nameen: tresnet_xl
               namezh: tresnet_xl
               paper:
@@ -3937,8 +3547,7 @@ blocks:
               download: 8069
               datasetA: '29.22'
               datasetB: '38.12'
-              ranking: '916'
-            
+              ranking: '391'            
             - nameen: cait_xxs36_384
               namezh: cait_xxs36_384
               paper:
@@ -3947,8 +3556,7 @@ blocks:
               download: 8555
               datasetA: '69.81'
               datasetB: '38.1'
-              ranking: '35'
-            
+              ranking: '392'            
             - nameen: vit_relpos_small_patch16_rpn_224
               namezh: vit_relpos_small_patch16_rpn_224
               paper:
@@ -3957,8 +3565,7 @@ blocks:
               download: 1106
               datasetA: '23.76'
               datasetB: '38.02'
-              ranking: '1033'
-            
+              ranking: '393'            
             - nameen: rexnet_100
               namezh: rexnet_100
               paper:
@@ -3967,8 +3574,7 @@ blocks:
               download: 6567
               datasetA: '35.49'
               datasetB: '37.92'
-              ranking: '769'
-            
+              ranking: '394'            
             - nameen: eva02_large_patch14_448
               namezh: eva02_large_patch14_448
               paper:
@@ -3977,8 +3583,7 @@ blocks:
               download: 8819
               datasetA: '57.87'
               datasetB: '37.88'
-              ranking: '287'
-            
+              ranking: '395'            
             - nameen: resnext101_32x8d
               namezh: resnext101_32x8d
               paper:
@@ -3987,8 +3592,7 @@ blocks:
               download: 3799
               datasetA: '35.63'
               datasetB: '37.82'
-              ranking: '765'
-            
+              ranking: '396'            
             - nameen: tf_efficientnet_cc_b0_8e
               namezh: tf_efficientnet_cc_b0_8e
               paper:
@@ -3997,8 +3601,7 @@ blocks:
               download: 2047
               datasetA: '31.04'
               datasetB: '37.67'
-              ranking: '873'
-            
+              ranking: '397'            
             - nameen: xcit_medium_24_p16_384
               namezh: xcit_medium_24_p16_384
               paper:
@@ -4007,8 +3610,7 @@ blocks:
               download: 3839
               datasetA: '20.82'
               datasetB: '37.54'
-              ranking: '1103'
-            
+              ranking: '398'            
             - nameen: mixer_b32_224
               namezh: mixer_b32_224
               paper:
@@ -4017,8 +3619,7 @@ blocks:
               download: 6122
               datasetA: '50.18'
               datasetB: '37.53'
-              ranking: '471'
-            
+              ranking: '399'            
             - nameen: regnetz_b16
               namezh: regnetz_b16
               paper:
@@ -4027,8 +3628,7 @@ blocks:
               download: 7078
               datasetA: '43.02'
               datasetB: '37.5'
-              ranking: '634'
-            
+              ranking: '400'            
             - nameen: convnext_small
               namezh: convnext_small
               paper:
@@ -4037,8 +3637,7 @@ blocks:
               download: 4487
               datasetA: '67.64'
               datasetB: '37.47'
-              ranking: '87'
-            
+              ranking: '401'            
             - nameen: nest_base
               namezh: nest_base
               paper:
@@ -4047,8 +3646,7 @@ blocks:
               download: 7877
               datasetA: '47.16'
               datasetB: '37.47'
-              ranking: '539'
-            
+              ranking: '402'            
             - nameen: coatnext_nano_rw_224
               namezh: coatnext_nano_rw_224
               paper:
@@ -4057,8 +3655,7 @@ blocks:
               download: 1861
               datasetA: '68.62'
               datasetB: '37.42'
-              ranking: '65'
-            
+              ranking: '403'            
             - nameen: efficientformerv2_s2
               namezh: efficientformerv2_s2
               paper:
@@ -4067,8 +3664,7 @@ blocks:
               download: 3137
               datasetA: '61.23'
               datasetB: '37.36'
-              ranking: '219'
-            
+              ranking: '404'            
             - nameen: vit_small_patch32_224
               namezh: vit_small_patch32_224
               paper:
@@ -4077,8 +3673,7 @@ blocks:
               download: 7722
               datasetA: '23.57'
               datasetB: '37.32'
-              ranking: '1041'
-            
+              ranking: '405'            
             - nameen: cs3darknet_focus_s
               namezh: cs3darknet_focus_s
               paper:
@@ -4087,8 +3682,7 @@ blocks:
               download: 9302
               datasetA: '66.2'
               datasetB: '37.3'
-              ranking: '114'
-            
+              ranking: '406'            
             - nameen: nf_seresnet50
               namezh: nf_seresnet50
               paper:
@@ -4097,8 +3691,7 @@ blocks:
               download: 2153
               datasetA: '46.37'
               datasetB: '37.26'
-              ranking: '561'
-            
+              ranking: '407'            
             - nameen: swinv2_base_window12_192
               namezh: swinv2_base_window12_192
               paper:
@@ -4107,8 +3700,7 @@ blocks:
               download: 5208
               datasetA: '32.66'
               datasetB: '37.24'
-              ranking: '836'
-            
+              ranking: '408'            
             - nameen: maxvit_xlarge_tf_224
               namezh: maxvit_xlarge_tf_224
               paper:
@@ -4117,8 +3709,7 @@ blocks:
               download: 4122
               datasetA: '50.36'
               datasetB: '37.14'
-              ranking: '460'
-            
+              ranking: '409'            
             - nameen: regnetz_040
               namezh: regnetz_040
               paper:
@@ -4127,8 +3718,7 @@ blocks:
               download: 1735
               datasetA: '43.08'
               datasetB: '36.91'
-              ranking: '632'
-            
+              ranking: '410'            
             - nameen: beit_base_patch16_224
               namezh: beit_base_patch16_224
               paper:
@@ -4137,8 +3727,7 @@ blocks:
               download: 8472
               datasetA: '70.71'
               datasetB: '36.88'
-              ranking: '13'
-            
+              ranking: '411'            
             - nameen: seresnet200d
               namezh: seresnet200d
               paper:
@@ -4147,8 +3736,7 @@ blocks:
               download: 1970
               datasetA: '34.04'
               datasetB: '36.87'
-              ranking: '807'
-            
+              ranking: '412'            
             - nameen: vit_base_patch16_siglip_256
               namezh: vit_base_patch16_siglip_256
               paper:
@@ -4157,8 +3745,7 @@ blocks:
               download: 5946
               datasetA: '27.62'
               datasetB: '36.86'
-              ranking: '950'
-            
+              ranking: '413'            
             - nameen: seresnet50
               namezh: seresnet50
               paper:
@@ -4167,8 +3754,7 @@ blocks:
               download: 5446
               datasetA: '34.08'
               datasetB: '36.85'
-              ranking: '802'
-            
+              ranking: '414'            
             - nameen: regnety_640
               namezh: regnety_640
               paper:
@@ -4177,8 +3763,7 @@ blocks:
               download: 9502
               datasetA: '43.26'
               datasetB: '36.82'
-              ranking: '628'
-            
+              ranking: '415'            
             - nameen: xcit_large_24_p8_224
               namezh: xcit_large_24_p8_224
               paper:
@@ -4187,8 +3772,7 @@ blocks:
               download: 2697
               datasetA: '21.19'
               datasetB: '36.82'
-              ranking: '1096'
-            
+              ranking: '416'            
             - nameen: resnet50c
               namezh: resnet50c
               paper:
@@ -4197,8 +3781,7 @@ blocks:
               download: 2172
               datasetA: '38.28'
               datasetB: '36.78'
-              ranking: '706'
-            
+              ranking: '417'            
             - nameen: twins_svt_base
               namezh: twins_svt_base
               paper:
@@ -4207,8 +3790,7 @@ blocks:
               download: 4548
               datasetA: '29.05'
               datasetB: '36.71'
-              ranking: '920'
-            
+              ranking: '418'            
             - nameen: gcvit_xxtiny
               namezh: gcvit_xxtiny
               paper:
@@ -4217,8 +3799,7 @@ blocks:
               download: 9635
               datasetA: '55.48'
               datasetB: '36.65'
-              ranking: '338'
-            
+              ranking: '419'            
             - nameen: resnetrs420
               namezh: resnetrs420
               paper:
@@ -4227,8 +3808,7 @@ blocks:
               download: 7573
               datasetA: '36.6'
               datasetB: '36.61'
-              ranking: '744'
-            
+              ranking: '420'            
             - nameen: deit_base_distilled_patch16_384
               namezh: deit_base_distilled_patch16_384
               paper:
@@ -4237,8 +3817,7 @@ blocks:
               download: 4102
               datasetA: '64.34'
               datasetB: '36.57'
-              ranking: '149'
-            
+              ranking: '421'            
             - nameen: xcit_large_24_p16_224
               namezh: xcit_large_24_p16_224
               paper:
@@ -4247,8 +3826,7 @@ blocks:
               download: 4676
               datasetA: '21.12'
               datasetB: '36.44'
-              ranking: '1098'
-            
+              ranking: '422'            
             - nameen: efficientformer_l3
               namezh: efficientformer_l3
               paper:
@@ -4257,8 +3835,7 @@ blocks:
               download: 8922
               datasetA: '61.34'
               datasetB: '36.41'
-              ranking: '214'
-            
+              ranking: '423'            
             - nameen: tf_efficientnet_b7
               namezh: tf_efficientnet_b7
               paper:
@@ -4267,8 +3844,7 @@ blocks:
               download: 7402
               datasetA: '31.2'
               datasetB: '36.4'
-              ranking: '870'
-            
+              ranking: '424'            
             - nameen: vit_gigantic_patch14_224
               namezh: vit_gigantic_patch14_224
               paper:
@@ -4277,8 +3853,7 @@ blocks:
               download: 8573
               datasetA: '25.89'
               datasetB: '36.4'
-              ranking: '981'
-            
+              ranking: '425'            
             - nameen: lambda_resnet50ts
               namezh: lambda_resnet50ts
               paper:
@@ -4287,8 +3862,7 @@ blocks:
               download: 4947
               datasetA: '52.96'
               datasetB: '36.38'
-              ranking: '399'
-            
+              ranking: '426'            
             - nameen: eva_giant_patch14_336
               namezh: eva_giant_patch14_336
               paper:
@@ -4297,8 +3871,7 @@ blocks:
               download: 3882
               datasetA: '57.51'
               datasetB: '36.37'
-              ranking: '295'
-            
+              ranking: '427'            
             - nameen: ese_vovnet19b_slim_dw
               namezh: ese_vovnet19b_slim_dw
               paper:
@@ -4307,8 +3880,7 @@ blocks:
               download: 6685
               datasetA: '58.33'
               datasetB: '36.36'
-              ranking: '277'
-            
+              ranking: '428'            
             - nameen: nf_regnet_b3
               namezh: nf_regnet_b3
               paper:
@@ -4317,8 +3889,7 @@ blocks:
               download: 4331
               datasetA: '46.64'
               datasetB: '36.36'
-              ranking: '554'
-            
+              ranking: '429'            
             - nameen: cs3darknet_focus_l
               namezh: cs3darknet_focus_l
               paper:
@@ -4327,8 +3898,7 @@ blocks:
               download: 8180
               datasetA: '66.45'
               datasetB: '36.35'
-              ranking: '112'
-            
+              ranking: '430'            
             - nameen: xcit_tiny_12_p16_224
               namezh: xcit_tiny_12_p16_224
               paper:
@@ -4337,8 +3907,7 @@ blocks:
               download: 7477
               datasetA: '20.32'
               datasetB: '36.33'
-              ranking: '1118'
-            
+              ranking: '431'            
             - nameen: ghostnetv2_130
               namezh: ghostnetv2_130
               paper:
@@ -4347,8 +3916,7 @@ blocks:
               download: 4067
               datasetA: '55.15'
               datasetB: '36.31'
-              ranking: '346'
-            
+              ranking: '432'            
             - nameen: hrnet_w40
               namezh: hrnet_w40
               paper:
@@ -4357,8 +3925,7 @@ blocks:
               download: 1164
               datasetA: '53.78'
               datasetB: '36.26'
-              ranking: '386'
-            
+              ranking: '433'            
             - nameen: mobilenet_125
               namezh: mobilenet_125
               paper:
@@ -4367,8 +3934,7 @@ blocks:
               download: 2798
               datasetA: '49.16'
               datasetB: '36.22'
-              ranking: '487'
-            
+              ranking: '434'            
             - nameen: fastvit_ma36
               namezh: fastvit_ma36
               paper:
@@ -4377,8 +3943,7 @@ blocks:
               download: 8415
               datasetA: '57.24'
               datasetB: '36.21'
-              ranking: '300'
-            
+              ranking: '435'            
             - nameen: efficientnet_b0
               namezh: efficientnet_b0
               paper:
@@ -4387,8 +3952,7 @@ blocks:
               download: 2849
               datasetA: '61.19'
               datasetB: '36.18'
-              ranking: '220'
-            
+              ranking: '436'            
             - nameen: resnetrs200
               namezh: resnetrs200
               paper:
@@ -4397,8 +3961,7 @@ blocks:
               download: 5457
               datasetA: '36.66'
               datasetB: '36.18'
-              ranking: '741'
-            
+              ranking: '437'            
             - nameen: repvgg_d2se
               namezh: repvgg_d2se
               paper:
@@ -4407,8 +3970,7 @@ blocks:
               download: 1806
               datasetA: '41.48'
               datasetB: '36.13'
-              ranking: '660'
-            
+              ranking: '438'            
             - nameen: deit3_small_patch16_384
               namezh: deit3_small_patch16_384
               paper:
@@ -4417,8 +3979,7 @@ blocks:
               download: 4096
               datasetA: '64.44'
               datasetB: '36.12'
-              ranking: '147'
-            
+              ranking: '439'            
             - nameen: mvitv2_small
               namezh: mvitv2_small
               paper:
@@ -4427,8 +3988,7 @@ blocks:
               download: 1139
               datasetA: '47.31'
               datasetB: '36.09'
-              ranking: '535'
-            
+              ranking: '440'            
             - nameen: vit_base_r50_s16_384
               namezh: vit_base_r50_s16_384
               paper:
@@ -4437,8 +3997,7 @@ blocks:
               download: 6104
               datasetA: '26.72'
               datasetB: '36.03'
-              ranking: '968'
-            
+              ranking: '441'            
             - nameen: vit_betwixt_patch16_gap_256
               namezh: vit_betwixt_patch16_gap_256
               paper:
@@ -4447,8 +4006,7 @@ blocks:
               download: 5527
               datasetA: '26.56'
               datasetB: '35.97'
-              ranking: '971'
-            
+              ranking: '442'            
             - nameen: resnetblur50
               namezh: resnetblur50
               paper:
@@ -4457,8 +4015,7 @@ blocks:
               download: 4603
               datasetA: '37.18'
               datasetB: '35.92'
-              ranking: '735'
-            
+              ranking: '443'            
             - nameen: gcresnext50ts
               namezh: gcresnext50ts
               paper:
@@ -4467,8 +4024,7 @@ blocks:
               download: 8785
               datasetA: '55.65'
               datasetB: '35.91'
-              ranking: '333'
-            
+              ranking: '444'            
             - nameen: xcit_large_24_p8_384
               namezh: xcit_large_24_p8_384
               paper:
@@ -4477,8 +4033,7 @@ blocks:
               download: 8468
               datasetA: '21.14'
               datasetB: '35.88'
-              ranking: '1097'
-            
+              ranking: '445'            
             - nameen: mobilenetv4_hybrid_medium
               namezh: mobilenetv4_hybrid_medium
               paper:
@@ -4487,8 +4042,7 @@ blocks:
               download: 6638
               datasetA: '47.97'
               datasetB: '35.82'
-              ranking: '513'
-            
+              ranking: '446'            
             - nameen: cait_xxs24_224
               namezh: cait_xxs24_224
               paper:
@@ -4497,8 +4051,7 @@ blocks:
               download: 8597
               datasetA: '69.91'
               datasetB: '35.79'
-              ranking: '32'
-            
+              ranking: '447'            
             - nameen: resnetrs101
               namezh: resnetrs101
               paper:
@@ -4507,8 +4060,7 @@ blocks:
               download: 3989
               datasetA: '36.9'
               datasetB: '35.76'
-              ranking: '739'
-            
+              ranking: '448'            
             - nameen: seresnext101_32x4d
               namezh: seresnext101_32x4d
               paper:
@@ -4517,8 +4069,7 @@ blocks:
               download: 6204
               datasetA: '33.8'
               datasetB: '35.72'
-              ranking: '814'
-            
+              ranking: '449'            
             - nameen: regnety_080
               namezh: regnety_080
               paper:
@@ -4527,8 +4078,7 @@ blocks:
               download: 4932
               datasetA: '43.53'
               datasetB: '35.71'
-              ranking: '623'
-            
+              ranking: '450'            
             - nameen: samvit_base_patch16_224
               namezh: samvit_base_patch16_224
               paper:
@@ -4537,8 +4087,7 @@ blocks:
               download: 7300
               datasetA: '35.1'
               datasetB: '35.62'
-              ranking: '780'
-            
+              ranking: '451'            
             - nameen: mobilenet_edgetpu_v2_s
               namezh: mobilenet_edgetpu_v2_s
               paper:
@@ -4547,8 +4096,7 @@ blocks:
               download: 7447
               datasetA: '48.86'
               datasetB: '35.59'
-              ranking: '491'
-            
+              ranking: '452'            
             - nameen: vit_base_patch16_siglip_gap_384
               namezh: vit_base_patch16_siglip_gap_384
               paper:
@@ -4557,8 +4105,7 @@ blocks:
               download: 9366
               datasetA: '27.29'
               datasetB: '35.57'
-              ranking: '955'
-            
+              ranking: '453'            
             - nameen: ConvNeXt-L + ConvStem
               namezh: ConvNeXt-L + ConvStem
               paper:
@@ -4569,8 +4116,7 @@ blocks:
               download: 2240
               datasetA: '71.02'
               datasetB: '35.55'
-              ranking: '4'
-            - nameen: hardcorenas_d
+              ranking: '454'            - nameen: hardcorenas_d
               namezh: hardcorenas_d
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -4578,8 +4124,7 @@ blocks:
               download: 2923
               datasetA: '54.66'
               datasetB: '35.48'
-              ranking: '361'
-            
+              ranking: '455'            
             - nameen: lambda_resnet26rpt_256
               namezh: lambda_resnet26rpt_256
               paper:
@@ -4588,8 +4133,7 @@ blocks:
               download: 2198
               datasetA: '53.01'
               datasetB: '35.46'
-              ranking: '397'
-            
+              ranking: '456'            
             - nameen: repvgg_a0
               namezh: repvgg_a0
               paper:
@@ -4598,8 +4142,7 @@ blocks:
               download: 5672
               datasetA: '42.04'
               datasetB: '35.43'
-              ranking: '650'
-            
+              ranking: '457'            
             - nameen: tf_efficientnet_lite0
               namezh: tf_efficientnet_lite0
               paper:
@@ -4608,8 +4151,7 @@ blocks:
               download: 8830
               datasetA: '30.85'
               datasetB: '35.39'
-              ranking: '879'
-            
+              ranking: '458'            
             - nameen: vit_srelpos_medium_patch16_224
               namezh: vit_srelpos_medium_patch16_224
               paper:
@@ -4618,8 +4160,7 @@ blocks:
               download: 9520
               datasetA: '23.12'
               datasetB: '35.39'
-              ranking: '1055'
-            
+              ranking: '459'            
             - nameen: tf_efficientnet_lite1
               namezh: tf_efficientnet_lite1
               paper:
@@ -4628,8 +4169,7 @@ blocks:
               download: 8551
               datasetA: '30.77'
               datasetB: '35.38'
-              ranking: '880'
-            
+              ranking: '460'            
             - nameen: volo_d4_224
               namezh: volo_d4_224
               paper:
@@ -4638,8 +4178,7 @@ blocks:
               download: 9873
               datasetA: '21.73'
               datasetB: '35.36'
-              ranking: '1082'
-            
+              ranking: '461'            
             - nameen: eva02_base_patch16_clip_224
               namezh: eva02_base_patch16_clip_224
               paper:
@@ -4648,8 +4187,7 @@ blocks:
               download: 8490
               datasetA: '58.05'
               datasetB: '35.33'
-              ranking: '284'
-            
+              ranking: '462'            
             - nameen: resmlp_36_224
               namezh: resmlp_36_224
               paper:
@@ -4658,8 +4196,7 @@ blocks:
               download: 2404
               datasetA: '40.17'
               datasetB: '35.32'
-              ranking: '680'
-            
+              ranking: '463'            
             - nameen: hiera_tiny_224
               namezh: hiera_tiny_224
               paper:
@@ -4668,8 +4205,7 @@ blocks:
               download: 4756
               datasetA: '54.15'
               datasetB: '35.31'
-              ranking: '379'
-            
+              ranking: '464'            
             - nameen: cs3sedarknet_l
               namezh: cs3sedarknet_l
               paper:
@@ -4678,8 +4214,7 @@ blocks:
               download: 9532
               datasetA: '65.79'
               datasetB: '35.28'
-              ranking: '122'
-            
+              ranking: '465'            
             - nameen: vit_base_patch16_224_miil
               namezh: vit_base_patch16_224_miil
               paper:
@@ -4688,8 +4223,7 @@ blocks:
               download: 8207
               datasetA: '28.09'
               datasetB: '35.28'
-              ranking: '939'
-            
+              ranking: '466'            
             - nameen: legacy_seresnext101_32x4d
               namezh: legacy_seresnext101_32x4d
               paper:
@@ -4698,8 +4232,7 @@ blocks:
               download: 8382
               datasetA: '52.3'
               datasetB: '35.17'
-              ranking: '414'
-            
+              ranking: '467'            
             - nameen: twins_svt_small
               namezh: twins_svt_small
               paper:
@@ -4708,8 +4241,7 @@ blocks:
               download: 8262
               datasetA: '29.0'
               datasetB: '35.15'
-              ranking: '922'
-            
+              ranking: '468'            
             - nameen: edgenext_x_small
               namezh: edgenext_x_small
               paper:
@@ -4718,8 +4250,7 @@ blocks:
               download: 2643
               datasetA: '61.54'
               datasetB: '35.12'
-              ranking: '211'
-            
+              ranking: '469'            
             - nameen: swinv2_cr_huge_384
               namezh: swinv2_cr_huge_384
               paper:
@@ -4728,8 +4259,7 @@ blocks:
               download: 9580
               datasetA: '32.25'
               datasetB: '35.03'
-              ranking: '846'
-            
+              ranking: '470'            
             - nameen: vit_base_patch16_rope_reg1_gap_256
               namezh: vit_base_patch16_rope_reg1_gap_256
               paper:
@@ -4738,8 +4268,7 @@ blocks:
               download: 6153
               datasetA: '27.69'
               datasetB: '35.03'
-              ranking: '947'
-            
+              ranking: '471'            
             - nameen: efficientnetv2_s
               namezh: efficientnetv2_s
               paper:
@@ -4748,8 +4277,7 @@ blocks:
               download: 5941
               datasetA: '59.1'
               datasetB: '34.97'
-              ranking: '260'
-            
+              ranking: '472'            
             - nameen: swinv2_cr_giant_384
               namezh: swinv2_cr_giant_384
               paper:
@@ -4758,8 +4286,7 @@ blocks:
               download: 2552
               datasetA: '32.35'
               datasetB: '34.92'
-              ranking: '844'
-            
+              ranking: '473'            
             - nameen: vit_base_resnet50d_224
               namezh: vit_base_resnet50d_224
               paper:
@@ -4768,8 +4295,7 @@ blocks:
               download: 4150
               datasetA: '26.61'
               datasetB: '34.82'
-              ranking: '970'
-            
+              ranking: '474'            
             - nameen: hrnet_w44
               namezh: hrnet_w44
               paper:
@@ -4778,8 +4304,7 @@ blocks:
               download: 7862
               datasetA: '53.52'
               datasetB: '34.8'
-              ranking: '387'
-            
+              ranking: '475'            
             - nameen: lcnet_150
               namezh: lcnet_150
               paper:
@@ -4788,8 +4313,7 @@ blocks:
               download: 9636
               datasetA: '52.73'
               datasetB: '34.75'
-              ranking: '405'
-            
+              ranking: '476'            
             - nameen: ViT-B + ConvStem
               namezh: ViT-B + ConvStem
               paper:
@@ -4800,8 +4324,7 @@ blocks:
               download: 6491
               datasetA: '70.94'
               datasetB: '34.69'
-              ranking: '8'
-            - nameen: regnetx_032
+              ranking: '477'            - nameen: regnetx_032
               namezh: regnetx_032
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -4809,8 +4332,7 @@ blocks:
               download: 2040
               datasetA: '44.58'
               datasetB: '34.65'
-              ranking: '606'
-            
+              ranking: '478'            
             - nameen: xcit_tiny_12_p8_384
               namezh: xcit_tiny_12_p8_384
               paper:
@@ -4819,8 +4341,7 @@ blocks:
               download: 7913
               datasetA: '20.34'
               datasetB: '34.63'
-              ranking: '1117'
-            
+              ranking: '479'            
             - nameen: hgnet_small
               namezh: hgnet_small
               paper:
@@ -4829,8 +4350,7 @@ blocks:
               download: 5369
               datasetA: '54.55'
               datasetB: '34.58'
-              ranking: '365'
-            
+              ranking: '480'            
             - nameen: vit_so150m_patch16_reg4_gap_256
               namezh: vit_so150m_patch16_reg4_gap_256
               paper:
@@ -4839,8 +4359,7 @@ blocks:
               download: 4222
               datasetA: '23.46'
               datasetB: '34.41'
-              ranking: '1047'
-            
+              ranking: '481'            
             - nameen: swinv2_base_window8_256
               namezh: swinv2_base_window8_256
               paper:
@@ -4849,8 +4368,7 @@ blocks:
               download: 3924
               datasetA: '32.66'
               datasetB: '34.32'
-              ranking: '835'
-            
+              ranking: '482'            
             - nameen: deit_small_patch16_224
               namezh: deit_small_patch16_224
               paper:
@@ -4859,8 +4377,7 @@ blocks:
               download: 1020
               datasetA: '64.16'
               datasetB: '34.3'
-              ranking: '153'
-            
+              ranking: '483'            
             - nameen: ConvNeXtV2-L + Swin-L
               namezh: ConvNeXtV2-L + Swin-L
               paper:
@@ -4871,8 +4388,7 @@ blocks:
               download: 2223
               datasetA: '71.16'
               datasetB: '34.2'
-              ranking: '1'
-            - nameen: poolformer_m36
+              ranking: '484'            - nameen: poolformer_m36
               namezh: poolformer_m36
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -4880,8 +4396,7 @@ blocks:
               download: 5927
               datasetA: '45.58'
               datasetB: '34.19'
-              ranking: '581'
-            
+              ranking: '485'            
             - nameen: resnet34
               namezh: resnet34
               paper:
@@ -4890,8 +4405,7 @@ blocks:
               download: 1845
               datasetA: '38.9'
               datasetB: '34.18'
-              ranking: '699'
-            
+              ranking: '486'            
             - nameen: resnetv2_152x4_bit
               namezh: resnetv2_152x4_bit
               paper:
@@ -4900,8 +4414,7 @@ blocks:
               download: 7444
               datasetA: '35.84'
               datasetB: '34.17'
-              ranking: '760'
-            
+              ranking: '487'            
             - nameen: swinv2_cr_small_ns_256
               namezh: swinv2_cr_small_ns_256
               paper:
@@ -4910,8 +4423,7 @@ blocks:
               download: 4671
               datasetA: '31.9'
               datasetB: '34.13'
-              ranking: '852'
-            
+              ranking: '488'            
             - nameen: dm_nfnet_f4
               namezh: dm_nfnet_f4
               paper:
@@ -4920,8 +4432,7 @@ blocks:
               download: 2721
               datasetA: '62.93'
               datasetB: '34.02'
-              ranking: '178'
-            
+              ranking: '489'            
             - nameen: ghostnetv2_160
               namezh: ghostnetv2_160
               paper:
@@ -4930,8 +4441,7 @@ blocks:
               download: 4326
               datasetA: '55.07'
               datasetB: '34.01'
-              ranking: '347'
-            
+              ranking: '490'            
             - nameen: resnet34d
               namezh: resnet34d
               paper:
@@ -4940,8 +4450,7 @@ blocks:
               download: 5889
               datasetA: '38.88'
               datasetB: '34.0'
-              ranking: '700'
-            
+              ranking: '491'            
             - nameen: focalnet_base_srf
               namezh: focalnet_base_srf
               paper:
@@ -4950,8 +4459,7 @@ blocks:
               download: 2262
               datasetA: '56.64'
               datasetB: '33.94'
-              ranking: '318'
-            
+              ranking: '492'            
             - nameen: dla60_res2next
               namezh: dla60_res2next
               paper:
@@ -4960,8 +4468,7 @@ blocks:
               download: 7334
               datasetA: '63.46'
               datasetB: '33.74'
-              ranking: '167'
-            
+              ranking: '493'            
             - nameen: regnetx_004_tv
               namezh: regnetx_004_tv
               paper:
@@ -4970,8 +4477,7 @@ blocks:
               download: 1379
               datasetA: '44.86'
               datasetB: '33.74'
-              ranking: '602'
-            
+              ranking: '494'            
             - nameen: seresnext26ts
               namezh: seresnext26ts
               paper:
@@ -4980,8 +4486,7 @@ blocks:
               download: 3416
               datasetA: '33.85'
               datasetB: '33.69'
-              ranking: '812'
-            
+              ranking: '495'            
             - nameen: vit_base_r50_s16_224
               namezh: vit_base_r50_s16_224
               paper:
@@ -4990,8 +4495,7 @@ blocks:
               download: 8407
               datasetA: '26.75'
               datasetB: '33.6'
-              ranking: '967'
-            
+              ranking: '496'            
             - nameen: vit_so150m_patch16_reg4_map_256
               namezh: vit_so150m_patch16_reg4_map_256
               paper:
@@ -5000,8 +4504,7 @@ blocks:
               download: 9738
               datasetA: '23.33'
               datasetB: '33.56'
-              ranking: '1048'
-            
+              ranking: '497'            
             - nameen: deit3_base_patch16_384
               namezh: deit3_base_patch16_384
               paper:
@@ -5010,8 +4513,7 @@ blocks:
               download: 1463
               datasetA: '64.67'
               datasetB: '33.53'
-              ranking: '141'
-            
+              ranking: '498'            
             - nameen: efficientnet_el_pruned
               namezh: efficientnet_el_pruned
               paper:
@@ -5020,8 +4522,7 @@ blocks:
               download: 8512
               datasetA: '60.13'
               datasetB: '33.5'
-              ranking: '242'
-            
+              ranking: '499'            
             - nameen: resnetv2_50d_gn
               namezh: resnetv2_50d_gn
               paper:
@@ -5030,8 +4531,7 @@ blocks:
               download: 2707
               datasetA: '36.33'
               datasetB: '33.49'
-              ranking: '749'
-            
+              ranking: '500'            
             - nameen: convit_base
               namezh: convit_base
               paper:
@@ -5040,8 +4540,7 @@ blocks:
               download: 2506
               datasetA: '68.42'
               datasetB: '33.46'
-              ranking: '70'
-            
+              ranking: '501'            
             - nameen: regnetv_040
               namezh: regnetv_040
               paper:
@@ -5050,8 +4549,7 @@ blocks:
               download: 5369
               datasetA: '44.99'
               datasetB: '33.45'
-              ranking: '598'
-            
+              ranking: '502'            
             - nameen: mnasnet_small
               namezh: mnasnet_small
               paper:
@@ -5060,8 +4558,7 @@ blocks:
               download: 9985
               datasetA: '49.29'
               datasetB: '33.39'
-              ranking: '485'
-            
+              ranking: '503'            
             - nameen: mobilenet_edgetpu_v2_xs
               namezh: mobilenet_edgetpu_v2_xs
               paper:
@@ -5070,8 +4567,7 @@ blocks:
               download: 6091
               datasetA: '48.84'
               datasetB: '33.39'
-              ranking: '492'
-            
+              ranking: '504'            
             - nameen: resnetv2_101d
               namezh: resnetv2_101d
               paper:
@@ -5080,8 +4576,7 @@ blocks:
               download: 1710
               datasetA: '36.14'
               datasetB: '33.39'
-              ranking: '754'
-            
+              ranking: '505'            
             - nameen: selecsls42b
               namezh: selecsls42b
               paper:
@@ -5090,8 +4585,7 @@ blocks:
               download: 5226
               datasetA: '34.78'
               datasetB: '33.26'
-              ranking: '787'
-            
+              ranking: '506'            
             - nameen: repghostnet_111
               namezh: repghostnet_111
               paper:
@@ -5100,8 +4594,7 @@ blocks:
               download: 9977
               datasetA: '42.18'
               datasetB: '33.21'
-              ranking: '646'
-            
+              ranking: '507'            
             - nameen: pit_s_224
               namezh: pit_s_224
               paper:
@@ -5110,8 +4603,7 @@ blocks:
               download: 2428
               datasetA: '45.78'
               datasetB: '33.18'
-              ranking: '574'
-            
+              ranking: '508'            
             - nameen: tf_mixnet_m
               namezh: tf_mixnet_m
               paper:
@@ -5120,8 +4612,7 @@ blocks:
               download: 8371
               datasetA: '30.18'
               datasetB: '33.07'
-              ranking: '893'
-            
+              ranking: '509'            
             - nameen: mnasnet_100
               namezh: mnasnet_100
               paper:
@@ -5130,8 +4621,7 @@ blocks:
               download: 3833
               datasetA: '49.47'
               datasetB: '33.06'
-              ranking: '483'
-            
+              ranking: '510'            
             - nameen: volo_d1_224
               namezh: volo_d1_224
               paper:
@@ -5140,8 +4630,7 @@ blocks:
               download: 2131
               datasetA: '22.12'
               datasetB: '33.05'
-              ranking: '1076'
-            
+              ranking: '511'            
             - nameen: resnet50d
               namezh: resnet50d
               paper:
@@ -5150,8 +4639,7 @@ blocks:
               download: 7264
               datasetA: '38.22'
               datasetB: '33.03'
-              ranking: '707'
-            
+              ranking: '512'            
             - nameen: crossvit_15_240
               namezh: crossvit_15_240
               paper:
@@ -5160,8 +4648,7 @@ blocks:
               download: 3104
               datasetA: '67.05'
               datasetB: '33.02'
-              ranking: '103'
-            
+              ranking: '513'            
             - nameen: dla102
               namezh: dla102
               paper:
@@ -5170,8 +4657,7 @@ blocks:
               download: 9459
               datasetA: '63.37'
               datasetB: '32.98'
-              ranking: '170'
-            
+              ranking: '514'            
             - nameen: beit_large_patch16_224
               namezh: beit_large_patch16_224
               paper:
@@ -5180,8 +4666,7 @@ blocks:
               download: 3147
               datasetA: '70.66'
               datasetB: '32.97'
-              ranking: '15'
-            
+              ranking: '515'            
             - nameen: vit_medium_patch16_clip_224
               namezh: vit_medium_patch16_clip_224
               paper:
@@ -5190,8 +4675,7 @@ blocks:
               download: 2060
               datasetA: '24.95'
               datasetB: '32.95'
-              ranking: '1012'
-            
+              ranking: '516'            
             - nameen: deit_base_distilled_patch16_224
               namezh: deit_base_distilled_patch16_224
               paper:
@@ -5200,8 +4684,7 @@ blocks:
               download: 1498
               datasetA: '64.34'
               datasetB: '32.93'
-              ranking: '148'
-            
+              ranking: '517'            
             - nameen: dpn48b
               namezh: dpn48b
               paper:
@@ -5210,8 +4693,7 @@ blocks:
               download: 4008
               datasetA: '62.83'
               datasetB: '32.93'
-              ranking: '181'
-            
+              ranking: '518'            
             - nameen: resnetaa50d
               namezh: resnetaa50d
               paper:
@@ -5220,8 +4702,7 @@ blocks:
               download: 2638
               datasetA: '37.33'
               datasetB: '32.89'
-              ranking: '732'
-            
+              ranking: '519'            
             - nameen: davit_giant
               namezh: davit_giant
               paper:
@@ -5230,8 +4711,7 @@ blocks:
               download: 5905
               datasetA: '64.95'
               datasetB: '32.87'
-              ranking: '135'
-            
+              ranking: '520'            
             - nameen: swinv2_cr_tiny_384
               namezh: swinv2_cr_tiny_384
               paper:
@@ -5240,8 +4720,7 @@ blocks:
               download: 1959
               datasetA: '31.85'
               datasetB: '32.76'
-              ranking: '854'
-            
+              ranking: '521'            
             - nameen: mobileone_s4
               namezh: mobileone_s4
               paper:
@@ -5250,8 +4729,7 @@ blocks:
               download: 4458
               datasetA: '47.84'
               datasetB: '32.73'
-              ranking: '519'
-            
+              ranking: '522'            
             - nameen: vovnet39a
               namezh: vovnet39a
               paper:
@@ -5260,8 +4738,7 @@ blocks:
               download: 6537
               datasetA: '21.53'
               datasetB: '32.71'
-              ranking: '1087'
-            
+              ranking: '523'            
             - nameen: levit_512
               namezh: levit_512
               paper:
@@ -5270,8 +4747,7 @@ blocks:
               download: 6435
               datasetA: '51.91'
               datasetB: '32.66'
-              ranking: '423'
-            
+              ranking: '524'            
             - nameen: nf_regnet_b1
               namezh: nf_regnet_b1
               paper:
@@ -5280,8 +4756,7 @@ blocks:
               download: 6201
               datasetA: '46.77'
               datasetB: '32.62'
-              ranking: '552'
-            
+              ranking: '525'            
             - nameen: res2next50
               namezh: res2next50
               paper:
@@ -5290,8 +4765,7 @@ blocks:
               download: 7209
               datasetA: '40.23'
               datasetB: '32.62'
-              ranking: '677'
-            
+              ranking: '526'            
             - nameen: coat_small
               namezh: coat_small
               paper:
@@ -5300,8 +4774,7 @@ blocks:
               download: 5532
               datasetA: '69.44'
               datasetB: '32.56'
-              ranking: '42'
-            
+              ranking: '527'            
             - nameen: ese_vovnet99b
               namezh: ese_vovnet99b
               paper:
@@ -5310,8 +4783,7 @@ blocks:
               download: 8378
               datasetA: '58.19'
               datasetB: '32.56'
-              ranking: '281'
-            
+              ranking: '528'            
             - nameen: nfnet_f4
               namezh: nfnet_f4
               paper:
@@ -5320,8 +4792,7 @@ blocks:
               download: 5123
               datasetA: '46.06'
               datasetB: '32.53'
-              ranking: '567'
-            
+              ranking: '529'            
             - nameen: eva02_tiny_patch14_224
               namezh: eva02_tiny_patch14_224
               paper:
@@ -5330,8 +4801,7 @@ blocks:
               download: 5244
               datasetA: '57.61'
               datasetB: '32.52'
-              ranking: '292'
-            
+              ranking: '530'            
             - nameen: maxvit_tiny_tf_384
               namezh: maxvit_tiny_tf_384
               paper:
@@ -5340,8 +4810,7 @@ blocks:
               download: 6239
               datasetA: '50.38'
               datasetB: '32.5'
-              ranking: '458'
-            
+              ranking: '531'            
             - nameen: mobileone_s0
               namezh: mobileone_s0
               paper:
@@ -5350,8 +4819,7 @@ blocks:
               download: 5623
               datasetA: '47.9'
               datasetB: '32.5'
-              ranking: '515'
-            
+              ranking: '532'            
             - nameen: nest_small_jx
               namezh: nest_small_jx
               paper:
@@ -5360,8 +4828,7 @@ blocks:
               download: 4293
               datasetA: '47.08'
               datasetB: '32.5'
-              ranking: '542'
-            
+              ranking: '533'            
             - nameen: hrnet_w18_small
               namezh: hrnet_w18_small
               paper:
@@ -5370,8 +4837,7 @@ blocks:
               download: 1976
               datasetA: '54.09'
               datasetB: '32.49'
-              ranking: '381'
-            
+              ranking: '534'            
             - nameen: efficientvit_l3
               namezh: efficientvit_l3
               paper:
@@ -5380,8 +4846,7 @@ blocks:
               download: 7262
               datasetA: '58.82'
               datasetB: '32.48'
-              ranking: '268'
-            
+              ranking: '535'            
             - nameen: edgenext_xx_small
               namezh: edgenext_xx_small
               paper:
@@ -5390,8 +4855,7 @@ blocks:
               download: 4899
               datasetA: '61.43'
               datasetB: '32.46'
-              ranking: '212'
-            
+              ranking: '536'            
             - nameen: efficientnetv2_rw_m
               namezh: efficientnetv2_rw_m
               paper:
@@ -5400,8 +4864,7 @@ blocks:
               download: 8450
               datasetA: '59.18'
               datasetB: '32.43'
-              ranking: '257'
-            
+              ranking: '537'            
             - nameen: swinv2_large_window12to24_192to384
               namezh: swinv2_large_window12to24_192to384
               paper:
@@ -5410,8 +4873,7 @@ blocks:
               download: 7777
               datasetA: '31.72'
               datasetB: '32.4'
-              ranking: '858'
-            
+              ranking: '538'            
             - nameen: efficientformerv2_s0
               namezh: efficientformerv2_s0
               paper:
@@ -5420,8 +4882,7 @@ blocks:
               download: 4840
               datasetA: '61.3'
               datasetB: '32.38'
-              ranking: '217'
-            
+              ranking: '539'            
             - nameen: dpn68b
               namezh: dpn68b
               paper:
@@ -5430,8 +4891,7 @@ blocks:
               download: 2375
               datasetA: '62.68'
               datasetB: '32.35'
-              ranking: '183'
-            
+              ranking: '540'            
             - nameen: eca_nfnet_l0
               namezh: eca_nfnet_l0
               paper:
@@ -5440,8 +4900,7 @@ blocks:
               download: 2399
               datasetA: '62.36'
               datasetB: '32.34'
-              ranking: '190'
-            
+              ranking: '541'            
             - nameen: visformer_small
               namezh: visformer_small
               paper:
@@ -5450,8 +4909,7 @@ blocks:
               download: 6586
               datasetA: '28.34'
               datasetB: '32.26'
-              ranking: '931'
-            
+              ranking: '542'            
             - nameen: tf_mobilenetv3_small_minimal_100
               namezh: tf_mobilenetv3_small_minimal_100
               paper:
@@ -5460,8 +4918,7 @@ blocks:
               download: 7491
               datasetA: '29.99'
               datasetB: '32.18'
-              ranking: '900'
-            
+              ranking: '543'            
             - nameen: maxvit_rmlp_pico_rw_256
               namezh: maxvit_rmlp_pico_rw_256
               paper:
@@ -5470,8 +4927,7 @@ blocks:
               download: 2735
               datasetA: '51.1'
               datasetB: '32.17'
-              ranking: '447'
-            
+              ranking: '544'            
             - nameen: flexivit_small
               namezh: flexivit_small
               paper:
@@ -5480,8 +4936,7 @@ blocks:
               download: 5189
               datasetA: '56.76'
               datasetB: '32.16'
-              ranking: '316'
-            
+              ranking: '545'            
             - nameen: lcnet_075
               namezh: lcnet_075
               paper:
@@ -5490,8 +4945,7 @@ blocks:
               download: 5841
               datasetA: '52.8'
               datasetB: '32.11'
-              ranking: '403'
-            
+              ranking: '546'            
             - nameen: dpn92
               namezh: dpn92
               paper:
@@ -5500,8 +4954,7 @@ blocks:
               download: 7103
               datasetA: '62.58'
               datasetB: '32.1'
-              ranking: '184'
-            
+              ranking: '547'            
             - nameen: vit_huge_patch14_xp_224
               namezh: vit_huge_patch14_xp_224
               paper:
@@ -5510,8 +4963,7 @@ blocks:
               download: 6348
               datasetA: '25.56'
               datasetB: '32.03'
-              ranking: '990'
-            
+              ranking: '548'            
             - nameen: mobilenetv2_100
               namezh: mobilenetv2_100
               paper:
@@ -5520,8 +4972,7 @@ blocks:
               download: 5681
               datasetA: '48.7'
               datasetB: '31.97'
-              ranking: '496'
-            
+              ranking: '549'            
             - nameen: cs3darknet_x
               namezh: cs3darknet_x
               paper:
@@ -5530,8 +4981,7 @@ blocks:
               download: 3321
               datasetA: '65.88'
               datasetB: '31.92'
-              ranking: '119'
-            
+              ranking: '550'            
             - nameen: tf_efficientnet_b6
               namezh: tf_efficientnet_b6
               paper:
@@ -5540,8 +4990,7 @@ blocks:
               download: 9462
               datasetA: '31.22'
               datasetB: '31.89'
-              ranking: '869'
-            
+              ranking: '551'            
             - nameen: ConvNeXt-L
               namezh: ConvNeXt-L
               paper:
@@ -5552,8 +5001,7 @@ blocks:
               download: 4450
               datasetA: '71.09'
               datasetB: '31.85'
-              ranking: '3'
-            - nameen: coatnet_1_rw_224
+              ranking: '552'            - nameen: coatnet_1_rw_224
               namezh: coatnet_1_rw_224
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -5561,8 +5009,7 @@ blocks:
               download: 4700
               datasetA: '69.14'
               datasetB: '31.82'
-              ranking: '47'
-            
+              ranking: '553'            
             - nameen: dla102x2
               namezh: dla102x2
               paper:
@@ -5571,8 +5018,7 @@ blocks:
               download: 4995
               datasetA: '63.2'
               datasetB: '31.79'
-              ranking: '172'
-            
+              ranking: '554'            
             - nameen: ese_vovnet19b_dw
               namezh: ese_vovnet19b_dw
               paper:
@@ -5581,8 +5027,7 @@ blocks:
               download: 6265
               datasetA: '58.43'
               datasetB: '31.74'
-              ranking: '275'
-            
+              ranking: '555'            
             - nameen: RaWideResNet-101-2
               namezh: RaWideResNet-101-2
               paper:
@@ -5593,8 +5038,7 @@ blocks:
               download: 2641
               datasetA: '70.82'
               datasetB: '31.72'
-              ranking: '10'
-            - nameen: halonet_h1
+              ranking: '556'            - nameen: halonet_h1
               namezh: halonet_h1
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -5602,8 +5046,7 @@ blocks:
               download: 9407
               datasetA: '54.81'
               datasetB: '31.71'
-              ranking: '356'
-            
+              ranking: '557'            
             - nameen: regnety_120
               namezh: regnety_120
               paper:
@@ -5612,8 +5055,7 @@ blocks:
               download: 9546
               datasetA: '43.38'
               datasetB: '31.69'
-              ranking: '625'
-            
+              ranking: '558'            
             - nameen: vit_base_patch16_384
               namezh: vit_base_patch16_384
               paper:
@@ -5622,8 +5064,7 @@ blocks:
               download: 9484
               datasetA: '28.09'
               datasetB: '31.64'
-              ranking: '940'
-            
+              ranking: '559'            
             - nameen: darknetaa53
               namezh: darknetaa53
               paper:
@@ -5632,8 +5073,7 @@ blocks:
               download: 1931
               datasetA: '65.15'
               datasetB: '31.59'
-              ranking: '133'
-            
+              ranking: '560'            
             - nameen: seresnext101_64x4d
               namezh: seresnext101_64x4d
               paper:
@@ -5642,8 +5082,7 @@ blocks:
               download: 1633
               datasetA: '33.77'
               datasetB: '31.49'
-              ranking: '816'
-            
+              ranking: '561'            
             - nameen: xcit_medium_24_p8_224
               namezh: xcit_medium_24_p8_224
               paper:
@@ -5652,8 +5091,7 @@ blocks:
               download: 8458
               datasetA: '20.99'
               datasetB: '31.45'
-              ranking: '1100'
-            
+              ranking: '562'            
             - nameen: eva_giant_patch14_560
               namezh: eva_giant_patch14_560
               paper:
@@ -5662,8 +5100,7 @@ blocks:
               download: 9624
               datasetA: '57.45'
               datasetB: '31.44'
-              ranking: '296'
-            
+              ranking: '563'            
             - nameen: pvt_v2_b0
               namezh: pvt_v2_b0
               paper:
@@ -5672,8 +5109,7 @@ blocks:
               download: 9067
               datasetA: '45.2'
               datasetB: '31.44'
-              ranking: '591'
-            
+              ranking: '564'            
             - nameen: regnety_008
               namezh: regnety_008
               paper:
@@ -5682,8 +5118,7 @@ blocks:
               download: 4274
               datasetA: '43.78'
               datasetB: '31.41'
-              ranking: '616'
-            
+              ranking: '565'            
             - nameen: resnet50x4_clip_gap
               namezh: resnet50x4_clip_gap
               paper:
@@ -5692,8 +5127,7 @@ blocks:
               download: 9329
               datasetA: '38.16'
               datasetB: '31.36'
-              ranking: '711'
-            
+              ranking: '566'            
             - nameen: vit_betwixt_patch16_reg4_gap_256
               namezh: vit_betwixt_patch16_reg4_gap_256
               paper:
@@ -5702,8 +5136,7 @@ blocks:
               download: 1761
               datasetA: '26.35'
               datasetB: '31.31'
-              ranking: '973'
-            
+              ranking: '567'            
             - nameen: eva02_small_patch14_336
               namezh: eva02_small_patch14_336
               paper:
@@ -5712,8 +5145,7 @@ blocks:
               download: 3951
               datasetA: '57.61'
               datasetB: '31.24'
-              ranking: '291'
-            
+              ranking: '568'            
             - nameen: resnet101s
               namezh: resnet101s
               paper:
@@ -5722,8 +5154,7 @@ blocks:
               download: 7855
               datasetA: '37.67'
               datasetB: '31.22'
-              ranking: '723'
-            
+              ranking: '569'            
             - nameen: convnext_xlarge
               namezh: convnext_xlarge
               paper:
@@ -5732,8 +5163,7 @@ blocks:
               download: 9335
               datasetA: '67.52'
               datasetB: '31.21'
-              ranking: '90'
-            
+              ranking: '570'            
             - nameen: pvt_v2_b5
               namezh: pvt_v2_b5
               paper:
@@ -5742,8 +5172,7 @@ blocks:
               download: 7344
               datasetA: '45.0'
               datasetB: '31.2'
-              ranking: '597'
-            
+              ranking: '571'            
             - nameen: coatnet_rmlp_3_rw_224
               namezh: coatnet_rmlp_3_rw_224
               paper:
@@ -5752,8 +5181,7 @@ blocks:
               download: 3812
               datasetA: '68.71'
               datasetB: '31.15'
-              ranking: '63'
-            
+              ranking: '572'            
             - nameen: ghostnet_050
               namezh: ghostnet_050
               paper:
@@ -5762,8 +5190,7 @@ blocks:
               download: 4328
               datasetA: '55.27'
               datasetB: '31.14'
-              ranking: '342'
-            
+              ranking: '573'            
             - nameen: cait_m36_384
               namezh: cait_m36_384
               paper:
@@ -5772,8 +5199,7 @@ blocks:
               download: 3647
               datasetA: '70.16'
               datasetB: '31.13'
-              ranking: '26'
-            
+              ranking: '574'            
             - nameen: hrnet_w64
               namezh: hrnet_w64
               paper:
@@ -5782,8 +5208,7 @@ blocks:
               download: 8471
               datasetA: '53.39'
               datasetB: '31.04'
-              ranking: '390'
-            
+              ranking: '575'            
             - nameen: tf_efficientnet_b5
               namezh: tf_efficientnet_b5
               paper:
@@ -5792,8 +5217,7 @@ blocks:
               download: 2372
               datasetA: '31.26'
               datasetB: '31.03'
-              ranking: '868'
-            
+              ranking: '576'            
             - nameen: efficientformer_l7
               namezh: efficientformer_l7
               paper:
@@ -5802,8 +5226,7 @@ blocks:
               download: 2949
               datasetA: '61.34'
               datasetB: '30.87'
-              ranking: '215'
-            
+              ranking: '577'            
             - nameen: efficientnet_lite4
               namezh: efficientnet_lite4
               paper:
@@ -5812,8 +5235,7 @@ blocks:
               download: 3438
               datasetA: '59.45'
               datasetB: '30.79'
-              ranking: '252'
-            
+              ranking: '578'            
             - nameen: resnet50s
               namezh: resnet50s
               paper:
@@ -5822,8 +5244,7 @@ blocks:
               download: 3840
               datasetA: '38.18'
               datasetB: '30.71'
-              ranking: '708'
-            
+              ranking: '579'            
             - nameen: nf_ecaresnet101
               namezh: nf_ecaresnet101
               paper:
@@ -5832,8 +5253,7 @@ blocks:
               download: 5629
               datasetA: '46.78'
               datasetB: '30.7'
-              ranking: '550'
-            
+              ranking: '580'            
             - nameen: ese_vovnet39b_evos
               namezh: ese_vovnet39b_evos
               paper:
@@ -5842,8 +5262,7 @@ blocks:
               download: 1008
               datasetA: '58.31'
               datasetB: '30.69'
-              ranking: '279'
-            
+              ranking: '581'            
             - nameen: mnasnet_075
               namezh: mnasnet_075
               paper:
@@ -5852,8 +5271,7 @@ blocks:
               download: 2849
               datasetA: '49.48'
               datasetB: '30.65'
-              ranking: '482'
-            
+              ranking: '582'            
             - nameen: sequencer2d_l
               namezh: sequencer2d_l
               paper:
@@ -5862,8 +5280,7 @@ blocks:
               download: 9646
               datasetA: '34.39'
               datasetB: '30.62'
-              ranking: '796'
-            
+              ranking: '583'            
             - nameen: maxvit_small_tf_384
               namezh: maxvit_small_tf_384
               paper:
@@ -5872,8 +5289,7 @@ blocks:
               download: 2148
               datasetA: '50.77'
               datasetB: '30.6'
-              ranking: '452'
-            
+              ranking: '584'            
             - nameen: convformer_s36
               namezh: convformer_s36
               paper:
@@ -5882,8 +5298,7 @@ blocks:
               download: 5314
               datasetA: '68.43'
               datasetB: '30.55'
-              ranking: '69'
-            
+              ranking: '585'            
             - nameen: sedarknet21
               namezh: sedarknet21
               paper:
@@ -5892,8 +5307,7 @@ blocks:
               download: 4180
               datasetA: '34.97'
               datasetB: '30.55'
-              ranking: '784'
-            
+              ranking: '586'            
             - nameen: tinynet_a
               namezh: tinynet_a
               paper:
@@ -5902,8 +5316,7 @@ blocks:
               download: 6739
               datasetA: '29.65'
               datasetB: '30.48'
-              ranking: '906'
-            
+              ranking: '587'            
             - nameen: vit_giant_patch14_dinov2
               namezh: vit_giant_patch14_dinov2
               paper:
@@ -5912,8 +5325,7 @@ blocks:
               download: 7502
               datasetA: '26.03'
               datasetB: '30.46'
-              ranking: '978'
-            
+              ranking: '588'            
             - nameen: xcit_tiny_12_p8_224
               namezh: xcit_tiny_12_p8_224
               paper:
@@ -5922,8 +5334,7 @@ blocks:
               download: 9813
               datasetA: '20.34'
               datasetB: '30.28'
-              ranking: '1116'
-            
+              ranking: '589'            
             - nameen: skresnet34
               namezh: skresnet34
               paper:
@@ -5932,8 +5343,7 @@ blocks:
               download: 8172
               datasetA: '33.66'
               datasetB: '30.27'
-              ranking: '821'
-            
+              ranking: '590'            
             - nameen: maxvit_large_tf_512
               namezh: maxvit_large_tf_512
               paper:
@@ -5942,8 +5352,7 @@ blocks:
               download: 3635
               datasetA: '51.23'
               datasetB: '30.24'
-              ranking: '441'
-            
+              ranking: '591'            
             - nameen: focalnet_small_srf
               namezh: focalnet_small_srf
               paper:
@@ -5952,8 +5361,7 @@ blocks:
               download: 4818
               datasetA: '56.5'
               datasetB: '30.22'
-              ranking: '324'
-            
+              ranking: '592'            
             - nameen: swinv2_base_window12to24_192to384
               namezh: swinv2_base_window12to24_192to384
               paper:
@@ -5962,8 +5370,7 @@ blocks:
               download: 1653
               datasetA: '32.64'
               datasetB: '30.22'
-              ranking: '838'
-            
+              ranking: '593'            
             - nameen: vit_little_patch16_reg1_gap_256
               namezh: vit_little_patch16_reg1_gap_256
               paper:
@@ -5972,8 +5379,7 @@ blocks:
               download: 8910
               datasetA: '24.98'
               datasetB: '30.21'
-              ranking: '1010'
-            
+              ranking: '594'            
             - nameen: crossvit_18_dagger_240
               namezh: crossvit_18_dagger_240
               paper:
@@ -5982,8 +5388,7 @@ blocks:
               download: 5105
               datasetA: '66.81'
               datasetB: '30.17'
-              ranking: '107'
-            
+              ranking: '595'            
             - nameen: pvt_v2_b3
               namezh: pvt_v2_b3
               paper:
@@ -5992,8 +5397,7 @@ blocks:
               download: 7484
               datasetA: '45.1'
               datasetB: '30.14'
-              ranking: '595'
-            
+              ranking: '596'            
             - nameen: cspdarknet53
               namezh: cspdarknet53
               paper:
@@ -6002,8 +5406,7 @@ blocks:
               download: 1096
               datasetA: '65.58'
               datasetB: '30.03'
-              ranking: '125'
-            
+              ranking: '597'            
             - nameen: resnetv2_101x1_bit
               namezh: resnetv2_101x1_bit
               paper:
@@ -6012,8 +5415,7 @@ blocks:
               download: 1167
               datasetA: '36.13'
               datasetB: '30.01'
-              ranking: '755'
-            
+              ranking: '598'            
             - nameen: cait_xxs36_224
               namezh: cait_xxs36_224
               paper:
@@ -6022,8 +5424,7 @@ blocks:
               download: 5564
               datasetA: '69.83'
               datasetB: '29.99'
-              ranking: '34'
-            
+              ranking: '599'            
             - nameen: mobilenetv3_small_100
               namezh: mobilenetv3_small_100
               paper:
@@ -6032,8 +5433,7 @@ blocks:
               download: 1782
               datasetA: '48.17'
               datasetB: '29.96'
-              ranking: '505'
-            
+              ranking: '600'            
             - nameen: eca_resnet33ts
               namezh: eca_resnet33ts
               paper:
@@ -6042,8 +5442,7 @@ blocks:
               download: 7645
               datasetA: '62.24'
               datasetB: '29.86'
-              ranking: '194'
-            
+              ranking: '601'            
             - nameen: vit_betwixt_patch32_clip_224
               namezh: vit_betwixt_patch32_clip_224
               paper:
@@ -6052,8 +5451,7 @@ blocks:
               download: 7530
               datasetA: '26.26'
               datasetB: '29.83'
-              ranking: '975'
-            
+              ranking: '602'            
             - nameen: eca_botnext26ts_256
               namezh: eca_botnext26ts_256
               paper:
@@ -6062,8 +5460,7 @@ blocks:
               download: 9013
               datasetA: '62.38'
               datasetB: '29.81'
-              ranking: '188'
-            
+              ranking: '603'            
             - nameen: nfnet_f2
               namezh: nfnet_f2
               paper:
@@ -6072,8 +5469,7 @@ blocks:
               download: 6071
               datasetA: '46.12'
               datasetB: '29.72'
-              ranking: '565'
-            
+              ranking: '604'            
             - nameen: resnest50d
               namezh: resnest50d
               paper:
@@ -6082,8 +5478,7 @@ blocks:
               download: 5849
               datasetA: '39.64'
               datasetB: '29.71'
-              ranking: '684'
-            
+              ranking: '605'            
             - nameen: deit3_huge_patch14_224
               namezh: deit3_huge_patch14_224
               paper:
@@ -6092,8 +5487,7 @@ blocks:
               download: 8284
               datasetA: '64.63'
               datasetB: '29.68'
-              ranking: '142'
-            
+              ranking: '606'            
             - nameen: efficientnet_lite0
               namezh: efficientnet_lite0
               paper:
@@ -6102,8 +5496,7 @@ blocks:
               download: 2611
               datasetA: '59.78'
               datasetB: '29.63'
-              ranking: '248'
-            
+              ranking: '607'            
             - nameen: vovnet57a
               namezh: vovnet57a
               paper:
@@ -6112,8 +5505,7 @@ blocks:
               download: 1406
               datasetA: '21.53'
               datasetB: '29.62'
-              ranking: '1088'
-            
+              ranking: '608'            
             - nameen: mobilevitv2_050
               namezh: mobilevitv2_050
               paper:
@@ -6122,8 +5514,7 @@ blocks:
               download: 8117
               datasetA: '47.71'
               datasetB: '29.6'
-              ranking: '523'
-            
+              ranking: '609'            
             - nameen: vitamin_large_384
               namezh: vitamin_large_384
               paper:
@@ -6132,8 +5523,7 @@ blocks:
               download: 8384
               datasetA: '22.37'
               datasetB: '29.55'
-              ranking: '1071'
-            
+              ranking: '610'            
             - nameen: mobilevit_xxs
               namezh: mobilevit_xxs
               paper:
@@ -6142,8 +5532,7 @@ blocks:
               download: 3545
               datasetA: '47.76'
               datasetB: '29.54'
-              ranking: '522'
-            
+              ranking: '611'            
             - nameen: volo_d2_384
               namezh: volo_d2_384
               paper:
@@ -6152,8 +5541,7 @@ blocks:
               download: 7033
               datasetA: '21.86'
               datasetB: '29.51'
-              ranking: '1079'
-            
+              ranking: '612'            
             - nameen: fbnetv3_g
               namezh: fbnetv3_g
               paper:
@@ -6162,8 +5550,7 @@ blocks:
               download: 1332
               datasetA: '56.83'
               datasetB: '29.5'
-              ranking: '313'
-            
+              ranking: '613'            
             - nameen: swinv2_cr_large_384
               namezh: swinv2_cr_large_384
               paper:
@@ -6172,8 +5559,7 @@ blocks:
               download: 8880
               datasetA: '32.16'
               datasetB: '29.44'
-              ranking: '848'
-            
+              ranking: '614'            
             - nameen: xcit_tiny_24_p8_224
               namezh: xcit_tiny_24_p8_224
               paper:
@@ -6182,8 +5568,7 @@ blocks:
               download: 1251
               datasetA: '20.32'
               datasetB: '29.44'
-              ranking: '1120'
-            
+              ranking: '615'            
             - nameen: efficientnet_b3_gn
               namezh: efficientnet_b3_gn
               paper:
@@ -6192,8 +5577,7 @@ blocks:
               download: 8997
               datasetA: '60.67'
               datasetB: '29.35'
-              ranking: '230'
-            
+              ranking: '616'            
             - nameen: semnasnet_100
               namezh: semnasnet_100
               paper:
@@ -6202,8 +5586,7 @@ blocks:
               download: 6204
               datasetA: '34.44'
               datasetB: '29.31'
-              ranking: '793'
-            
+              ranking: '617'            
             - nameen: res2net50_14w_8s
               namezh: res2net50_14w_8s
               paper:
@@ -6212,8 +5595,7 @@ blocks:
               download: 8396
               datasetA: '40.73'
               datasetB: '29.17'
-              ranking: '669'
-            
+              ranking: '618'            
             - nameen: ghostnetv2_100
               namezh: ghostnetv2_100
               paper:
@@ -6222,8 +5604,7 @@ blocks:
               download: 5851
               datasetA: '55.16'
               datasetB: '29.13'
-              ranking: '345'
-            
+              ranking: '619'            
             - nameen: vit_base_r26_s32_224
               namezh: vit_base_r26_s32_224
               paper:
@@ -6232,8 +5613,7 @@ blocks:
               download: 4433
               datasetA: '26.79'
               datasetB: '29.1'
-              ranking: '966'
-            
+              ranking: '620'            
             - nameen: vit_base_patch16_siglip_gap_256
               namezh: vit_base_patch16_siglip_gap_256
               paper:
@@ -6242,8 +5622,7 @@ blocks:
               download: 2779
               datasetA: '27.47'
               datasetB: '29.09'
-              ranking: '954'
-            
+              ranking: '621'            
             - nameen: focalnet_large_fl3
               namezh: focalnet_large_fl3
               paper:
@@ -6252,8 +5631,7 @@ blocks:
               download: 9428
               datasetA: '56.57'
               datasetB: '29.07'
-              ranking: '321'
-            
+              ranking: '622'            
             - nameen: repghostnet_058
               namezh: repghostnet_058
               paper:
@@ -6262,8 +5640,7 @@ blocks:
               download: 4067
               datasetA: '42.44'
               datasetB: '29.04'
-              ranking: '643'
-            
+              ranking: '623'            
             - nameen: darknet53
               namezh: darknet53
               paper:
@@ -6272,8 +5649,7 @@ blocks:
               download: 4074
               datasetA: '65.34'
               datasetB: '29.03'
-              ranking: '132'
-            
+              ranking: '624'            
             - nameen: convnext_nano
               namezh: convnext_nano
               paper:
@@ -6282,8 +5658,7 @@ blocks:
               download: 2984
               datasetA: '67.78'
               datasetB: '28.94'
-              ranking: '83'
-            
+              ranking: '625'            
             - nameen: maxvit_small_tf_224
               namezh: maxvit_small_tf_224
               paper:
@@ -6292,8 +5667,7 @@ blocks:
               download: 6754
               datasetA: '50.9'
               datasetB: '28.94'
-              ranking: '451'
-            
+              ranking: '626'            
             - nameen: efficientnet_es
               namezh: efficientnet_es
               paper:
@@ -6302,8 +5676,7 @@ blocks:
               download: 5520
               datasetA: '59.96'
               datasetB: '28.84'
-              ranking: '244'
-            
+              ranking: '627'            
             - nameen: resnet50
               namezh: resnet50
               paper:
@@ -6312,8 +5685,7 @@ blocks:
               download: 7557
               datasetA: '38.83'
               datasetB: '28.84'
-              ranking: '701'
-            
+              ranking: '628'            
             - nameen: tf_efficientnetv2_l
               namezh: tf_efficientnetv2_l
               paper:
@@ -6322,8 +5694,7 @@ blocks:
               download: 6309
               datasetA: '30.49'
               datasetB: '28.83'
-              ranking: '888'
-            
+              ranking: '629'            
             - nameen: davit_small
               namezh: davit_small
               paper:
@@ -6332,8 +5703,7 @@ blocks:
               download: 6753
               datasetA: '64.72'
               datasetB: '28.81'
-              ranking: '138'
-            
+              ranking: '630'            
             - nameen: botnet26t_256
               namezh: botnet26t_256
               paper:
@@ -6342,8 +5712,7 @@ blocks:
               download: 7753
               datasetA: '70.5'
               datasetB: '28.74'
-              ranking: '20'
-            
+              ranking: '631'            
             - nameen: mobilenetv2_120d
               namezh: mobilenetv2_120d
               paper:
@@ -6352,8 +5721,7 @@ blocks:
               download: 4813
               datasetA: '48.61'
               datasetB: '28.74'
-              ranking: '498'
-            
+              ranking: '632'            
             - nameen: repvit_m2_3
               namezh: repvit_m2_3
               paper:
@@ -6362,8 +5730,7 @@ blocks:
               download: 7333
               datasetA: '40.87'
               datasetB: '28.74'
-              ranking: '667'
-            
+              ranking: '633'            
             - nameen: vit_huge_patch14_clip_336
               namezh: vit_huge_patch14_clip_336
               paper:
@@ -6372,8 +5739,7 @@ blocks:
               download: 9174
               datasetA: '25.67'
               datasetB: '28.71'
-              ranking: '985'
-            
+              ranking: '634'            
             - nameen: flexivit_base
               namezh: flexivit_base
               paper:
@@ -6382,8 +5748,7 @@ blocks:
               download: 2049
               datasetA: '56.78'
               datasetB: '28.7'
-              ranking: '314'
-            
+              ranking: '635'            
             - nameen: vit_large_patch14_clip_336
               namezh: vit_large_patch14_clip_336
               paper:
@@ -6392,8 +5757,7 @@ blocks:
               download: 6371
               datasetA: '25.45'
               datasetB: '28.7'
-              ranking: '994'
-            
+              ranking: '636'            
             - nameen: pit_xs_224
               namezh: pit_xs_224
               paper:
@@ -6402,8 +5766,7 @@ blocks:
               download: 1396
               datasetA: '45.68'
               datasetB: '28.69'
-              ranking: '578'
-            
+              ranking: '637'            
             - nameen: vit_large_patch14_xp_224
               namezh: vit_large_patch14_xp_224
               paper:
@@ -6412,8 +5775,7 @@ blocks:
               download: 1532
               datasetA: '25.37'
               datasetB: '28.67'
-              ranking: '999'
-            
+              ranking: '638'            
             - nameen: hardcorenas_f
               namezh: hardcorenas_f
               paper:
@@ -6422,8 +5784,7 @@ blocks:
               download: 3974
               datasetA: '54.6'
               datasetB: '28.66'
-              ranking: '363'
-            
+              ranking: '639'            
             - nameen: vit_little_patch16_reg4_gap_256
               namezh: vit_little_patch16_reg4_gap_256
               paper:
@@ -6432,8 +5793,7 @@ blocks:
               download: 6811
               datasetA: '24.95'
               datasetB: '28.61'
-              ranking: '1011'
-            
+              ranking: '640'            
             - nameen: convnext_femto_ols
               namezh: convnext_femto_ols
               paper:
@@ -6442,8 +5802,7 @@ blocks:
               download: 4911
               datasetA: '67.8'
               datasetB: '28.55'
-              ranking: '80'
-            
+              ranking: '641'            
             - nameen: efficientnet_lite1
               namezh: efficientnet_lite1
               paper:
@@ -6452,8 +5811,7 @@ blocks:
               download: 4244
               datasetA: '59.74'
               datasetB: '28.53'
-              ranking: '249'
-            
+              ranking: '642'            
             - nameen: resnet26t
               namezh: resnet26t
               paper:
@@ -6462,8 +5820,7 @@ blocks:
               download: 2724
               datasetA: '39.08'
               datasetB: '28.53'
-              ranking: '696'
-            
+              ranking: '643'            
             - nameen: cs3sedarknet_x
               namezh: cs3sedarknet_x
               paper:
@@ -6472,8 +5829,7 @@ blocks:
               download: 4649
               datasetA: '65.71'
               datasetB: '28.42'
-              ranking: '123'
-            
+              ranking: '644'            
             - nameen: regnetx_080
               namezh: regnetx_080
               paper:
@@ -6482,8 +5838,7 @@ blocks:
               download: 9202
               datasetA: '44.41'
               datasetB: '28.39'
-              ranking: '609'
-            
+              ranking: '645'            
             - nameen: convnextv2_huge
               namezh: convnextv2_huge
               paper:
@@ -6492,8 +5847,7 @@ blocks:
               download: 6416
               datasetA: '67.3'
               datasetB: '28.36'
-              ranking: '95'
-            
+              ranking: '646'            
             - nameen: cait_s24_384
               namezh: cait_s24_384
               paper:
@@ -6502,8 +5856,7 @@ blocks:
               download: 4231
               datasetA: '69.97'
               datasetB: '28.35'
-              ranking: '29'
-            
+              ranking: '647'            
             - nameen: resmlp_12_224
               namezh: resmlp_12_224
               paper:
@@ -6512,8 +5865,7 @@ blocks:
               download: 7146
               datasetA: '40.23'
               datasetB: '28.35'
-              ranking: '678'
-            
+              ranking: '648'            
             - nameen: inception_resnet_v2
               namezh: inception_resnet_v2
               paper:
@@ -6522,8 +5874,7 @@ blocks:
               download: 2390
               datasetA: '53.15'
               datasetB: '28.3'
-              ranking: '394'
-            
+              ranking: '649'            
             - nameen: xcit_tiny_24_p16_224
               namezh: xcit_tiny_24_p16_224
               paper:
@@ -6532,8 +5883,7 @@ blocks:
               download: 5795
               datasetA: '20.27'
               datasetB: '28.3'
-              ranking: '1122'
-            
+              ranking: '650'            
             - nameen: coat_lite_tiny
               namezh: coat_lite_tiny
               paper:
@@ -6542,8 +5892,7 @@ blocks:
               download: 9254
               datasetA: '69.5'
               datasetB: '28.28'
-              ranking: '40'
-            
+              ranking: '651'            
             - nameen: seresnext26d_32x4d
               namezh: seresnext26d_32x4d
               paper:
@@ -6552,8 +5901,7 @@ blocks:
               download: 4911
               datasetA: '33.87'
               datasetB: '28.28'
-              ranking: '810'
-            
+              ranking: '652'            
             - nameen: seresnextaa101d_32x8d
               namezh: seresnextaa101d_32x8d
               paper:
@@ -6562,8 +5910,7 @@ blocks:
               download: 4670
               datasetA: '33.73'
               datasetB: '28.27'
-              ranking: '818'
-            
+              ranking: '653'            
             - nameen: convnext_pico_ols
               namezh: convnext_pico_ols
               paper:
@@ -6572,8 +5919,7 @@ blocks:
               download: 2924
               datasetA: '67.67'
               datasetB: '28.18'
-              ranking: '86'
-            
+              ranking: '654'            
             - nameen: regnety_032
               namezh: regnety_032
               paper:
@@ -6582,8 +5928,7 @@ blocks:
               download: 8067
               datasetA: '43.71'
               datasetB: '28.05'
-              ranking: '619'
-            
+              ranking: '655'            
             - nameen: repvit_m1
               namezh: repvit_m1
               paper:
@@ -6592,8 +5937,7 @@ blocks:
               download: 2809
               datasetA: '41.37'
               datasetB: '28.04'
-              ranking: '662'
-            
+              ranking: '656'            
             - nameen: seresnet152d
               namezh: seresnet152d
               paper:
@@ -6602,8 +5946,7 @@ blocks:
               download: 8767
               datasetA: '34.04'
               datasetB: '28.04'
-              ranking: '806'
-            
+              ranking: '657'            
             - nameen: levit_512_s8
               namezh: levit_512_s8
               paper:
@@ -6612,8 +5955,7 @@ blocks:
               download: 2170
               datasetA: '51.83'
               datasetB: '28.02'
-              ranking: '424'
-            
+              ranking: '658'            
             - nameen: xception71
               namezh: xception71
               paper:
@@ -6622,8 +5964,7 @@ blocks:
               download: 7876
               datasetA: '21.29'
               datasetB: '27.96'
-              ranking: '1095'
-            
+              ranking: '659'            
             - nameen: vit_giant_patch16_gap_224
               namezh: vit_giant_patch16_gap_224
               paper:
@@ -6632,8 +5973,7 @@ blocks:
               download: 2563
               datasetA: '26.0'
               datasetB: '27.94'
-              ranking: '980'
-            
+              ranking: '660'            
             - nameen: crossvit_base_240
               namezh: crossvit_base_240
               paper:
@@ -6642,8 +5982,7 @@ blocks:
               download: 6317
               datasetA: '66.53'
               datasetB: '27.93'
-              ranking: '109'
-            
+              ranking: '661'            
             - nameen: vit_betwixt_patch16_rope_reg4_gap_256
               namezh: vit_betwixt_patch16_rope_reg4_gap_256
               paper:
@@ -6652,8 +5991,7 @@ blocks:
               download: 8625
               datasetA: '26.32'
               datasetB: '27.89'
-              ranking: '974'
-            
+              ranking: '662'            
             - nameen: nextvit_small
               namezh: nextvit_small
               paper:
@@ -6662,8 +6000,7 @@ blocks:
               download: 1221
               datasetA: '46.84'
               datasetB: '27.83'
-              ranking: '547'
-            
+              ranking: '663'            
             - nameen: deit3_base_patch16_224
               namezh: deit3_base_patch16_224
               paper:
@@ -6672,8 +6009,7 @@ blocks:
               download: 5630
               datasetA: '64.69'
               datasetB: '27.8'
-              ranking: '140'
-            
+              ranking: '664'            
             - nameen: vitamin_xlarge_256
               namezh: vitamin_xlarge_256
               paper:
@@ -6682,8 +6018,7 @@ blocks:
               download: 7023
               datasetA: '22.28'
               datasetB: '27.79'
-              ranking: '1073'
-            
+              ranking: '665'            
             - nameen: vit_xsmall_patch16_clip_224
               namezh: vit_xsmall_patch16_clip_224
               paper:
@@ -6692,8 +6027,7 @@ blocks:
               download: 5808
               datasetA: '22.76'
               datasetB: '27.72'
-              ranking: '1062'
-            
+              ranking: '666'            
             - nameen: resnest50d_4s2x40d
               namezh: resnest50d_4s2x40d
               paper:
@@ -6702,8 +6036,7 @@ blocks:
               download: 3311
               datasetA: '39.57'
               datasetB: '27.66'
-              ranking: '686'
-            
+              ranking: '667'            
             - nameen: Swin-B
               namezh: Swin-B
               paper:
@@ -6714,8 +6047,7 @@ blocks:
               download: 8224
               datasetA: '71.01'
               datasetB: '27.63'
-              ranking: '5'
-            - nameen: dm_nfnet_f5
+              ranking: '668'            - nameen: dm_nfnet_f5
               namezh: dm_nfnet_f5
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -6723,8 +6055,7 @@ blocks:
               download: 7023
               datasetA: '62.91'
               datasetB: '27.6'
-              ranking: '179'
-            
+              ranking: '669'            
             - nameen: mobilenetv4_conv_aa_medium
               namezh: mobilenetv4_conv_aa_medium
               paper:
@@ -6733,8 +6064,7 @@ blocks:
               download: 2085
               datasetA: '48.16'
               datasetB: '27.6'
-              ranking: '506'
-            
+              ranking: '670'            
             - nameen: vit_base_patch32_clip_256
               namezh: vit_base_patch32_clip_256
               paper:
@@ -6743,8 +6073,7 @@ blocks:
               download: 3270
               datasetA: '26.97'
               datasetB: '27.58'
-              ranking: '961'
-            
+              ranking: '671'            
             - nameen: regnetx_006
               namezh: regnetx_006
               paper:
@@ -6753,8 +6082,7 @@ blocks:
               download: 8235
               datasetA: '44.78'
               datasetB: '27.46'
-              ranking: '603'
-            
+              ranking: '672'            
             - nameen: resnet50_gn
               namezh: resnet50_gn
               paper:
@@ -6763,8 +6091,7 @@ blocks:
               download: 7014
               datasetA: '38.54'
               datasetB: '27.41'
-              ranking: '704'
-            
+              ranking: '673'            
             - nameen: nfnet_l0
               namezh: nfnet_l0
               paper:
@@ -6773,8 +6100,7 @@ blocks:
               download: 1998
               datasetA: '45.9'
               datasetB: '27.37'
-              ranking: '571'
-            
+              ranking: '674'            
             - nameen: levit_conv_256
               namezh: levit_conv_256
               paper:
@@ -6783,8 +6109,7 @@ blocks:
               download: 5063
               datasetA: '51.72'
               datasetB: '27.35'
-              ranking: '429'
-            
+              ranking: '675'            
             - nameen: efficientnet_b2
               namezh: efficientnet_b2
               paper:
@@ -6793,8 +6118,7 @@ blocks:
               download: 7539
               datasetA: '60.96'
               datasetB: '27.32'
-              ranking: '226'
-            
+              ranking: '676'            
             - nameen: tiny_vit_21m_224
               namezh: tiny_vit_21m_224
               paper:
@@ -6803,8 +6127,7 @@ blocks:
               download: 1812
               datasetA: '29.8'
               datasetB: '27.28'
-              ranking: '903'
-            
+              ranking: '677'            
             - nameen: convnextv2_atto
               namezh: convnextv2_atto
               paper:
@@ -6813,8 +6136,7 @@ blocks:
               download: 1836
               datasetA: '67.34'
               datasetB: '27.23'
-              ranking: '92'
-            
+              ranking: '678'            
             - nameen: vit_large_patch14_clip_quickgelu_224
               namezh: vit_large_patch14_clip_quickgelu_224
               paper:
@@ -6823,8 +6145,7 @@ blocks:
               download: 9107
               datasetA: '25.45'
               datasetB: '27.22'
-              ranking: '995'
-            
+              ranking: '679'            
             - nameen: vitamin_xlarge_384
               namezh: vitamin_xlarge_384
               paper:
@@ -6833,8 +6154,7 @@ blocks:
               download: 6624
               datasetA: '22.15'
               datasetB: '27.2'
-              ranking: '1075'
-            
+              ranking: '680'            
             - nameen: tf_mobilenetv3_small_075
               namezh: tf_mobilenetv3_small_075
               paper:
@@ -6843,8 +6163,7 @@ blocks:
               download: 7258
               datasetA: '30.13'
               datasetB: '27.17'
-              ranking: '898'
-            
+              ranking: '681'            
             - nameen: vit_large_r50_s32_384
               namezh: vit_large_r50_s32_384
               paper:
@@ -6853,8 +6172,7 @@ blocks:
               download: 7661
               datasetA: '24.98'
               datasetB: '27.1'
-              ranking: '1009'
-            
+              ranking: '682'            
             - nameen: wide_resnet101_2
               namezh: wide_resnet101_2
               paper:
@@ -6863,8 +6181,7 @@ blocks:
               download: 6838
               datasetA: '21.48'
               datasetB: '27.07'
-              ranking: '1090'
-            
+              ranking: '683'            
             - nameen: mobileone_s3
               namezh: mobileone_s3
               paper:
@@ -6873,8 +6190,7 @@ blocks:
               download: 1558
               datasetA: '47.85'
               datasetB: '26.97'
-              ranking: '518'
-            
+              ranking: '684'            
             - nameen: senet154
               namezh: senet154
               paper:
@@ -6883,8 +6199,7 @@ blocks:
               download: 5778
               datasetA: '34.42'
               datasetB: '26.97'
-              ranking: '795'
-            
+              ranking: '685'            
             - nameen: regnety_160
               namezh: regnety_160
               paper:
@@ -6893,8 +6208,7 @@ blocks:
               download: 1534
               datasetA: '43.36'
               datasetB: '26.96'
-              ranking: '626'
-            
+              ranking: '686'            
             - nameen: res2net50d
               namezh: res2net50d
               paper:
@@ -6903,8 +6217,7 @@ blocks:
               download: 5058
               datasetA: '40.41'
               datasetB: '26.89'
-              ranking: '674'
-            
+              ranking: '687'            
             - nameen: davit_large
               namezh: davit_large
               paper:
@@ -6913,8 +6226,7 @@ blocks:
               download: 6745
               datasetA: '64.77'
               datasetB: '26.88'
-              ranking: '137'
-            
+              ranking: '688'            
             - nameen: edgenext_small_rw
               namezh: edgenext_small_rw
               paper:
@@ -6923,8 +6235,7 @@ blocks:
               download: 4955
               datasetA: '61.54'
               datasetB: '26.87'
-              ranking: '210'
-            
+              ranking: '689'            
             - nameen: selecsls60b
               namezh: selecsls60b
               paper:
@@ -6933,8 +6244,7 @@ blocks:
               download: 1455
               datasetA: '34.68'
               datasetB: '26.82'
-              ranking: '789'
-            
+              ranking: '690'            
             - nameen: mvitv2_base
               namezh: mvitv2_base
               paper:
@@ -6943,8 +6253,7 @@ blocks:
               download: 6802
               datasetA: '47.52'
               datasetB: '26.78'
-              ranking: '530'
-            
+              ranking: '691'            
             - nameen: vit_base_patch14_dinov2
               namezh: vit_base_patch14_dinov2
               paper:
@@ -6953,8 +6262,7 @@ blocks:
               download: 9899
               datasetA: '28.2'
               datasetB: '26.62'
-              ranking: '935'
-            
+              ranking: '692'            
             - nameen: maxvit_base_tf_384
               namezh: maxvit_base_tf_384
               paper:
@@ -6963,8 +6271,7 @@ blocks:
               download: 6508
               datasetA: '51.38'
               datasetB: '26.53'
-              ranking: '437'
-            
+              ranking: '693'            
             - nameen: maxxvitv2_rmlp_base_rw_224
               namezh: maxxvitv2_rmlp_base_rw_224
               paper:
@@ -6973,8 +6280,7 @@ blocks:
               download: 8362
               datasetA: '50.24'
               datasetB: '26.45'
-              ranking: '467'
-            
+              ranking: '694'            
             - nameen: vit_relpos_base_patch16_plus_240
               namezh: vit_relpos_base_patch16_plus_240
               paper:
@@ -6983,8 +6289,7 @@ blocks:
               download: 3692
               datasetA: '24.16'
               datasetB: '26.36'
-              ranking: '1026'
-            
+              ranking: '695'            
             - nameen: convmixer_768_32
               namezh: convmixer_768_32
               paper:
@@ -6993,8 +6298,7 @@ blocks:
               download: 5777
               datasetA: '68.36'
               datasetB: '26.35'
-              ranking: '73'
-            
+              ranking: '696'            
             - nameen: resnetv2_50t
               namezh: resnetv2_50t
               paper:
@@ -7003,8 +6307,7 @@ blocks:
               download: 6031
               datasetA: '36.27'
               datasetB: '26.26'
-              ranking: '750'
-            
+              ranking: '697'            
             - nameen: legacy_seresnext50_32x4d
               namezh: legacy_seresnext50_32x4d
               paper:
@@ -7013,8 +6316,7 @@ blocks:
               download: 4511
               datasetA: '52.39'
               datasetB: '26.24'
-              ranking: '413'
-            
+              ranking: '698'            
             - nameen: vit_so400m_patch14_siglip_224
               namezh: vit_so400m_patch14_siglip_224
               paper:
@@ -7023,8 +6325,7 @@ blocks:
               download: 2525
               datasetA: '23.31'
               datasetB: '26.21'
-              ranking: '1049'
-            
+              ranking: '699'            
             - nameen: davit_base
               namezh: davit_base
               paper:
@@ -7033,8 +6334,7 @@ blocks:
               download: 1908
               datasetA: '65.01'
               datasetB: '26.18'
-              ranking: '134'
-            
+              ranking: '700'            
             - nameen: cs3darknet_focus_m
               namezh: cs3darknet_focus_m
               paper:
@@ -7043,8 +6343,7 @@ blocks:
               download: 9664
               datasetA: '66.28'
               datasetB: '26.17'
-              ranking: '113'
-            
+              ranking: '701'            
             - nameen: convnext_large_mlp
               namezh: convnext_large_mlp
               paper:
@@ -7053,8 +6352,7 @@ blocks:
               download: 1842
               datasetA: '67.78'
               datasetB: '26.13'
-              ranking: '82'
-            
+              ranking: '702'            
             - nameen: efficientnet_es_pruned
               namezh: efficientnet_es_pruned
               paper:
@@ -7063,8 +6361,7 @@ blocks:
               download: 2661
               datasetA: '59.95'
               datasetB: '26.1'
-              ranking: '245'
-            
+              ranking: '703'            
             - nameen: crossvit_tiny_240
               namezh: crossvit_tiny_240
               paper:
@@ -7073,8 +6370,7 @@ blocks:
               download: 8287
               datasetA: '66.47'
               datasetB: '26.06'
-              ranking: '111'
-            
+              ranking: '704'            
             - nameen: mixer_s32_224
               namezh: mixer_s32_224
               paper:
@@ -7083,8 +6379,7 @@ blocks:
               download: 6224
               datasetA: '50.02'
               datasetB: '26.06'
-              ranking: '475'
-            
+              ranking: '705'            
             - nameen: repvgg_b1
               namezh: repvgg_b1
               paper:
@@ -7093,8 +6388,7 @@ blocks:
               download: 6840
               datasetA: '41.79'
               datasetB: '26.02'
-              ranking: '654'
-            
+              ranking: '706'            
             - nameen: nf_seresnet101
               namezh: nf_seresnet101
               paper:
@@ -7103,8 +6397,7 @@ blocks:
               download: 3535
               datasetA: '46.29'
               datasetB: '26.01'
-              ranking: '562'
-            
+              ranking: '707'            
             - nameen: eva02_base_patch14_448
               namezh: eva02_base_patch14_448
               paper:
@@ -7113,8 +6406,7 @@ blocks:
               download: 7486
               datasetA: '58.08'
               datasetB: '26.0'
-              ranking: '283'
-            
+              ranking: '708'            
             - nameen: mobilenetv3_large_075
               namezh: mobilenetv3_large_075
               paper:
@@ -7123,8 +6415,7 @@ blocks:
               download: 1397
               datasetA: '48.46'
               datasetB: '25.96'
-              ranking: '500'
-            
+              ranking: '709'            
             - nameen: pit_b_224
               namezh: pit_b_224
               paper:
@@ -7133,8 +6424,7 @@ blocks:
               download: 6933
               datasetA: '45.9'
               datasetB: '25.95'
-              ranking: '572'
-            
+              ranking: '710'            
             - nameen: poolformerv2_s36
               namezh: poolformerv2_s36
               paper:
@@ -7143,8 +6433,7 @@ blocks:
               download: 2141
               datasetA: '45.21'
               datasetB: '25.94'
-              ranking: '590'
-            
+              ranking: '711'            
             - nameen: vit_large_patch16_siglip_384
               namezh: vit_large_patch16_siglip_384
               paper:
@@ -7153,8 +6442,7 @@ blocks:
               download: 1632
               datasetA: '25.2'
               datasetB: '25.91'
-              ranking: '1003'
-            
+              ranking: '712'            
             - nameen: xception65p
               namezh: xception65p
               paper:
@@ -7163,8 +6451,7 @@ blocks:
               download: 2654
               datasetA: '21.36'
               datasetB: '25.86'
-              ranking: '1094'
-            
+              ranking: '713'            
             - nameen: dla60_res2net
               namezh: dla60_res2net
               paper:
@@ -7173,8 +6460,7 @@ blocks:
               download: 5601
               datasetA: '63.51'
               datasetB: '25.8'
-              ranking: '166'
-            
+              ranking: '714'            
             - nameen: coatnet_nano_rw_224
               namezh: coatnet_nano_rw_224
               paper:
@@ -7183,8 +6469,7 @@ blocks:
               download: 5824
               datasetA: '68.88'
               datasetB: '25.77'
-              ranking: '56'
-            
+              ranking: '715'            
             - nameen: mobileone_s2
               namezh: mobileone_s2
               paper:
@@ -7193,8 +6478,7 @@ blocks:
               download: 2145
               datasetA: '47.9'
               datasetB: '25.76'
-              ranking: '517'
-            
+              ranking: '716'            
             - nameen: pvt_v2_b2
               namezh: pvt_v2_b2
               paper:
@@ -7203,8 +6487,7 @@ blocks:
               download: 5330
               datasetA: '45.18'
               datasetB: '25.75'
-              ranking: '593'
-            
+              ranking: '717'            
             - nameen: vitamin_base_224
               namezh: vitamin_base_224
               paper:
@@ -7213,8 +6496,7 @@ blocks:
               download: 4956
               datasetA: '22.7'
               datasetB: '25.75'
-              ranking: '1063'
-            
+              ranking: '718'            
             - nameen: spnasnet_100
               namezh: spnasnet_100
               paper:
@@ -7223,8 +6505,7 @@ blocks:
               download: 2344
               datasetA: '33.37'
               datasetB: '25.69'
-              ranking: '825'
-            
+              ranking: '719'            
             - nameen: focalnet_large_fl4
               namezh: focalnet_large_fl4
               paper:
@@ -7233,8 +6514,7 @@ blocks:
               download: 3285
               datasetA: '56.56'
               datasetB: '25.65'
-              ranking: '322'
-            
+              ranking: '720'            
             - nameen: vit_pwee_patch16_reg1_gap_256
               namezh: vit_pwee_patch16_reg1_gap_256
               paper:
@@ -7243,8 +6523,7 @@ blocks:
               download: 7248
               datasetA: '24.25'
               datasetB: '25.64'
-              ranking: '1022'
-            
+              ranking: '721'            
             - nameen: vit_huge_patch16_gap_448
               namezh: vit_huge_patch16_gap_448
               paper:
@@ -7253,8 +6532,7 @@ blocks:
               download: 7696
               datasetA: '25.53'
               datasetB: '25.57'
-              ranking: '991'
-            
+              ranking: '722'            
             - nameen: ghostnet_100
               namezh: ghostnet_100
               paper:
@@ -7263,8 +6541,7 @@ blocks:
               download: 8244
               datasetA: '55.24'
               datasetB: '25.56'
-              ranking: '343'
-            
+              ranking: '723'            
             - nameen: legacy_seresnet101
               namezh: legacy_seresnet101
               paper:
@@ -7273,8 +6550,7 @@ blocks:
               download: 9156
               datasetA: '52.52'
               datasetB: '25.5'
-              ranking: '410'
-            
+              ranking: '724'            
             - nameen: poolformerv2_s12
               namezh: poolformerv2_s12
               paper:
@@ -7283,8 +6559,7 @@ blocks:
               download: 7213
               datasetA: '45.35'
               datasetB: '25.49'
-              ranking: '588'
-            
+              ranking: '725'            
             - nameen: nest_small
               namezh: nest_small
               paper:
@@ -7293,8 +6568,7 @@ blocks:
               download: 5553
               datasetA: '47.15'
               datasetB: '25.39'
-              ranking: '541'
-            
+              ranking: '726'            
             - nameen: xcit_small_12_p16_224
               namezh: xcit_small_12_p16_224
               paper:
@@ -7303,8 +6577,7 @@ blocks:
               download: 4075
               datasetA: '20.64'
               datasetB: '25.38'
-              ranking: '1110'
-            
+              ranking: '727'            
             - nameen: mnasnet_140
               namezh: mnasnet_140
               paper:
@@ -7313,8 +6586,7 @@ blocks:
               download: 9522
               datasetA: '49.39'
               datasetB: '25.36'
-              ranking: '484'
-            
+              ranking: '728'            
             - nameen: samvit_huge_patch16
               namezh: samvit_huge_patch16
               paper:
@@ -7323,8 +6595,7 @@ blocks:
               download: 2727
               datasetA: '35.08'
               datasetB: '25.36'
-              ranking: '781'
-            
+              ranking: '729'            
             - nameen: vit_medium_patch16_gap_240
               namezh: vit_medium_patch16_gap_240
               paper:
@@ -7333,8 +6604,7 @@ blocks:
               download: 9115
               datasetA: '24.93'
               datasetB: '25.33'
-              ranking: '1013'
-            
+              ranking: '730'            
             - nameen: selecsls60
               namezh: selecsls60
               paper:
@@ -7343,8 +6613,7 @@ blocks:
               download: 6982
               datasetA: '34.77'
               datasetB: '25.25'
-              ranking: '788'
-            
+              ranking: '731'            
             - nameen: rexnet_200
               namezh: rexnet_200
               paper:
@@ -7353,8 +6622,7 @@ blocks:
               download: 7519
               datasetA: '35.36'
               datasetB: '25.23'
-              ranking: '772'
-            
+              ranking: '732'            
             - nameen: efficientnet_b8
               namezh: efficientnet_b8
               paper:
@@ -7363,8 +6631,7 @@ blocks:
               download: 3689
               datasetA: '60.52'
               datasetB: '25.21'
-              ranking: '236'
-            
+              ranking: '733'            
             - nameen: hiera_large_224
               namezh: hiera_large_224
               paper:
@@ -7373,8 +6640,7 @@ blocks:
               download: 8582
               datasetA: '54.16'
               datasetB: '25.19'
-              ranking: '377'
-            
+              ranking: '734'            
             - nameen: mobilenetv4_hybrid_large_075
               namezh: mobilenetv4_hybrid_large_075
               paper:
@@ -7383,8 +6649,7 @@ blocks:
               download: 9665
               datasetA: '48.02'
               datasetB: '25.18'
-              ranking: '512'
-            
+              ranking: '735'            
             - nameen: regnety_004
               namezh: regnety_004
               paper:
@@ -7393,8 +6658,7 @@ blocks:
               download: 4287
               datasetA: '43.82'
               datasetB: '25.15'
-              ranking: '614'
-            
+              ranking: '736'            
             - nameen: gcresnet50t
               namezh: gcresnet50t
               paper:
@@ -7403,8 +6667,7 @@ blocks:
               download: 1562
               datasetA: '55.75'
               datasetB: '25.14'
-              ranking: '331'
-            
+              ranking: '737'            
             - nameen: cs3sedarknet_xdw
               namezh: cs3sedarknet_xdw
               paper:
@@ -7413,8 +6676,7 @@ blocks:
               download: 3182
               datasetA: '65.62'
               datasetB: '25.1'
-              ranking: '124'
-            
+              ranking: '738'            
             - nameen: resnetrs50
               namezh: resnetrs50
               paper:
@@ -7423,8 +6685,7 @@ blocks:
               download: 4209
               datasetA: '36.92'
               datasetB: '25.09'
-              ranking: '738'
-            
+              ranking: '739'            
             - nameen: xcit_small_24_p16_224
               namezh: xcit_small_24_p16_224
               paper:
@@ -7433,8 +6694,7 @@ blocks:
               download: 5111
               datasetA: '20.48'
               datasetB: '25.06'
-              ranking: '1114'
-            
+              ranking: '740'            
             - nameen: swinv2_cr_base_384
               namezh: swinv2_cr_base_384
               paper:
@@ -7443,8 +6703,7 @@ blocks:
               download: 1327
               datasetA: '32.44'
               datasetB: '25.03'
-              ranking: '841'
-            
+              ranking: '741'            
             - nameen: focalnet_base_lrf
               namezh: focalnet_base_lrf
               paper:
@@ -7453,8 +6712,7 @@ blocks:
               download: 1299
               datasetA: '56.72'
               datasetB: '25.02'
-              ranking: '317'
-            
+              ranking: '742'            
             - nameen: maxvit_rmlp_nano_rw_256
               namezh: maxvit_rmlp_nano_rw_256
               paper:
@@ -7463,8 +6721,7 @@ blocks:
               download: 8372
               datasetA: '51.16'
               datasetB: '25.02'
-              ranking: '446'
-            
+              ranking: '743'            
             - nameen: vit_base_patch16_18x2_224
               namezh: vit_base_patch16_18x2_224
               paper:
@@ -7473,8 +6730,7 @@ blocks:
               download: 7741
               datasetA: '28.15'
               datasetB: '25.0'
-              ranking: '937'
-            
+              ranking: '744'            
             - nameen: densenet264d
               namezh: densenet264d
               paper:
@@ -7483,8 +6739,7 @@ blocks:
               download: 6324
               datasetA: '63.89'
               datasetB: '24.95'
-              ranking: '160'
-            
+              ranking: '745'            
             - nameen: vitamin_large2_224
               namezh: vitamin_large2_224
               paper:
@@ -7493,8 +6748,7 @@ blocks:
               download: 2414
               datasetA: '22.67'
               datasetB: '24.9'
-              ranking: '1064'
-            
+              ranking: '746'            
             - nameen: hrnet_w32
               namezh: hrnet_w32
               paper:
@@ -7503,8 +6757,7 @@ blocks:
               download: 7389
               datasetA: '53.81'
               datasetB: '24.89'
-              ranking: '385'
-            
+              ranking: '747'            
             - nameen: nfnet_f6
               namezh: nfnet_f6
               paper:
@@ -7513,8 +6766,7 @@ blocks:
               download: 7174
               datasetA: '46.0'
               datasetB: '24.86'
-              ranking: '569'
-            
+              ranking: '748'            
             - nameen: resnext50d_32x4d
               namezh: resnext50d_32x4d
               paper:
@@ -7523,8 +6775,7 @@ blocks:
               download: 3143
               datasetA: '35.68'
               datasetB: '24.84'
-              ranking: '763'
-            
+              ranking: '749'            
             - nameen: crossvit_9_240
               namezh: crossvit_9_240
               paper:
@@ -7533,8 +6784,7 @@ blocks:
               download: 1548
               datasetA: '67.13'
               datasetB: '24.76'
-              ranking: '101'
-            
+              ranking: '750'            
             - nameen: dpn131
               namezh: dpn131
               paper:
@@ -7543,8 +6793,7 @@ blocks:
               download: 2927
               datasetA: '62.39'
               datasetB: '24.75'
-              ranking: '187'
-            
+              ranking: '751'            
             - nameen: maxvit_large_tf_384
               namezh: maxvit_large_tf_384
               paper:
@@ -7553,8 +6802,7 @@ blocks:
               download: 4921
               datasetA: '51.24'
               datasetB: '24.72'
-              ranking: '440'
-            
+              ranking: '752'            
             - nameen: sequencer2d_m
               namezh: sequencer2d_m
               paper:
@@ -7563,8 +6811,7 @@ blocks:
               download: 4662
               datasetA: '34.27'
               datasetB: '24.71'
-              ranking: '797'
-            
+              ranking: '753'            
             - nameen: convformer_b36
               namezh: convformer_b36
               paper:
@@ -7573,8 +6820,7 @@ blocks:
               download: 5480
               datasetA: '68.6'
               datasetB: '24.59'
-              ranking: '66'
-            
+              ranking: '754'            
             - nameen: mobilenetv3_small_075
               namezh: mobilenetv3_small_075
               paper:
@@ -7583,8 +6829,7 @@ blocks:
               download: 4580
               datasetA: '48.25'
               datasetB: '24.57'
-              ranking: '504'
-            
+              ranking: '755'            
             - nameen: cs3darknet_focus_x
               namezh: cs3darknet_focus_x
               paper:
@@ -7593,8 +6838,7 @@ blocks:
               download: 9114
               datasetA: '66.11'
               datasetB: '24.51'
-              ranking: '115'
-            
+              ranking: '756'            
             - nameen: swinv2_base_window16_256
               namezh: swinv2_base_window16_256
               paper:
@@ -7603,8 +6847,7 @@ blocks:
               download: 6094
               datasetA: '32.57'
               datasetB: '24.49'
-              ranking: '839'
-            
+              ranking: '757'            
             - nameen: selecsls84
               namezh: selecsls84
               paper:
@@ -7613,8 +6856,7 @@ blocks:
               download: 9509
               datasetA: '34.58'
               datasetB: '24.41'
-              ranking: '790'
-            
+              ranking: '758'            
             - nameen: resnest269e
               namezh: resnest269e
               paper:
@@ -7623,8 +6865,7 @@ blocks:
               download: 3655
               datasetA: '39.46'
               datasetB: '24.33'
-              ranking: '689'
-            
+              ranking: '759'            
             - nameen: swinv2_cr_large_224
               namezh: swinv2_cr_large_224
               paper:
@@ -7633,8 +6874,7 @@ blocks:
               download: 3803
               datasetA: '32.18'
               datasetB: '24.29'
-              ranking: '847'
-            
+              ranking: '760'            
             - nameen: halo2botnet50ts_256
               namezh: halo2botnet50ts_256
               paper:
@@ -7643,8 +6883,7 @@ blocks:
               download: 8453
               datasetA: '54.91'
               datasetB: '24.24'
-              ranking: '353'
-            
+              ranking: '761'            
             - nameen: swin_tiny_patch4_window7_224
               namezh: swin_tiny_patch4_window7_224
               paper:
@@ -7653,8 +6892,7 @@ blocks:
               download: 8135
               datasetA: '32.66'
               datasetB: '24.24'
-              ranking: '834'
-            
+              ranking: '762'            
             - nameen: focalnet_xlarge_fl3
               namezh: focalnet_xlarge_fl3
               paper:
@@ -7663,8 +6901,7 @@ blocks:
               download: 6349
               datasetA: '55.85'
               datasetB: '24.21'
-              ranking: '327'
-            
+              ranking: '763'            
             - nameen: swinv2_cr_small_224
               namezh: swinv2_cr_small_224
               paper:
@@ -7673,8 +6910,7 @@ blocks:
               download: 3701
               datasetA: '32.12'
               datasetB: '24.16'
-              ranking: '849'
-            
+              ranking: '764'            
             - nameen: regnetx_064
               namezh: regnetx_064
               paper:
@@ -7683,8 +6919,7 @@ blocks:
               download: 4254
               datasetA: '44.41'
               datasetB: '24.14'
-              ranking: '608'
-            
+              ranking: '765'            
             - nameen: sebotnet33ts_256
               namezh: sebotnet33ts_256
               paper:
@@ -7693,8 +6928,7 @@ blocks:
               download: 1742
               datasetA: '34.97'
               datasetB: '24.11'
-              ranking: '783'
-            
+              ranking: '766'            
             - nameen: eca_resnext26ts
               namezh: eca_resnext26ts
               paper:
@@ -7703,8 +6937,7 @@ blocks:
               download: 2389
               datasetA: '62.22'
               datasetB: '24.1'
-              ranking: '195'
-            
+              ranking: '767'            
             - nameen: levit_512d
               namezh: levit_512d
               paper:
@@ -7713,8 +6946,7 @@ blocks:
               download: 2591
               datasetA: '51.81'
               datasetB: '24.07'
-              ranking: '425'
-            
+              ranking: '768'            
             - nameen: tiny_vit_5m_224
               namezh: tiny_vit_5m_224
               paper:
@@ -7723,8 +6955,7 @@ blocks:
               download: 7170
               datasetA: '29.99'
               datasetB: '24.03'
-              ranking: '901'
-            
+              ranking: '769'            
             - nameen: regnety_016
               namezh: regnety_016
               paper:
@@ -7733,8 +6964,7 @@ blocks:
               download: 6559
               datasetA: '43.76'
               datasetB: '23.99'
-              ranking: '618'
-            
+              ranking: '770'            
             - nameen: vit_large_patch14_reg4_dinov2
               namezh: vit_large_patch14_reg4_dinov2
               paper:
@@ -7743,8 +6973,7 @@ blocks:
               download: 1306
               datasetA: '25.37'
               datasetB: '23.94'
-              ranking: '998'
-            
+              ranking: '771'            
             - nameen: tf_efficientnet_b8
               namezh: tf_efficientnet_b8
               paper:
@@ -7753,8 +6982,7 @@ blocks:
               download: 8828
               datasetA: '31.19'
               datasetB: '23.92'
-              ranking: '871'
-            
+              ranking: '772'            
             - nameen: xception41p
               namezh: xception41p
               paper:
@@ -7763,8 +6991,7 @@ blocks:
               download: 5431
               datasetA: '21.45'
               datasetB: '23.89'
-              ranking: '1092'
-            
+              ranking: '773'            
             - nameen: focalnet_xlarge_fl4
               namezh: focalnet_xlarge_fl4
               paper:
@@ -7773,8 +7000,7 @@ blocks:
               download: 8750
               datasetA: '55.84'
               datasetB: '23.88'
-              ranking: '328'
-            
+              ranking: '774'            
             - nameen: efficientnet_cc_b0_4e
               namezh: efficientnet_cc_b0_4e
               paper:
@@ -7783,8 +7009,7 @@ blocks:
               download: 6141
               datasetA: '60.33'
               datasetB: '23.76'
-              ranking: '238'
-            
+              ranking: '775'            
             - nameen: mixer_l16_224
               namezh: mixer_l16_224
               paper:
@@ -7793,8 +7018,7 @@ blocks:
               download: 4678
               datasetA: '50.13'
               datasetB: '23.76'
-              ranking: '472'
-            
+              ranking: '776'            
             - nameen: vit_so400m_patch14_siglip_gap_896
               namezh: vit_so400m_patch14_siglip_gap_896
               paper:
@@ -7803,8 +7027,7 @@ blocks:
               download: 4125
               datasetA: '23.12'
               datasetB: '23.73'
-              ranking: '1054'
-            
+              ranking: '777'            
             - nameen: legacy_xception
               namezh: legacy_xception
               paper:
@@ -7813,8 +7036,7 @@ blocks:
               download: 2727
               datasetA: '52.28'
               datasetB: '23.72'
-              ranking: '415'
-            
+              ranking: '778'            
             - nameen: gmlp_s16_224
               namezh: gmlp_s16_224
               paper:
@@ -7823,8 +7045,7 @@ blocks:
               download: 3845
               datasetA: '54.94'
               datasetB: '23.66'
-              ranking: '351'
-            
+              ranking: '779'            
             - nameen: vit_relpos_base_patch16_rpn_224
               namezh: vit_relpos_base_patch16_rpn_224
               paper:
@@ -7833,8 +7054,7 @@ blocks:
               download: 5876
               datasetA: '24.14'
               datasetB: '23.64'
-              ranking: '1027'
-            
+              ranking: '780'            
             - nameen: resnetv2_50d
               namezh: resnetv2_50d
               paper:
@@ -7843,8 +7063,7 @@ blocks:
               download: 9913
               datasetA: '36.46'
               datasetB: '23.63'
-              ranking: '746'
-            
+              ranking: '781'            
             - nameen: vit_tiny_patch16_224
               namezh: vit_tiny_patch16_224
               paper:
@@ -7853,8 +7072,7 @@ blocks:
               download: 5684
               datasetA: '22.83'
               datasetB: '23.62'
-              ranking: '1057'
-            
+              ranking: '782'            
             - nameen: vit_giant_patch14_clip_224
               namezh: vit_giant_patch14_clip_224
               paper:
@@ -7863,8 +7081,7 @@ blocks:
               download: 5705
               datasetA: '26.08'
               datasetB: '23.55'
-              ranking: '977'
-            
+              ranking: '783'            
             - nameen: skresnet50
               namezh: skresnet50
               paper:
@@ -7873,8 +7090,7 @@ blocks:
               download: 4177
               datasetA: '33.63'
               datasetB: '23.53'
-              ranking: '822'
-            
+              ranking: '784'            
             - nameen: mobilevitv2_200
               namezh: mobilevitv2_200
               paper:
@@ -7883,8 +7099,7 @@ blocks:
               download: 8233
               datasetA: '47.59'
               datasetB: '23.44'
-              ranking: '529'
-            
+              ranking: '785'            
             - nameen: vit_small_patch16_18x2_224
               namezh: vit_small_patch16_18x2_224
               paper:
@@ -7893,8 +7108,7 @@ blocks:
               download: 7300
               datasetA: '23.62'
               datasetB: '23.4'
-              ranking: '1037'
-            
+              ranking: '786'            
             - nameen: repghostnet_200
               namezh: repghostnet_200
               paper:
@@ -7903,8 +7117,7 @@ blocks:
               download: 9696
               datasetA: '42.08'
               datasetB: '23.38'
-              ranking: '649'
-            
+              ranking: '787'            
             - nameen: volo_d2_224
               namezh: volo_d2_224
               paper:
@@ -7913,8 +7126,7 @@ blocks:
               download: 1456
               datasetA: '21.92'
               datasetB: '23.37'
-              ranking: '1078'
-            
+              ranking: '788'            
             - nameen: coatnet_3_rw_224
               namezh: coatnet_3_rw_224
               paper:
@@ -7923,8 +7135,7 @@ blocks:
               download: 8116
               datasetA: '69.0'
               datasetB: '23.34'
-              ranking: '51'
-            
+              ranking: '789'            
             - nameen: mobilenet_edgetpu_v2_m
               namezh: mobilenet_edgetpu_v2_m
               paper:
@@ -7933,8 +7144,7 @@ blocks:
               download: 2432
               datasetA: '48.89'
               datasetB: '23.33'
-              ranking: '490'
-            
+              ranking: '790'            
             - nameen: resnetblur18
               namezh: resnetblur18
               paper:
@@ -7943,8 +7153,7 @@ blocks:
               download: 6454
               datasetA: '37.2'
               datasetB: '23.3'
-              ranking: '734'
-            
+              ranking: '791'            
             - nameen: res2net101_26w_4s
               namezh: res2net101_26w_4s
               paper:
@@ -7953,8 +7162,7 @@ blocks:
               download: 1614
               datasetA: '40.29'
               datasetB: '23.29'
-              ranking: '675'
-            
+              ranking: '792'            
             - nameen: vit_relpos_base_patch16_clsgap_224
               namezh: vit_relpos_base_patch16_clsgap_224
               paper:
@@ -7963,8 +7171,7 @@ blocks:
               download: 4035
               datasetA: '24.18'
               datasetB: '23.21'
-              ranking: '1025'
-            
+              ranking: '793'            
             - nameen: nfnet_f7
               namezh: nfnet_f7
               paper:
@@ -7973,8 +7180,7 @@ blocks:
               download: 1920
               datasetA: '45.91'
               datasetB: '23.16'
-              ranking: '570'
-            
+              ranking: '794'            
             - nameen: convnext_tiny
               namezh: convnext_tiny
               paper:
@@ -7983,8 +7189,7 @@ blocks:
               download: 7403
               datasetA: '67.62'
               datasetB: '23.07'
-              ranking: '88'
-            
+              ranking: '795'            
             - nameen: botnet50ts_256
               namezh: botnet50ts_256
               paper:
@@ -7993,8 +7198,7 @@ blocks:
               download: 2350
               datasetA: '70.48'
               datasetB: '23.03'
-              ranking: '21'
-            
+              ranking: '796'            
             - nameen: edgenext_base
               namezh: edgenext_base
               paper:
@@ -8003,8 +7207,7 @@ blocks:
               download: 2225
               datasetA: '61.6'
               datasetB: '23.01'
-              ranking: '208'
-            
+              ranking: '797'            
             - nameen: ecaresnext26t_32x4d
               namezh: ecaresnext26t_32x4d
               paper:
@@ -8013,8 +7216,7 @@ blocks:
               download: 7766
               datasetA: '61.65'
               datasetB: '22.98'
-              ranking: '206'
-            
+              ranking: '798'            
             - nameen: efficientnet_b2_pruned
               namezh: efficientnet_b2_pruned
               paper:
@@ -8023,8 +7225,7 @@ blocks:
               download: 8424
               datasetA: '60.94'
               datasetB: '22.93'
-              ranking: '227'
-            
+              ranking: '799'            
             - nameen: dla46_c
               namezh: dla46_c
               paper:
@@ -8033,8 +7234,7 @@ blocks:
               download: 6202
               datasetA: '63.61'
               datasetB: '22.92'
-              ranking: '163'
-            
+              ranking: '800'            
             - nameen: tf_efficientnetv2_s
               namezh: tf_efficientnetv2_s
               paper:
@@ -8043,8 +7243,7 @@ blocks:
               download: 6676
               datasetA: '30.34'
               datasetB: '22.82'
-              ranking: '890'
-            
+              ranking: '801'            
             - nameen: regnetx_040
               namezh: regnetx_040
               paper:
@@ -8053,8 +7252,7 @@ blocks:
               download: 6611
               datasetA: '44.47'
               datasetB: '22.8'
-              ranking: '607'
-            
+              ranking: '802'            
             - nameen: legacy_seresnet18
               namezh: legacy_seresnet18
               paper:
@@ -8063,8 +7261,7 @@ blocks:
               download: 4398
               datasetA: '52.71'
               datasetB: '22.79'
-              ranking: '407'
-            
+              ranking: '803'            
             - nameen: densenetblur121d
               namezh: densenetblur121d
               paper:
@@ -8073,8 +7270,7 @@ blocks:
               download: 7592
               datasetA: '63.84'
               datasetB: '22.71'
-              ranking: '161'
-            
+              ranking: '804'            
             - nameen: dm_nfnet_f2
               namezh: dm_nfnet_f2
               paper:
@@ -8083,8 +7279,7 @@ blocks:
               download: 9381
               datasetA: '63.04'
               datasetB: '22.7'
-              ranking: '176'
-            
+              ranking: '805'            
             - nameen: regnetx_320
               namezh: regnetx_320
               paper:
@@ -8093,8 +7288,7 @@ blocks:
               download: 8922
               datasetA: '43.91'
               datasetB: '22.7'
-              ranking: '612'
-            
+              ranking: '806'            
             - nameen: swinv2_cr_small_ns_224
               namezh: swinv2_cr_small_ns_224
               paper:
@@ -8103,8 +7297,7 @@ blocks:
               download: 2010
               datasetA: '31.92'
               datasetB: '22.7'
-              ranking: '851'
-            
+              ranking: '807'            
             - nameen: vit_base_patch32_384
               namezh: vit_base_patch32_384
               paper:
@@ -8113,8 +7306,7 @@ blocks:
               download: 8710
               datasetA: '27.0'
               datasetB: '22.62'
-              ranking: '959'
-            
+              ranking: '808'            
             - nameen: resnest200e
               namezh: resnest200e
               paper:
@@ -8123,8 +7315,7 @@ blocks:
               download: 5334
               datasetA: '39.47'
               datasetB: '22.6'
-              ranking: '688'
-            
+              ranking: '809'            
             - nameen: fastvit_mci2
               namezh: fastvit_mci2
               paper:
@@ -8133,8 +7324,7 @@ blocks:
               download: 5229
               datasetA: '57.18'
               datasetB: '22.58'
-              ranking: '303'
-            
+              ranking: '810'            
             - nameen: vitamin_large_224
               namezh: vitamin_large_224
               paper:
@@ -8143,8 +7333,7 @@ blocks:
               download: 7699
               datasetA: '22.52'
               datasetB: '22.55'
-              ranking: '1068'
-            
+              ranking: '811'            
             - nameen: swinv2_cr_tiny_ns_224
               namezh: swinv2_cr_tiny_ns_224
               paper:
@@ -8153,8 +7342,7 @@ blocks:
               download: 2024
               datasetA: '31.81'
               datasetB: '22.54'
-              ranking: '855'
-            
+              ranking: '812'            
             - nameen: vit_large_patch16_siglip_256
               namezh: vit_large_patch16_siglip_256
               paper:
@@ -8163,8 +7351,7 @@ blocks:
               download: 8341
               datasetA: '25.23'
               datasetB: '22.54'
-              ranking: '1002'
-            
+              ranking: '813'            
             - nameen: resnetv2_50d_evos
               namezh: resnetv2_50d_evos
               paper:
@@ -8173,8 +7360,7 @@ blocks:
               download: 6625
               datasetA: '36.43'
               datasetB: '22.53'
-              ranking: '747'
-            
+              ranking: '814'            
             - nameen: swin_large_patch4_window12_384
               namezh: swin_large_patch4_window12_384
               paper:
@@ -8183,8 +7369,7 @@ blocks:
               download: 7732
               datasetA: '33.21'
               datasetB: '22.53'
-              ranking: '829'
-            
+              ranking: '815'            
             - nameen: halonet26t
               namezh: halonet26t
               paper:
@@ -8193,8 +7378,7 @@ blocks:
               download: 1652
               datasetA: '54.9'
               datasetB: '22.51'
-              ranking: '354'
-            
+              ranking: '816'            
             - nameen: coatnet_rmlp_2_rw_384
               namezh: coatnet_rmlp_2_rw_384
               paper:
@@ -8203,8 +7387,7 @@ blocks:
               download: 3247
               datasetA: '68.72'
               datasetB: '22.47'
-              ranking: '62'
-            
+              ranking: '817'            
             - nameen: dla60
               namezh: dla60
               paper:
@@ -8213,8 +7396,7 @@ blocks:
               download: 7339
               datasetA: '63.53'
               datasetB: '22.46'
-              ranking: '165'
-            
+              ranking: '818'            
             - nameen: hgnetv2_b1
               namezh: hgnetv2_b1
               paper:
@@ -8223,8 +7405,7 @@ blocks:
               download: 9670
               datasetA: '54.42'
               datasetB: '22.39'
-              ranking: '368'
-            
+              ranking: '819'            
             - nameen: xcit_tiny_24_p8_384
               namezh: xcit_tiny_24_p8_384
               paper:
@@ -8233,8 +7414,7 @@ blocks:
               download: 5410
               datasetA: '20.32'
               datasetB: '22.39'
-              ranking: '1121'
-            
+              ranking: '820'            
             - nameen: convnext_base
               namezh: convnext_base
               paper:
@@ -8243,8 +7423,7 @@ blocks:
               download: 8371
               datasetA: '67.94'
               datasetB: '22.26'
-              ranking: '78'
-            
+              ranking: '821'            
             - nameen: vit_small_patch16_224
               namezh: vit_small_patch16_224
               paper:
@@ -8253,8 +7432,7 @@ blocks:
               download: 3087
               datasetA: '23.57'
               datasetB: '22.22'
-              ranking: '1039'
-            
+              ranking: '822'            
             - nameen: resnet101d
               namezh: resnet101d
               paper:
@@ -8263,8 +7441,7 @@ blocks:
               download: 1458
               datasetA: '37.71'
               datasetB: '22.19'
-              ranking: '722'
-            
+              ranking: '823'            
             - nameen: hiera_huge_224
               namezh: hiera_huge_224
               paper:
@@ -8273,8 +7450,7 @@ blocks:
               download: 5055
               datasetA: '54.18'
               datasetB: '22.16'
-              ranking: '376'
-            
+              ranking: '824'            
             - nameen: resnetaa50
               namezh: resnetaa50
               paper:
@@ -8283,8 +7459,7 @@ blocks:
               download: 6313
               datasetA: '37.33'
               datasetB: '22.09'
-              ranking: '731'
-            
+              ranking: '825'            
             - nameen: res2net101d
               namezh: res2net101d
               paper:
@@ -8293,8 +7468,7 @@ blocks:
               download: 7578
               datasetA: '40.26'
               datasetB: '22.05'
-              ranking: '676'
-            
+              ranking: '826'            
             - nameen: convnextv2_small
               namezh: convnextv2_small
               paper:
@@ -8303,8 +7477,7 @@ blocks:
               download: 4586
               datasetA: '67.14'
               datasetB: '21.97'
-              ranking: '99'
-            
+              ranking: '827'            
             - nameen: nextvit_base
               namezh: nextvit_base
               paper:
@@ -8313,8 +7486,7 @@ blocks:
               download: 6015
               datasetA: '46.97'
               datasetB: '21.91'
-              ranking: '545'
-            
+              ranking: '828'            
             - nameen: levit_conv_384_s8
               namezh: levit_conv_384_s8
               paper:
@@ -8323,8 +7495,7 @@ blocks:
               download: 3486
               datasetA: '51.65'
               datasetB: '21.88'
-              ranking: '432'
-            
+              ranking: '829'            
             - nameen: ecaresnet26t
               namezh: ecaresnet26t
               paper:
@@ -8333,8 +7504,7 @@ blocks:
               download: 5547
               datasetA: '62.0'
               datasetB: '21.86'
-              ranking: '197'
-            
+              ranking: '830'            
             - nameen: pvt_v2_b2_li
               namezh: pvt_v2_b2_li
               paper:
@@ -8343,8 +7513,7 @@ blocks:
               download: 6077
               datasetA: '45.11'
               datasetB: '21.86'
-              ranking: '594'
-            
+              ranking: '831'            
             - nameen: repvgg_b3g4
               namezh: repvgg_b3g4
               paper:
@@ -8353,8 +7522,7 @@ blocks:
               download: 7549
               datasetA: '41.62'
               datasetB: '21.8'
-              ranking: '659'
-            
+              ranking: '832'            
             - nameen: Swin-L
               namezh: Swin-L
               paper:
@@ -8365,8 +7533,7 @@ blocks:
               download: 5902
               datasetA: '71.12'
               datasetB: '21.67'
-              ranking: '2'
-            - nameen: deit3_large_patch16_224
+              ranking: '833'            - nameen: deit3_large_patch16_224
               namezh: deit3_large_patch16_224
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -8374,8 +7541,7 @@ blocks:
               download: 7407
               datasetA: '64.55'
               datasetB: '21.59'
-              ranking: '143'
-            
+              ranking: '834'            
             - nameen: dla102x
               namezh: dla102x
               paper:
@@ -8384,8 +7550,7 @@ blocks:
               download: 3295
               datasetA: '63.32'
               datasetB: '21.53'
-              ranking: '171'
-            
+              ranking: '835'            
             - nameen: xcit_medium_24_p8_384
               namezh: xcit_medium_24_p8_384
               paper:
@@ -8394,8 +7559,7 @@ blocks:
               download: 2120
               datasetA: '20.96'
               datasetB: '21.52'
-              ranking: '1101'
-            
+              ranking: '836'            
             - nameen: samvit_large_patch16
               namezh: samvit_large_patch16
               paper:
@@ -8404,8 +7568,7 @@ blocks:
               download: 1153
               datasetA: '34.99'
               datasetB: '21.47'
-              ranking: '782'
-            
+              ranking: '837'            
             - nameen: coatnet_1_224
               namezh: coatnet_1_224
               paper:
@@ -8414,8 +7577,7 @@ blocks:
               download: 9334
               datasetA: '69.42'
               datasetB: '21.45'
-              ranking: '46'
-            
+              ranking: '838'            
             - nameen: caformer_m36
               namezh: caformer_m36
               paper:
@@ -8424,8 +7586,7 @@ blocks:
               download: 3945
               datasetA: '70.33'
               datasetB: '21.35'
-              ranking: '23'
-            
+              ranking: '839'            
             - nameen: densenet169
               namezh: densenet169
               paper:
@@ -8434,8 +7595,7 @@ blocks:
               download: 8712
               datasetA: '64.08'
               datasetB: '21.32'
-              ranking: '158'
-            
+              ranking: '840'            
             - nameen: deit3_small_patch16_224
               namezh: deit3_small_patch16_224
               paper:
@@ -8444,8 +7604,7 @@ blocks:
               download: 7678
               datasetA: '64.53'
               datasetB: '21.31'
-              ranking: '146'
-            
+              ranking: '841'            
             - nameen: flexivit_large
               namezh: flexivit_large
               paper:
@@ -8454,8 +7613,7 @@ blocks:
               download: 3600
               datasetA: '56.76'
               datasetB: '21.28'
-              ranking: '315'
-            
+              ranking: '842'            
             - nameen: mobilenetv4_conv_large
               namezh: mobilenetv4_conv_large
               paper:
@@ -8464,8 +7622,7 @@ blocks:
               download: 3194
               datasetA: '48.14'
               datasetB: '21.24'
-              ranking: '508'
-            
+              ranking: '843'            
             - nameen: pit_s_distilled_224
               namezh: pit_s_distilled_224
               paper:
@@ -8474,8 +7631,7 @@ blocks:
               download: 8978
               datasetA: '45.76'
               datasetB: '21.19'
-              ranking: '575'
-            
+              ranking: '844'            
             - nameen: resnet152d
               namezh: resnet152d
               paper:
@@ -8484,8 +7640,7 @@ blocks:
               download: 5255
               datasetA: '37.56'
               datasetB: '21.16'
-              ranking: '726'
-            
+              ranking: '845'            
             - nameen: mobilevit_s
               namezh: mobilevit_s
               paper:
@@ -8494,8 +7649,7 @@ blocks:
               download: 6691
               datasetA: '47.84'
               datasetB: '21.15'
-              ranking: '520'
-            
+              ranking: '846'            
             - nameen: efficientnet_cc_b0_8e
               namezh: efficientnet_cc_b0_8e
               paper:
@@ -8504,8 +7658,7 @@ blocks:
               download: 8236
               datasetA: '60.18'
               datasetB: '21.14'
-              ranking: '239'
-            
+              ranking: '847'            
             - nameen: legacy_seresnet152
               namezh: legacy_seresnet152
               paper:
@@ -8514,8 +7667,7 @@ blocks:
               download: 1015
               datasetA: '52.44'
               datasetB: '21.14'
-              ranking: '411'
-            
+              ranking: '848'            
             - nameen: levit_conv_384
               namezh: levit_conv_384
               paper:
@@ -8524,8 +7676,7 @@ blocks:
               download: 2384
               datasetA: '51.66'
               datasetB: '21.11'
-              ranking: '431'
-            
+              ranking: '849'            
             - nameen: caformer_s18
               namezh: caformer_s18
               paper:
@@ -8534,8 +7685,7 @@ blocks:
               download: 7910
               datasetA: '70.28'
               datasetB: '21.09'
-              ranking: '24'
-            
+              ranking: '850'            
             - nameen: cait_xs24_384
               namezh: cait_xs24_384
               paper:
@@ -8544,8 +7694,7 @@ blocks:
               download: 8357
               datasetA: '69.93'
               datasetB: '20.92'
-              ranking: '31'
-            
+              ranking: '851'            
             - nameen: maxvit_rmlp_base_rw_224
               namezh: maxvit_rmlp_base_rw_224
               paper:
@@ -8554,8 +7703,7 @@ blocks:
               download: 2065
               datasetA: '51.18'
               datasetB: '20.82'
-              ranking: '444'
-            
+              ranking: '852'            
             - nameen: resnet50x64_clip_gap
               namezh: resnet50x64_clip_gap
               paper:
@@ -8564,8 +7712,7 @@ blocks:
               download: 6282
               datasetA: '38.06'
               datasetB: '20.76'
-              ranking: '715'
-            
+              ranking: '853'            
             - nameen: regnetz_d32
               namezh: regnetz_d32
               paper:
@@ -8574,8 +7721,7 @@ blocks:
               download: 4804
               datasetA: '42.52'
               datasetB: '20.73'
-              ranking: '640'
-            
+              ranking: '854'            
             - nameen: vit_medium_patch16_reg4_gap_256
               namezh: vit_medium_patch16_reg4_gap_256
               paper:
@@ -8584,8 +7730,7 @@ blocks:
               download: 4001
               datasetA: '24.51'
               datasetB: '20.66'
-              ranking: '1017'
-            
+              ranking: '855'            
             - nameen: ecaresnet101d
               namezh: ecaresnet101d
               paper:
@@ -8594,8 +7739,7 @@ blocks:
               download: 5211
               datasetA: '61.85'
               datasetB: '20.63'
-              ranking: '201'
-            
+              ranking: '856'            
             - nameen: tf_efficientnet_cc_b1_8e
               namezh: tf_efficientnet_cc_b1_8e
               paper:
@@ -8604,8 +7748,7 @@ blocks:
               download: 7341
               datasetA: '31.01'
               datasetB: '20.61'
-              ranking: '874'
-            
+              ranking: '857'            
             - nameen: fastvit_t12
               namezh: fastvit_t12
               paper:
@@ -8614,8 +7757,7 @@ blocks:
               download: 3771
               datasetA: '56.92'
               datasetB: '20.6'
-              ranking: '309'
-            
+              ranking: '858'            
             - nameen: hardcorenas_c
               namezh: hardcorenas_c
               paper:
@@ -8624,8 +7766,7 @@ blocks:
               download: 7475
               datasetA: '54.67'
               datasetB: '20.6'
-              ranking: '360'
-            
+              ranking: '859'            
             - nameen: swin_s3_small_224
               namezh: swin_s3_small_224
               paper:
@@ -8634,8 +7775,7 @@ blocks:
               download: 7245
               datasetA: '33.09'
               datasetB: '20.6'
-              ranking: '831'
-            
+              ranking: '860'            
             - nameen: dla46x_c
               namezh: dla46x_c
               paper:
@@ -8644,8 +7784,7 @@ blocks:
               download: 6466
               datasetA: '63.53'
               datasetB: '20.5'
-              ranking: '164'
-            
+              ranking: '861'            
             - nameen: vit_small_r26_s32_224
               namezh: vit_small_r26_s32_224
               paper:
@@ -8654,8 +7793,7 @@ blocks:
               download: 3155
               datasetA: '23.53'
               datasetB: '20.5'
-              ranking: '1043'
-            
+              ranking: '862'            
             - nameen: gmlp_b16_224
               namezh: gmlp_b16_224
               paper:
@@ -8664,8 +7802,7 @@ blocks:
               download: 8470
               datasetA: '54.94'
               datasetB: '20.49'
-              ranking: '350'
-            
+              ranking: '863'            
             - nameen: vit_huge_patch14_clip_378
               namezh: vit_huge_patch14_clip_378
               paper:
@@ -8674,8 +7811,7 @@ blocks:
               download: 1460
               datasetA: '25.65'
               datasetB: '20.47'
-              ranking: '986'
-            
+              ranking: '864'            
             - nameen: vit_relpos_small_patch16_224
               namezh: vit_relpos_small_patch16_224
               paper:
@@ -8684,8 +7820,7 @@ blocks:
               download: 3284
               datasetA: '23.79'
               datasetB: '20.47'
-              ranking: '1032'
-            
+              ranking: '865'            
             - nameen: nasnetalarge
               namezh: nasnetalarge
               paper:
@@ -8694,8 +7829,7 @@ blocks:
               download: 6252
               datasetA: '47.17'
               datasetB: '20.44'
-              ranking: '538'
-            
+              ranking: '866'            
             - nameen: beitv2_base_patch16_224
               namezh: beitv2_base_patch16_224
               paper:
@@ -8704,8 +7838,7 @@ blocks:
               download: 7363
               datasetA: '70.54'
               datasetB: '20.4'
-              ranking: '18'
-            
+              ranking: '867'            
             - nameen: tf_mobilenetv3_large_minimal_100
               namezh: tf_mobilenetv3_large_minimal_100
               paper:
@@ -8714,8 +7847,7 @@ blocks:
               download: 9443
               datasetA: '30.14'
               datasetB: '20.4'
-              ranking: '897'
-            
+              ranking: '868'            
             - nameen: swin_s3_tiny_224
               namezh: swin_s3_tiny_224
               paper:
@@ -8724,8 +7856,7 @@ blocks:
               download: 5801
               datasetA: '32.88'
               datasetB: '20.35'
-              ranking: '832'
-            
+              ranking: '869'            
             - nameen: xcit_small_24_p16_384
               namezh: xcit_small_24_p16_384
               paper:
@@ -8734,8 +7865,7 @@ blocks:
               download: 5102
               datasetA: '20.47'
               datasetB: '20.31'
-              ranking: '1115'
-            
+              ranking: '870'            
             - nameen: mobileone_s1
               namezh: mobileone_s1
               paper:
@@ -8744,8 +7874,7 @@ blocks:
               download: 9036
               datasetA: '47.9'
               datasetB: '20.29'
-              ranking: '516'
-            
+              ranking: '871'            
             - nameen: vit_huge_patch14_clip_224
               namezh: vit_huge_patch14_clip_224
               paper:
@@ -8754,8 +7883,7 @@ blocks:
               download: 5133
               datasetA: '25.73'
               datasetB: '20.25'
-              ranking: '984'
-            
+              ranking: '872'            
             - nameen: coat_lite_small
               namezh: coat_lite_small
               paper:
@@ -8764,8 +7892,7 @@ blocks:
               download: 1387
               datasetA: '69.6'
               datasetB: '20.24'
-              ranking: '39'
-            
+              ranking: '873'            
             - nameen: inception_v3
               namezh: inception_v3
               paper:
@@ -8774,8 +7901,7 @@ blocks:
               download: 9391
               datasetA: '53.14'
               datasetB: '20.06'
-              ranking: '395'
-            
+              ranking: '874'            
             - nameen: nfnet_f1
               namezh: nfnet_f1
               paper:
@@ -8784,8 +7910,7 @@ blocks:
               download: 7460
               datasetA: '46.22'
               datasetB: '20.06'
-              ranking: '564'
-            
+              ranking: '875'            
             - nameen: cs3edgenet_x
               namezh: cs3edgenet_x
               paper:
@@ -8794,8 +7919,7 @@ blocks:
               download: 8691
               datasetA: '65.87'
               datasetB: '19.96'
-              ranking: '120'
-            
+              ranking: '876'            
             - nameen: pvt_v2_b4
               namezh: pvt_v2_b4
               paper:
@@ -8804,8 +7928,7 @@ blocks:
               download: 2273
               datasetA: '45.0'
               datasetB: '19.89'
-              ranking: '596'
-            
+              ranking: '877'            
             - nameen: regnety_064
               namezh: regnety_064
               paper:
@@ -8814,8 +7937,7 @@ blocks:
               download: 9848
               datasetA: '43.58'
               datasetB: '19.83'
-              ranking: '622'
-            
+              ranking: '878'            
             - nameen: resnet61q
               namezh: resnet61q
               paper:
@@ -8824,8 +7946,7 @@ blocks:
               download: 4770
               datasetA: '37.99'
               datasetB: '19.78'
-              ranking: '717'
-            
+              ranking: '879'            
             - nameen: mobilevitv2_075
               namezh: mobilevitv2_075
               paper:
@@ -8834,8 +7955,7 @@ blocks:
               download: 9545
               datasetA: '47.69'
               datasetB: '19.76'
-              ranking: '524'
-            
+              ranking: '880'            
             - nameen: resnet50x16_clip_gap
               namezh: resnet50x16_clip_gap
               paper:
@@ -8844,8 +7964,7 @@ blocks:
               download: 6746
               datasetA: '38.13'
               datasetB: '19.73'
-              ranking: '713'
-            
+              ranking: '881'            
             - nameen: dla34
               namezh: dla34
               paper:
@@ -8854,8 +7973,7 @@ blocks:
               download: 5334
               datasetA: '63.61'
               datasetB: '19.69'
-              ranking: '162'
-            
+              ranking: '882'            
             - nameen: mvitv2_tiny
               namezh: mvitv2_tiny
               paper:
@@ -8864,8 +7982,7 @@ blocks:
               download: 8654
               datasetA: '47.21'
               datasetB: '19.67'
-              ranking: '537'
-            
+              ranking: '883'            
             - nameen: resnetv2_101
               namezh: resnetv2_101
               paper:
@@ -8874,8 +7991,7 @@ blocks:
               download: 5338
               datasetA: '36.17'
               datasetB: '19.64'
-              ranking: '753'
-            
+              ranking: '884'            
             - nameen: vit_base_resnet26d_224
               namezh: vit_base_resnet26d_224
               paper:
@@ -8884,8 +8000,7 @@ blocks:
               download: 4917
               datasetA: '26.64'
               datasetB: '19.51'
-              ranking: '969'
-            
+              ranking: '885'            
             - nameen: eca_vovnet39b
               namezh: eca_vovnet39b
               paper:
@@ -8894,8 +8009,7 @@ blocks:
               download: 7703
               datasetA: '62.0'
               datasetB: '19.48'
-              ranking: '196'
-            
+              ranking: '886'            
             - nameen: efficientformerv2_s1
               namezh: efficientformerv2_s1
               paper:
@@ -8904,8 +8018,7 @@ blocks:
               download: 7172
               datasetA: '61.3'
               datasetB: '19.34'
-              ranking: '218'
-            
+              ranking: '887'            
             - nameen: swin_large_patch4_window7_224
               namezh: swin_large_patch4_window7_224
               paper:
@@ -8914,8 +8027,7 @@ blocks:
               download: 3071
               datasetA: '33.24'
               datasetB: '19.34'
-              ranking: '828'
-            
+              ranking: '888'            
             - nameen: sehalonet33ts
               namezh: sehalonet33ts
               paper:
@@ -8924,8 +8036,7 @@ blocks:
               download: 5207
               datasetA: '34.86'
               datasetB: '19.28'
-              ranking: '785'
-            
+              ranking: '889'            
             - nameen: vit_base_patch16_clip_quickgelu_224
               namezh: vit_base_patch16_clip_quickgelu_224
               paper:
@@ -8934,8 +8045,7 @@ blocks:
               download: 3234
               datasetA: '28.01'
               datasetB: '19.26'
-              ranking: '943'
-            
+              ranking: '890'            
             - nameen: samvit_base_patch16
               namezh: samvit_base_patch16
               paper:
@@ -8944,8 +8054,7 @@ blocks:
               download: 6916
               datasetA: '35.15'
               datasetB: '19.25'
-              ranking: '779'
-            
+              ranking: '891'            
             - nameen: crossvit_15_dagger_408
               namezh: crossvit_15_dagger_408
               paper:
@@ -8954,8 +8063,7 @@ blocks:
               download: 3192
               datasetA: '66.92'
               datasetB: '19.22'
-              ranking: '105'
-            
+              ranking: '892'            
             - nameen: nf_seresnet26
               namezh: nf_seresnet26
               paper:
@@ -8964,8 +8072,7 @@ blocks:
               download: 2193
               datasetA: '46.44'
               datasetB: '19.17'
-              ranking: '560'
-            
+              ranking: '893'            
             - nameen: levit_conv_128s
               namezh: levit_conv_128s
               paper:
@@ -8974,8 +8081,7 @@ blocks:
               download: 6540
               datasetA: '51.76'
               datasetB: '19.11'
-              ranking: '427'
-            
+              ranking: '894'            
             - nameen: hiera_base_224
               namezh: hiera_base_224
               paper:
@@ -8984,8 +8090,7 @@ blocks:
               download: 7544
               datasetA: '54.28'
               datasetB: '19.07'
-              ranking: '374'
-            
+              ranking: '895'            
             - nameen: mixnet_l
               namezh: mixnet_l
               paper:
@@ -8994,8 +8099,7 @@ blocks:
               download: 1058
               datasetA: '49.87'
               datasetB: '19.03'
-              ranking: '476'
-            
+              ranking: '896'            
             - nameen: focalnet_tiny_lrf
               namezh: focalnet_tiny_lrf
               paper:
@@ -9004,8 +8108,7 @@ blocks:
               download: 9414
               datasetA: '56.32'
               datasetB: '19.01'
-              ranking: '325'
-            
+              ranking: '897'            
             - nameen: tiny_vit_21m_384
               namezh: tiny_vit_21m_384
               paper:
@@ -9014,8 +8117,7 @@ blocks:
               download: 4286
               datasetA: '29.72'
               datasetB: '18.86'
-              ranking: '904'
-            
+              ranking: '898'            
             - nameen: twins_pcpvt_base
               namezh: twins_pcpvt_base
               paper:
@@ -9024,8 +8126,7 @@ blocks:
               download: 1162
               datasetA: '29.19'
               datasetB: '18.76'
-              ranking: '917'
-            
+              ranking: '899'            
             - nameen: efficientnet_b1_pruned
               namezh: efficientnet_b1_pruned
               paper:
@@ -9034,8 +8135,7 @@ blocks:
               download: 4659
               datasetA: '61.04'
               datasetB: '18.74'
-              ranking: '225'
-            
+              ranking: '900'            
             - nameen: efficientnetv2_rw_t
               namezh: efficientnetv2_rw_t
               paper:
@@ -9044,8 +8144,7 @@ blocks:
               download: 5694
               datasetA: '59.1'
               datasetB: '18.73'
-              ranking: '259'
-            
+              ranking: '901'            
             - nameen: levit_conv_512
               namezh: levit_conv_512
               paper:
@@ -9054,8 +8153,7 @@ blocks:
               download: 2229
               datasetA: '51.64'
               datasetB: '18.7'
-              ranking: '433'
-            
+              ranking: '902'            
             - nameen: fastvit_sa36
               namezh: fastvit_sa36
               paper:
@@ -9064,8 +8162,7 @@ blocks:
               download: 7970
               datasetA: '57.03'
               datasetB: '18.62'
-              ranking: '307'
-            
+              ranking: '903'            
             - nameen: convmixer_1024_20_ks9_p14
               namezh: convmixer_1024_20_ks9_p14
               paper:
@@ -9074,8 +8171,7 @@ blocks:
               download: 5042
               datasetA: '68.32'
               datasetB: '18.59'
-              ranking: '74'
-            
+              ranking: '904'            
             - nameen: swinv2_cr_small_384
               namezh: swinv2_cr_small_384
               paper:
@@ -9084,8 +8180,7 @@ blocks:
               download: 2474
               datasetA: '32.04'
               datasetB: '18.58'
-              ranking: '850'
-            
+              ranking: '905'            
             - nameen: hgnetv2_b6
               namezh: hgnetv2_b6
               paper:
@@ -9094,8 +8189,7 @@ blocks:
               download: 2363
               datasetA: '54.29'
               datasetB: '18.55'
-              ranking: '373'
-            
+              ranking: '906'            
             - nameen: twins_pcpvt_small
               namezh: twins_pcpvt_small
               paper:
@@ -9104,8 +8198,7 @@ blocks:
               download: 5296
               datasetA: '29.11'
               datasetB: '18.52'
-              ranking: '919'
-            
+              ranking: '907'            
             - nameen: volo_d3_224
               namezh: volo_d3_224
               paper:
@@ -9114,8 +8207,7 @@ blocks:
               download: 2621
               datasetA: '21.79'
               datasetB: '18.52'
-              ranking: '1080'
-            
+              ranking: '908'            
             - nameen: regnetx_016
               namezh: regnetx_016
               paper:
@@ -9124,8 +8216,7 @@ blocks:
               download: 3945
               datasetA: '44.64'
               datasetB: '18.49'
-              ranking: '605'
-            
+              ranking: '909'            
             - nameen: cspresnext50
               namezh: cspresnext50
               paper:
@@ -9134,8 +8225,7 @@ blocks:
               download: 7905
               datasetA: '65.39'
               datasetB: '18.44'
-              ranking: '129'
-            
+              ranking: '910'            
             - nameen: vit_base_patch16_224
               namezh: vit_base_patch16_224
               paper:
@@ -9144,8 +8234,7 @@ blocks:
               download: 3276
               datasetA: '28.1'
               datasetB: '18.41'
-              ranking: '938'
-            
+              ranking: '911'            
             - nameen: maxvit_xlarge_tf_512
               namezh: maxvit_xlarge_tf_512
               paper:
@@ -9154,8 +8243,7 @@ blocks:
               download: 7446
               datasetA: '50.32'
               datasetB: '18.4'
-              ranking: '462'
-            
+              ranking: '912'            
             - nameen: swinv2_base_window12to16_192to256
               namezh: swinv2_base_window12to16_192to256
               paper:
@@ -9164,8 +8252,7 @@ blocks:
               download: 3567
               datasetA: '32.65'
               datasetB: '18.4'
-              ranking: '837'
-            
+              ranking: '913'            
             - nameen: maxvit_large_tf_224
               namezh: maxvit_large_tf_224
               paper:
@@ -9174,8 +8261,7 @@ blocks:
               download: 2043
               datasetA: '51.27'
               datasetB: '18.31'
-              ranking: '439'
-            
+              ranking: '914'            
             - nameen: resnetv2_152x2_bit
               namezh: resnetv2_152x2_bit
               paper:
@@ -9184,8 +8270,7 @@ blocks:
               download: 9719
               datasetA: '35.85'
               datasetB: '18.28'
-              ranking: '759'
-            
+              ranking: '915'            
             - nameen: vit_small_patch16_384
               namezh: vit_small_patch16_384
               paper:
@@ -9194,8 +8279,7 @@ blocks:
               download: 3076
               datasetA: '23.57'
               datasetB: '18.21'
-              ranking: '1040'
-            
+              ranking: '916'            
             - nameen: seresnet18
               namezh: seresnet18
               paper:
@@ -9204,8 +8288,7 @@ blocks:
               download: 3333
               datasetA: '34.17'
               datasetB: '18.14'
-              ranking: '799'
-            
+              ranking: '917'            
             - nameen: swinv2_cr_base_ns_224
               namezh: swinv2_cr_base_ns_224
               paper:
@@ -9214,8 +8297,7 @@ blocks:
               download: 9272
               datasetA: '32.39'
               datasetB: '18.12'
-              ranking: '842'
-            
+              ranking: '918'            
             - nameen: repvit_m1_5
               namezh: repvit_m1_5
               paper:
@@ -9224,8 +8306,7 @@ blocks:
               download: 8909
               datasetA: '41.02'
               datasetB: '18.11'
-              ranking: '665'
-            
+              ranking: '919'            
             - nameen: efficientnetv2_l
               namezh: efficientnetv2_l
               paper:
@@ -9234,8 +8315,7 @@ blocks:
               download: 2618
               datasetA: '59.26'
               datasetB: '18.07'
-              ranking: '255'
-            
+              ranking: '920'            
             - nameen: dpn68
               namezh: dpn68
               paper:
@@ -9244,8 +8324,7 @@ blocks:
               download: 2413
               datasetA: '62.71'
               datasetB: '18.01'
-              ranking: '182'
-            
+              ranking: '921'            
             - nameen: vit_base_patch16_rpn_224
               namezh: vit_base_patch16_rpn_224
               paper:
@@ -9254,8 +8333,7 @@ blocks:
               download: 7155
               datasetA: '27.64'
               datasetB: '18.0'
-              ranking: '948'
-            
+              ranking: '922'            
             - nameen: vit_relpos_medium_patch16_224
               namezh: vit_relpos_medium_patch16_224
               paper:
@@ -9264,8 +8342,7 @@ blocks:
               download: 8277
               datasetA: '23.91'
               datasetB: '17.96'
-              ranking: '1029'
-            
+              ranking: '923'            
             - nameen: resnetaa101d
               namezh: resnetaa101d
               paper:
@@ -9274,8 +8351,7 @@ blocks:
               download: 2785
               datasetA: '37.32'
               datasetB: '17.93'
-              ranking: '733'
-            
+              ranking: '924'            
             - nameen: tf_efficientnetv2_xl
               namezh: tf_efficientnetv2_xl
               paper:
@@ -9284,8 +8360,7 @@ blocks:
               download: 4458
               datasetA: '30.31'
               datasetB: '17.87'
-              ranking: '891'
-            
+              ranking: '925'            
             - nameen: maxvit_rmlp_base_rw_384
               namezh: maxvit_rmlp_base_rw_384
               paper:
@@ -9294,8 +8369,7 @@ blocks:
               download: 9930
               datasetA: '51.17'
               datasetB: '17.79'
-              ranking: '445'
-            
+              ranking: '926'            
             - nameen: poolformerv2_m48
               namezh: poolformerv2_m48
               paper:
@@ -9304,8 +8378,7 @@ blocks:
               download: 6749
               datasetA: '45.46'
               datasetB: '17.76'
-              ranking: '587'
-            
+              ranking: '927'            
             - nameen: efficientvit_l2
               namezh: efficientvit_l2
               paper:
@@ -9314,8 +8387,7 @@ blocks:
               download: 5348
               datasetA: '58.85'
               datasetB: '17.73'
-              ranking: '267'
-            
+              ranking: '928'            
             - nameen: cait_s24_224
               namezh: cait_s24_224
               paper:
@@ -9324,8 +8396,7 @@ blocks:
               download: 9853
               datasetA: '69.98'
               datasetB: '17.69'
-              ranking: '28'
-            
+              ranking: '929'            
             - nameen: cspresnet50
               namezh: cspresnet50
               paper:
@@ -9334,8 +8405,7 @@ blocks:
               download: 1616
               datasetA: '65.57'
               datasetB: '17.69'
-              ranking: '126'
-            
+              ranking: '930'            
             - nameen: legacy_seresnext26_32x4d
               namezh: legacy_seresnext26_32x4d
               paper:
@@ -9344,8 +8414,7 @@ blocks:
               download: 6896
               datasetA: '52.43'
               datasetB: '17.66'
-              ranking: '412'
-            
+              ranking: '931'            
             - nameen: convnext_atto_ols
               namezh: convnext_atto_ols
               paper:
@@ -9354,8 +8423,7 @@ blocks:
               download: 1778
               datasetA: '68.15'
               datasetB: '17.65'
-              ranking: '77'
-            
+              ranking: '932'            
             - nameen: resnetv2_152d
               namezh: resnetv2_152d
               paper:
@@ -9364,8 +8432,7 @@ blocks:
               download: 6601
               datasetA: '35.92'
               datasetB: '17.64'
-              ranking: '758'
-            
+              ranking: '933'            
             - nameen: tinynet_e
               namezh: tinynet_e
               paper:
@@ -9374,8 +8441,7 @@ blocks:
               download: 1497
               datasetA: '29.55'
               datasetB: '17.49'
-              ranking: '910'
-            
+              ranking: '934'            
             - nameen: ecaresnetlight
               namezh: ecaresnetlight
               paper:
@@ -9384,8 +8450,7 @@ blocks:
               download: 5227
               datasetA: '61.66'
               datasetB: '17.47'
-              ranking: '205'
-            
+              ranking: '935'            
             - nameen: hrnet_w48_ssld
               namezh: hrnet_w48_ssld
               paper:
@@ -9394,8 +8459,7 @@ blocks:
               download: 7917
               datasetA: '53.47'
               datasetB: '17.45'
-              ranking: '389'
-            
+              ranking: '936'            
             - nameen: tinynet_c
               namezh: tinynet_c
               paper:
@@ -9404,8 +8468,7 @@ blocks:
               download: 9353
               datasetA: '29.63'
               datasetB: '17.44'
-              ranking: '908'
-            
+              ranking: '937'            
             - nameen: resmlp_big_24_224
               namezh: resmlp_big_24_224
               paper:
@@ -9414,8 +8477,7 @@ blocks:
               download: 1001
               datasetA: '39.98'
               datasetB: '17.42'
-              ranking: '681'
-            
+              ranking: '938'            
             - nameen: vit_mediumd_patch16_reg4_gap_256
               namezh: vit_mediumd_patch16_reg4_gap_256
               paper:
@@ -9424,8 +8486,7 @@ blocks:
               download: 2066
               datasetA: '24.46'
               datasetB: '17.4'
-              ranking: '1020'
-            
+              ranking: '939'            
             - nameen: vgg19_bn
               namezh: vgg19_bn
               paper:
@@ -9434,8 +8495,7 @@ blocks:
               download: 5739
               datasetA: '28.36'
               datasetB: '17.37'
-              ranking: '930'
-            
+              ranking: '940'            
             - nameen: efficientnet_b5
               namezh: efficientnet_b5
               paper:
@@ -9444,8 +8504,7 @@ blocks:
               download: 4528
               datasetA: '60.61'
               datasetB: '17.34'
-              ranking: '233'
-            
+              ranking: '941'            
             - nameen: mobilenetv2_075
               namezh: mobilenetv2_075
               paper:
@@ -9454,8 +8513,7 @@ blocks:
               download: 1816
               datasetA: '48.77'
               datasetB: '17.26'
-              ranking: '495'
-            
+              ranking: '942'            
             - nameen: coatnet_5_224
               namezh: coatnet_5_224
               paper:
@@ -9464,8 +8522,7 @@ blocks:
               download: 1125
               datasetA: '68.97'
               datasetB: '17.23'
-              ranking: '53'
-            
+              ranking: '943'            
             - nameen: beit_large_patch16_384
               namezh: beit_large_patch16_384
               paper:
@@ -9474,8 +8531,7 @@ blocks:
               download: 9974
               datasetA: '70.63'
               datasetB: '17.18'
-              ranking: '16'
-            
+              ranking: '944'            
             - nameen: maxvit_xlarge_tf_384
               namezh: maxvit_xlarge_tf_384
               paper:
@@ -9484,8 +8540,7 @@ blocks:
               download: 3540
               datasetA: '50.34'
               datasetB: '17.15'
-              ranking: '461'
-            
+              ranking: '945'            
             - nameen: maxxvit_rmlp_tiny_rw_256
               namezh: maxxvit_rmlp_tiny_rw_256
               paper:
@@ -9494,8 +8549,7 @@ blocks:
               download: 9245
               datasetA: '50.27'
               datasetB: '17.12'
-              ranking: '465'
-            
+              ranking: '946'            
             - nameen: tf_mobilenetv3_large_100
               namezh: tf_mobilenetv3_large_100
               paper:
@@ -9504,8 +8558,7 @@ blocks:
               download: 2764
               datasetA: '30.16'
               datasetB: '17.1'
-              ranking: '896'
-            
+              ranking: '947'            
             - nameen: resnet200
               namezh: resnet200
               paper:
@@ -9514,8 +8567,7 @@ blocks:
               download: 2204
               datasetA: '37.41'
               datasetB: '17.09'
-              ranking: '728'
-            
+              ranking: '948'            
             - nameen: ese_vovnet19b_slim
               namezh: ese_vovnet19b_slim
               paper:
@@ -9524,8 +8576,7 @@ blocks:
               download: 4218
               datasetA: '58.37'
               datasetB: '17.08'
-              ranking: '276'
-            
+              ranking: '949'            
             - nameen: coatnet_2_224
               namezh: coatnet_2_224
               paper:
@@ -9534,8 +8585,7 @@ blocks:
               download: 9574
               datasetA: '69.06'
               datasetB: '17.07'
-              ranking: '48'
-            
+              ranking: '950'            
             - nameen: resnet101c
               namezh: resnet101c
               paper:
@@ -9544,8 +8594,7 @@ blocks:
               download: 8748
               datasetA: '37.76'
               datasetB: '17.05'
-              ranking: '721'
-            
+              ranking: '951'            
             - nameen: ecaresnext50t_32x4d
               namezh: ecaresnext50t_32x4d
               paper:
@@ -9554,8 +8603,7 @@ blocks:
               download: 1113
               datasetA: '61.62'
               datasetB: '17.04'
-              ranking: '207'
-            
+              ranking: '952'            
             - nameen: vit_relpos_medium_patch16_rpn_224
               namezh: vit_relpos_medium_patch16_rpn_224
               paper:
@@ -9564,8 +8612,7 @@ blocks:
               download: 4957
               datasetA: '23.8'
               datasetB: '17.03'
-              ranking: '1031'
-            
+              ranking: '953'            
             - nameen: maxxvit_rmlp_nano_rw_256
               namezh: maxxvit_rmlp_nano_rw_256
               paper:
@@ -9574,8 +8621,7 @@ blocks:
               download: 5541
               datasetA: '50.31'
               datasetB: '17.0'
-              ranking: '463'
-            
+              ranking: '954'            
             - nameen: seresnext26t_32x4d
               namezh: seresnext26t_32x4d
               paper:
@@ -9584,8 +8630,7 @@ blocks:
               download: 1691
               datasetA: '33.87'
               datasetB: '16.99'
-              ranking: '811'
-            
+              ranking: '955'            
             - nameen: mobilenetv2_140
               namezh: mobilenetv2_140
               paper:
@@ -9594,8 +8639,7 @@ blocks:
               download: 8402
               datasetA: '48.54'
               datasetB: '16.95'
-              ranking: '499'
-            
+              ranking: '956'            
             - nameen: res2net50_26w_8s
               namezh: res2net50_26w_8s
               paper:
@@ -9604,8 +8648,7 @@ blocks:
               download: 8939
               datasetA: '40.62'
               datasetB: '16.95'
-              ranking: '672'
-            
+              ranking: '957'            
             - nameen: mvitv2_base_cls
               namezh: mvitv2_base_cls
               paper:
@@ -9614,8 +8657,7 @@ blocks:
               download: 8154
               datasetA: '47.47'
               datasetB: '16.93'
-              ranking: '531'
-            
+              ranking: '958'            
             - nameen: eca_nfnet_l2
               namezh: eca_nfnet_l2
               paper:
@@ -9624,8 +8666,7 @@ blocks:
               download: 3293
               datasetA: '62.27'
               datasetB: '16.89'
-              ranking: '192'
-            
+              ranking: '959'            
             - nameen: seresnet50t
               namezh: seresnet50t
               paper:
@@ -9634,8 +8675,7 @@ blocks:
               download: 6988
               datasetA: '34.07'
               datasetB: '16.83'
-              ranking: '803'
-            
+              ranking: '960'            
             - nameen: vit_medium_patch16_gap_256
               namezh: vit_medium_patch16_gap_256
               paper:
@@ -9644,8 +8684,7 @@ blocks:
               download: 2596
               datasetA: '24.82'
               datasetB: '16.79'
-              ranking: '1014'
-            
+              ranking: '961'            
             - nameen: vit_base_patch14_reg4_dinov2
               namezh: vit_base_patch14_reg4_dinov2
               paper:
@@ -9654,8 +8693,7 @@ blocks:
               download: 5022
               datasetA: '28.17'
               datasetB: '16.73'
-              ranking: '936'
-            
+              ranking: '962'            
             - nameen: deit3_medium_patch16_224
               namezh: deit3_medium_patch16_224
               paper:
@@ -9664,8 +8702,7 @@ blocks:
               download: 6216
               datasetA: '64.54'
               datasetB: '16.72'
-              ranking: '145'
-            
+              ranking: '963'            
             - nameen: rexnetr_130
               namezh: rexnetr_130
               paper:
@@ -9674,8 +8711,7 @@ blocks:
               download: 4008
               datasetA: '35.27'
               datasetB: '16.72'
-              ranking: '775'
-            
+              ranking: '964'            
             - nameen: mnasnet_050
               namezh: mnasnet_050
               paper:
@@ -9684,8 +8720,7 @@ blocks:
               download: 9409
               datasetA: '49.53'
               datasetB: '16.7'
-              ranking: '481'
-            
+              ranking: '965'            
             - nameen: convnext_femto
               namezh: convnext_femto
               paper:
@@ -9694,8 +8729,7 @@ blocks:
               download: 8793
               datasetA: '67.84'
               datasetB: '16.68'
-              ranking: '79'
-            
+              ranking: '966'            
             - nameen: dm_nfnet_f3
               namezh: dm_nfnet_f3
               paper:
@@ -9704,8 +8738,7 @@ blocks:
               download: 4914
               datasetA: '62.97'
               datasetB: '16.61'
-              ranking: '177'
-            
+              ranking: '967'            
             - nameen: mobilevitv2_125
               namezh: mobilevitv2_125
               paper:
@@ -9714,8 +8747,7 @@ blocks:
               download: 6445
               datasetA: '47.66'
               datasetB: '16.57'
-              ranking: '526'
-            
+              ranking: '968'            
             - nameen: vit_medium_patch16_reg1_gap_256
               namezh: vit_medium_patch16_reg1_gap_256
               paper:
@@ -9724,8 +8756,7 @@ blocks:
               download: 9173
               datasetA: '24.55'
               datasetB: '16.55'
-              ranking: '1016'
-            
+              ranking: '969'            
             - nameen: repvgg_a2
               namezh: repvgg_a2
               paper:
@@ -9734,8 +8765,7 @@ blocks:
               download: 9996
               datasetA: '42.0'
               datasetB: '16.52'
-              ranking: '652'
-            
+              ranking: '970'            
             - nameen: tf_efficientnet_b1
               namezh: tf_efficientnet_b1
               paper:
@@ -9744,8 +8774,7 @@ blocks:
               download: 5897
               datasetA: '31.44'
               datasetB: '16.44'
-              ranking: '864'
-            
+              ranking: '971'            
             - nameen: seresnet33ts
               namezh: seresnet33ts
               paper:
@@ -9754,8 +8783,7 @@ blocks:
               download: 2200
               datasetA: '34.1'
               datasetB: '16.4'
-              ranking: '800'
-            
+              ranking: '972'            
             - nameen: inception_v4
               namezh: inception_v4
               paper:
@@ -9764,8 +8792,7 @@ blocks:
               download: 2825
               datasetA: '53.11'
               datasetB: '16.29'
-              ranking: '396'
-            
+              ranking: '973'            
             - nameen: davit_huge
               namezh: davit_huge
               paper:
@@ -9774,8 +8801,7 @@ blocks:
               download: 8288
               datasetA: '64.95'
               datasetB: '16.26'
-              ranking: '136'
-            
+              ranking: '974'            
             - nameen: xcit_large_24_p16_384
               namezh: xcit_large_24_p16_384
               paper:
@@ -9784,8 +8810,7 @@ blocks:
               download: 2886
               datasetA: '20.99'
               datasetB: '16.19'
-              ranking: '1099'
-            
+              ranking: '975'            
             - nameen: ecaresnet269d
               namezh: ecaresnet269d
               paper:
@@ -9794,8 +8819,7 @@ blocks:
               download: 3797
               datasetA: '61.69'
               datasetB: '16.13'
-              ranking: '204'
-            
+              ranking: '976'            
             - nameen: tf_efficientnet_em
               namezh: tf_efficientnet_em
               paper:
@@ -9804,8 +8828,7 @@ blocks:
               download: 9014
               datasetA: '30.94'
               datasetB: '16.1'
-              ranking: '876'
-            
+              ranking: '977'            
             - nameen: swinv2_large_window12to16_192to256
               namezh: swinv2_large_window12to16_192to256
               paper:
@@ -9814,8 +8837,7 @@ blocks:
               download: 9615
               datasetA: '31.78'
               datasetB: '16.06'
-              ranking: '857'
-            
+              ranking: '978'            
             - nameen: vit_huge_patch14_224
               namezh: vit_huge_patch14_224
               paper:
@@ -9824,8 +8846,7 @@ blocks:
               download: 5096
               datasetA: '25.81'
               datasetB: '16.0'
-              ranking: '983'
-            
+              ranking: '979'            
             - nameen: mobilevitv2_100
               namezh: mobilevitv2_100
               paper:
@@ -9834,8 +8855,7 @@ blocks:
               download: 4492
               datasetA: '47.66'
               datasetB: '15.98'
-              ranking: '525'
-            
+              ranking: '980'            
             - nameen: mobilenet_edgetpu_100
               namezh: mobilenet_edgetpu_100
               paper:
@@ -9844,8 +8864,7 @@ blocks:
               download: 9858
               datasetA: '49.05'
               datasetB: '15.93'
-              ranking: '488'
-            
+              ranking: '981'            
             - nameen: wide_resnet50_2
               namezh: wide_resnet50_2
               paper:
@@ -9854,8 +8873,7 @@ blocks:
               download: 6848
               datasetA: '21.48'
               datasetB: '15.92'
-              ranking: '1089'
-            
+              ranking: '982'            
             - nameen: coat_tiny
               namezh: coat_tiny
               paper:
@@ -9864,8 +8882,7 @@ blocks:
               download: 4899
               datasetA: '69.44'
               datasetB: '15.89'
-              ranking: '43'
-            
+              ranking: '983'            
             - nameen: cait_xxs24_384
               namezh: cait_xxs24_384
               paper:
@@ -9874,8 +8891,7 @@ blocks:
               download: 8056
               datasetA: '69.9'
               datasetB: '15.86'
-              ranking: '33'
-            
+              ranking: '984'            
             - nameen: repghostnet_130
               namezh: repghostnet_130
               paper:
@@ -9884,8 +8900,7 @@ blocks:
               download: 6732
               datasetA: '42.17'
               datasetB: '15.85'
-              ranking: '647'
-            
+              ranking: '985'            
             - nameen: levit_192
               namezh: levit_192
               paper:
@@ -9894,8 +8909,7 @@ blocks:
               download: 5713
               datasetA: '52.15'
               datasetB: '15.84'
-              ranking: '418'
-            
+              ranking: '986'            
             - nameen: vit_base_mci_224
               namezh: vit_base_mci_224
               paper:
@@ -9904,8 +8918,7 @@ blocks:
               download: 2988
               datasetA: '28.31'
               datasetB: '15.79'
-              ranking: '933'
-            
+              ranking: '987'            
             - nameen: vit_tiny_r_s16_p8_224
               namezh: vit_tiny_r_s16_p8_224
               paper:
@@ -9914,8 +8927,7 @@ blocks:
               download: 8005
               datasetA: '22.81'
               datasetB: '15.71'
-              ranking: '1059'
-            
+              ranking: '988'            
             - nameen: convnext_atto
               namezh: convnext_atto
               paper:
@@ -9924,8 +8936,7 @@ blocks:
               download: 2263
               datasetA: '68.19'
               datasetB: '15.68'
-              ranking: '76'
-            
+              ranking: '989'            
             - nameen: regnetv_064
               namezh: regnetv_064
               paper:
@@ -9934,8 +8945,7 @@ blocks:
               download: 8594
               datasetA: '44.97'
               datasetB: '15.52'
-              ranking: '599'
-            
+              ranking: '990'            
             - nameen: cs3darknet_s
               namezh: cs3darknet_s
               paper:
@@ -9944,8 +8954,7 @@ blocks:
               download: 7192
               datasetA: '65.94'
               datasetB: '15.49'
-              ranking: '118'
-            
+              ranking: '991'            
             - nameen: maxvit_rmlp_tiny_rw_256
               namezh: maxvit_rmlp_tiny_rw_256
               paper:
@@ -9954,8 +8963,7 @@ blocks:
               download: 5659
               datasetA: '50.91'
               datasetB: '15.49'
-              ranking: '450'
-            
+              ranking: '992'            
             - nameen: tiny_vit_11m_224
               namezh: tiny_vit_11m_224
               paper:
@@ -9964,8 +8972,7 @@ blocks:
               download: 1032
               datasetA: '29.83'
               datasetB: '15.45'
-              ranking: '902'
-            
+              ranking: '993'            
             - nameen: vit_mediumd_patch16_rope_reg1_gap_256
               namezh: vit_mediumd_patch16_rope_reg1_gap_256
               paper:
@@ -9974,8 +8981,7 @@ blocks:
               download: 7580
               datasetA: '24.37'
               datasetB: '15.43'
-              ranking: '1021'
-            
+              ranking: '994'            
             - nameen: convnext_large
               namezh: convnext_large
               paper:
@@ -9984,8 +8990,7 @@ blocks:
               download: 3415
               datasetA: '67.8'
               datasetB: '15.4'
-              ranking: '81'
-            
+              ranking: '995'            
             - nameen: mobilenetv3_large_100
               namezh: mobilenetv3_large_100
               paper:
@@ -9994,8 +8999,7 @@ blocks:
               download: 2993
               datasetA: '48.42'
               datasetB: '15.39'
-              ranking: '501'
-            
+              ranking: '996'            
             - nameen: vit_large_patch16_siglip_gap_256
               namezh: vit_large_patch16_siglip_gap_256
               paper:
@@ -10004,8 +9008,7 @@ blocks:
               download: 8670
               datasetA: '25.19'
               datasetB: '15.36'
-              ranking: '1004'
-            
+              ranking: '997'            
             - nameen: regnety_1280
               namezh: regnety_1280
               paper:
@@ -10014,8 +9017,7 @@ blocks:
               download: 6559
               datasetA: '43.25'
               datasetB: '15.3'
-              ranking: '629'
-            
+              ranking: '998'            
             - nameen: mixnet_m
               namezh: mixnet_m
               paper:
@@ -10024,8 +9026,7 @@ blocks:
               download: 7289
               datasetA: '49.87'
               datasetB: '15.27'
-              ranking: '477'
-            
+              ranking: '999'            
             - nameen: tresnet_v2_l
               namezh: tresnet_v2_l
               paper:
@@ -10034,8 +9035,7 @@ blocks:
               download: 5936
               datasetA: '29.31'
               datasetB: '15.23'
-              ranking: '915'
-            
+              ranking: '1000'            
             - nameen: mobilenetv2_050
               namezh: mobilenetv2_050
               paper:
@@ -10044,8 +9044,7 @@ blocks:
               download: 6166
               datasetA: '48.82'
               datasetB: '15.17'
-              ranking: '494'
-            
+              ranking: '1001'            
             - nameen: levit_conv_256d
               namezh: levit_conv_256d
               paper:
@@ -10054,8 +9053,7 @@ blocks:
               download: 9168
               datasetA: '51.7'
               datasetB: '15.14'
-              ranking: '430'
-            
+              ranking: '1002'            
             - nameen: bat_resnext26ts
               namezh: bat_resnext26ts
               paper:
@@ -10064,8 +9062,7 @@ blocks:
               download: 3336
               datasetA: '70.72'
               datasetB: '15.13'
-              ranking: '12'
-            
+              ranking: '1003'            
             - nameen: regnetx_120
               namezh: regnetx_120
               paper:
@@ -10074,8 +9071,7 @@ blocks:
               download: 2296
               datasetA: '44.39'
               datasetB: '15.04'
-              ranking: '610'
-            
+              ranking: '1004'            
             - nameen: vit_large_patch14_clip_224
               namezh: vit_large_patch14_clip_224
               paper:
@@ -10084,8 +9080,7 @@ blocks:
               download: 6976
               datasetA: '25.46'
               datasetB: '15.03'
-              ranking: '993'
-            
+              ranking: '1005'            
             - nameen: seresnext101_32x8d
               namezh: seresnext101_32x8d
               paper:
@@ -10094,8 +9089,7 @@ blocks:
               download: 7317
               datasetA: '33.79'
               datasetB: '14.95'
-              ranking: '815'
-            
+              ranking: '1006'            
             - nameen: halonet50ts
               namezh: halonet50ts
               paper:
@@ -10104,8 +9098,7 @@ blocks:
               download: 7221
               datasetA: '54.87'
               datasetB: '14.93'
-              ranking: '355'
-            
+              ranking: '1007'            
             - nameen: convnext_nano_ols
               namezh: convnext_nano_ols
               paper:
@@ -10114,8 +9107,7 @@ blocks:
               download: 6409
               datasetA: '67.72'
               datasetB: '14.8'
-              ranking: '84'
-            
+              ranking: '1008'            
             - nameen: resnetv2_50d_frn
               namezh: resnetv2_50d_frn
               paper:
@@ -10124,8 +9116,7 @@ blocks:
               download: 6796
               datasetA: '36.42'
               datasetB: '14.77'
-              ranking: '748'
-            
+              ranking: '1009'            
             - nameen: resnest50d_1s4x24d
               namezh: resnest50d_1s4x24d
               paper:
@@ -10134,8 +9125,7 @@ blocks:
               download: 8549
               datasetA: '39.64'
               datasetB: '14.75'
-              ranking: '685'
-            
+              ranking: '1010'            
             - nameen: beitv2_large_patch16_224
               namezh: beitv2_large_patch16_224
               paper:
@@ -10144,8 +9134,7 @@ blocks:
               download: 7756
               datasetA: '70.53'
               datasetB: '14.67'
-              ranking: '19'
-            
+              ranking: '1011'            
             - nameen: maxvit_rmlp_small_rw_224
               namezh: maxvit_rmlp_small_rw_224
               paper:
@@ -10154,8 +9143,7 @@ blocks:
               download: 7878
               datasetA: '51.01'
               datasetB: '14.63'
-              ranking: '448'
-            
+              ranking: '1012'            
             - nameen: tresnet_l
               namezh: tresnet_l
               paper:
@@ -10164,8 +9152,7 @@ blocks:
               download: 7918
               datasetA: '29.39'
               datasetB: '14.63'
-              ranking: '913'
-            
+              ranking: '1013'            
             - nameen: poolformerv2_s24
               namezh: poolformerv2_s24
               paper:
@@ -10174,8 +9161,7 @@ blocks:
               download: 7830
               datasetA: '45.29'
               datasetB: '14.62'
-              ranking: '589'
-            
+              ranking: '1014'            
             - nameen: maxvit_base_tf_512
               namezh: maxvit_base_tf_512
               paper:
@@ -10184,8 +9170,7 @@ blocks:
               download: 2573
               datasetA: '51.34'
               datasetB: '14.61'
-              ranking: '438'
-            
+              ranking: '1015'            
             - nameen: beit_base_patch16_384
               namezh: beit_base_patch16_384
               paper:
@@ -10194,8 +9179,7 @@ blocks:
               download: 4529
               datasetA: '70.67'
               datasetB: '14.6'
-              ranking: '14'
-            
+              ranking: '1016'            
             - nameen: tf_mixnet_s
               namezh: tf_mixnet_s
               paper:
@@ -10204,8 +9188,7 @@ blocks:
               download: 1013
               datasetA: '30.17'
               datasetB: '14.53'
-              ranking: '894'
-            
+              ranking: '1017'            
             - nameen: coat_lite_medium_384
               namezh: coat_lite_medium_384
               paper:
@@ -10214,8 +9197,7 @@ blocks:
               download: 3986
               datasetA: '69.64'
               datasetB: '14.49'
-              ranking: '37'
-            
+              ranking: '1018'            
             - nameen: vitamin_large_256
               namezh: vitamin_large_256
               paper:
@@ -10224,8 +9206,7 @@ blocks:
               download: 9455
               datasetA: '22.51'
               datasetB: '14.43'
-              ranking: '1069'
-            
+              ranking: '1019'            
             - nameen: vit_large_patch16_224
               namezh: vit_large_patch16_224
               paper:
@@ -10234,8 +9215,7 @@ blocks:
               download: 1437
               datasetA: '25.33'
               datasetB: '14.4'
-              ranking: '1000'
-            
+              ranking: '1020'            
             - nameen: fastvit_sa24
               namezh: fastvit_sa24
               paper:
@@ -10244,8 +9224,7 @@ blocks:
               download: 2057
               datasetA: '57.03'
               datasetB: '14.3'
-              ranking: '306'
-            
+              ranking: '1021'            
             - nameen: eva02_enormous_patch14_clip_224
               namezh: eva02_enormous_patch14_clip_224
               paper:
@@ -10254,8 +9233,7 @@ blocks:
               download: 2678
               datasetA: '58.01'
               datasetB: '14.27'
-              ranking: '285'
-            
+              ranking: '1022'            
             - nameen: focalnet_small_lrf
               namezh: focalnet_small_lrf
               paper:
@@ -10264,8 +9242,7 @@ blocks:
               download: 7372
               datasetA: '56.55'
               datasetB: '14.27'
-              ranking: '323'
-            
+              ranking: '1023'            
             - nameen: resnet10t
               namezh: resnet10t
               paper:
@@ -10274,8 +9251,7 @@ blocks:
               download: 8775
               datasetA: '39.43'
               datasetB: '14.27'
-              ranking: '690'
-            
+              ranking: '1024'            
             - nameen: visformer_tiny
               namezh: visformer_tiny
               paper:
@@ -10284,8 +9260,7 @@ blocks:
               download: 9773
               datasetA: '28.34'
               datasetB: '14.25'
-              ranking: '932'
-            
+              ranking: '1025'            
             - nameen: resnetrs350
               namezh: resnetrs350
               paper:
@@ -10294,8 +9269,7 @@ blocks:
               download: 8495
               datasetA: '36.64'
               datasetB: '14.19'
-              ranking: '743'
-            
+              ranking: '1026'            
             - nameen: regnety_320
               namezh: regnety_320
               paper:
@@ -10304,8 +9278,7 @@ blocks:
               download: 5109
               datasetA: '43.36'
               datasetB: '14.16'
-              ranking: '627'
-            
+              ranking: '1027'            
             - nameen: regnetx_160
               namezh: regnetx_160
               paper:
@@ -10314,8 +9287,7 @@ blocks:
               download: 5256
               datasetA: '43.98'
               datasetB: '14.07'
-              ranking: '611'
-            
+              ranking: '1028'            
             - nameen: levit_conv_512_s8
               namezh: levit_conv_512_s8
               paper:
@@ -10324,8 +9296,7 @@ blocks:
               download: 6790
               datasetA: '51.62'
               datasetB: '14.01'
-              ranking: '434'
-            
+              ranking: '1029'            
             - nameen: gcvit_tiny
               namezh: gcvit_tiny
               paper:
@@ -10334,8 +9305,7 @@ blocks:
               download: 4031
               datasetA: '55.55'
               datasetB: '13.97'
-              ranking: '336'
-            
+              ranking: '1030'            
             - nameen: efficientnet_h_b5
               namezh: efficientnet_h_b5
               paper:
@@ -10344,8 +9314,7 @@ blocks:
               download: 3350
               datasetA: '59.91'
               datasetB: '13.91'
-              ranking: '246'
-            
+              ranking: '1031'            
             - nameen: resnet101_clip
               namezh: resnet101_clip
               paper:
@@ -10354,8 +9323,7 @@ blocks:
               download: 6925
               datasetA: '37.8'
               datasetB: '13.66'
-              ranking: '719'
-            
+              ranking: '1032'            
             - nameen: vitamin_large2_336
               namezh: vitamin_large2_336
               paper:
@@ -10364,8 +9332,7 @@ blocks:
               download: 5699
               datasetA: '22.65'
               datasetB: '13.62'
-              ranking: '1066'
-            
+              ranking: '1033'            
             - nameen: sequencer2d_s
               namezh: sequencer2d_s
               paper:
@@ -10374,8 +9341,7 @@ blocks:
               download: 7368
               datasetA: '34.24'
               datasetB: '13.6'
-              ranking: '798'
-            
+              ranking: '1034'            
             - nameen: seresnet152
               namezh: seresnet152
               paper:
@@ -10384,8 +9350,7 @@ blocks:
               download: 7895
               datasetA: '34.05'
               datasetB: '13.57'
-              ranking: '805'
-            
+              ranking: '1035'            
             - nameen: repvit_m1_1
               namezh: repvit_m1_1
               paper:
@@ -10394,8 +9359,7 @@ blocks:
               download: 7066
               datasetA: '41.18'
               datasetB: '13.56'
-              ranking: '664'
-            
+              ranking: '1036'            
             - nameen: resnetaa34d
               namezh: resnetaa34d
               paper:
@@ -10404,8 +9368,7 @@ blocks:
               download: 1947
               datasetA: '37.37'
               datasetB: '13.51'
-              ranking: '730'
-            
+              ranking: '1037'            
             - nameen: mobilenetv4_conv_small
               namezh: mobilenetv4_conv_small
               paper:
@@ -10414,8 +9377,7 @@ blocks:
               download: 4866
               datasetA: '48.08'
               datasetB: '13.4'
-              ranking: '510'
-            
+              ranking: '1038'            
             - nameen: hgnetv2_b4
               namezh: hgnetv2_b4
               paper:
@@ -10424,8 +9386,7 @@ blocks:
               download: 3639
               datasetA: '54.3'
               datasetB: '13.35'
-              ranking: '371'
-            
+              ranking: '1039'            
             - nameen: efficientvit_m5
               namezh: efficientvit_m5
               paper:
@@ -10434,8 +9395,7 @@ blocks:
               download: 4764
               datasetA: '58.44'
               datasetB: '13.34'
-              ranking: '274'
-            
+              ranking: '1040'            
             - nameen: regnety_040
               namezh: regnety_040
               paper:
@@ -10444,8 +9404,7 @@ blocks:
               download: 3985
               datasetA: '43.71'
               datasetB: '13.32'
-              ranking: '620'
-            
+              ranking: '1041'            
             - nameen: levit_256d
               namezh: levit_256d
               paper:
@@ -10454,8 +9413,7 @@ blocks:
               download: 3262
               datasetA: '52.12'
               datasetB: '13.29'
-              ranking: '420'
-            
+              ranking: '1042'            
             - nameen: maxvit_tiny_tf_224
               namezh: maxvit_tiny_tf_224
               paper:
@@ -10464,8 +9422,7 @@ blocks:
               download: 1678
               datasetA: '50.46'
               datasetB: '13.27'
-              ranking: '457'
-            
+              ranking: '1043'            
             - nameen: tf_efficientnetv2_b3
               namezh: tf_efficientnetv2_b3
               paper:
@@ -10474,8 +9431,7 @@ blocks:
               download: 4801
               datasetA: '30.49'
               datasetB: '13.25'
-              ranking: '887'
-            
+              ranking: '1044'            
             - nameen: ecaresnet101d_pruned
               namezh: ecaresnet101d_pruned
               paper:
@@ -10484,8 +9440,7 @@ blocks:
               download: 8213
               datasetA: '61.81'
               datasetB: '13.24'
-              ranking: '202'
-            
+              ranking: '1045'            
             - nameen: levit_128
               namezh: levit_128
               paper:
@@ -10494,8 +9449,7 @@ blocks:
               download: 4163
               datasetA: '52.27'
               datasetB: '13.22'
-              ranking: '416'
-            
+              ranking: '1046'            
             - nameen: volo_d5_448
               namezh: volo_d5_448
               paper:
@@ -10504,8 +9458,7 @@ blocks:
               download: 4554
               datasetA: '21.66'
               datasetB: '13.21'
-              ranking: '1085'
-            
+              ranking: '1047'            
             - nameen: hgnetv2_b3
               namezh: hgnetv2_b3
               paper:
@@ -10514,8 +9467,7 @@ blocks:
               download: 3848
               datasetA: '54.33'
               datasetB: '13.15'
-              ranking: '370'
-            
+              ranking: '1048'            
             - nameen: resnet50_clip
               namezh: resnet50_clip
               paper:
@@ -10524,8 +9476,7 @@ blocks:
               download: 9260
               datasetA: '38.8'
               datasetB: '13.09'
-              ranking: '702'
-            
+              ranking: '1049'            
             - nameen: resnet50_mlp
               namezh: resnet50_mlp
               paper:
@@ -10534,8 +9485,7 @@ blocks:
               download: 3172
               datasetA: '38.53'
               datasetB: '13.04'
-              ranking: '705'
-            
+              ranking: '1050'            
             - nameen: semnasnet_050
               namezh: semnasnet_050
               paper:
@@ -10544,8 +9494,7 @@ blocks:
               download: 5084
               datasetA: '34.54'
               datasetB: '13.03'
-              ranking: '791'
-            
+              ranking: '1051'            
             - nameen: maxvit_tiny_rw_256
               namezh: maxvit_tiny_rw_256
               paper:
@@ -10554,8 +9503,7 @@ blocks:
               download: 7750
               datasetA: '50.62'
               datasetB: '12.83'
-              ranking: '456'
-            
+              ranking: '1052'            
             - nameen: gmixer_24_224
               namezh: gmixer_24_224
               paper:
@@ -10564,8 +9512,7 @@ blocks:
               download: 9398
               datasetA: '55.0'
               datasetB: '12.82'
-              ranking: '349'
-            
+              ranking: '1053'            
             - nameen: tf_efficientnet_es
               namezh: tf_efficientnet_es
               paper:
@@ -10574,8 +9521,7 @@ blocks:
               download: 4534
               datasetA: '30.89'
               datasetB: '12.77'
-              ranking: '877'
-            
+              ranking: '1054'            
             - nameen: regnety_002
               namezh: regnety_002
               paper:
@@ -10584,8 +9530,7 @@ blocks:
               download: 7349
               datasetA: '43.87'
               datasetB: '12.74'
-              ranking: '613'
-            
+              ranking: '1055'            
             - nameen: deit_base_patch16_224
               namezh: deit_base_patch16_224
               paper:
@@ -10594,8 +9539,7 @@ blocks:
               download: 2861
               datasetA: '64.34'
               datasetB: '12.71'
-              ranking: '150'
-            
+              ranking: '1056'            
             - nameen: vgg16_bn
               namezh: vgg16_bn
               paper:
@@ -10604,8 +9548,7 @@ blocks:
               download: 7302
               datasetA: '28.4'
               datasetB: '12.67'
-              ranking: '928'
-            
+              ranking: '1057'            
             - nameen: mobilevitv2_175
               namezh: mobilevitv2_175
               paper:
@@ -10614,8 +9557,7 @@ blocks:
               download: 9949
               datasetA: '47.59'
               datasetB: '12.65'
-              ranking: '528'
-            
+              ranking: '1058'            
             - nameen: fastvit_sa12
               namezh: fastvit_sa12
               paper:
@@ -10624,8 +9566,7 @@ blocks:
               download: 4306
               datasetA: '57.03'
               datasetB: '12.59'
-              ranking: '305'
-            
+              ranking: '1059'            
             - nameen: vitamin_large2_384
               namezh: vitamin_large2_384
               paper:
@@ -10634,8 +9575,7 @@ blocks:
               download: 4333
               datasetA: '22.61'
               datasetB: '12.44'
-              ranking: '1067'
-            
+              ranking: '1060'            
             - nameen: eva02_large_patch14_224
               namezh: eva02_large_patch14_224
               paper:
@@ -10644,8 +9584,7 @@ blocks:
               download: 3865
               datasetA: '58.0'
               datasetB: '12.38'
-              ranking: '286'
-            
+              ranking: '1061'            
             - nameen: resnet26d
               namezh: resnet26d
               paper:
@@ -10654,8 +9593,7 @@ blocks:
               download: 9671
               datasetA: '39.19'
               datasetB: '12.33'
-              ranking: '695'
-            
+              ranking: '1062'            
             - nameen: nfnet_f0
               namezh: nfnet_f0
               paper:
@@ -10664,8 +9602,7 @@ blocks:
               download: 5017
               datasetA: '46.25'
               datasetB: '12.24'
-              ranking: '563'
-            
+              ranking: '1063'            
             - nameen: vit_small_resnet50d_s16_224
               namezh: vit_small_resnet50d_s16_224
               paper:
@@ -10674,8 +9611,7 @@ blocks:
               download: 7797
               datasetA: '23.49'
               datasetB: '12.19'
-              ranking: '1046'
-            
+              ranking: '1064'            
             - nameen: selecsls42
               namezh: selecsls42
               paper:
@@ -10684,8 +9620,7 @@ blocks:
               download: 8576
               datasetA: '34.8'
               datasetB: '12.17'
-              ranking: '786'
-            
+              ranking: '1065'            
             - nameen: deit_small_distilled_patch16_224
               namezh: deit_small_distilled_patch16_224
               paper:
@@ -10694,8 +9629,7 @@ blocks:
               download: 1616
               datasetA: '64.3'
               datasetB: '12.14'
-              ranking: '152'
-            
+              ranking: '1066'            
             - nameen: regnety_2560
               namezh: regnety_2560
               paper:
@@ -10704,8 +9638,7 @@ blocks:
               download: 3177
               datasetA: '43.21'
               datasetB: '12.07'
-              ranking: '630'
-            
+              ranking: '1067'            
             - nameen: nf_resnet50
               namezh: nf_resnet50
               paper:
@@ -10714,8 +9647,7 @@ blocks:
               download: 6557
               datasetA: '46.56'
               datasetB: '11.95'
-              ranking: '558'
-            
+              ranking: '1068'            
             - nameen: tf_efficientnet_lite3
               namezh: tf_efficientnet_lite3
               paper:
@@ -10724,8 +9656,7 @@ blocks:
               download: 5912
               datasetA: '30.65'
               datasetB: '11.87'
-              ranking: '882'
-            
+              ranking: '1069'            
             - nameen: hgnet_tiny
               namezh: hgnet_tiny
               paper:
@@ -10734,8 +9665,7 @@ blocks:
               download: 6546
               datasetA: '54.49'
               datasetB: '11.85'
-              ranking: '366'
-            
+              ranking: '1070'            
             - nameen: swin_small_patch4_window7_224
               namezh: swin_small_patch4_window7_224
               paper:
@@ -10744,8 +9674,7 @@ blocks:
               download: 1158
               datasetA: '32.72'
               datasetB: '11.82'
-              ranking: '833'
-            
+              ranking: '1071'            
             - nameen: densenet201
               namezh: densenet201
               paper:
@@ -10754,8 +9683,7 @@ blocks:
               download: 3099
               datasetA: '64.02'
               datasetB: '11.78'
-              ranking: '159'
-            
+              ranking: '1072'            
             - nameen: regnetx_008
               namezh: regnetx_008
               paper:
@@ -10764,8 +9692,7 @@ blocks:
               download: 4393
               datasetA: '44.68'
               datasetB: '11.78'
-              ranking: '604'
-            
+              ranking: '1073'            
             - nameen: gcvit_xtiny
               namezh: gcvit_xtiny
               paper:
@@ -10774,8 +9701,7 @@ blocks:
               download: 2850
               datasetA: '55.52'
               datasetB: '11.76'
-              ranking: '337'
-            
+              ranking: '1074'            
             - nameen: hardcorenas_a
               namezh: hardcorenas_a
               paper:
@@ -10784,8 +9710,7 @@ blocks:
               download: 2535
               datasetA: '54.73'
               datasetB: '11.74'
-              ranking: '358'
-            
+              ranking: '1075'            
             - nameen: regnety_006
               namezh: regnety_006
               paper:
@@ -10794,8 +9719,7 @@ blocks:
               download: 2476
               datasetA: '43.82'
               datasetB: '11.73'
-              ranking: '615'
-            
+              ranking: '1076'            
             - nameen: mobilevitv2_150
               namezh: mobilevitv2_150
               paper:
@@ -10804,8 +9728,7 @@ blocks:
               download: 5748
               datasetA: '47.64'
               datasetB: '11.67'
-              ranking: '527'
-            
+              ranking: '1077'            
             - nameen: efficientvit_b0
               namezh: efficientvit_b0
               paper:
@@ -10814,8 +9737,7 @@ blocks:
               download: 7480
               datasetA: '58.99'
               datasetB: '11.66'
-              ranking: '262'
-            
+              ranking: '1078'            
             - nameen: ese_vovnet57b
               namezh: ese_vovnet57b
               paper:
@@ -10824,8 +9746,7 @@ blocks:
               download: 6805
               datasetA: '58.31'
               datasetB: '11.66'
-              ranking: '280'
-            
+              ranking: '1079'            
             - nameen: nest_tiny
               namezh: nest_tiny
               paper:
@@ -10834,8 +9755,7 @@ blocks:
               download: 9477
               datasetA: '47.04'
               datasetB: '11.66'
-              ranking: '543'
-            
+              ranking: '1080'            
             - nameen: inception_next_base
               namezh: inception_next_base
               paper:
@@ -10844,8 +9764,7 @@ blocks:
               download: 3443
               datasetA: '53.31'
               datasetB: '11.63'
-              ranking: '391'
-            
+              ranking: '1081'            
             - nameen: coatnet_rmlp_1_rw2_224
               namezh: coatnet_rmlp_1_rw2_224
               paper:
@@ -10854,8 +9773,7 @@ blocks:
               download: 6180
               datasetA: '68.74'
               datasetB: '11.6'
-              ranking: '59'
-            
+              ranking: '1082'            
             - nameen: resnetrs270
               namezh: resnetrs270
               paper:
@@ -10864,8 +9782,7 @@ blocks:
               download: 8654
               datasetA: '36.64'
               datasetB: '11.58'
-              ranking: '742'
-            
+              ranking: '1083'            
             - nameen: gmlp_ti16_224
               namezh: gmlp_ti16_224
               paper:
@@ -10874,8 +9791,7 @@ blocks:
               download: 2662
               datasetA: '54.92'
               datasetB: '11.56'
-              ranking: '352'
-            
+              ranking: '1084'            
             - nameen: repvgg_b1g4
               namezh: repvgg_b1g4
               paper:
@@ -10884,8 +9800,7 @@ blocks:
               download: 5354
               datasetA: '41.78'
               datasetB: '11.55'
-              ranking: '655'
-            
+              ranking: '1085'            
             - nameen: efficientvit_b1
               namezh: efficientvit_b1
               paper:
@@ -10894,8 +9809,7 @@ blocks:
               download: 5907
               datasetA: '58.98'
               datasetB: '11.52'
-              ranking: '263'
-            
+              ranking: '1086'            
             - nameen: repvgg_b0
               namezh: repvgg_b0
               paper:
@@ -10904,8 +9818,7 @@ blocks:
               download: 5144
               datasetA: '41.97'
               datasetB: '11.49'
-              ranking: '653'
-            
+              ranking: '1087'            
             - nameen: resnet101_clip_gap
               namezh: resnet101_clip_gap
               paper:
@@ -10914,8 +9827,7 @@ blocks:
               download: 2854
               datasetA: '37.76'
               datasetB: '11.49'
-              ranking: '720'
-            
+              ranking: '1088'            
             - nameen: vit_base_patch16_siglip_gap_512
               namezh: vit_base_patch16_siglip_gap_512
               paper:
@@ -10924,8 +9836,7 @@ blocks:
               download: 2466
               datasetA: '27.24'
               datasetB: '11.37'
-              ranking: '956'
-            
+              ranking: '1089'            
             - nameen: tf_efficientnet_lite2
               namezh: tf_efficientnet_lite2
               paper:
@@ -10934,8 +9845,7 @@ blocks:
               download: 1691
               datasetA: '30.71'
               datasetB: '11.32'
-              ranking: '881'
-            
+              ranking: '1090'            
             - nameen: poolformer_s36
               namezh: poolformer_s36
               paper:
@@ -10944,8 +9854,7 @@ blocks:
               download: 3471
               datasetA: '45.51'
               datasetB: '11.3'
-              ranking: '585'
-            
+              ranking: '1091'            
             - nameen: tf_efficientnetv2_b2
               namezh: tf_efficientnetv2_b2
               paper:
@@ -10954,8 +9863,7 @@ blocks:
               download: 8865
               datasetA: '30.52'
               datasetB: '11.27'
-              ranking: '886'
-            
+              ranking: '1092'            
             - nameen: efficientnet_b3_pruned
               namezh: efficientnet_b3_pruned
               paper:
@@ -10964,8 +9872,7 @@ blocks:
               download: 4104
               datasetA: '60.65'
               datasetB: '11.25'
-              ranking: '231'
-            
+              ranking: '1093'            
             - nameen: seresnet101
               namezh: seresnet101
               paper:
@@ -10974,8 +9881,7 @@ blocks:
               download: 1294
               datasetA: '34.06'
               datasetB: '11.12'
-              ranking: '804'
-            
+              ranking: '1094'            
             - nameen: darknet21
               namezh: darknet21
               paper:
@@ -10984,8 +9890,7 @@ blocks:
               download: 1252
               datasetA: '65.36'
               datasetB: '11.11'
-              ranking: '131'
-            
+              ranking: '1095'            
             - nameen: dpn107
               namezh: dpn107
               paper:
@@ -10994,8 +9899,7 @@ blocks:
               download: 5076
               datasetA: '62.53'
               datasetB: '11.05'
-              ranking: '186'
-            
+              ranking: '1096'            
             - nameen: deit_tiny_distilled_patch16_224
               namezh: deit_tiny_distilled_patch16_224
               paper:
@@ -11004,8 +9908,7 @@ blocks:
               download: 5998
               datasetA: '64.15'
               datasetB: '10.91'
-              ranking: '154'
-            
+              ranking: '1097'            
             - nameen: densenet121
               namezh: densenet121
               paper:
@@ -11014,8 +9917,7 @@ blocks:
               download: 8808
               datasetA: '64.12'
               datasetB: '10.91'
-              ranking: '156'
-            
+              ranking: '1098'            
             - nameen: nf_resnet101
               namezh: nf_resnet101
               paper:
@@ -11024,8 +9926,7 @@ blocks:
               download: 2736
               datasetA: '46.55'
               datasetB: '10.88'
-              ranking: '559'
-            
+              ranking: '1099'            
             - nameen: vit_large_patch32_224
               namezh: vit_large_patch32_224
               paper:
@@ -11034,8 +9935,7 @@ blocks:
               download: 4593
               datasetA: '25.09'
               datasetB: '10.85'
-              ranking: '1006'
-            
+              ranking: '1100'            
             - nameen: vgg13
               namezh: vgg13
               paper:
@@ -11044,8 +9944,7 @@ blocks:
               download: 2088
               datasetA: '28.75'
               datasetB: '10.83'
-              ranking: '925'
-            
+              ranking: '1101'            
             - nameen: xception41
               namezh: xception41
               paper:
@@ -11054,8 +9953,7 @@ blocks:
               download: 5290
               datasetA: '21.46'
               datasetB: '10.82'
-              ranking: '1091'
-            
+              ranking: '1102'            
             - nameen: vit_relpos_base_patch16_224
               namezh: vit_relpos_base_patch16_224
               paper:
@@ -11064,8 +9962,7 @@ blocks:
               download: 9287
               datasetA: '24.23'
               datasetB: '10.76'
-              ranking: '1023'
-            
+              ranking: '1103'            
             - nameen: rexnetr_100
               namezh: rexnetr_100
               paper:
@@ -11074,8 +9971,7 @@ blocks:
               download: 1495
               datasetA: '35.29'
               datasetB: '10.74'
-              ranking: '774'
-            
+              ranking: '1104'            
             - nameen: swin_base_patch4_window7_224
               namezh: swin_base_patch4_window7_224
               paper:
@@ -11084,8 +9980,7 @@ blocks:
               download: 7626
               datasetA: '33.27'
               datasetB: '10.74'
-              ranking: '826'
-            
+              ranking: '1105'            
             - nameen: seresnet34
               namezh: seresnet34
               paper:
@@ -11094,8 +9989,7 @@ blocks:
               download: 2141
               datasetA: '34.09'
               datasetB: '10.63'
-              ranking: '801'
-            
+              ranking: '1106'            
             - nameen: resnetrs152
               namezh: resnetrs152
               paper:
@@ -11104,8 +9998,7 @@ blocks:
               download: 8900
               datasetA: '36.75'
               datasetB: '10.62'
-              ranking: '740'
-            
+              ranking: '1107'            
             - nameen: xcit_tiny_24_p16_38
               namezh: xcit_tiny_24_p16_38
               paper:
@@ -11114,8 +10007,7 @@ blocks:
               download: 6745
               datasetA: '20.13'
               datasetB: '10.62'
-              ranking: '1123'
-            - nameen: vit_base_patch16_siglip_384
+              ranking: '1108'            - nameen: vit_base_patch16_siglip_384
               namezh: vit_base_patch16_siglip_384
               paper:
                 text: 'https://huggingface.co/docs/timm/index'
@@ -11123,8 +10015,7 @@ blocks:
               download: 7773
               datasetA: '27.56'
               datasetB: '10.58'
-              ranking: '951'
-            
+              ranking: '1109'            
             - nameen: resnext101_32x16d
               namezh: resnext101_32x16d
               paper:
@@ -11133,8 +10024,7 @@ blocks:
               download: 7955
               datasetA: '35.55'
               datasetB: '10.57'
-              ranking: '766'
-            
+              ranking: '1110'            
             - nameen: poolformerv2_m36
               namezh: poolformerv2_m36
               paper:
@@ -11143,8 +10033,7 @@ blocks:
               download: 7238
               datasetA: '45.5'
               datasetB: '10.56'
-              ranking: '586'
-            
+              ranking: '1111'            
             - nameen: resnetv2_152
               namezh: resnetv2_152
               paper:
@@ -11153,8 +10042,7 @@ blocks:
               download: 3988
               datasetA: '36.03'
               datasetB: '10.49'
-              ranking: '757'
-            
+              ranking: '1112'            
             - nameen: resnetv2_50x3_bit
               namezh: resnetv2_50x3_bit
               paper:
@@ -11163,8 +10051,7 @@ blocks:
               download: 7781
               datasetA: '36.24'
               datasetB: '10.45'
-              ranking: '752'
-            
+              ranking: '1113'            
             - nameen: tf_efficientnet_cc_b0_4e
               namezh: tf_efficientnet_cc_b0_4e
               paper:
@@ -11173,8 +10060,7 @@ blocks:
               download: 4184
               datasetA: '31.12'
               datasetB: '10.34'
-              ranking: '872'
-            
+              ranking: '1114'            
             - nameen: regnetz_005
               namezh: regnetz_005
               paper:
@@ -11183,8 +10069,7 @@ blocks:
               download: 3327
               datasetA: '43.18'
               datasetB: '10.28'
-              ranking: '631'
-            
+              ranking: '1115'            
             - nameen: volo_d5_224
               namezh: volo_d5_224
               paper:
@@ -11193,8 +10078,7 @@ blocks:
               download: 1672
               datasetA: '21.71'
               datasetB: '10.26'
-              ranking: '1084'
-            
+              ranking: '1116'            
             - nameen: gmixer_12_224
               namezh: gmixer_12_224
               paper:
@@ -11203,8 +10087,7 @@ blocks:
               download: 3921
               datasetA: '55.04'
               datasetB: '10.16'
-              ranking: '348'
-            
+              ranking: '1117'            
             - nameen: resnext101_32x32d
               namezh: resnext101_32x32d
               paper:
@@ -11213,8 +10096,7 @@ blocks:
               download: 2023
               datasetA: '35.51'
               datasetB: '10.15'
-              ranking: '767'
-            
+              ranking: '1118'            
             - nameen: swinv2_small_window16_256
               namezh: swinv2_small_window16_256
               paper:
@@ -11223,8 +10105,7 @@ blocks:
               download: 4088
               datasetA: '31.55'
               datasetB: '10.14'
-              ranking: '860'
-            
+              ranking: '1119'            
             - nameen: tinynet_d
               namezh: tinynet_d
               paper:
@@ -11233,8 +10114,7 @@ blocks:
               download: 6264
               datasetA: '29.58'
               datasetB: '10.1'
-              ranking: '909'
-            
+              ranking: '1120'            
             - nameen: vit_base_patch16_siglip_512
               namezh: vit_base_patch16_siglip_512
               paper:
@@ -11243,8 +10123,7 @@ blocks:
               download: 9006
               datasetA: '27.54'
               datasetB: '10.09'
-              ranking: '952'
-            
+              ranking: '1121'            
             - nameen: swinv2_large_window12_192
               namezh: swinv2_large_window12_192
               paper:
@@ -11253,8 +10132,7 @@ blocks:
               download: 3780
               datasetA: '31.8'
               datasetB: '10.06'
-              ranking: '856'
-            
+              ranking: '1122'            
             - nameen: levit_384_s8
               namezh: levit_384_s8
               paper:
@@ -11263,8 +10141,7 @@ blocks:
               download: 6166
               datasetA: '52.03'
               datasetB: '10.04'
-              ranking: '422'
-            
+              ranking: '1123'            
 
             
         - titlezh: 目标检测
