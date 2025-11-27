@@ -12,7 +12,6 @@ export const TestsItem = ({ data }: { data: PageBlocksTestsItems }) => {
   const nameEn = itemData?.nameen;
   // unified blue color style for all cells
   const borderCls = "border-blue-200";
-  const badgeBgCls = "bg-blue-50";
   const badgeTextCls = "text-blue-700";
 
   return (
@@ -51,7 +50,7 @@ export const Tests = ({
 }) => {
   return (
     <div className="w-full bg-bg-greyB">
-      <div className="pt-20 pb-8 px-6 xl:max-w-360 mx-auto" id="Tests">
+      <div className="pt-8 pb-8 px-6 xl:max-w-360 mx-auto" id="Tests">
         <div
           className="text-3xl font-bold text-center mb-8"
           data-tina-field={tinaField(data, "titleen")}
