@@ -4,6 +4,7 @@ import { Hero } from "./blocks/hero";
 import { Testimonial } from "./blocks/testimonial";
 import { Repositories } from "./blocks/repositories";
 import { Tables } from "./blocks/tables";
+import { Tests } from "./blocks/tests";
 import { tinaField } from "tinacms/dist/react";
 
 export const Blocks = (props) => {
@@ -36,6 +37,8 @@ const Block = (block) => {
       return <Repositories data={block} language={block.language} />;
     case "PageBlocksTable":
       return <Tables data={block} language={block.language} />;
+    case "PageBlocksTests":
+      return <Tests data={block} language={block.language} />;
     default:
       return null;
   }

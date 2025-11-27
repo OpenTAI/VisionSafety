@@ -24,6 +24,38 @@ blocks:
     text2zh: ''
     image: /uploads/Bg.jpg
     _template: hero
+  - items:
+      - namezh: 白盒对抗鲁棒性测试
+        nameen: White-box Adversarial Testing
+      - namezh: 黑盒对抗鲁棒性测试
+        nameen: Black-box Adversarial Testing
+      - namezh: 物理对抗鲁棒性测试
+        nameen: Physical Adversarial Testing
+      - namezh: 通用对抗鲁棒性测试
+        nameen: Universal Adversarial Testing
+      - namezh: 越狱对抗鲁棒性测试
+        nameen: Jailbreak Adversarial Testing
+      - namezh: 单触发器后门鲁棒性测试
+        nameen: Single-trigger Backdoor Testing
+      - namezh: 多触发器后门鲁棒性测试
+        nameen: Multi-trigger Backdoor Testing
+      - namezh: 可解释性测试
+        nameen: Explainability Testing
+      - namezh: 数据隐私性测试
+        nameen: Data Privacy Testing
+      - namezh: 模型隐私性测试
+        nameen: Model Privacy Testing
+      - namezh: 种族公平性测试
+        nameen: Racial Fairness Testing
+      - namezh: 性别公平性测试
+        nameen: Gender Fairness Testing
+      - namezh: 区域公平性测试
+        nameen: Regional Fairness Testing
+      - namezh: 残疾公平性测试
+        nameen: Disability Fairness Testing
+      - namezh: 年龄公平性测试
+        nameen: Age Fairness Testing
+    _template: tests
   - title1en: Million-scale Evaluation
     title1zh: 白盒攻击评测White
     items1:
@@ -157,13 +189,13 @@ blocks:
       - repoNameen: CC1M-Adv-C/F
         repoNamezh: CC1M-Adv-C/F
         repoTexten: >-
-          Two million-scale adversarial images datasets.  CC1M-Adv-C was generated
-          to evaluate classification models, while CC1M-Adv-F can be applied to any
-          vision models. 
+          Two million-scale adversarial images datasets.  CC1M-Adv-C was
+          generated to evaluate classification models, while CC1M-Adv-F can be
+          applied to any vision models. 
         repoTextzh: >-
           This comprehensive visibility allows for a meticulous examination of
-          security loopholes, enabling us to simulate real-world attack scenarios
-          pinpoint accuracy.
+          security loopholes, enabling us to simulate real-world attack
+          scenarios pinpoint accuracy.
         linkImage:
           src: /uploads/GitHubButton.png
           alt: CC1M-Adv-C/F
@@ -172,12 +204,13 @@ blocks:
       - repoNameen: AdvT-shirt-1k
         repoNamezh: AdvT-shirt-1k
         repoTexten: >-
-          The first physical-world adversarial T-shirt dataset released to evaluate
-          the robustness of object detection models and support defense research.
+          The first physical-world adversarial T-shirt dataset released to
+          evaluate the robustness of object detection models and support defense
+          research.
         repoTextzh: >-
           This comprehensive visibility allows for a meticulous examination of
-          security loopholes, enabling us to simulate real-world attack scenarios
-          pinpoint accuracy.
+          security loopholes, enabling us to simulate real-world attack
+          scenarios pinpoint accuracy.
         linkImage:
           src: /uploads/GitHubButton.png
           alt: AdvT-shirt-1k
@@ -253,3 +286,4 @@ blocks:
     rightListTitlezh: ''
     _template: testimonial
 ---
+

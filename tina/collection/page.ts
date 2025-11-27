@@ -5,6 +5,7 @@ import { testimonialBlockSchema } from "../../components/blocks/testimonial";
 import { featureBlockSchema } from "../../components/blocks/features";
 import { repositoriesBlockSchema } from "../../components/blocks/repositories";
 import { tablesBlockSchema } from "../../components/blocks/tables";
+import { testsBlockSchema } from "../../components/blocks/tests";
 
 const Page: Collection = {
   label: "Pages",
@@ -48,6 +49,8 @@ const Page: Collection = {
         contentBlockSchema,
         testimonialBlockSchema,
         tablesBlockSchema,
+        // @ts-ignore
+        testsBlockSchema,
       ],
     },
   ],
